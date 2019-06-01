@@ -43,7 +43,7 @@ Kommt zahlreich! Wir sind freundlich und offen und freuen uns auf euch.
     	<input type="email" name="_replyto" title="E-Mail" required>
     </label><br>
     <label>Newsletter abonnieren
-    	<input type="submit" value="Ja, bitte">
+    	<input type="submit" value="Ja, bitte" style="background:#408e27">
 	</label><br>
 </form>
 
