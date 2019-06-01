@@ -42,6 +42,6 @@ Am 14.05. um 19 Uhr ist [Patricia Cammarata](https://twitter.com/@dasnuf) im xHa
     	<input type="email" name="_replyto" title="E-Mail" required>
     </label><br>
     <label>Newsletter abonnieren
-    	<input type="submit" value="Ja, bitte">
+    	<input type="submit" value="Ja, bitte" style="background:#408e27">
 	</label><br>
 </form>
