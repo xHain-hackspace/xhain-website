@@ -12,6 +12,8 @@ tags:
 - xhain
 - events
 type: blog
+aliases: 
+- /de/2019/05/der-xhain-macht-zu.-es-lebe-der-xhain./
 ---
 
 In großer Trauer verkünden wir, dass wir den xHain am 31.08. schließen werden. In großer Trauer? Quatsch! Mit großer Begeisterung! Denn wir ziehen um. \o/ 

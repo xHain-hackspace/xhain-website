@@ -13,7 +13,8 @@ tags:
 - events
 type: blog
 aliases: 
-/de/2019/05/rückblick-4.-veranstaltung-gespräch-unter-bäumen-und-shownotes/
+- /de/2019/05/rückblick-4.-veranstaltung-gespräch-unter-bäumen-und-shownotes/
+
 ---
 
 Im April war [Rebekka Seyffarth](https://twitter.com/Kurfuerstin) mit ihrem Gesprächsangebot unter Bäumen im xHain zu Gast. Dass 3D-Druck n1ce ist, das wussten wir schon. Aber kennt ihr textilen 3D-Druck?? Wir sind alle Fans geworden. Von Kleidern aus dem Drucker. Von den Proben, die sie mitgebracht hat. Und von Rebekka selbst. Was für eine großartige, schlaue, lustige Vortragende! 
