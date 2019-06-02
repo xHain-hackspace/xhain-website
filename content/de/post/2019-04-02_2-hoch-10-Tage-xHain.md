@@ -11,6 +11,7 @@ categories:
 tags:
 - xhain
 type: blog
+aliases: /de/2019/04/2-hoch-10-Tage-xhain/
 ---
 Hallo alle miteinander!
 
