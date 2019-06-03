@@ -14,6 +14,7 @@ keywords:
 type: blog
 aliases:
 - /de/2016/12/Dezemberupdate
+- /de/2016/12/dezemberupdate
 ---
 
 Mmh, frische Updates! Diesen Eintrag liest du auf unserer neu gestalteten Website. Schon seit einiger Zeit wird im Hintergrund fleißig gebastelt und gewerkelt. Realisiert ist das ganze in [Hugo](https://gohugo.io/), damit haben wir viel mehr Gestaltungsspielraum und -freiheit als auf unserer alten Seite. Ebenfalls ist es noch viel einfacher, zwischen englischer und deutscher Sprachausgabe umzuschalten (was natürlich voraussetzt, dass die Artikel auch übersetzt werden). Zunächst haben wir alle alten Artikel auf die neue Seite migriert - zukünftig wird es dann *regelmäßigere Updates* aus dem xHain-Alltag geben.

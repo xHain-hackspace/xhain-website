@@ -16,6 +16,7 @@ keywords:
 type: blog
 aliases:
 - /de/2016/11/Halber-Geburtstag
+- /de/2016/11/halber-geburtstag
 ---
 
 # Halber Geburtstag - ganzes Yeah!  

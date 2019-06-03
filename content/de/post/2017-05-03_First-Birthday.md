@@ -15,7 +15,7 @@ keywords:
 - xhain
 type: blog
 aliases:
-- /de/2017/05/First-Birthday
+- /de/2017/05/first-birthday
 ---
 
 Puh, so schnell kann's gehen: schon ist das Jahr vorbei und der xHain wird 1!<br>

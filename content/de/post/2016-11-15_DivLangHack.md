@@ -16,6 +16,7 @@ keywords:
 type: blog
 aliases:
 - /de/2016/11/DivLangHack
+- /de/2016/11/divlanghack
 ---
 
 Es gibt Unmengen an Programmiersprachen und ohne Ende natürliche Sprachen. Beim \<div\>#lang:hack verbinden wir sie!

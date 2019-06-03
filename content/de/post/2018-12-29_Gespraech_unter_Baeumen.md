@@ -15,7 +15,7 @@ keywords:
 - xhain
 type: blog
 aliases:
-- /de/2018/12/Gespräch-unter-Bäumen---veranstaltungsreihe-im-xhain
+- /de/2018/12/gespräch-unter-bäumen---veranstaltungsreihe-im-xhain
 ---
 
 2019 laden wir euch an jedem 2. Dienstag im Monat zu einem Gespräch unter unseren Bäumen ein. Spannende Personen, die zufällig Frauen sind, gestalten ein maximal einstündiges Programm. (Nachfragen und Weiterdiskussion im Anschluss werden wir aber nicht unterbinden.) 

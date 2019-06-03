@@ -15,7 +15,7 @@ keywords:
 - xhain
 type: blog
 aliases:
-- /de/2017/01/Auf-dem-Weg-zu-selbstaendig-Laufen-lernenden-Roboter
+- /de/2017/01/auf-dem-weg-zu-selbstaendig-laufen-lernenden-robotern
 ---
 
 Heutige Roboter haben das Laufen nicht gelernt, jedenfalls nicht in der

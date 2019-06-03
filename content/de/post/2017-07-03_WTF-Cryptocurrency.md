@@ -15,7 +15,7 @@ keywords:
 - xhain
 type: blog
 aliases:
-- /de/2017/07/WTF-Cryptocurrency
+- /de/2017/07/wtf-cryptocurrency
 ---
 
 Wir wollen einen Einblick geben in die Welt der Crypto-Währungen.

@@ -14,6 +14,8 @@ tags:
 keywords:
 - xhain
 type: blog
+aliases:
+- /de/2016/04/eroeffnungsfeier
 ---
 
 Am Freitag, den 13. Mai feiern wir die Eröffnung des xHains!  
