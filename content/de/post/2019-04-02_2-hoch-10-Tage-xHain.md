@@ -12,7 +12,7 @@ tags:
 - xhain
 type: blog
 aliases:
-- /de/2019/04/2-hoch-10-tage-xhain/
+- /de/2019/04/2-hoch-10-plus-x-tage-xhain/
 ---
 Hallo alle miteinander!
 
