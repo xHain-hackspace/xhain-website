@@ -14,6 +14,8 @@ tags:
 keywords:
 - xhain
 type: blog
+aliases:
+- /de/2016/06/Lizenz-zum-Loeten
 ---
 
 Abgerissene Stecker, kaputte Lichterketten, zerfallende Arduino-Projekte, Geräte mit Batteriefach statt Netzteil… Du

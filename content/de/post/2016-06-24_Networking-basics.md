@@ -14,6 +14,8 @@ tags:
 keywords:
 - xhain
 type: blog
+aliases:
+- /de/2016/06/Networking-basics
 ---
 
 Sonntag, 26. Juni, 17 Uhr

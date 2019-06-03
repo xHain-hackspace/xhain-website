@@ -14,6 +14,8 @@ tags:
 keywords:
 - xhain
 type: blog
+aliases:
+- /de/2016/10/Komm-wir-spielen-ein-Spiel
 ---
 
 Lange erwartet, nun geht's endlich los:

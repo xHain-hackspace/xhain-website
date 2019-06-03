@@ -14,6 +14,8 @@ tags:
 keywords:
 - xhain
 type: blog
+aliases:
+- /de/2016/11/DivLangHack
 ---
 
 Es gibt Unmengen an Programmiersprachen und ohne Ende natürliche Sprachen. Beim \<div\>#lang:hack verbinden wir sie!

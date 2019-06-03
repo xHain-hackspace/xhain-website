@@ -12,6 +12,8 @@ tags:
 keywords:
 - xhain
 type: blog
+aliases:
+- /de/2019/02/rückblick-2.-veranstaltung-gespräch-unter-bäumen-und-shownotes/
 ---
 
 Auch der zweite Abend unserer neuen Reihe “Gespräch unter Bäumen” war ein voller Erfolg. Und zwar “voll” im Wortsinn: eine einzige Getränkekiste als letzten Sitzplatz hätten wir noch gehabt. 

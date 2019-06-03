@@ -14,6 +14,8 @@ tags:
 keywords:
 - xhain
 type: blog
+aliases:
+- /de/2016/11/Halber-Geburtstag
 ---
 
 # Halber Geburtstag - ganzes Yeah!  

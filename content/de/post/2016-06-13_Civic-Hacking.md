@@ -14,6 +14,8 @@ tags:
 keywords:
 - xhain
 type: blog
+aliases:
+- /de/2016/06/Civic-Hacking
 ---
 
 Es geht darum, den ganzen Parlamentsbetrieb ordentlich aufzubereiten. Konkret geht es um 6000 Vorgänge aus der BVV Xhain (Anträge, Resolutionen, Anfragen etc). Diese liegen im Ratsinformationssystem ALLRIS vor [1]. Das ALLRIS ist aber nicht besonders toll. Ziel ist, die ganzen Sachen aufzubereiten, zu kategorisieren ("Bauausschuss", "SPD", "abgelehnt" etc), zu geotaggen und dann auf einer Karte erfassbar zu machen.

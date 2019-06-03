@@ -14,6 +14,8 @@ tags:
 keywords:
 - xhain
 type: blog
+aliases:
+- /de/2016/09/Herbstzeit-ist-Hack-und-Bastelzeit
 ---
 
 Der Sommer nähert sich dem Ende? Für's Rumhängen im Park wird's langsam zu kalt? Du weißt noch nicht womit du dir die Zeit im Herbst und Winter vertreiben willst? Kein Grund zum Traurigsein! Im xHain gibt es ein warmes Willkommen und jede Menge zu tun und zu lernen!

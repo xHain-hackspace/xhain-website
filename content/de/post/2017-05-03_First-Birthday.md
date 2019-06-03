@@ -14,6 +14,8 @@ tags:
 keywords:
 - xhain
 type: blog
+aliases:
+- /de/2017/05/First-Birthday
 ---
 
 Puh, so schnell kann's gehen: schon ist das Jahr vorbei und der xHain wird 1!<br>

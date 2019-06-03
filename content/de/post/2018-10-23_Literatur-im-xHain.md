@@ -14,6 +14,8 @@ tags:
 keywords:
 - xhain
 type: blog
+aliases:
+- /de/2018/10/Literatur-im-xHain
 ---
 
 Vorzustellen braucht man sie nicht - in Zeiten des Digitalen lesen <a href="http://www.jankomarklein.de/">Janko Marklein</a> und <a href="https://de.wikipedia.org/wiki/Lorenz_Just">Lorenz Just</a> im X-Hain aus ihrer Literatur eine spontane Anthologie, die Auszüge aus Romanen wie "Florian Berg ist sterblich" und digital veröffentlichte Texte als einstündiges Ganzes fassen wird. 

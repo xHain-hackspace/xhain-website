@@ -12,6 +12,8 @@ tags:
 keywords:
 - xhain
 type: blog
+aliases:
+- /de/2016/10/Zeit_fuer_ein_Update
 ---
 
 Da das letzte schon eine Weile her ist, ist es mal wieder Zeit für ein kurzes Update darüber was im xHain so passiert und was uns im November so erwartet.

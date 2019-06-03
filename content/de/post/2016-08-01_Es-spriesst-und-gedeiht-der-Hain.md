@@ -14,6 +14,8 @@ tags:
 keywords:
 - xhain
 type: blog
+aliases:
+- /de/2016/08/Es-spriesst-und-gedeiht-der-Hain
 ---
 
 Wie die Zeit verfliegt - schon ist es August. Und auch wenn es eine Weile keinen neuen Blogpost gab, im xHain war alles andere als Stillstand.

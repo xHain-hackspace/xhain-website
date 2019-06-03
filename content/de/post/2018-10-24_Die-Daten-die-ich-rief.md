@@ -14,6 +14,8 @@ tags:
 keywords:
 - xhain
 type: blog
+aliases:
+- /de/2018/10/die-daten-die-ich-rief
 
 ---
 
