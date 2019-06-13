@@ -40,5 +40,5 @@ Zur Individualisierung Eures Roboters bringt doch einen kleinen Beutel mit z.B. 
 </form>
 
 
-!(https://github.com/ku3i/Bakiwi/blob/master/images/03_parts.jpg)
+![Bausatz](https://github.com/ku3i/Bakiwi/blob/master/images/03_parts.jpg "Bausatz")
 
