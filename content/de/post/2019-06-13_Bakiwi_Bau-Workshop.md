@@ -40,5 +40,5 @@ Zur Individualisierung Eures Roboters bringt doch einen kleinen Beutel mit z.B. 
 </form>
 
 
-!(/img/bakiwi_parts.jpg)
+!(https://github.com/ku3i/Bakiwi/blob/master/images/03_parts.jpg)
 
