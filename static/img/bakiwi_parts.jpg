@@ -20,7 +20,7 @@
 
   <link crossorigin="anonymous" media="all" integrity="sha512-dsqgdBtnWun6oxDg9q1xezEyITXQ8QsMdFm+JDoDk6Tzx9AEE1XcUEhWff/M2Jv85ucTVJCjp/2fGbh6Omtrgg==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-41c2037bf12f1e46d8f08b88a04a8d8f.css" />
   
-    <link crossorigin="anonymous" media="all" integrity="sha512-L4u6t0vHRvKjUA34duGMW/v1HVv9Auv1g3nrdqxYpOfS6qF+lPMG8n+n2VGD+LK2fjWAq4GSK7O/+x99BAnseQ==" rel="stylesheet" href="https://github.githubassets.com/assets/github-e90eae5e2a61ffd5df5a4b86789e3703.css" />
+    <link crossorigin="anonymous" media="all" integrity="sha512-ILEYCj8Dk5D1ZM9fu3UfJ0XWB3Vbbl7HAhV0WVZjMVGG2LY6JPxAVVKPqusgHxxwtOzIBCR+L1c7vO71Yfr3tQ==" rel="stylesheet" href="https://github.githubassets.com/assets/github-c3826d38d63db3953f89b03253b7836b.css" />
     
     
     
@@ -38,10 +38,10 @@
     <meta property="og:image" content="https://avatars1.githubusercontent.com/u/7281542?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="ku3i/Bakiwi" /><meta property="og:url" content="https://github.com/ku3i/Bakiwi" /><meta property="og:description" content="A Tiny Walking Robot for Fun and Education. Contribute to ku3i/Bakiwi development by creating an account on GitHub." />
 
   <link rel="assets" href="https://github.githubassets.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NDEwNzAxODU0OmUyOWNmMjQ2NmIxMDk2ZjZjNTI5MjM3MzI2YWE2MmI4YmYwZjQ5NmFlNWNhMzE3NzQ2ODZmM2NlNTc0OWM0MjE=--88340b6a527f4d47637b6064313caaf38e81cf43">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NDEwNzAxODU0OjMwMzU4ZTA2YzY3YmE4NmNhOTVmZWMwMmExNDQ4NjljYTdkYzNiOTg4NTJjNDMwZWM5YTM0ZWY5NzFiZDgzMjQ=--cab81bb0189ad9862bf83230cd767e5ccf69a733">
   <meta name="pjax-timeout" content="1000">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
-  <meta name="request-id" content="4C9A:34A43:359C74:540901:5D02067F" data-pjax-transient>
+  <meta name="request-id" content="4C8A:3E813:AC1976:1086CBE:5D023F2C" data-pjax-transient>
 
 
   
@@ -52,7 +52,7 @@
     <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
 
-  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="4C9A:34A43:359C74:540901:5D02067F" /><meta name="octolytics-dimension-region_edge" content="ams" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-actor-id" content="5075986" /><meta name="octolytics-actor-login" content="Samwise007" /><meta name="octolytics-actor-hash" content="0a04284b59dec44624e0b712f4ff76b08f48e3c1ce2b95736b4c11f4dad075d8" />
+  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="4C8A:3E813:AC1976:1086CBE:5D023F2C" /><meta name="octolytics-dimension-region_edge" content="ams" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-actor-id" content="5075986" /><meta name="octolytics-actor-login" content="Samwise007" /><meta name="octolytics-actor-hash" content="0a04284b59dec44624e0b712f4ff76b08f48e3c1ce2b95736b4c11f4dad075d8" />
 <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
 
 
@@ -71,13 +71,13 @@
     <meta name="user-login" content="Samwise007">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="ZGRlZGZmNmQyOWFmM2Y0YTc0NDk5NTI4YmQwZDE1ZTMxMzA4MDg5ZjE0MTBmMTA3NmNiY2VkMzhkNDM4YzJiY3x7InJlbW90ZV9hZGRyZXNzIjoiOTUuOTAuMjMzLjIiLCJyZXF1ZXN0X2lkIjoiNEM5QTozNEE0MzozNTlDNzQ6NTQwOTAxOjVEMDIwNjdGIiwidGltZXN0YW1wIjoxNTYwNDEzODMzLCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+    <meta name="js-proxy-site-detection-payload" content="Y2VmNWVkYWRlZjcxNWNjNDViNTRhYzU4ZGY2ODYwN2I3ZjcyNTQzYjUzMjk1NDk1MDhmZWQxNmYzZGZlMzFlNXx7InJlbW90ZV9hZGRyZXNzIjoiOTUuOTAuMjMzLjIiLCJyZXF1ZXN0X2lkIjoiNEM4QTozRTgxMzpBQzE5NzY6MTA4NkNCRTo1RDAyM0YyQyIsInRpbWVzdGFtcCI6MTU2MDQyODMzMiwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
 
     <meta name="enabled-features" content="UNIVERSE_BANNER,MARKETPLACE_INVOICED_BILLING,MARKETPLACE_SOCIAL_PROOF_CUSTOMERS,MARKETPLACE_TRENDING_SOCIAL_PROOF,MARKETPLACE_RECOMMENDATIONS,NOTIFY_ON_BLOCK,RELATED_ISSUES">
 
   <meta name="html-safe-nonce" content="998c6b9984aa11d845d0bbc01903c14c1fed2aa3">
 
-  <meta http-equiv="x-pjax-version" content="971ba00d2fc2426b3b94e9a3b7a5fc38">
+  <meta http-equiv="x-pjax-version" content="978cb59e965628492bce15d4c1f69082">
   
 
       <link href="https://github.com/ku3i/Bakiwi/commits/master.atom" rel="alternate" title="Recent Commits to Bakiwi:master" type="application/atom+xml">
@@ -157,7 +157,7 @@
           aria-autocomplete="list"
           aria-controls="jump-to-results"
           aria-label="Search or jump to…"
-          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=VAtzRUAVIiPDE7WZj9tUMW0nXHNP7I08ywl3Q4O8GRhcIk+BGBttnyt+PF3HIRp7xCeow8K4GZn1OO7puXCNNA=="
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=KRd2/nSgcfeYFxT87Zgr2Iz92RpaYsIiJ1zKKTatclQhPko6LK4+S3B6nTilYmWSJf0tqtc2VocZbVODDGHmeA=="
           spellcheck="false"
           autocomplete="off"
           >
@@ -307,7 +307,7 @@
       <img class="avatar" src="https://avatars2.githubusercontent.com/u/5075986?s=40&amp;v=4" width="20" height="20" alt="@Samwise007" />
       Samwise007
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="yCPLi+8G95oL97Bz9cHPlRXiotbFS/CKL/x2NJdsSM/ntdsr9ObbbJZb6fVySxd22kb7Yyjp/qSOxoLOh6++RA==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="tV5oGRy6HMOSSPg6+wey/ecBD9PVH4BvDbuAy8kJ7yiayHi5B1owNQ/kobx8jWoeKKVWZji9jkGsgXQx2coZow==" />
       <button type="submit" class="Header-link mr-0 mr-lg-3 py-2 py-lg-0 border-top border-lg-top-0 border-white-fade-15 d-lg-none btn-link d-block width-full text-left" data-ga-click="Header, sign out, icon:logout" style="padding-left: 2px;">
         <svg class="octicon octicon-sign-out v-align-middle" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 9V7H8V5h4V3l4 3-4 3zm-2 3H6V3L2 1h8v3h1V1c0-.55-.45-1-1-1H1C.45 0 0 .45 0 1v11.38c0 .39.22.73.55.91L6 16.01V13h4c.55 0 1-.45 1-1V8h-1v4z"/></svg>
         Sign out
@@ -401,7 +401,7 @@
     border
   " data-team-hovercards-enabled>
   <details class="js-user-status-details details-reset details-overlay details-overlay-dark">
-    <summary class="btn-link btn-block link-gray no-underline js-toggle-user-status-edit toggle-user-status-edit " aria-haspopup="dialog" role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:7281542,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:5075986,&quot;client_id&quot;:&quot;497865715.1559392296&quot;,&quot;originating_request_id&quot;:&quot;4C9A:34A43:359C74:540901:5D02067F&quot;,&quot;originating_url&quot;:&quot;https://github.com/ku3i/Bakiwi/blob/master/images/03_parts.jpg&quot;,&quot;referrer&quot;:&quot;https://github.com/ku3i/Bakiwi/tree/master/images&quot;}}" data-hydro-click-hmac="c533eb983d66f73ef708f271f5fd586e34af9c064b1561d480d9b27042d19b63">
+    <summary class="btn-link btn-block link-gray no-underline js-toggle-user-status-edit toggle-user-status-edit " aria-haspopup="dialog" role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:7281542,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:5075986,&quot;client_id&quot;:&quot;497865715.1559392296&quot;,&quot;originating_request_id&quot;:&quot;4C8A:3E813:AC1976:1086CBE:5D023F2C&quot;,&quot;originating_url&quot;:&quot;https://github.com/ku3i/Bakiwi/blob/master/images/03_parts.jpg&quot;,&quot;referrer&quot;:&quot;https://github.com/ku3i/Bakiwi/tree/master/images&quot;}}" data-hydro-click-hmac="1669131c1a909e6716146a7d969ae96ce25aec069b464f074908354a99706cef">
       <div class="d-flex">
         <div class="f6 lh-condensed user-status-header
           d-inline-block v-align-middle
@@ -427,7 +427,7 @@
         </div>
       </div>
 </summary>    <details-dialog class="details-dialog rounded-1 anim-fade-in fast Box Box--overlay" role="dialog" tabindex="-1">
-      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="FgAayGeDQ5Uw6drx7Jx85Kx7bwxo1AzEa34I43PIA9gfRIp9pLNvbePbnud034ulejthjmXRzaIMqXGgr17Cow==" />
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="kVMloeQTciIEL2vWyVuZjya2ZFlta9/6O4mAU8ovIOOYF7UUJyNe2tcdL8BRGG7O8PZq22BuHpxcXvkQFrnhmA==" />
         <div class="Box-header bg-gray border-bottom p-3">
           <button class="Box-btn-octicon js-toggle-user-status-edit btn-octicon float-right" type="reset" aria-label="Close dialog" data-close-dialog>
             <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
@@ -547,17 +547,17 @@
       </li>
       <li class="dropdown-divider" role="none"></li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2019-06-13T10:47:13+02:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2019-06-13T14:48:52+02:00">
             in 30 minutes
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2019-06-13T11:17:13+02:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2019-06-13T15:18:52+02:00">
             in 1 hour
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2019-06-13T14:17:13+02:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2019-06-13T18:18:52+02:00">
             in 4 hours
           </button>
         </li>
@@ -606,7 +606,7 @@
     <div role="none" class="dropdown-divider"></div>
     <a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a>
     <a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">Settings</a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="InBoJK9WoLbpZHPIt62Z3VterQn1jDWpZKGak65OwlAN5niEtLaMQHTIKk4wJ0E+lPr0vBguO4fFm25pvo002w==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="9ncrf+UErPLNvrIsakin6hkBZbSop04O7gKycETJkc7Z4Tvf/uSABFAS66rtwn8J1qU8AUUFQCBPOEaKVApnRQ==" />
       
       <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" role="menuitem">
         Sign out
@@ -651,13 +651,17 @@
 
 
 
+    <li hidden>
+      <include-fragment src="/ku3i/Bakiwi/used_by_count">
+</include-fragment>
+    </li>
 
   <li>
     
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="By+84Rfd8OkTEVAEnpMkLx71jMxk/Gjgvb+FisIGtyiNzKlygEM6QabhIEVXcjePE+fkL9HscGgBLuzNB1IIRw==" />      <input type="hidden" name="repository_id" value="187714583">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="4C3WJPnJ5Ve0hI57mTrj6WUzOyeXUtQ7SbeSsOhX/zdqzsO3blcv/wF0/jpQ2/BJaCFTxCJCzLP1Jvv3LQNAWA==" />      <input type="hidden" name="repository_id" value="187714583">
 
       <details class="details-reset details-overlay select-menu float-left">
-        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:187714583,&quot;client_id&quot;:&quot;497865715.1559392296&quot;,&quot;originating_request_id&quot;:&quot;4C9A:34A43:359C74:540901:5D02067F&quot;,&quot;originating_url&quot;:&quot;https://github.com/ku3i/Bakiwi/blob/master/images/03_parts.jpg&quot;,&quot;referrer&quot;:&quot;https://github.com/ku3i/Bakiwi/tree/master/images&quot;,&quot;user_id&quot;:5075986}}" data-hydro-click-hmac="91c7267d87b3070d68cbf963f778d98d939f5a611792a9bbdad72318c793a97b" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
+        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:187714583,&quot;client_id&quot;:&quot;497865715.1559392296&quot;,&quot;originating_request_id&quot;:&quot;4C8A:3E813:AC1976:1086CBE:5D023F2C&quot;,&quot;originating_url&quot;:&quot;https://github.com/ku3i/Bakiwi/blob/master/images/03_parts.jpg&quot;,&quot;referrer&quot;:&quot;https://github.com/ku3i/Bakiwi/tree/master/images&quot;,&quot;user_id&quot;:5075986}}" data-hydro-click-hmac="7e47460071c1c876f6b56848555b6d6fc235c1310befbd3c86a59c097a13b54d" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
               <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
               Watch
           </span>
@@ -728,18 +732,18 @@
 
   <li>
       <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/ku3i/Bakiwi/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="/VCkO5K6niWYWxfMAXH0de8MYyhzFo/cQXSYXSU2WiCI4pbavsROMYKuAdRxhdRGyQZV0GkAxTbRwVMdTlS/ug==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/ku3i/Bakiwi/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="I+xztSBQqc+3YEGzEiOjOewJO9gkC6TAaS5i+xJMDU1WXkFUDC55262VV6ti14MKygMNID4d7ir5m6m7eS7o1w==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar ku3i/Bakiwi" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:187714583,&quot;client_id&quot;:&quot;497865715.1559392296&quot;,&quot;originating_request_id&quot;:&quot;4C9A:34A43:359C74:540901:5D02067F&quot;,&quot;originating_url&quot;:&quot;https://github.com/ku3i/Bakiwi/blob/master/images/03_parts.jpg&quot;,&quot;referrer&quot;:&quot;https://github.com/ku3i/Bakiwi/tree/master/images&quot;,&quot;user_id&quot;:5075986}}" data-hydro-click-hmac="1a69026c3e6c076c1af4f094616e4d1e4051003f6e541fd0f0b4a79ed461d3f5" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar ku3i/Bakiwi" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:187714583,&quot;client_id&quot;:&quot;497865715.1559392296&quot;,&quot;originating_request_id&quot;:&quot;4C8A:3E813:AC1976:1086CBE:5D023F2C&quot;,&quot;originating_url&quot;:&quot;https://github.com/ku3i/Bakiwi/blob/master/images/03_parts.jpg&quot;,&quot;referrer&quot;:&quot;https://github.com/ku3i/Bakiwi/tree/master/images&quot;,&quot;user_id&quot;:5075986}}" data-hydro-click-hmac="ede88fa96dc0ca7e4e2452ff3d9d6b3a4883dc62311dccf20664ec0e766320a9" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
         Unstar
 </button>        <a class="social-count js-social-count" href="/ku3i/Bakiwi/stargazers"
            aria-label="0 users starred this repository">
           0
         </a>
 </form>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/ku3i/Bakiwi/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="xNr99+x13eRsbYKv6yp/SM5U6Qahu/21Dt0LXSnZoN6Zp9jghLWPQpGcumbppC3kfw6XaNILTfPsF5ulljJoMQ==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/ku3i/Bakiwi/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="tJnMzpXoCmRxveXTWr4ggJEpHQhdMkQcqPNCqXy3fDrp5OnZ/ShYwoxM3RpYMHIsIHNjZi6C9FpKOdJRw1y01Q==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star ku3i/Bakiwi" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:187714583,&quot;client_id&quot;:&quot;497865715.1559392296&quot;,&quot;originating_request_id&quot;:&quot;4C9A:34A43:359C74:540901:5D02067F&quot;,&quot;originating_url&quot;:&quot;https://github.com/ku3i/Bakiwi/blob/master/images/03_parts.jpg&quot;,&quot;referrer&quot;:&quot;https://github.com/ku3i/Bakiwi/tree/master/images&quot;,&quot;user_id&quot;:5075986}}" data-hydro-click-hmac="56736ed59feb4c767c4b1d23a242683a6a4e88f04f21ae17c090fff723bc19bb" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star ku3i/Bakiwi" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:187714583,&quot;client_id&quot;:&quot;497865715.1559392296&quot;,&quot;originating_request_id&quot;:&quot;4C8A:3E813:AC1976:1086CBE:5D023F2C&quot;,&quot;originating_url&quot;:&quot;https://github.com/ku3i/Bakiwi/blob/master/images/03_parts.jpg&quot;,&quot;referrer&quot;:&quot;https://github.com/ku3i/Bakiwi/tree/master/images&quot;,&quot;user_id&quot;:5075986}}" data-hydro-click-hmac="818849acc696839ed688789b893ae6d18015cbbf2ad9238215244190310e676e" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
         Star
 </button>        <a class="social-count js-social-count" href="/ku3i/Bakiwi/stargazers"
            aria-label="0 users starred this repository">
@@ -751,7 +755,7 @@
 
   <li>
           <details class="details-reset details-overlay details-overlay-dark d-inline-block float-left">
-            <summary class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:187714583,&quot;client_id&quot;:&quot;497865715.1559392296&quot;,&quot;originating_request_id&quot;:&quot;4C9A:34A43:359C74:540901:5D02067F&quot;,&quot;originating_url&quot;:&quot;https://github.com/ku3i/Bakiwi/blob/master/images/03_parts.jpg&quot;,&quot;referrer&quot;:&quot;https://github.com/ku3i/Bakiwi/tree/master/images&quot;,&quot;user_id&quot;:5075986}}" data-hydro-click-hmac="f09a0599e4a59d99b7e39ab88eb8d71231a7342ea30c32aa5fb5a6e211e73422" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" title="Fork your own copy of ku3i/Bakiwi to your account">              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+            <summary class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:187714583,&quot;client_id&quot;:&quot;497865715.1559392296&quot;,&quot;originating_request_id&quot;:&quot;4C8A:3E813:AC1976:1086CBE:5D023F2C&quot;,&quot;originating_url&quot;:&quot;https://github.com/ku3i/Bakiwi/blob/master/images/03_parts.jpg&quot;,&quot;referrer&quot;:&quot;https://github.com/ku3i/Bakiwi/tree/master/images&quot;,&quot;user_id&quot;:5075986}}" data-hydro-click-hmac="5b80a504a3a247110160def7ad2eebad9068a350a7984f6bf9f6f204a1b4ff60" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" title="Fork your own copy of ku3i/Bakiwi to your account">              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
               Fork
 </summary>            <details-dialog
               class="anim-fade-in fast Box Box--overlay d-flex flex-column"
@@ -995,7 +999,7 @@
 
     <div>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/ku3i/Bakiwi/delete/master/images/03_parts.jpg" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="KRnCGmhUpm+04gyiIQzC0TBUq7IUbN8pH/qiyZAW8s4HXxa+LFLC06DaYTO7B8Z3Z7gMX1+ET771lD9L6jN5iA==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/ku3i/Bakiwi/delete/master/images/03_parts.jpg" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="tTut9WGaTj06a4AT557M6pVvX36FZnewNGE6a0JtcBabfXlRJZwqgS5T7YJ9lchMwoP4k86O5yfeD6fpOEj7UA==" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this project and delete the file" data-disable-with>
               <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
@@ -1044,7 +1048,7 @@
 <div class="footer container-lg width-full p-responsive" role="contentinfo">
   <div class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
-      <li class="mr-3 mr-lg-0">&copy; 2019 <span title="0.81050s from unicorn-7c9d7f775-f6vv5">GitHub</span>, Inc.</li>
+      <li class="mr-3 mr-lg-0">&copy; 2019 <span title="0.45353s from unicorn-6f6b544866-5bwn7">GitHub</span>, Inc.</li>
         <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
         <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
         <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to security, text:security" href="https://github.com/security">Security</a></li>
