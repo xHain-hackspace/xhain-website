@@ -38,9 +38,3 @@ Zur Individualisierung Eures Roboters bringt doch einen kleinen Beutel mit z.B. 
     	<input type="submit" value="Ja, bitte" style="background:#408e27">
 	</label><br>
 </form>
-
-<img src="/img/bakiwi_parts.jpg"
-     alt="Bausatz"
-     style="float: left; margin-right: 10px;" />
-
-
