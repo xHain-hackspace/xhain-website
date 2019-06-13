@@ -39,6 +39,8 @@ Zur Individualisierung Eures Roboters bringt doch einen kleinen Beutel mit z.B. 
 	</label><br>
 </form>
 
+<img src="/img/bakiwi_parts.jpg"
+     alt="Bausatz"
+     style="float: left; margin-right: 10px;" />
 
-![Bausatz](https://github.com/ku3i/Bakiwi/blob/master/images/03_parts.jpg "Bausatz")
 
