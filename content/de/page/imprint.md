@@ -13,7 +13,8 @@ heroImage: /img/gespraechunterbaeumen.jpg
 xHain hack+makespace</br>
 Felix Just</br>
 Grünberger Str. 14</br>
-10243 Berlin
+10243 Berlin</br>
+Deutschland
 
 ## Kontakt
 [info@x-hain.de](mailto:info@x-hain.de)
