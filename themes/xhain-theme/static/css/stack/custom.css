@@ -39,21 +39,25 @@ html {
   }
   h1,
   .h1 {
-    font-size: 3.14285714em;
-    line-height: 1.31818182em;
+    font-size: 2rem!important;
+    line-height: 1.5rem;
+    margin-bottom: 0.5rem;
   }
   h2,
   .h2 {
-    font-size: 1.2em; /* 2.35714286em; */
-    line-height: 1.1em; /* 1.36363636em; */
-    margin-top: 1em;
-    margin-bottom: 0.5em;
+    font-size: 1.5rem; /* 2.35714286em; */
+    line-height: 1.25rem; /* 1.36363636em; */
     font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
   }
   h3,
   .h3 {
-    font-size: 1.78571429em;
-    line-height: 1.5em;
+    font-size: 1.1rem;
+    line-height: 1.2rem;
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
   }
   h4,
   .h4 {
@@ -74,6 +78,13 @@ html {
     font-size: 1.35714286em;
     line-height: 1.68421053em;
   }
+  #page--recent-post h3 {
+    font-size: 1.78571429rem;
+    line-height: 1.5rem;
+    font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+    font-weight: 300;
+  }
+
   @media all and (max-width: 767px) {
     h1,
     .h1 {
@@ -205,6 +216,7 @@ label a {
     padding-top: 4em; /* 7.42857143em; */
     padding-bottom: 2em; /* 7.42857143em; */
 }
+
 #page--twitter {
     padding-top: 4em; /* 7.42857143em; */
     padding-bottom: 4em; /* 7.42857143em; */
