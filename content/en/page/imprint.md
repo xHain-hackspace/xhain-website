@@ -6,13 +6,14 @@ showPagination: false
 showSocial: false
 showTags: false
 title: Imprint
+heroImage: /img/gespraechunterbaeumen.jpg
 ---
 
-According to § 5 TMG:<br>
+## According to § 5 TMG
+xHain hack+makespace</br>
+Felix Just</br>
+Grünberger Str. 14</br>
+10243 Berlin
 
-Felix Just<br>
-xHain hack+makespace<br>
-Grünberger Str. 14<br>
-10243 Berlin<br>
-<br>
+## Contact
 [info@x-hain.de](mailto:info@x-hain.de)

@@ -11,12 +11,12 @@ heroImage: /img/gespraechunterbaeumen.jpg
 
 ## Angaben gemäß § 5 Telemediengesetz (TMG)
 xHain hack+makespace</br>
+Felix Just</br>
 Grünberger Str. 14</br>
-10243 Berlin</br>
-Deutschland</p>
+10243 Berlin
 
 ## Kontakt
-E-Mail: [info@x-hain.de](mailto:info@x-hain.de)
+[info@x-hain.de](mailto:info@x-hain.de)
 
 ## Verantwortlicher für den Inhalt ist gemäß § 55 Abs. 2 Rundfunkstaatsvertrag (RStV)
 Felix Just</br>
