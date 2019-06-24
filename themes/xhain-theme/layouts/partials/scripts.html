@@ -36,3 +36,27 @@
 
 <!-- Custom Script -->
 <script src="{{ .Site.BaseURL }}/js/custom.js"></script>
+
+<!-- Leaflet -->
+<script src="{{ .Site.BaseURL }}/js/leaflet.js"></script>
+
+<script>
+            
+  var map = L.map('map',{
+  center: [52.5128, 13.4495],
+  zoom: 16
+  });
+
+  L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+  attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+
+  var firefoxIcon = L.icon({
+      //iconUrl: 'http://joshuafrazier.info/images/firefox.svg',
+      iconUrl: '{{ .Site.BaseURL }}/img/xhain_logo.svg',
+      iconSize: [50, 50], // size of the icon
+      });
+
+  var marker = L.marker([52.5128, 13.4495], {icon: firefoxIcon}).addTo(map);
+
+</script>

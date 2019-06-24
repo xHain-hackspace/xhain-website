@@ -3,6 +3,11 @@
         <div class="col-md-12">
             <h1 class="page--title">{{ .Params.title }}</h1>
             {{ .Content }}
+
         </div>
+        
+        {{ if .Params.showMap }}
+            <div id="map"></div>
+        {{ end }}
     </div>
 </section>

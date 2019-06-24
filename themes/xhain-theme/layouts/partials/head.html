@@ -39,6 +39,10 @@
     <!-- Favicon and apple touch icons-->
     <link rel="shortcut icon" href="{{ "img/favicons/favicon.ico" | relURL }}" type="image/x-icon" />
 
+    <!-- leaflet -->
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/leaflet.css" />
+
+
     <meta name="msapplication-TileColor" content="#FFFFFF">
     <meta name="msapplication-square70x70logo" content="{{ "img/favicons/ms-icon-70x70.png" | relURL }}" />
     <meta name="msapplication-square150x150logo" content="{{ "img/favicons/ms-icon-150x150.png" | relURL }}" />
@@ -82,4 +86,18 @@
 
     <!-- Custom stylesheet - for your changes -->
     <link href="{{ "css/stack/custom.css" | relURL}}" rel="stylesheet">
+    <link href="{{ "css/custom.css" | relURL}}" rel="stylesheet">
+
+    <style>
+        #map {
+            height: 500px;
+            width: 100vw;
+        }
+    </style>
+
+    <script src="{{ .Site.BaseURL }}/js/custom.js"></script>
+
+    <style>
+        
+    </style>
 </head>
