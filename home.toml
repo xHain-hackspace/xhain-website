@@ -91,6 +91,13 @@ title = "xHain hack+makespace"
   pre = "<i class='fab fa-gitlab fa-inverse'></i>"
   url = "https://gitlab.com/xHain-hackspace"
 
+[[languages.de.menu.second]]
+  weight = 4
+  identifier = "rocketchat"
+  name = "RocketChat"
+  pre = "<i class='fab fa-rocketchat fa-inverse'></i>"
+  url = "https://chat.x-hain.de/home"
+
 [[languages.en.menu.second]]
   weight = 1
   identifier = "twitter"
@@ -111,6 +118,13 @@ title = "xHain hack+makespace"
   name = "Gitlab"
   pre = "<i class='fab fa-gitlab fa-inverse'></i>"
   url = "https://gitlab.com/xHain-hackspace"
+
+[[languages.en.menu.second]]
+  weight = 4
+  identifier = "rocketchat"
+  name = "RocketChat"
+  pre = "<i class='fab fa-rocketchat fa-inverse'></i>"
+  url = "https://chat.x-hain.de/home"
 
 # Recent Post
 [languages.de.params.recent_posts_intro]
