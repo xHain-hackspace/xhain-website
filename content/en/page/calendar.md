@@ -14,7 +14,5 @@ title: Calendar
 <ul id="events-past">
 </ul>
 
-<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-<script src="../../../js/format-google-calendar-en.js"></script>
-<script src="../../../js/format-google-calendar-config.js"></script>
+<iframe src="https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FBerlin&amp;src=eGhhaW4uY2FsQGdtYWlsLmNvbQ&amp;color=%23039BE5&amp;showTitle=0&amp;showNav=0&amp;showDate=1&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=WEEK&amp;hl=en_GB" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
