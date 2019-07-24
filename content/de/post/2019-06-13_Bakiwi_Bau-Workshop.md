@@ -13,21 +13,15 @@ tags:
 type: blog
 ---
 
-= Basteln, Lernen, Battle! =
-
-Komm zum Bakiwi-Robotikworkshop, baue dir einen kleinen Laufroboter und lass ihn gegen andere antreten.
-Wir wollen mit euch kleine Roboter bauen und zwar den [Bakiwi](https://github.com/ku3i/Bakiwi).
-Das Zusammenbauen des Bausatzes erfordert ein wenig Lötarbeit und etwas Geduld, ist aber sehr geeignet für Anfänger*innen, die sich das erste Mal an einem Robotik-Projekt versuchen wollen. Es sind keine Vorkenntnisse nötig.
-Matthias Kubisch, der auch die Platine entworfen und den Bausatz zusammengestellt hat, leitet den Workshop und wird euch helfen euren Bakiwi zum Zappeln zu bringen.
+Komm zum Bakiwi-Robotikworkshop, baue dir einen kleinen Laufroboter und lass ihn gegen andere antreten. Wir wollen mit euch kleine Roboter bauen und zwar den [Bakiwi](https://github.com/ku3i/Bakiwi). Das Zusammenbauen des Bausatzes erfordert ein wenig Lötarbeit und etwas Geduld, ist aber sehr geeignet für Anfänger*innen, die sich das erste Mal an einem Robotik-Projekt versuchen wollen. Es sind keine Vorkenntnisse nötig. Matthias Kubisch, der auch die Platine entworfen und den Bausatz zusammengestellt hat, leitet den Workshop und wird euch helfen euren Bakiwi zum Zappeln zu bringen.
 
 Stattfinden wird der Workshop am 22.06.2019.
-Da der xHain [noch](https://x-hain.de/de/post/2019-05-29_der-xhain-macht-zu/) in der kleinen Location ist, gibt es 2 Zeitslots, der erste von 10:00-14:00 Uhr, der zweite von 14:30 bis 18:30 Uhr. Für jeden der Workshops können sich bis zu 8 Teilnehmer*innen anmelden.
-Ihr könnt auch im Zweier-Team zusammen basteln, z.B. 1 Elter + 1 Kind.
+
+Da der xHain [noch](https://x-hain.de/de/post/2019-05-29_der-xhain-macht-zu/) in der kleinen Location ist, gibt es 2 Zeitslots, der erste von 10:00-14:00 Uhr, der zweite von 14:30 bis 18:30 Uhr. Für jeden der Workshops können sich bis zu 8 Teilnehmer*innen anmelden. Ihr könnt auch im Zweier-Team zusammen basteln, z.B. 1 Elter + 1 Kind.
 
 Die Kosten für den Workshop inklusive Bausatz betragen 35€.
 
 Zur Individualisierung Eures Roboters bringt doch einen kleinen Beutel mit z.B. Bastelmaterial, Elektroschrott, Lego etc. mit
-
 
 <form action="https://formspree.io/xhain_hack_makespace@posteo.de"
       method="POST">
