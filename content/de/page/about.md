@@ -26,4 +26,4 @@ Damit sind nicht nur Berufstätige, sondern auch Schüler\*innen, Senior\*innen,
 Der xHain ist ein rauchfreier Ort. Wer rauchen will, kann das draußen tun.
 
 Diskriminierungsformen aller Art werden bei uns nicht geduldet und führen zum sofortigem Auschluss!
-Wer also sexistisch, rassistisch, homophob, rechtextrem, altersdikriminierend, antimuslimisch, antisemitisch, antiziganisch, chauvinistisch, heterosexistisch, ableistisch, klassistisch oder lookistisch ist braucht nicht zu kommen!
+Wer also sexistisch, homophob, rassistisch, antisemitisch, rechtsextrem, altersdikriminierend, antimuslimisch, antiziganisch, chauvinistisch, heterosexistisch, ableistisch, klassistisch oder lookistisch ist braucht nicht zu kommen!
