@@ -1,3 +1,4 @@
+---
 title: xHain-Re0pening-Party
 thumbnailImage: /img/Re0pening.jpg
 heroImage:  /img/Re0pening.jpg
@@ -10,6 +11,7 @@ categories:
 tags:
 - xhain
 type: blog
+---
 
 Es ist soweit! Nach etwas mehr als 2 Monaten planen, räumen, tüfteln und werkeln wollen wir die Wiedereröffnung des xHains mit einer großen Party feiern.
 Kommt vorbei, schaut euch die neuen Räumlichkeiten an, genießt euer Getränk in unserem Baumhaus oder probiert neue, tolle Effekte auf unseren Leuchtebaum zu zaubern.
