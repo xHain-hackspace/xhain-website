@@ -21,7 +21,7 @@ Deutschland
 
 ## Verantwortlicher für den Inhalt ist gemäß § 55 Abs. 2 Rundfunkstaatsvertrag (RStV)
 Felix Just</br>
-Grünberger Str. 14</br>
+Grünberger Str. 16</br>
 10243 Berlin</br>
 Deutschland
 
