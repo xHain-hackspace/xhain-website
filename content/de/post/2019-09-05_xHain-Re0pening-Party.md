@@ -18,11 +18,11 @@ Kommt vorbei, schaut euch die neuen Räumlichkeiten an, genießt euer Getränk i
 
 Die Party steigt am 13.9. und das bisherige Programm sieht folgendermaßen aus:
 
-18:00 - 21:00: gemütliches Eintrudeln, Quatschen und Besichtigungstour(en)
-21:00 - 22:00: Live-Konzert vom [Bruno Nagel Studio](https://www.youtube.com/channel/UCUcDUbpwjFtwwPkYiyFeZqQ)
-22:00 - 00:00: [Bibad Edu](https://soundcloud.com/bibadebu) legt auf
-00:00 - 02:00: [Herr Sabin](https://soundcloud.com/herrsabin) legt auf
-02:00 - ??:??: Ausklang ;-)
+* 18:00 - 21:00: gemütliches Eintrudeln, Quatschen und Besichtigungstour(en)
+* 21:00 - 22:00: Live-Konzert vom [Bruno Nagel Studio](https://www.youtube.com/channel/UCUcDUbpwjFtwwPkYiyFeZqQ)
+* 22:00 - 00:00: [Bibad Edu](https://soundcloud.com/bibadebu) legt auf
+* 00:00 - 02:00: [Herr Sabin](https://soundcloud.com/herrsabin) legt auf
+* 02:00 - ??:??: Ausklang ;-)
 
 Der neue xHain ist groß, also bringt eure Freunde und Freundinnen mit und lasst uns mit einen Tschunk anstoßen!
 
