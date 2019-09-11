@@ -1,0 +1,24 @@
+{{ if isset .Site.Params "twitter" }}
+{{ if .Site.Params.twitter.enable }}
+<section class="switchable imagebg" id="page--twitter" data-gradient-bg="#45A843,#44F441,#189B15,#067A03">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-6 col-lg-5">
+                    <div class="switchable__text">
+                        <h2>{{ .Site.Params.twitter_intro.title }}</h2>
+                        <p class="lead">{{ .Site.Params.twitter_intro.subtitle }}</p>
+                        <a class="btn btn--icon bg--twitter" href="{{ .Site.Params.twitter.url }}"> <span class="btn__text">
+                    <i class="socicon socicon-twitter"></i>
+                    {{/*  Visit @{{ .Site.Params.twitter.username }} on Twitter  */}}
+                    {{ i18n "visit" }} @{{ .Site.Params.twitter.username }} {{ i18n "on" }} Twitter
+                </span> </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="tweets-feed tweets-feed-1 bg--secondary" data-feed-name="{{ .Site.Params.twitter.username }}" data-amount="3"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+{{ end }}
+{{ end }}

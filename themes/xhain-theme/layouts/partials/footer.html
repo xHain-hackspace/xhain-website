@@ -1,0 +1,32 @@
+<footer class="space--xs footer-2 bg--dark" style="padding-bottom:2.71428571em">
+        <div class="container">
+            <div class="row footer--row" style="margin-top: 0px">
+                <div class="col-sm-6 col-md-6 col-xs-12">
+                    <h4 class=""><!--<span class="update-year" style="margin-bottom:1em"></span>--> {{ .Site.Params.name }}</span></h4>
+                </div>
+                <div class="col-sm-3 col-md-3 col-xs-12">
+                    <h5 class="type--uppercase" style="margin-bottom:1em">Links</h5>
+                    <ul class="list--hover" style="padding-bottom:1em">
+                        {{- $currentPage := . -}}
+                        {{ range .Site.Menus.second -}}
+                        <li class="">		
+                            <a href="{{ .URL | absLangURL }}" target="blank" class="">
+                               {{ .Name }}
+                            </a>
+                        </li> 
+                        {{- end }}
+                    </ul>
+                </div>
+                <div class="col-sm-3 col-md-3 col-xs-12">
+                    <h5 class="type--uppercase" style="margin-bottom:1em">Informationen</h5>
+                    <ul class="list--hover" style="padding-bottom:1em">
+                        {{ range .Site.Menus.footerlinks.ByWeight }}
+                            <li>
+                                <a class="" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+                            </li>
+                        {{ end }}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>

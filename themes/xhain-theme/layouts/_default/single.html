@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  {{ partial "head.html" . }}
+
+  <body data-smooth-scroll-offset="180">
+        
+      {{ partial "navigation/nav.html" . }}
+
+      <div class="main-container">
+        
+        {{ partial "post/hero.html" . }}
+        {{ partial "post/content.html" .}}
+
+<!--         {{ if isset .Params "id" }}
+            {{ partial "static_content.html" . }}
+        {{ else }}
+            {{ partial "navigation/languageSwitch.html" .}}    
+            {{ partial "static_content.html" . }}
+        {{ end }} -->
+
+        {{ partial "post/pagination.html" . }}
+
+
+      </div>
+
+    {{ partial "footer.html" . }}
+
+    {{ partial "scripts.html" . }}
+
+    <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
+      <i class="stack-interface stack-up-open-big"></i>
+    </a>
+  </body>
+</html>

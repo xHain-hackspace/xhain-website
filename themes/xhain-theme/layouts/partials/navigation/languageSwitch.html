@@ -1,0 +1,18 @@
+{{ if .Site.IsMultiLingual }}
+	{{ range .Site.Languages }}
+		{{ if eq . $.Site.Language }}
+			{{/*  Für aktuelle Sprache   
+				<li><a href="#" class="active language" style="color:red">{{ .LanguageName }}</a></li>	
+			*/}}
+		{{ else }}
+			{{ range $.Translations }}
+			<li class="nav--language-li" >		
+				<a href="{{ .Permalink }}" class="nav--language-a">
+					<i class="fas fa-language fa-inverse"></i>		
+					<span class="nav--language-label">{{ .Site.Language.LanguageName}}</span>
+				</a>
+			</li>
+			{{ end }}
+		{{ end }}
+	{{ end }}
+{{ end }}

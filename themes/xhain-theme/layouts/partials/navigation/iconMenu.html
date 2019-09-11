@@ -1,0 +1,12 @@
+{{ if isset .Site.Params "icon_menu" }}
+    {{ if .Site.Params.icon_menu.enable }}
+        {{- $currentPage := . -}}
+        {{ range .Site.Menus.second -}}
+            <li class="nav--social-li" style="padding:0 3px;">		
+                <a href="{{ .URL | absLangURL }}" target="blank" class="nav--social-a">
+                    {{ .Pre }}
+                </a>
+            </li> 
+        {{- end }}
+    {{end}}
+{{end}}

@@ -1,0 +1,150 @@
+[languages]
+[languages.de]
+weight = 1
+languageName = "Deutsch"
+contentDir = "content/de"
+title = "xHain hack+makespace"
+
+[languages.en]
+weight = 2
+languageName = "English"
+contentDir = "content/en"
+title = "xHain hack+makespace"
+
+[menu]
+# main menu (text based)
+[[languages.de.menu.main]]
+  weight = 1
+  identifier = "blog"
+  name = "Blog"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-newspaper-o\"></i>"
+  url = "/post"
+
+[[languages.de.menu.main]]
+  weight = 2
+  identifier = "calendar"
+  name = "Kalender"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-calendar-o\"></i>"
+  url = "/page/calendar"
+
+[[languages.de.menu.main]]
+  weight = 3
+  identifier = "support"
+  name = "Unterstützendes"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-life-ring\"></i>"
+  url = "/page/support"
+
+[[languages.de.menu.main]]
+  weight = 4
+  identifier = "about"
+  name = "Über uns"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-info\"></i>"
+  url = "/page/about"
+
+[[languages.en.menu.main]]
+  weight = 1
+  identifier = "blog"
+  name = "Blog"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-newspaper-o\"></i>"
+  url = "/post"
+
+[[languages.en.menu.main]]
+  weight = 2
+  identifier = "calendar"
+  name = "Calendar"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-calendar-o\"></i>"
+  url = "/page/calendar"
+
+[[languages.en.menu.main]]
+  weight = 3
+  identifier = "support"
+  name = "Support"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-life-ring\"></i>"
+  url = "/page/support"
+
+[[languages.en.menu.main]]
+  weight = 4
+  identifier = "about"
+  name = "About Us"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-info\"></i>"
+  url = "/page/about"
+
+# second menu (icon based)
+[[languages.de.menu.second]]
+  weight = 1
+  identifier = "twitter"
+  name = "Twitter"
+  pre = "<i class='fab fa-twitter fa-inverse'></i>"
+  url = "https://twitter.com/xHain_hackspace"
+
+[[languages.de.menu.second]]
+  weight = 2
+  identifier = "github"
+  name = "Github"
+  pre = "<i class='fab fa-github fa-inverse'></i>"
+  url = "https://github.com/orgs/xHain-hackspace/"
+
+[[languages.de.menu.second]]
+  weight = 3
+  identifier = "gitlab"
+  name = "Gitlab"
+  pre = "<i class='fab fa-gitlab fa-inverse'></i>"
+  url = "https://gitlab.com/xHain-hackspace"
+
+[[languages.en.menu.second]]
+  weight = 1
+  identifier = "twitter"
+  name = "Twitter"
+  pre = "<i class='fab fa-twitter fa-inverse'></i>"
+  url = "https://twitter.com/xHain_hackspace"
+
+[[languages.en.menu.second]]
+  weight = 2
+  identifier = "github"
+  name = "Github"
+  pre = "<i class='fab fa-github fa-inverse'></i>"
+  url = "https://github.com/orgs/xHain-hackspace/"
+
+[[languages.en.menu.second]]
+  weight = 3
+  identifier = "gitlab"
+  name = "Gitlab"
+  pre = "<i class='fab fa-gitlab fa-inverse'></i>"
+  url = "https://gitlab.com/xHain-hackspace"
+
+# Recent Post
+[languages.de.params.recent_posts_intro]
+enable = true
+title = "Aktuelle Posts"
+subtitle = "Alle Posts gibt's unter 'Blog'"
+
+[languages.en.params.recent_posts_intro]
+enable = true
+title = "Last Posts"
+subtitle = "Click 'Blog' to see all posts"
+
+# Twitter 
+[languages.de.params.twitter_intro]
+enable = true
+title = "Wir bei Twitter"
+subtitle = "Für kurzweiligen Content"
+
+[languages.en.params.twitter_intro]
+enable = true
+title = "Follow us for news, updates and jokes"
+subtitle = "That's us on Twitter"
+
+# footer links
+[[languages.de.menu.footerlinks]]
+  weight = 1
+  identifier = "Imprint"
+  name = "Impressum"
+  pre = ""
+  url = "/page/imprint"
+
+[[languages.en.menu.footerlinks]]
+  weight = 1
+  identifier = "Imprint"
+  name = "Imprint"
+  pre = ""
+  url = "/page/imprint"

@@ -1,0 +1,25 @@
+
+<div class="row">
+    <div class="col-md-12">
+        <ul class="pager text-center">
+            <li class="previous btn btn--primary">
+                {{ with .NextInSection }}
+                <a class="tooltip--top" href="{{ .RelPermalink }}" data-tooltip="{{ .Title }}">
+                {{ else }}
+                <a class="btn--disabled">
+                {{ end }}
+                    <span class="btn__text">{{ i18n "pagination.next" }}</span>
+                </a>
+            </li>
+            <li class="previous btn btn--primary">
+                {{ with .PrevInSection }}
+                <a class="tooltip--top" href="{{ .RelPermalink }}" data-tooltip="{{ .Title }}">
+                {{ else }}
+                <a class="btn--disabled">
+                {{ end }}
+                    <span class="btn__text">{{ i18n "pagination.previous" }} </span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

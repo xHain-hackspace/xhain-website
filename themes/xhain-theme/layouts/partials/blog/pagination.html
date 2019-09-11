@@ -1,0 +1,29 @@
+<ul class="pager text-center">
+    {{ if .Paginator.HasPrev }}
+        <li class="previous btn btn--primary">
+            <a href="{{ .Site.BaseURL }}{{ .Paginator.Prev.URL }}">
+                <span class="btn__text">{{ i18n "pagination.newer_posts" }}</span>
+            </a>
+        </li>
+    {{ else }}
+        <li class="previous disabled btn btn--primary">
+            <a href="#">
+                <span class="btn__text">{{ i18n "pagination.newer_posts" }}</span>
+            </a>
+        </li>
+    {{ end }}
+
+    {{ if .Paginator.HasNext }}
+        <li class="next btn btn--primary">
+            <a href="{{ .Site.BaseURL }}{{ .Paginator.Next.URL }}">
+                <span class="btn__text">{{ i18n "pagination.older_posts" }}</span>
+            </a>
+        </li>
+    {{ else }}
+        <li class="next disabled btn btn--primary">
+            <a href="#">
+                <span class="btn__text">{{ i18n "pagination.newer_posts" }}</span>
+            </a>
+        </li>
+    {{ end }}
+</ul>

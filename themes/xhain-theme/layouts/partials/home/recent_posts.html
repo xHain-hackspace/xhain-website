@@ -1,0 +1,52 @@
+{{ if isset .Site.Params "recent_posts" }}
+{{ if .Site.Params.recent_posts.enable }}
+<section class="bg--secondary" id="page--recent-post"> 
+    <div class="container">
+        <div class="row text-block text-center">
+            <div class="col-md-12">
+                <h3>{{ .Site.Params.recent_posts_intro.title }}</h3> 
+            </div>
+            <div class="col-md-12">
+                <p>{{ .Site.Params.recent_posts_intro.subtitle | markdownify }}</p>
+            </div>
+        </div>
+
+        <!-- *** 3 Recent Blog Posts-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    {{ $posts := .Paginate (where .Data.Pages "Type" "blog") }}
+                    {{ range first 3 $posts.Pages }}
+                        <div class="col-md-4">
+                            <div class="feature feature-1">
+                                <a href="{{ .Permalink }}" class="blog--teaser-image" style="background: url({{ .Params.thumbnailImage | absURL}});"> 
+                                    {{/*
+                                        {{ if ne .Params "thumbnailImage" }}
+                                            <img alt="Image" class="bannerimage" src="{{ .Params.thumbnailImage | absURL}}" >
+                                        {{ else }}
+                                            <img alt="Image" class="bannerimage" src="{{ .Site.Params.defaultThumbnailPlaceholder | absURL}}"  alt="">
+                                        {{ end }}  
+                                    */}}
+                                </a>
+                                <div class="feature__body boxed blog--teaser-text"> 
+                                    
+                                    <h4 class="blog--teaser-headline"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+                                    <div class="intro">
+                                        {{ .Summary }}
+                                    </div>
+                                    <div class="read-more">
+                                        <h5><a href="{{ .Permalink }}">{{ i18n "continueReading" }}</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.container -->
+</section>
+<!-- /.bar -->
+{{ end }}
+{{ end }}
