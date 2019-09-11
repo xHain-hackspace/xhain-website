@@ -1,22 +1,15 @@
 <section class="cover imagebg text-center parallax height-100" data-overlay="1">
-        <div class="background-image-holder"> 
-            <img alt="background" src="{{ .Params.heroImage | absURL }}"> 
-        </div>
-        <div class="container pos-vertical-center">
-            <div class="row" >
-                <div class="col-md-12">
-                    <h1>{{ .Params.title }}</h1>
-                    <h2>
-                            <time class="post-date" datetime="{{ .Date.Format "2. January 2006" | safeHTML }}">
-                                    {{ .Date.Day }}. {{ i18n (lower (printf "date.month.%s" .Date.Month)) }} {{ .Date.Year }}
-                            </time> 
-                    </h2>
-                    {{ if isset .Site.Params "coverCaption" }}
-                        <span><i class="fa fa-copyright"></i> {{ .Params.coverCaption | markdownify}}</span>
-                    {{ end }}
-                </div>
+    <div class="background-image-holder">
+        <img alt="background" src="{{ .Params.heroImage | absURL }}">
+    </div>
+    <div class="container pos-vertical-center">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>{{ .Params.title }}</h1>
+                {{ if isset .Site.Params "coverCaption" }}
+                <span><i class="fa fa-copyright"></i> {{ .Params.coverCaption | markdownify}}</span>
+                {{ end }}
             </div>
         </div>
+    </div>
 </section>
-
-
