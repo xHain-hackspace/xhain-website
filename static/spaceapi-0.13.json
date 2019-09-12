@@ -1,64 +1,74 @@
 {
-   "api":"0.13",
-   "space":"xHain",
-   "logo":"https://x-hain.de/images/global/xhain_logo.svg",
-   "url":"https://x-hain.de",
-   "location":{
-      "address":"xHain hack+makespace, Grünberger Straße 14, 10243 Berlin, Germany",
-      "lon":52.512815,
-      "lat":13.4493919
-   },
-   "contact":{
-      "phone":"+49221596194246",
-      "twitter":"@xhain_hackspace",
-      "email":"x-hain@posteo.de",
-      "sip":"4246@hg.eventphone.de",
-      "chat":"https://mm.x-hain.de",
-      "issue_mail":"x-hain@posteo.de"
-   },
-   "issue_report_channels":[
-      "issue_mail",
-      "email",
-      "twitter"
-   ],
-   "state":{
-      "open":false,
-      "lastchange":1480800659,
-      "icon":{
-         "open":"https://x-hain.de/images/global/xhain_open.png",
-         "closed":"https://x-hain.de/images/global/xhain_closed.png"
-      }
-   },
-   "projects":[
-      "https://github.com/xHain-hackspace"
-   ],
-   "cache":{
-      "schedule":"m.02"
-   },
-   "sensors":{
-      "temperature":[
-         {
-            "value":5.0,
-            "unit":"°C",
-            "location":"Front door"
-         },
-         {
-            "value":23.0,
-            "unit":"°C",
-            "location":"Lab"
-         }
-      ],
-      "humidity":[
-         {
-            "value":55,
-            "unit":"%",
-            "location":"Lab"
-         }
-      ],
-      "total_member_count":[
-         {
-            "value":23
-         }
-      ]
-   }
+    "api": "0.13",
+    "space": "xHain",
+    "logo": "https://x-hain.de/img/xhain_logo.svg",
+    "url": "https://x-hain.de",
+    "location": {
+        "address": "xHain hack+makespace, Grünberger Straße 16, 10243 Berlin, Germany",
+        "lat": 52.512799,
+        "lon": 13.449819
+    },
+    "contact": {
+        "phone": "+49221596194246",
+        "twitter": "@xhain_hackspace",
+        "email": "x-hain@posteo.de",
+        "sip": "4246@hg.eventphone.de",
+        "chat": "https://chat.x-hain.de",
+        "issue_mail": "x-hain@posteo.de"
+    },
+    "issue_report_channels": [
+        "issue_mail",
+        "email",
+        "twitter"
+    ],
+    "state": {
+        "open": false,
+        "lastchange": 1568287886,
+        "icon": {
+            "open": "https://x-hain.de/images/global/xhain_open.png",
+            "closed": "https://x-hain.de/images/global/xhain_closed.png"
+        }
+    },
+    "projects": [
+        "https://gitlab.com/xHain-hackspace"
+    ],
+    "cache": {
+        "schedule": "m.02"
+    },
+    "sensors": {
+        "temperature": [
+            {
+                "value": 13,
+                "unit": "°C",
+                "location": "Outside"
+            },
+            {
+                "value": 15,
+                "unit": "°C",
+                "location": "Basement"
+            },
+            {
+                "value": 23,
+                "unit": "°C",
+                "location": "Lab"
+            }
+        ],
+        "humidity": [
+            {
+                "value": 37,
+                "unit": "%",
+                "location": "Outside"
+            },
+            {
+                "value": 55,
+                "unit": "%",
+                "location": "Lab"
+            }
+        ],
+        "total_member_count": [
+            {
+                "value": 42
+            }
+        ]
+    }
 }
