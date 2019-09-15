@@ -7,7 +7,7 @@ build:
   script:
   - hugo version
   - git submodule update --init --recursive
-  - hugo -d public_html --config config.toml,home.toml
+  - hugo -d public_html --config config.toml,home.toml -w --cleanDestinationDir
   artifacts:
     paths:
     - public_html
