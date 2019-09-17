@@ -3,7 +3,7 @@ stages:
   - deploy
 build:
   stage: build
-  image: jojomi/hugo
+  image: jojomi/hugo:0.56
   script:
   - hugo version
   - git submodule update --init --recursive
