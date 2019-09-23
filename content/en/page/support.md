@@ -20,7 +20,7 @@ Running a hackspace isn’t free: we need to pay rent, electricity, internet and
 
 You can either use the form below (data will be send to us via formspree.com) - or you just send us an email.
 
-<form action="https://formspree.io/xhain_hack_makespace@posteo.de"
+<form action="https://formspree.io/signup@x-hain.de"
       method="POST">
     <label for="Name">name:
     	<input type="text" name="Name" title="name" required>
