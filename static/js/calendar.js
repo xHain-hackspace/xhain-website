@@ -1,14 +1,14 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
   var initialLocaleCode = 'en';
   var localeSelectorEl = document.getElementById('locale-selector');
   var calendarEl = document.getElementById('calendar');
 
   var calendar = new FullCalendar.Calendar(calendarEl, {
-    plugins: [ 'interaction', 'dayGrid', 'timeGrid', 'list', 'googleCalendar' ],
+    plugins: ['interaction', 'dayGrid', 'timeGrid', 'list', 'googleCalendar'],
     header: {
       left: 'prev,next today',
       center: 'title',
-      right: 'dayGridMonth,timeGridMonth,listMonth',
+      right: 'timeGridWeek,dayGridMonth,listMonth',
       locale: 'en'
     },
     locale: initialLocaleCode,
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
   calendar.render();
-  if(window.location.href.indexOf('/de/') > 0){
-      calendar.setOption('locale', 'de');
+  if (window.location.href.indexOf('/de/') > 0) {
+    calendar.setOption('locale', 'de');
   }
 });
