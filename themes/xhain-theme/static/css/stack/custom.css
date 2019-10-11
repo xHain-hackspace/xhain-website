@@ -227,7 +227,7 @@ label a {
     font-weight: 500;
 }
 #page--content {
-    padding-top: 4em; /* 7.42857143em; */
+    padding-top: 2em; /* 7.42857143em; */
     padding-bottom: 4em; /* 7.42857143em; */
 }
 @media (max-width: 767px) {
