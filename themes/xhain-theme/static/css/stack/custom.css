@@ -48,7 +48,7 @@ html {
     font-size: 1.5rem; /* 2.35714286em; */
     line-height: 1.25rem; /* 1.36363636em; */
     font-weight: 500;
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 0.5rem;
   }
   h3,
@@ -56,7 +56,7 @@ html {
     font-size: 1.1rem;
     line-height: 1.2rem;
     font-weight: 500;
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 0.5rem;
   }
   h4,
