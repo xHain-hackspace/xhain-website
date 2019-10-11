@@ -22,7 +22,7 @@ Der Betrieb eines Hackspaces kostet Geld: Miete, Strom, Internet und so weiter. 
 
 Du kannst entweder das Formular verwenden, die Daten werden über formspree.com übertragen - oder du schickst einfach eine Mail mit den nötigen Angaben.
 
-<form action="https://formspree.io/xhain_hack_makespace@posteo.de"
+<form action="https://formspree.io/signup@x-hain.de"
       method="POST">
     <label for="Name">Name:
     	<input type="text" name="Name" title="Name" required>
