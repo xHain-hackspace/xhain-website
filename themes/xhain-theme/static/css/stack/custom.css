@@ -237,6 +237,23 @@ label a {
 }
 
 
+/**! MACHINES **/
+.row--machine-list {
+  padding: 3rem 0 1rem 0;
+}
+
+.col--machines {
+  padding: 0;
+}
+
+.col--machine-image {
+  padding: 0;
+}
+
+.machine--name {
+  margin-top: 0;
+}
+
 /**! RECENT POST **/
 
 

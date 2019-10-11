@@ -1,0 +1,25 @@
+{
+    "Name": "CNC Gerät 1",
+    "Description": "This is a big CNC Machine",
+    "Dimension": "10cm x 10cm",
+    "Materials": [
+        "Wood",
+        "Aluminium"
+    ],
+    "ImageUrl": "/img/150.png",
+    "Links": [
+        "http://www.google.de",
+        "http://www.amazon.de"
+    ],
+    "PersonsInCharge": [
+        "Martin1001"
+    ],
+    "Price": [
+        "10ct / h"
+    ],
+    "DetailPage": "cnc1",
+    "ProjectImages": [
+        "",
+        ""
+    ]
+ }
