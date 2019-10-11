@@ -240,7 +240,7 @@ label a {
 
 /**! MACHINES **/
 .row--machine-list {
-  padding: 3rem 0 1rem 0;
+  padding: 3rem 0 1rem 0!important;
 }
 
 .col--machines {
