@@ -1,0 +1,26 @@
+{
+    "Name": "CNC Gerät 2",
+    "Description": "This is a small CNC Machine",
+    "Dimension": "50cm x 60cm",
+    "Materials": [
+        "Wood",
+        "Aluminium"
+    ],
+    "ImageUrl": "/img/150.png",
+    "Links": [
+        "http://www.google.de",
+        "http://www.amazon.de"
+    ],
+    "PersonsInCharge": [
+        "Martin1001"
+    ],
+    "Price": [
+        "20ct / h"
+    ],
+    "DetailPage": "",
+    "ProjectImages": [
+        "",
+        ""
+    ],
+    "Draft:": true
+ }
