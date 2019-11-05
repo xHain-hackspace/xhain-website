@@ -59,8 +59,8 @@ Zur Anmeldung bitte hier eintragen:
     	<input type="email" name="_replyto" title="E-Mail" required>
     </label><br>
     <label for="date">Workshop am:    
-    <input type="radio" name="date" value="December">7./8. Dezember 2019<br>
-    <input type="radio" name="date" value="January">18./19. Januar 2020<br>
+    <input type="checkbox" name="date" value="December">7./8. Dezember 2019<br>
+    <input type="checkbox" name="date" value="January">18./19. Januar 2020<br>
    	<input type="submit" value="Ja, bitte" style="background:#408e27">
 	<br>
 </form>
