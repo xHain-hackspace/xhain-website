@@ -64,6 +64,8 @@ Zur Anmeldung bitte hier eintragen:
   <option value="January">18./19. Januar 2020</option>
 </select> 
 <br>
+<br>
+<br>
    	<input type="submit" value="Ja, bitte" style="background:#408e27">
 	<br>
 </form>

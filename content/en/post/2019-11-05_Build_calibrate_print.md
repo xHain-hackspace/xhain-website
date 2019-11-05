@@ -23,17 +23,17 @@ By the end of the weekend, hold in your hand something that was designed that da
 We’ll take 2 days getting you started in 3D printing and the weekend will take place as follows program for it.
 
 **Saturday**
-*Overview of the general operation of 3D printers
-*Assembly of a 3D printer kit
-*Calibration and optimization of firmware
-*History and Future of 3D printer technologies
-*Introduction to 3D models
+- Overview of the general operation of 3D printers<br>
+- Assembly of a 3D printer kit<br>
+- Calibration and optimization of firmware<br>
+- History and Future of 3D printer technologies<br>
+- Introduction to 3D models<br>
 
 **Sunday**
-Overview of printable materials and specifications
-Test printing with the assembled 3d printer
-Troubleshooting, upgrades, maintenance and repairs
-Continued introductory guide to 3D modeling (FreeCad, Fusion360, TinkerCAD)
+- Overview of printable materials and specifications<br>
+- Test printing with the assembled 3d printer<br>
+- Troubleshooting, upgrades, maintenance and repairs<br>
+- Continued introductory guide to 3D modeling (FreeCad, Fusion360, TinkerCAD)<br>
 
 The Anycubic Kossel is what we’ll assemble, a delta-bot printer, is one with 3 vertically movable arms, which together allow the movement of the print head in all 3 axes. 
 Typically, a delta printer has a round print bed.
@@ -53,9 +53,12 @@ If you want to sign up for the workshop, please fill out this form:
     <label for="email">E-Mail:
     	<input type="email" name="_replyto" title="E-Mail" required>
     </label><br>
-    <label for="date">Workshop Date:    
-    <input type="radio" name="date" value="December">7./8. December 2019<br>
-    <input type="radio" name="date" value="January">18./19. January 2020<br>
+    <label for="date">Workshop Date:    <select>
+  <option value="December">December 7/8, 2019</option>
+  <option value="January">January 18/19, 2020</option>
+</select> 
+<br>
+<br>
     <label>Sign up
     	<input type="submit" value="Yes, please" style="background:#408e27">
 	</label><br>
