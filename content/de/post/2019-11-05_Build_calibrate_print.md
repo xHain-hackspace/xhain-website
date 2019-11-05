@@ -38,7 +38,7 @@ Wir nehmen uns 2 Tage Zeit um dir beim Einstieg in 3D-Druck zu helfen und haben 
   * Weiterführende Einführung in 3D-Modellierung (FreeCad, Fusion360)
 
 
-Zusammen gebaut wird der Anycubic Kossel, ein Delta-Printer, also ein Drucker mit 3 vertikal beweglichen Armen, welche im Zusammenspiel die Bewegung des Druckkopfs in allen 3 Achsen ermöglichen. Typischerweise hat ein Deltadrucker ein rundes Druckbett.
+Zusammengebaut wird der Anycubic Kossel, ein Delta-Printer, also ein Drucker mit 3 vertikal beweglichen Armen, welche im Zusammenspiel die Bewegung des Druckkopfs in allen 3 Achsen ermöglichen. Typischerweise hat ein Deltadrucker ein rundes Druckbett.
 Der Anycubic Kossel hat ein Bauvolumen von 23cm im Durchschnitt und bis zu 30cm Höhe. Zudem hat einen Sensor für automatisches Druckbettleveln.
 
 Wir haben bereits seit über 2 Jahren ein solches Modell im xHain und haben ihn ausgiebigst kennengelernt.
