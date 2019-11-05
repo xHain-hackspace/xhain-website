@@ -1,9 +1,10 @@
+---
 title: Build, calibrate, print! Fun with 3d-printers
 thumbnailImage: /img/kossel.jpg
 heroImage:  /img/kossel.jpg
 slug: ""
 heroCaption: ""
-date: 2019-11-04
+date: 2019-11-05
 categories:
 - news
 - events

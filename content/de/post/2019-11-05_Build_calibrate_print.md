@@ -1,9 +1,10 @@
+---
 title: Bauen, kalibrieren, drucken! Spaß mit 3D-Druckern
 thumbnailImage: /img/kossel.jpg
 heroImage:  /img/kossel.jpg
 slug: ""
 heroCaption: ""
-date: 2019-11-04
+date: 2019-11-05
 categories:
 - news
 - events
