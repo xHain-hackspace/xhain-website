@@ -61,8 +61,7 @@ Zur Anmeldung bitte hier eintragen:
     <label for="date">Workshop am:    
     <input type="radio" name="date" value="December">7./8. Dezember 2019<br>
     <input type="radio" name="date" value="January">18./19. Januar 2020<br>
-    <label>Anmelden
-    	<input type="submit" value="Ja, bitte" style="background:#408e27">
-	</label><br>
+   	<input type="submit" value="Ja, bitte" style="background:#408e27">
+	<br>
 </form>
 
