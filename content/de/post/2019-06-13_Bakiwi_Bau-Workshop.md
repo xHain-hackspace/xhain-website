@@ -4,7 +4,7 @@ thumbnailImage: /img/bakiwi.jpg
 heroImage:  /img/bakiwi.jpg
 slug: ""
 heroCaption: ""
-date: 2019-10-20
+date: 2019-06-13
 categories:
 - news
 - events
