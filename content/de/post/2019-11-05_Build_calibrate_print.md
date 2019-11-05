@@ -25,17 +25,17 @@ Am Ende des Wochenendes hast du etwas in der Hand, das an diesem Tag entworfen w
 Wir nehmen uns 2 Tage Zeit um dir beim Einstieg in 3D-Druck zu helfen und haben uns das folgende Programm dafür einfallen lassen.
 
 **Samstag**
-  * Übersicht über allgemeine Funktionsweise von 3D-Druckern
-  * Zusammenbau eines 3D-Drucker-Kits
-  * Kalibrieren und Firmware anpassen
-  * Geschichte und Zukunft von 3D-Druckern
-  * Kurze Einführung in 3D-Modellierung
+  - Übersicht über allgemeine Funktionsweise von 3D-Druckern <br>
+  - Zusammenbau eines 3D-Drucker-Kits <br>
+  - Kalibrieren und Firmware anpassen<br>
+  - Geschichte und Zukunft von 3D-Druckern<br>
+  - Kurze Einführung in 3D-Modellierung<br>
 
 **Sonntag**
-  * Übersicht über druckbare Materialien und Spezifikationen
-  * Testdrucken mit dem zusammengebauten 3d-Drucker
-  * Troubleshooting, Upgrades, Wartung und Reparaturen
-  * Weiterführende Einführung in 3D-Modellierung (FreeCad, Fusion360)
+  - Übersicht über druckbare Materialien und Spezifikationen<br>
+  - Testdrucken mit dem zusammengebauten 3d-Drucker<br>
+  - Troubleshooting, Upgrades, Wartung und Reparaturen<br>
+  - Weiterführende Einführung in 3D-Modellierung (FreeCad, Fusion360)<br>
 
 
 Zusammengebaut wird der Anycubic Kossel, ein Delta-Printer, also ein Drucker mit 3 vertikal beweglichen Armen, welche im Zusammenspiel die Bewegung des Druckkopfs in allen 3 Achsen ermöglichen. Typischerweise hat ein Deltadrucker ein rundes Druckbett.
@@ -44,8 +44,8 @@ Der Anycubic Kossel hat ein Bauvolumen von 23cm im Durchschnitt und bis zu 30cm 
 Wir haben bereits seit über 2 Jahren ein solches Modell im xHain und haben ihn ausgiebigst kennengelernt.
 
 Für den Workshop gibt es 2 Termine mit jeweils maximal 5 Teilnehmenden:
-* 7. und 8. Dezember 2019, jeweils von 12-18 Uhr
-* 18. und 19. Januar 2020, jeweils von 12-18 Uhr.
+- 7. und 8. Dezember 2019, jeweils von 12-18 Uhr<br>
+- 18. und 19. Januar 2020, jeweils von 12-18 Uhr.<br>   
 
 Die Kosten für den Workshop (2 Tage und 3D-Drucker zum mit-nach-Hause-Nehmen!) belaufen sich auf 500€.
 
@@ -59,8 +59,11 @@ Zur Anmeldung bitte hier eintragen:
     	<input type="email" name="_replyto" title="E-Mail" required>
     </label><br>
     <label for="date">Workshop am:    
-    <input type="checkbox" name="date" value="December">7./8. Dezember 2019<br>
-    <input type="checkbox" name="date" value="January">18./19. Januar 2020<br>
+     <select>
+  <option value="December">7./8. Dezember 2019</option>
+  <option value="January">18./19. Januar 2020</option>
+</select> 
+<br>
    	<input type="submit" value="Ja, bitte" style="background:#408e27">
 	<br>
 </form>
