@@ -41,6 +41,8 @@ The Anycubic Kossel has a cylindrical construction volume 23cm in diameter and 3
 
 We have had our Kossel in xHain for over 2 years and have gotten to know him extensively.
  
+The workshop including the 3D-printer to take home with you costs 500€.
+ 
 There are 2 dates for the workshop, each with a maximum of 5 participants:
 
 
