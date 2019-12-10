@@ -21,3 +21,18 @@ You’re welcome no matter who you are or what you do – whether you have a job
 
 xHain is a non-smoking place. People who want to smoke can do so outside.
 If you’re sexist, racist, homophobic or an asshole, please don’t bother coming.
+
+
+
+## Accessibility
+
+People with handicaps and disabilities are welcome! We don't have an accessibly designed bathroom yet, but a mobile ramp and our workshops  workbench is wheelchair accessible. We are constantly trying to improve in order to become a barrier-free space.
+
+<i class="fab fa-accessible-icon fa-5x"></i>
+
+
+
+## Adresse
+
+Grünberger Str. 16
+10243 Berlin
