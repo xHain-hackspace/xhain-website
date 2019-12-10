@@ -28,6 +28,17 @@ Der xHain ist ein rauchfreier Ort. Wer rauchen will, kann das draußen tun.
 Diskriminierungsformen aller Art werden bei uns nicht geduldet und führen zum sofortigem Auschluss!
 Wer also sexistisch, homophob, rassistisch, antisemitisch, rechtsextrem, altersdikriminierend, antimuslimisch, antiziganisch, chauvinistisch, heterosexistisch, ableistisch, klassistisch oder lookistisch ist braucht nicht zu kommen!
 
+
+
+## Barrierefreiheit
+
+Menschen mit handicaps bzw. disabilities sind uns willkommen! Wir haben noch kein rollstuhlgerechtes WC, aber schon eine mobile Rampe und unsere Werkbank ist unterfahrbar für Rollstühle. Wir bemühen uns stetig , weitere Barrieren abzubauen.
+
+<i class="fab fa-accessible-icon fa-5x"></i>
+
+
+
 ## Adresse
+
 Grünberger Str. 16
 10243 Berlin
