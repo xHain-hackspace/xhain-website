@@ -40,4 +40,4 @@ Unverändert ist auch, dass wir uns freuen so viele tolle Frauen bei uns zu Gast
 
 Nächsten Dienstag, 18.02., kommt die wunderbare Zara Rahman. Sie ist Forscherin, Schriftstellerin und Linguistin und wird uns (auf Englisch) etwas über digitale Identität erzählen.
 
-Wer ganz neugierig ist und nicht bis Dienstag warten kann, findet hier zwei Artikel [1] (https://thecorrespondent.com/217/yes-digital-ids-are-efficient-but-theyre-a-threat-to-our-very-identities/243616802275-e794b497) &[2] (https://thecorrespondent.com/268/we-know-whats-wrong-with-digital-identification-heres-what-works/300872364100-c78c522e) von ihr oder schaut mal auf ihrer [Webseite] (https://zararah.net) vorbei.
+Wer ganz neugierig ist und nicht bis Dienstag warten kann, findet hier zwei Artikel [1] (https://thecorrespondent.com/217/yes-digital-ids-are-efficient-but-theyre-a-threat-to-our-very-identities/243616802275-e794b497) & [2] (https://thecorrespondent.com/268/we-know-whats-wrong-with-digital-identification-heres-what-works/300872364100-c78c522e) von ihr oder schaut mal auf ihrer [Webseite] (https://zararah.net) vorbei.
