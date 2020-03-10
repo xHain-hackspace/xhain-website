@@ -25,6 +25,6 @@ Am 17.03. um 19 Uhr bereiten wir Lilli Iliev (https://twitter.com/lilliiliev) di
 Am 21.04. um 19 Uhr beehrt uns Lena Rohrbach (https://twitter.com/arte_povera) und führt uns in das Thema Technologie und Menschenrechte ein. Lena ist bei der Menschenrechtsorganisation Amnesty International für die Themen Wirtschaft, Rüstungsexportkontrolle und Digitalisierung zuständig. Sie hat Philosophie und Jura studiert, sich mit Safe Spaces im Internet befasst, bei der Kampagnenorganisation Campact gearbeitet – kurz: Lena kann vermutlich alles.
 
 
-Über diese und die weiteren Termine könnt ihr über unseren Newsletter [link bzw. Iframe?] und über unseren Twitter-Account (URL?) auf dem Laufenden bleiben.
+Über diese und die weiteren Termine könnt ihr über unseren Newsletter und über unseren Twitter-Account (https://twitter.com/xHain_hackspace) auf dem Laufenden bleiben.
 
 Wir freuen uns auf euch!
