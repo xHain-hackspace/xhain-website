@@ -18,7 +18,7 @@ Wir laden jeden 3. Dienstag im Monat um 19 Uhr eine interessante Person ein, die
 
 = März =
 
-Am 17.03. um 19 Uhr bereiten wir Lilli Iliev (https://twitter.com/lililiev) die Bühne. Lilli arbeitet tagsüber bei Wikimedia Deutschland (www.wikimedia.de) und denkt auch abends darüber nach, wie die erfolgreichste unkommerzielle Webseite der Welt weniger männerlastig werden kann. Denn die Wikipedia möchte das Wissen das Welt sammeln. Aber über welches Wissen sprechen wir eigentlich? Und wer definiert, was Wissen ist?
+Am 17.03. um 19 Uhr bereiten wir Lilli Iliev (https://twitter.com/lilliiliev) die Bühne. Lilli arbeitet tagsüber bei Wikimedia Deutschland (www.wikimedia.de) und denkt auch abends darüber nach, wie die erfolgreichste unkommerzielle Webseite der Welt weniger männerlastig werden kann. Denn die Wikipedia möchte das Wissen das Welt sammeln. Aber über welches Wissen sprechen wir eigentlich? Und wer definiert, was Wissen ist?
 
 = April =
 
