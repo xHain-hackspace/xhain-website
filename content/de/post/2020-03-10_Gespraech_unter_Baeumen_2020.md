@@ -28,3 +28,16 @@ Am 21.04. um 19 Uhr beehrt uns Lena Rohrbach (https://twitter.com/arte_povera) u
 Über diese und die weiteren Termine könnt ihr über unseren Newsletter und über unseren Twitter-Account (https://twitter.com/xHain_hackspace) auf dem Laufenden bleiben.
 
 Wir freuen uns auf euch!
+
+
+
+Anmeldung zum Newsletter:
+<form action="https://formspree.io/gub_newsletter@x-hain.de"
+      method="POST">
+    <label for="email">E-Mail:
+    	<input type="email" name="_replyto" title="E-Mail" required>
+    </label><br>
+    <label>Newsletter abonnieren
+    	<input type="submit" value="Ja, bitte" style="background:#408e27">
+	</label><br>
+</form>
