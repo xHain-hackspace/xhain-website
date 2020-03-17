@@ -5,11 +5,13 @@ showDate: false
 showPagination: false
 showSocial: false
 showTags: false
-title: Live
+title: xHain Live
 showMap: false
 aliases:
   - /live
 ---
+
+# Gespräch unter Bäumen am 17.3.2020 um 19h
 
 ## Stream
 
@@ -17,5 +19,4 @@ The livestream will appear here.
 
 ## Chat
 
-There is also a chat for the stream in our rocket chat: https://chat.x-hain.de/channel/gespraech_unter_baeumen
-The registration is open.
+There is a chat for the stream in our rocket chat(registration is open): https://chat.x-hain.de/channel/gespraech_unter_baeumen
