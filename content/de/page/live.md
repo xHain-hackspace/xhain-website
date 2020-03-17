@@ -11,7 +11,9 @@ aliases:
   - /live
 ---
 
-# Gespräch unter Bäumen am 17.3.2020 um 19h
+## Nächster Termin
+
+Gespräch unter Bäumen am 17.3.2020 um 19h
 
 ## Stream
 

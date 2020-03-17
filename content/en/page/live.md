@@ -5,13 +5,15 @@ showDate: false
 showPagination: false
 showSocial: false
 showTags: false
-title: xHain Live
+title: Live
 showMap: false
 aliases:
   - /live
 ---
 
-# Gespräch unter Bäumen am 17.3.2020 um 19h
+## Next event
+
+Gespräch unter Bäumen on 17.3.2020 at 19h
 
 ## Stream
 
