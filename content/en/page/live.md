@@ -11,7 +11,7 @@ aliases:
   - /live
 ---
 
-<iframe src="https://streaming.media.ccc.de/gub/embed/xhain/dash/native" width="1024" height="576" frameborder="none" allowfullscreen="allowfullscreen" seamless="seamless" scrolling="no"></iframe> 
+<iframe src="https://streaming.media.ccc.de/gub/embed/xhain/dash/native" width="1024" height="700" frameborder="none" allowfullscreen="allowfullscreen" seamless="seamless" scrolling="no"></iframe> 
 
 ## Next event
 
