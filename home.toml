@@ -36,6 +36,13 @@ title = "xHain hack+makespace"
 
 [[languages.de.menu.main]]
   weight = 4
+  identifier = "live"
+  name = "Live"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-life-ring\"></i>"
+  url = "/page/live"
+
+[[languages.de.menu.main]]
+  weight = 5
   identifier = "about"
   name = "Über uns"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-info\"></i>"
@@ -62,8 +69,15 @@ title = "xHain hack+makespace"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-life-ring\"></i>"
   url = "/page/support"
 
-[[languages.en.menu.main]]
+[[languages.de.menu.main]]
   weight = 4
+  identifier = "live"
+  name = "Live"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-life-ring\"></i>"
+  url = "/page/live"
+
+[[languages.en.menu.main]]
+  weight = 5
   identifier = "about"
   name = "About Us"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-info\"></i>"
