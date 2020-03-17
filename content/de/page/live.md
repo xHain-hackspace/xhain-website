@@ -11,13 +11,11 @@ aliases:
   - /live
 ---
 
+<iframe src="http://streaming.media.ccc.de/gub/embed/xhain/dash/native" width="1024" height="576" frameborder="none" allowfullscreen="allowfullscreen" seamless="seamless" scrolling="no"></iframe> 
+
 ## Nächster Termin
 
 Gespräch unter Bäumen am 17.3.2020 um 19h
-
-## Stream
-
-Der Livestream wird hier erscheinen.
 
 ## Chat
 

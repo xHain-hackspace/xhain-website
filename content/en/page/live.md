@@ -5,19 +5,17 @@ showDate: false
 showPagination: false
 showSocial: false
 showTags: false
-title: Live
+title: xHain Live
 showMap: false
 aliases:
   - /live
 ---
 
+<iframe src="http://streaming.media.ccc.de/gub/embed/xhain/dash/native" width="1024" height="576" frameborder="none" allowfullscreen="allowfullscreen" seamless="seamless" scrolling="no"></iframe> 
+
 ## Next event
 
 Gespräch unter Bäumen on 17.3.2020 at 19h
-
-## Stream
-
-The livestream will appear here.
 
 ## Chat
 
