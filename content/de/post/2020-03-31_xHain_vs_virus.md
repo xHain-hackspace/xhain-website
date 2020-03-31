@@ -34,8 +34,11 @@ Wir produzieren nicht nur, wir koordinieren auch zwischen jenen, die Masken näh
 Wenn ihr unterstützen wollt überweist uns doch gerne einen kleinen (oder größeren) Betrag. Wenn ihr Kontaktdaten in den Verwendungszweck schreibt, gibt's auch eine Spendenbescheinigung :-)
 
 Kontoinhaber: xHain hack+makespace gemeinnützige UG (haftungsbeschränkt)
+
 GLS Bank
+
 IBAN: DE72 4306 0967 1050 8465 00
+
 BIC: GENODEM1GLS
 
 ***
