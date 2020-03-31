@@ -26,7 +26,7 @@ Der Bedarf ist hoch. Aktuell haben wir bereits Anfragen für 1000 Masken erhalte
 Auf https://wiki.x-hain.de/index.php/Stoffmasken findet ihr Anleitungen, Video Tutorials, Schnittmuster und auch Hinweise zu Filtern. 
 Meldet euch bei clx[at]proto.blog wenn ihr Masken habt, die abgeholt werden sollen, neues Stoffmaterial braucht oder selbst Bedarf an Masken habt, weil ihr zu den oben genanneten Gruppen gehört.
 
-Zusammen mit dem Verstehbahnhof Berlin und der Fachhochschule Beuth arbeiten wir außerdem gerade daran, 2000 Gesichtsschilde zu produzieren.
+Zusammen mit dem Verstehbahnhof in Fürstenberg/Havel und der Fachhochschule Beuth arbeiten wir außerdem gerade daran, 2000 Gesichtsschilde zu produzieren.
 Wenn ihr 3D-Drucker, Material oder Bedarf an Faceshields habt, schickt ne Mail an faceshield[at]x-hain.de
 
 Wir produzieren nicht nur, wir koordinieren auch zwischen jenen, die Masken nähen und Schilde drucken, und denen, die diese Masken und Schilde dringend benötigen. Die Abgabe ist kostenfrei. Deshalb sammeln wir Spenden für unsere Materialkosten, also für PET Folie, Filament, Stoffe, Garn und Gummibänder.
