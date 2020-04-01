@@ -23,7 +23,7 @@ Wir MakerInnen vom xHain hack+makespace in Berlin haben uns mit UnterstützerInn
 Darüber hinaus drucken wir 3D-Gesichtsschilde aus Filament und PET-Folie, die vom Personal in Krankenhäusern verwendet werden können, um die Ansteckungsgefahr weiter zu verringern.
 
 Der Bedarf ist hoch. Aktuell haben wir bereits Anfragen für 1000 Masken erhalten. Tendenz steigend und suchen dringend NäherInnen:
-Auf https://wiki.x-hain.de/index.php/Stoffmasken findet ihr Anleitungen, Video Tutorials, Schnittmuster und auch Hinweise zu Filtern. 
+Auf http://proto.blog/ findet ihr Anleitungen, Video Tutorials, Schnittmuster und auch Hinweise zu Filtern. 
 Meldet euch bei clx[at]proto.blog wenn ihr Masken habt, die abgeholt werden sollen, neues Stoffmaterial braucht oder selbst Bedarf an Masken habt, weil ihr zu den oben genanneten Gruppen gehört.
 
 Zusammen mit dem Verstehbahnhof in Fürstenberg/Havel und der Fachhochschule Beuth arbeiten wir außerdem gerade daran, 2000 Gesichtsschilde zu produzieren.
