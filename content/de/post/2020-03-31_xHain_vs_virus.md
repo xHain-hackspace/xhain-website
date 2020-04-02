@@ -24,7 +24,7 @@ Darüber hinaus drucken wir 3D-Gesichtsschilde aus Filament und PET-Folie, die v
 
 Der Bedarf ist hoch. Aktuell haben wir bereits Anfragen für 1000 Masken erhalten. Tendenz steigend und suchen dringend NäherInnen:
 Auf http://masken.berlin/ findet ihr Anleitungen, Video Tutorials, Schnittmuster und auch Hinweise zu Filtern. 
-Meldet euch bei clx[at]proto.blog wenn ihr Masken habt, die abgeholt werden sollen, neues Stoffmaterial braucht oder selbst Bedarf an Masken habt, weil ihr zu den oben genanneten Gruppen gehört.
+Dort findet ihr alle Infos und auch Kontaktmöglichkeiten dazu, wie ihr uns unterstützen könnt.
 
 Zusammen mit dem Verstehbahnhof in Fürstenberg/Havel und der Fachhochschule Beuth arbeiten wir außerdem gerade daran, 2000 Gesichtsschilde zu produzieren.
 Wenn ihr 3D-Drucker, Material oder Bedarf an Faceshields habt, schickt ne Mail an faceshield[at]x-hain.de
