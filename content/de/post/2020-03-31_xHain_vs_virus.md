@@ -26,7 +26,7 @@ Der Bedarf ist hoch. Aktuell haben wir bereits Anfragen für 1000 Masken erhalte
 Auf http://masken.berlin/ findet ihr Anleitungen, Video Tutorials, Schnittmuster und auch Hinweise zu Filtern. 
 Dort findet ihr alle Infos und auch Kontaktmöglichkeiten dazu, wie ihr uns unterstützen könnt.
 
-Zusammen mit dem Verstehbahnhof in Fürstenberg/Havel und der Fachhochschule Beuth arbeiten wir außerdem gerade daran, 2000 Gesichtsschilde zu produzieren.
+Zusammen mit dem Verstehbahnhof in Fürstenberg/Havel, der Fachhochschule Beuth und vielen mehr arbeiten wir außerdem gerade daran, 5000 Gesichtsschilde zu produzieren.
 Wenn ihr 3D-Drucker, Material oder Bedarf an Faceshields habt, schickt ne Mail an faceshield[at]x-hain.de
 
 Wir produzieren nicht nur, wir koordinieren auch zwischen jenen, die Masken nähen und Schilde drucken, und denen, die diese Masken und Schilde dringend benötigen. Die Abgabe ist kostenfrei. Deshalb sammeln wir Spenden für unsere Materialkosten, also für PET Folie, Filament, Stoffe, Garn und Gummibänder.
