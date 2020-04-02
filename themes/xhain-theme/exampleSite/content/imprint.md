@@ -7,11 +7,11 @@ keywords = ["legal"]
 # Imprint
 
 ## Angaben gemäß § 5 TMG und § 55 Abs. 2 RStV
-Ansgar Schmidt<br>
-Strasse der Pariser Kommune 23<br>
-10243 Berlin, Europe<br>
-E-Mail: impressum@emsn.eu<br>
-Website: https://www.emsn.eu<br>
+xHain hack+makespace gemeinnützige UG (haftungsbeschränkt) i. Gr.</br>
+Geschäftsführer: Felix Just</br>
+Grünberger Str. 16</br>
+10243 Berlin</br>
+Deutschland
 
 ## Haftung für Inhalte
 <p>
