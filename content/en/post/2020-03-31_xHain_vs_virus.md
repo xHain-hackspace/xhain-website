@@ -20,7 +20,7 @@ DIY cloth masks are needed by caretakers and people who work in hospitals and do
 
 Makers of xHain hack+makespace in Berlin are collaborating with supporters and are sewing DIY masks out of cloth. Furthermore, we are 3D printing PET face shields, an additional protection for healthcare workers and patients.
 
-The demand is high, as of now we have received requests for at least 1000 masks. We're looking for people to sew: you can find instructions, video tutorials, patterns for DIY masks and pointers to filters here: https://masken.berlin . There you'll find instructions and contacts if you have masks that need to be collected or if you are in any of the previously mentioned groups and need cloth / textiles or masks yourself.
+The demand is high, as of now we have received requests for at least 1000 masks. We're looking for people to sew: you can find instructions, video tutorials, patterns for DIY masks and pointers to filters here: http://masken.berlin . There you'll find instructions and contacts if you have masks that need to be collected or if you are in any of the previously mentioned groups and need cloth / textiles or masks yourself.
 
 Together with "Verstehbahnhof in Fürstenberg/Havel" and "Fachhochschule Beuth" and many more we are working on producing 5000 face shields. In case you have a 3D printer, spare material or are in need of a face shield, please contact faceshield[at]x-hain.de
 
