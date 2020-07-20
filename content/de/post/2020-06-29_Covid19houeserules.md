@@ -37,5 +37,5 @@ Die oben genannten Regeln gelten weiter. Nur im Aussenbereich ist keine Maske er
 
 
 = Nachtrag =
-In einer früheren Variante hat die Lizenz des genutzten Bildes gefehlt.
+In einer früheren Version dieses Blogpost hat die Quelle und die Lizenz des genutzten Bildes gefehlt.
 Wir entschuldigen uns bei Marco Verch.
