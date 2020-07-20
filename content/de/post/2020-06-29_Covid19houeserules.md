@@ -3,8 +3,7 @@ title: xHain vs. Virus - space rules
 thumbnailImage: /img/houserules.jpg
 heroImage:  /img/houserules.jpg
 slug: ""
-heroCaption: " 
-Marco Verch - Decoration HOUSE Rules via (https://www.flickr.com/photos/30478819@N08/37028529186/) ([CC-BY 2.0](https://creativecommons.org/licenses/by/2.0/))"
+heroCaption: "Marco Verch - Decoration HOUSE Rules via (https://www.flickr.com/photos/30478819@N08/37028529186/) ([CC-BY 2.0](https://creativecommons.org/licenses/by/2.0/))"
 date: 2020-06-29
 categories:
 - news
@@ -38,5 +37,5 @@ Die oben genannten Regeln gelten weiter. Nur im Aussenbereich ist keine Maske er
 
 
 = Nachtrag =
-In einer früheren Variante hat die Lzenz des genutzten Bildes gefehlt.
+In einer früheren Variante hat die Lizenz des genutzten Bildes gefehlt.
 Wir entschuldigen uns bei Marco Verch.
