@@ -10,17 +10,20 @@ heroImage: /img/gespraechunterbaeumen.jpg
 ---
 
 ## Angaben gemäß § 5 Telemediengesetz (TMG)
-xHain hack+makespace gemeinnützige UG (haftungsbeschränkt) i. Gr.</br>
+xHain hack+makespace gemeinnützige UG (haftungsbeschränkt)</br>
 Geschäftsführer: Felix Just</br>
 Grünberger Str. 16</br>
 10243 Berlin</br>
-Deutschland
+Deutschland</br>
+</br>
+Steuer-Nr.: 27/612/07371</br> 
+Handelsregister-Nr. HRB: 216726</br>
 
 ## Kontakt
 [info@x-hain.de](mailto:info@x-hain.de)
 
 ## Verantwortlicher für den Inhalt ist gemäß § 55 Abs. 2 Rundfunkstaatsvertrag (RStV)
-xHain hack+makespace gemeinnützige UG (haftungsbeschränkt) i. Gr.</br>
+xHain hack+makespace gemeinnützige UG (haftungsbeschränkt)</br>
 Geschäftsführer: Felix Just</br>
 Grünberger Str. 16</br>
 10243 Berlin</br>
