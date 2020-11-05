@@ -140,6 +140,14 @@ title = "xHain hack+makespace"
   pre = "<i class='fab fa-rocketchat fa-inverse'></i>"
   url = "https://chat.x-hain.de/home"
 
+[[languages.en.menu.second]]
+  weight = 5
+  identifier = "wiki"
+  name = "RocketChat"
+  pre = "<i class='fab fa-rocketchat fa-inverse'></i>"
+  url = "https://wiki.x-hain.de/"
+
+
 # Recent Post
 [languages.de.params.recent_posts_intro]
 enable = true
