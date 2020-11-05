@@ -143,8 +143,8 @@ title = "xHain hack+makespace"
 [[languages.en.menu.second]]
   weight = 5
   identifier = "wiki"
-  name = "RocketChat"
-  pre = "<i class='fab fa-rocketchat fa-inverse'></i>"
+  name = "Wiki"
+  pre = "<i class='fab fa-wikijs fa-inverse'></i>"
   url = "https://wiki.x-hain.de/"
 
 
