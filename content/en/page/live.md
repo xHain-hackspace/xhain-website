@@ -1,6 +1,6 @@
 ---
 comments: false
-date: 2020-03-17
+date: 2020-12-27
 showDate: false
 showPagination: false
 showSocial: false
@@ -11,12 +11,8 @@ aliases:
   - /live
 ---
 
-<iframe src="https://streaming.media.ccc.de/gub/embed/xhain/dash/native" width="1024" height="700" frameborder="none" allowfullscreen="allowfullscreen" seamless="seamless" scrolling="no"></iframe> 
+<iframe src="https://streaming.test.c3voc.de/rc3/xhain" width="1024" height="700" frameborder="none" allowfullscreen="allowfullscreen" seamless="seamless" scrolling="no"></iframe> 
 
-## Next event
+## rC3
 
-Gespräch unter Bäumen on 17.3.2020 at 19h
-
-## Chat
-
-There is a chat for the stream in our rocket chat(registration is open): https://chat.x-hain.de/channel/gespraech_unter_baeumen
+This is our rC3 channel
