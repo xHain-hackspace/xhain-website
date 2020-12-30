@@ -15,7 +15,7 @@ aliases:
 
 ## rC3
 
-Hier ist unser rC3 Channel<br>
+Hier ist unser rC3 Channel.<br><br>
 Alternativ könnt ihr auch hier klicken:<br>
-xHain Stream: https://streaming.media.ccc.de/rc3/xhain <br>
-Test-Streaming Link: https://streaming.test.c3voc.de/rc3/xhain
+- Hain Stream: https://streaming.media.ccc.de/rc3/xhain <br>
+- Test-Streaming Link: https://streaming.test.c3voc.de/rc3/xhain
