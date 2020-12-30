@@ -14,8 +14,10 @@ aliases:
 <iframe src="https://streaming.test.c3voc.de/rc3/embed/xhain/dash/native" width="1024" height="576" frameborder="none" allowfullscreen="allowfullscreen" seamless="seamless" scrolling="no"></iframe>
 
 ## rC3
-
 Hier ist unser rC3 Channel.<br><br>
-Alternativ könnt ihr auch hier klicken:<br>
+Alternativ könnt ihr auch hier klicken zum zuschauen:<br>
 - xHain Stream: https://streaming.media.ccc.de/rc3/xhain <br>
 - Test-Streaming Link: https://streaming.test.c3voc.de/rc3/xhain
+
+## Maskenball 
+Tanzt mit im Maskenball Jitsi Audience auf https://meet.x-hain.de/Maskenball
