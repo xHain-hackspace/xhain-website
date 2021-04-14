@@ -1,7 +1,7 @@
 ---
 title: Girls'Day mit xHain
-thumbnailImage: /img/Girlsday.JPG
-heroImage:  /img/Girlsday.JPG
+thumbnailImage: /img/bristlebot2.jpg
+heroImage:  /img/bristlebot2.jpg
 slug: ""
 heroCaption: ""
 date: 2021-04-14
@@ -25,5 +25,5 @@ Kosten tut das alles nix, aber wir wehren uns nicht gegen kleine Spenden ;-)
 
 
 <video width="640" height="480" controls>
-  <source src="bristlebot.mp4" type="video/mp4">
+  <source src="/img/bristlebot2.mp4" type="video/mp4">
 </video>
