@@ -24,9 +24,7 @@ Wir möchten mit dem xHain einen Ort schaffen, an dem sich Bastler\*innen, Techn
 Damit sind nicht nur Berufstätige, sondern auch Schüler\*innen, Senior\*innen, Menschen in der Ausbildung oder jene die erwerbslos sind gemeint.
 
 Der xHain ist ein rauchfreier Ort. Wer rauchen will, kann das draußen tun.
-
-Diskriminierungsformen aller Art werden bei uns nicht geduldet und führen zum sofortigem Auschluss!
-Wer also sexistisch, homophob, rassistisch, antisemitisch, rechtsextrem, altersdikriminierend, antimuslimisch, antiziganisch, chauvinistisch, heterosexistisch, ableistisch, klassistisch oder lookistisch ist braucht nicht zu kommen!
+Wer ein Arschloch ist, z.B. sexistisch, rassistisch, oder homophob, braucht nicht zu kommen.
 
 
 

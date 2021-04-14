@@ -20,7 +20,7 @@ We want to create a place where makers, people who are interested in tech, and (
 You’re welcome no matter who you are or what you do – whether you have a job or not, whether you’re a trainee or a student, a single parent or a senior citizen.
 
 xHain is a non-smoking place. People who want to smoke can do so outside.
-If you’re sexist, racist, homophobic or an asshole, please don’t bother coming.
+If you’re an asshole, e.g. sexist, racist, or homophobic, please don’t bother coming.
 
 
 
