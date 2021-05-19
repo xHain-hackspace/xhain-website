@@ -23,11 +23,14 @@ Am 21. ab 18h werden wir ein Openair offenen Abend machen. Die Indoor-Nutzung de
 
 Natürlich machen wir uns nun schon eine Weile Gedanken wie die "Wiederbelebung" des xhains nach der Pandemie vonstatten gehen soll.
 Einseits haben wir seit dem Lockdown eine Menge neues, tolles Zeug angeschafft, das aber leider teilweise nicht mehr ganz so uneingeschränkt benutzt werden kann, sondern eine Einweisung in die jeweilige Maschine erforderlich macht. Wir haben zum Beispiel im Keller eine Band- und eine Tischkreissäge, das ist super, allerdings kann man sich, bei unsachgemäßer Verwendung, auch ernsthaft wehtun, wenn nicht sogar umbringen. Insofern werden ALLE eine Führung bekommen.
+
 Andererseits müssen wir uns pandemie-bedingt an zahlreiche Vorschriften und Beschränkungen halten - dafür haben wir uns ein Hygienekonzept für Veranstaltungen im xHain einfallen lassen. Ihr findet das komplette hier: https://wiki.x-hain.de/de/xHain/hygiene-konzept .
+
 Wir werden es - je nach Entwicklung der Vorschriften - anpassen, für jetzt sind die wichtigsten Punkte:
 - Betreten des xHain nur für Toilettenbesuche und Führungen
-- Betreten nur mit FFP2-Maske und aktuellem, negativen Schnelltest. Selbsttests vor Ort sind auch okay, aber denkt bitte dran, dann muss wieder jemand ein Auge drauf haben, dass ihr das vorschriftsmäßig macht, insofern klickt euch doch einfach im Testcenter am Berghain (Wriezener
-Carree, https://berlin.meincoronaschnelltest.de/ ) einen Termin.
+
+- Betreten nur mit FFP2-Maske und aktuellem, negativen Schnelltest. Selbsttests vor Ort sind auch okay, aber denkt bitte dran, dann muss wieder jemand ein Auge drauf haben, dass ihr das vorschriftsmäßig macht, insofern klickt euch doch einfach im Testcenter am Berghain (Wriezener Carree, https://berlin.meincoronaschnelltest.de/ ) einen Termin.
+
 - wer sich nicht dran hält, muss gehen
 
 
@@ -36,4 +39,5 @@ Führungen werden wir in kleineren Gruppen machen, mit Lüftungspausen dazwische
 Wir freuen uns unheimlich auf Freitag und auf euch!
 
 Liebe Grüße
+
 Inés, Björn und Felix
