@@ -13,6 +13,7 @@ build:
     - public_html
   only:
   - master
+  - staging
 
 deploy:
   stage: deploy
