@@ -35,6 +35,7 @@ deploy_staging:
     - chmod 700 id_rsa
     - mkdir "${HOME}/.ssh"
     - echo "${SSH_HOST_KEY}" > "${HOME}/.ssh/known_hosts"
+    - ls -l id_rsa
     - rsync -hrvz --delete --exclude=_ -e 'ssh -vi id_rsa -p 22' public_html/ "${SSH_USER_HOST_LOCATION}"
   only:
     - staging
