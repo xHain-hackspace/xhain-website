@@ -31,11 +31,10 @@ deploy_staging:
   stage: deploy
   image: dinofizz/rsync-ssh
   script:
-    - echo "${SSH_PRIVATE_KEY}" > id_rsa
+    - echo "${SSH_PRIVATE_KEY_STAGING}" > id_rsa
     - chmod 700 id_rsa
     - mkdir "${HOME}/.ssh"
     - echo "${SSH_HOST_KEY}" > "${HOME}/.ssh/known_hosts"
-    - ls -l id_rsa
-    - rsync -hrvz --delete --exclude=_ -e 'ssh -vi id_rsa -p 22' public_html/ "${SSH_USER_HOST_LOCATION}"
+    - rsync -hrvz --delete --exclude=_ -e 'ssh -vi id_rsa -p 22' public_html/ "${SSH_USER_HOST_LOCATION_STAGING}"
   only:
     - staging
