@@ -1,4 +1,4 @@
-baseurl = "https://x-hain.de"
+baseurl = "https://staging.x-hain.de"
 title = "xHain hack+makespace"
 theme = "xhain-theme"
 themesDir = "themes/"
