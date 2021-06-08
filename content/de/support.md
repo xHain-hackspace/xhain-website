@@ -12,7 +12,7 @@ Mitglieder sind das Herz unseres Spaces. Üblicherweise spenden Member 13,37 €
 
 Ihr könnt entweder das Formular verwenden oder uns einfach eine Mail mit den nötigen Angaben schicken. Danach erhaltet ihr per Mail eine Kontonummer und den Verwendungszweck für die Einrichtung eines Dauerauftrags.
 
-<form action="https://formspree.io/signup@x-hain.de" method="POST">
+<form action="https://moped.x-hain.de/public/members/signup" method="POST">
   <label for="Name">Name:
     <input type="text" name="name" title="Name" required>
   </label>

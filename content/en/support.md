@@ -12,7 +12,7 @@ Members are the heart of our space. Typically, members donate €13.37 or more p
 
 You can either use the form or just send us an email with the necessary information. After that you will receive an email with our account number and your reference information for setting up a standing order.
 
-<form action="https://formspree.io/signup@x-hain.de" method="POST">
+<form action="https://moped.x-hain.de/public/members/signup" method="POST">
     <label for="Name">name:
     	<input type="text" name="Name" title="name" required>
     </label>
