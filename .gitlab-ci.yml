@@ -31,7 +31,7 @@ deploy_staging:
   stage: deploy
   image: dinofizz/rsync-ssh
   script:
-    - echo "${SSH_PRIVATE_KEY_STAGING}" > id_rsa
+    - echo "${SSH_PRIVATE_KEY}" > id_rsa
     - chmod 700 id_rsa
     - mkdir "${HOME}/.ssh"
     - echo "${SSH_HOST_KEY}" > "${HOME}/.ssh/known_hosts"
