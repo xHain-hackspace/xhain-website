@@ -20,7 +20,7 @@ Ihr könnt entweder das Formular verwenden oder uns einfach eine Mail mit den n�
     <input type="email" name="email" title="Email" required>
   </label>
   <label for="amount">Betrag:
-    <input type="number" name="amount" title="Betrag" value="13.37" required>
+    <input type="number" name="amount" title="Betrag" value="13.37" step="any" required>
   </label>
   <input type="submit" value="Werde Unterstützer:in">
 </form>

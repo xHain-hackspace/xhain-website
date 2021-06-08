@@ -20,7 +20,7 @@ You can either use the form or just send us an email with the necessary informat
     	<input type="email" name="_replyto" title="email" required>
     </label>
     <label for="amount">amount:
-    	<input type="text" name="amount" title="amount" value="13.37" required>
+    	<input type="text" name="amount" title="amount" value="13.37" step="any" required>
     </label>
   	<input type="submit" value="Become a supporter">
 </form>
