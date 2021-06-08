@@ -8,10 +8,4 @@ showTags: false
 title: Calendar
 ---
 
-<ul id="events-upcoming" style="list-style-type: none;margin:0 ;padding:0">
-</ul>
-
-<ul id="events-past">
-</ul>
-
-<div id='calendar'></div>
+<iframe width="400" height="900" src="https://files.x-hain.de/index.php/apps/calendar/embed/MgYNoHeGjcPDPJnr/dayGridWeek/now"></iframe>

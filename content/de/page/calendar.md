@@ -8,4 +8,4 @@ showTags: false
 title: Kalender
 ---
 
-<iframe width="400" height="900" src="https://files.x-hain.de/index.php/apps/calendar/embed/MgYNoHeGjcPDPJnr"></iframe>
+<iframe width="400" height="900" src="https://files.x-hain.de/index.php/apps/calendar/embed/MgYNoHeGjcPDPJnr/dayGridWeek/now"></iframe>
