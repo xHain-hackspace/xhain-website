@@ -5,37 +5,37 @@ build:
   stage: build
   image: jojomi/hugo:0.56
   script:
-  - hugo version
-  - git submodule update --init --recursive
-  - hugo -d public_html --config config.toml,home.toml --cleanDestinationDir
+    - hugo version
+    - git submodule update --init --recursive
+    - hugo -d public_html --config config.toml,home.toml --cleanDestinationDir
   artifacts:
     paths:
-    - public_html
+      - public_html
   only:
-  - master
-  - staging
+    - master
+    - staging
 
 deploy:
   stage: deploy
   image: dinofizz/rsync-ssh
   script:
-  - echo "${SSH_PRIVATE_KEY}" > id_rsa
-  - chmod 700 id_rsa
-  - mkdir "${HOME}/.ssh"
-  - echo "${SSH_HOST_KEY}" > "${HOME}/.ssh/known_hosts"
-  - rsync -hrvz --delete --exclude=_ -e 'ssh -vi id_rsa -p 22' public_html/ "${SSH_USER_HOST_LOCATION}"
+    - echo "${SSH_PRIVATE_KEY}" > id_rsa
+    - chmod 700 id_rsa
+    - mkdir "${HOME}/.ssh"
+    - echo "${SSH_HOST_KEY}" > "${HOME}/.ssh/known_hosts"
+    - rsync -hrvz --delete --exclude=_ -e 'ssh -vi id_rsa -p 22' public_html/ "${SSH_USER_HOST_LOCATION}"
   only:
-  - master
-
+    - master
 
 deploy_staging:
   stage: deploy
   image: dinofizz/rsync-ssh
   script:
-  - echo "${SSH_PRIVATE_KEY_STAGING}" > id_rsa
-  - chmod 700 id_rsa
-  - mkdir "${HOME}/.ssh"
-  - echo "${SSH_HOST_KEY}" > "${HOME}/.ssh/known_hosts"
-  - rsync -hrvz --delete --exclude=_ -e 'ssh -vi id_rsa -p 22' public_html/ "${SSH_USER_HOST_LOCATION_STAGING}"
+    - echo "${SSH_PRIVATE_KEY_STAGING}" > id_rsa
+    - chmod 700 id_rsa
+    - mkdir "${HOME}/.ssh"
+    - echo "${SSH_HOST_KEY}" > "${HOME}/.ssh/known_hosts"
+    - echo "${SSH_USER_HOST_LOCATION_STAGING}"
+    - rsync -hrvz --delete --exclude=_ -e 'ssh -vi id_rsa -p 22' public_html/ "${SSH_USER_HOST_LOCATION_STAGING}"
   only:
-  - staging
+    - staging
