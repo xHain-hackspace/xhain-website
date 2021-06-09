@@ -7,7 +7,7 @@ draft: false
 **Willkommen im xHain: Hack- & Makespace im Herzen von Friedrichshain, Bastelstube für Technikinteressierte + Raum für Netzpolitisches.**
 
 **Offener Montag Abend**: Komm vorbei, schnupper rein und mach mit! Immer Montags ab 17h bis spät in die Nacht in der Grünberger Str. 16, 10243 Berlin.<br>
-Aktuelles zu Covid19: Offene Abende findet seit dem 24.5.21 wieder statt, allerdings nur draußen. Bitte lies dazu unser <a href="https://wiki.x-hain.de/de/xHain/hygiene-konzept" target="_blank">Hygiene-Konzept</a>.
+Aktuelles zu Covid19: Offene Abende finden seit dem 24.5.21 wieder statt, allerdings nur draußen. Bitte lies dazu unser <a href="https://wiki.x-hain.de/de/xHain/hygiene-konzept" target="_blank">Hygiene-Konzept</a>.
 
 ![](/images/space-map.png)
 
