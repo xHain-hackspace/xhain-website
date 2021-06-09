@@ -34,9 +34,9 @@ Du kannst entweder das Formular verwenden, die Daten werden über formspree.com 
 ## Spendenkonto
 Wenn ihr uns unterstützen wollt überweist uns doch gerne einen kleinen (oder größeren) Betrag auf folgendes Konto:
 
-Kontoinhaber: xHain hack+makespace gemeinnützige UG (haftungsbeschränkt)
-GLS Bank
-IBAN: DE72 4306 0967 1050 8465 00
+Kontoinhaber: xHain hack+makespace gemeinnützige UG (haftungsbeschränkt)<br>
+GLS Bank<br>
+IBAN: DE72 4306 0967 1050 8465 00<br>
 BIC: GENODEM1GLS
 
 Wenn ihr Kontaktdaten in den Verwendungszweck schreibt, gibt’s auch eine Spendenbescheinigung! :)
