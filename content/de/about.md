@@ -14,10 +14,10 @@ Ein Ort im Kiez, der sich für Austausch, gegenseitige Schulung und gute Laune e
 **Zwischendurch:** Ein Tagungsraum oder temporärer Schreibtisch für bürolose Friedrichshainer:innen.
 
 
-## Die Nutzer\*innen
+## Die Nutzer:innen
 
 Wir möchten mit dem xHain einen Ort schaffen, an dem sich Bastler\*innen, Technikinteressierte und (Gesellschafts-)hacker\*innen wohl fühlen.
-Damit sind nicht nur Berufstätige, sondern auch Schüler\*innen, Senior\*innen, Menschen in der Ausbildung oder jene die erwerbslos sind gemeint.
+Damit sind nicht nur Berufstätige, sondern auch Schüler:innen, Senior:innen, Menschen in der Ausbildung oder jene die erwerbslos sind gemeint.
 
 Der xHain ist ein rauchfreier Ort. Wer rauchen will, kann das draußen tun.
 Wer ein Arschloch ist, z.B. sexistisch, rassistisch, oder homophob, braucht nicht zu kommen.
