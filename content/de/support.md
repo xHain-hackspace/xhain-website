@@ -4,22 +4,16 @@ date: 2017-03-30
 showMap: false
 draft: false
 ---
+Der xHain finanziert sich hauptsächlich aus den Mitgliedsbeiträgen, aber auch einmalige Spenden sind natürlich immer willkommen und helfen uns unseren Space weiterzugestalten.
 
-Es gibt verschiedene Möglichkeiten, den xHain Hackspace zu unterstützen. Da wir gerade erst in der Anfangs- und Aufbauphase sind, könnt ihr vor allem mit zwei Dingen helfen: Zeit und Geld.
+## Mitglied werden
+Wir werden oft danach gefragt, wie das mit der Mitliedschaft so ist. Der xHain unterscheidet sich von den meisten anderen Hackspaces insofern, daß er ein offener Space ist und du bei uns kein Mitglied sein musst um vorbei zu kommen und Spaß mit uns zu haben. Aber natürlich freuen wir uns über Spenden und Mitgliedschaften, die uns unterstützen und finanzieren.
 
-## Vorbeikommen
+Als Nicht-Mitglied hast du nur an offenen Montagen, öffentlichen Events oder Meetups Zugang zum xHain. Ausserdem unterscheiden sich bei manchen Werkzeugen/Maschinen die Nutzungspreise (z.B. bei unserem Lasercutter). Als Mitglied kannst du nach 3 Monaten Zugang zur xDoor beantragen, wodurch dir der xHain 24/7 zur Verfügung steht.
 
-Komm’ vorbei und hilf mit! Es gibt immer noch Regale und Tische zu bauen, ein Bad zu tapezieren, Sitzgelegenheiten zu lackieren, ein Kabelbaum zu bauen, Jalousien anzubringen, und so weiter. Jede helfende Hand ist herzlich willkommen! Schreib bei Interesse eine kurze Mail an Felix (<a href="mailto:info@x-hain.de">info@x-hain.de</a>) oder ping uns auf Twitter an <a href="https://twitter.com/xHain_hackspace">@xhain_hackspace</a>.
+Die Mitgliedschaft umfasst eine monatliche Mindestspende ab 13.37€ oder mehr und gilt natürlich erst ab dem ersten Zahlungseingang. Du bekommst einen zufälligen Baumnamen zugewiesen, den du bitte in der Überweisung als Verwendungszweck einträgst und an unser xHain-Konto überweist. Die Kontonummer erhälst du nach der Anmeldung per Mail.
 
-## Support-FlatRate
-
-Wenn du es für richtig und wichtig hältst, dass es in Friedrichshain einen Hackspace gibt, dann unterstütze uns!
-Die Support-Flatrate kostet ab 13.37 Euro im Monat. Dafür gibt es Rabatte und Vergünstigungen bei allem, was wir in Zukunft an (Gegen-)Wert schaffen. In Planung sind T-Shirts, Workshops, Weiterbildungen, 3D-Drucksachen und vieles mehr. Für die Unterstützenden ist darüber hinaus die Nutzung der vorhandenen Werkzeuge und Geräte (3D-Drucker u.ä.) umsonst.
-Sollte dir der Betrag finanziell nicht möglich sein, sprich uns bitte an, wir finden schon eine Lösung.
-Natürlich ist es auch möglich, uns mit mehr als 13,37 Euro im Monat zu unterstützen. Ein solcher Soli würde dann denjenigen zugute kommen, die sich die Support-Flatrate nicht leisten können.
-Der Betrieb eines Hackspaces kostet Geld: Miete, Strom, Internet und so weiter. Alle Einnahmen aus der Support-Flatrate werden zur Zahlung der laufenden Kosten genutzt. Sollten diese Einnahmen die laufenden Kosten überschreiten, werden von den Überschüssen weitere Geräte und Werkzeuge angeschafft, die den Hackspace nach und nach in eine 1a Anlaufstelle für alle Technikinteressierten in Friedrichshain verwandeln.
-
-Du kannst entweder das Formular verwenden, die Daten werden über formspree.com übertragen - oder du schickst einfach eine Mail mit den nötigen Angaben.
+Du kannst entweder das Formular verwenden, die Daten werden über formspree.com übertragen - oder du schickst uns einfach eine Mail mit den nötigen Angaben.
 
 <form action="https://formspree.io/signup@x-hain.de"
       method="POST">
@@ -37,10 +31,15 @@ Du kannst entweder das Formular verwenden, die Daten werden über formspree.com 
 	</label>
 </form>
 
+## Spendenkonto
+Wenn ihr uns unterstützen wollt überweist uns doch gerne einen kleinen (oder größeren) Betrag auf folgendes Konto:
+
+Kontoinhaber: xHain hack+makespace gemeinnützige UG (haftungsbeschränkt)
+GLS Bank
+IBAN: DE72 4306 0967 1050 8465 00
+BIC: GENODEM1GLS
+
+Wenn ihr Kontaktdaten in den Verwendungszweck schreibt, gibt’s auch eine Spendenbescheinigung! :)
+
 ## Raum mieten
-
 Du kannst den xHain außerdem als Tagungsort oder Raum für Veranstaltungen mieten. Fette Geburtstagsparties gehen leider nicht, aber wenn du einen Workshop planst, einen unkonventionelleren Sitzungsort suchst, deinen Film vorführen willst oder in kreativer Umgebung deine Fan Fiction voran bringen willst, dann kontaktiere uns, und wir klären die Details.
-
-## Sachspenden
-
-Wenn eure Laserfräsen, Lötstationen, 3D-Drucker, Schraubenzieher, Arduinos, Raspberry Pis, rad1o badges oder Webcams im Keller verstauben: Her damit! Wir bieten deinen alten, aber funktionstüchtigen Gerätschaften und Spielzeugen gern ein neues Zuhause.
