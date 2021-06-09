@@ -9,9 +9,9 @@ Ein Ort im Kiez, der sich für Austausch, gegenseitige Schulung und gute Laune e
 
 **Tagsüber:** Ein Lernort für Projekt- und Schülergruppen.
 
-**Abends:** Ein Treffpunkt für Hacker\*innen und Bastler\*innen.
+**Abends:** Ein Treffpunkt für Hacker:innen und Bastler:innen.
 
-**Zwischendurch:** Ein Tagungsraum oder temporärer Schreibtisch für bürolose Friedrichshainer\*innen.
+**Zwischendurch:** Ein Tagungsraum oder temporärer Schreibtisch für bürolose Friedrichshainer:innen.
 
 
 ## Die Nutzer\*innen
