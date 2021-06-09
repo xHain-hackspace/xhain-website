@@ -23,3 +23,5 @@ Are you unsure if xHain is the right place for you? No matter if you're a hacker
 ![](/images/xHain_xRoots.png)
 
 Concerns about "not belonging", not being a hacker or maker (yet) or having special needs should not prevent you from feeling comfortable with us. Even if you are introverted or shy, most of the members are friendly folk you can easily talk to at any time. If you are looking for a personal contact, simply contact an <a href="https://wiki.x-hain.de/en/xHain/xRoots" target="_blank">xRoots</a> mentor in our chat.
+
+Find us here:
