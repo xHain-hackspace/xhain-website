@@ -11,10 +11,10 @@
     "contact": {
         "phone": "+49221596194246",
         "twitter": "@xhain_hackspace",
-        "email": "x-hain@posteo.de",
+        "email": "info@x-hain.de",
         "sip": "4246@hg.eventphone.de",
         "chat": "https://chat.x-hain.de",
-        "issue_mail": "x-hain@posteo.de"
+        "issue_mail": "info@x-hain.de"
     },
     "issue_report_channels": [
         "issue_mail",

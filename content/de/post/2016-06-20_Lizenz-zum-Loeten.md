@@ -24,7 +24,7 @@ solltest mal endlich löten lernen? Hier ist die Gelegenheit! Bring Deine defekt
 Am Sonntag, den 26. Juni 2016 von 12-15 Uhr im xhain Hack- und Makespace
 
 <!--more-->
-Um <a href="mailto:x-hain@posteo.de">Anmeldung</a> wird gebeten.
+Um <a href="mailto:info@x-hain.de">Anmeldung</a> wird gebeten.
 
 Unkostenbeitrag 7.50, für SupportFlatrate-Abonnenten 5.- (für den Betrieb und Erhalt des xHains).
 Material kann bei Bedarf auch vor Ort erworben werden.

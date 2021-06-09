@@ -36,6 +36,6 @@ Schaut doch mal in’s Pad, vielleicht habt ihr ja Zeit und Lust ein wenig zu he
 Wenn es Freiwillige gibt, bitte
 
 1.  Fragezeichen durch Namen austauschen und danach
-2.  kurze Mail an Felix (x-hain@posteo.de) oder per Twitter an @xHain_Hackspace.
+2.  kurze Mail an Felix (info@x-hain.de) oder per Twitter an @xHain_Hackspace.
 
 Danke für eure Hilfe! <3

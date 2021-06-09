@@ -21,7 +21,7 @@ Torn plugs, broken lights , disintegrating Arduino projects , devices with batte
 On Sunday , June 26, 2016 12-15 PM at the xHain hack+makespace
 
 <!--more-->
-<a href="mailto:x-hain@posteo.de"> registration </a> would be nice.
+<a href="mailto:info@x-hain.de"> registration </a> would be nice.
 
 Costs: 7.50, for Support Flatrate subscribers 5.- ( for the operation and maintenance of the xHain ) .
 If needed material can be purchased locally.

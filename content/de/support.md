@@ -11,7 +11,7 @@ title: Unterstützendes
 Es gibt verschiedene Möglichkeiten, den xHain Hackspace zu unterstützen. Da wir gerade erst in der Anfangs- und Aufbauphase sind, könnt ihr vor allem mit zwei Dingen helfen: Zeit und Geld.
 
 ## Vorbeikommen
-Komm’ vorbei und hilf mit! Es gibt immer noch Regale und Tische zu bauen, ein Bad zu tapezieren, Sitzgelegenheiten zu lackieren, ein Kabelbaum zu bauen, Jalousien anzubringen, und so weiter. Jede helfende Hand ist herzlich willkommen! Schreib bei Interesse eine kurze Mail an Felix (<a href="mailto:x-hain@posteo.de">x-hain@posteo.de</a>) oder ping uns auf Twitter an <a href="https://twitter.com/xHain_hackspace">@xhain_hackspace</a>.
+Komm’ vorbei und hilf mit! Es gibt immer noch Regale und Tische zu bauen, ein Bad zu tapezieren, Sitzgelegenheiten zu lackieren, ein Kabelbaum zu bauen, Jalousien anzubringen, und so weiter. Jede helfende Hand ist herzlich willkommen! Schreib bei Interesse eine kurze Mail an Felix (<a href="mailto:info@x-hain.de">info@x-hain.de</a>) oder ping uns auf Twitter an <a href="https://twitter.com/xHain_hackspace">@xhain_hackspace</a>.
 
 ## Support-FlatRate
 Wenn du es für richtig und wichtig hältst, dass es in Friedrichshain einen Hackspace gibt, dann unterstütze uns!

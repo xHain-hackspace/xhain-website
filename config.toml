@@ -38,7 +38,7 @@ paginate = 6
   # - you're done. Happy mailing!
   #
   # Enable the contact form by entering your Formspree.io email
-  email = "x-hain@posteo.de"
+  email = "info@x-hain.de"
 
   name = "xHain hack+makespace"
   about_us = ""
