@@ -19,7 +19,9 @@ $(document).ready(function () {
       $("#main-navigation .desktop").hide();
     }
   });
-  $("#frontpage header").addClass("semi-transparent");
+  if ($(window).scrollTop() < $(window).height() - 107) {
+    $("#frontpage header").addClass("semi-transparent");
+  }
 });
 
 var map = L.map("map", {
