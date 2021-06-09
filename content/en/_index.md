@@ -20,4 +20,4 @@ Are you unsure if xHain is the right place for you? No matter if you're a hacker
 
 ![](/images/xHain_xRoots.png)
 
-**Our <a href="https://wiki.x-hain.de/en/xHain/xRoots" target="_blank">xRoots</a> mentors are here for *you*: They will hang out and chat with you on monday nights, answer any questions you may have, will help you get started at xHain and give you a tour of the place. If you have any special needs, look for people wearing the xRoots logo or have a <a href="chat.x-hain.de" target="_blank">online chat</a> with us.**
+**Our <a href="https://wiki.x-hain.de/en/xHain/xRoots" target="_blank">xRoots</a> mentors are here for *you*: They will hang out and chat with you on monday nights, answer any questions you may have, will help you get started at xHain and give you a tour of the place. If you have any special needs, look for people wearing the xRoots logo or have a <a href="https://chat.x-hain.de" target="_blank">online chat</a> with us.**
