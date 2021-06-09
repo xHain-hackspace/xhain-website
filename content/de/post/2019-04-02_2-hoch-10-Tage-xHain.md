@@ -1,7 +1,7 @@
 ---
 title: 2 hoch 10 plus x Tage xHain
-thumbnailImage: /img/3rd_birthday.jpg
-heroImage: /img/3rd_birthday.jpg
+thumbnailImage: /images/posts/3rd_birthday.jpg
+heroImage: /images/posts/3rd_birthday.jpg
 slug: ""
 heroCaption: ""
 date: 2019-04-02

@@ -1,8 +1,8 @@
 ---
 title: "#Hello world. The xHain is alive!"
 slug: ""
-thumbnailImage: /img/forest.jpg
-heroImage: /img/forest.jpg
+thumbnailImage: /images/posts/forest.jpg
+heroImage: /images/posts/forest.jpg
 heroCaption: "Carmine De Fazio via [Unsplash](https://unsplash.com/photos/3ytjETpQMNY) ([CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.de))"
 date: 2016-06-01
 categories:

@@ -1,7 +1,7 @@
 ---
 title: Girls'Day mit xHain
-thumbnailImage: /img/bristlebot2.jpg
-heroImage:  /img/bristlebot2.jpg
+thumbnailImage: /images/posts/bristlebot2.jpg
+heroImage: /images/posts/bristlebot2.jpg
 slug: ""
 heroCaption: ""
 date: 2021-04-14

@@ -46,8 +46,8 @@ paginate = 6
   # Format dates with Go's time formatting
   date_Format = "2. January 2006"
 
-  logo = "/img/xhain_logo_small.png"
-  logo_small = "/img/xhain_logo_small.png"
+  logo = "/images/xhain_logo_small.png"
+  logo_small = "/images/xhain_logo_small.png"
   address = """Grünberger Str. 14 10243 Berlin"""
   latitude = "52.512815"
   longitude = "13.4493919"
@@ -67,7 +67,7 @@ paginate = 6
 
 [params.hero]
     enable = true
-    url = "/img/hero.jpg"
+    url = "/images/hero.jpg"
     # For more informtion take a look at the README.
 
 [params.instagram]

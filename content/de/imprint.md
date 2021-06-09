@@ -6,7 +6,7 @@ showPagination: false
 showSocial: false
 showTags: false
 title: Impressum
-heroImage: /img/gespraechunterbaeumen.jpg
+heroImage: /images/posts/gespraechunterbaeumen.jpg
 ---
 
 ## Angaben gemäß § 5 Telemediengesetz (TMG)

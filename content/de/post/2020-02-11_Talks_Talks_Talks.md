@@ -1,7 +1,7 @@
 ---
 title: Talks, Talks, Talks
-thumbnailImage: /img/talks.jpg
-heroImage:  /img/talks.jpg
+thumbnailImage: /images/posts/talks.jpg
+heroImage: /images/posts/talks.jpg
 slug: ""
 heroCaption: ""
 date: 2020-02-11

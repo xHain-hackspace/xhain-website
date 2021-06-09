@@ -1,8 +1,8 @@
 ---
 title: "Gespräch unter Bäumen - Veranstaltungsreihe im xHain"
 slug: ""
-thumbnailImage: /img/gespraechunterbaeumen.jpg
-heroImage: /img/gespraechunterbaeumen.jpg
+thumbnailImage: /images/posts/gespraechunterbaeumen.jpg
+heroImage: /images/posts/gespraechunterbaeumen.jpg
 heroCaption: ""
 date: 2018-12-29
 categories:

@@ -1,7 +1,7 @@
 ---
 title: Covid 19 space rules - the update
-thumbnailImage: /img/rules.jpg
-heroImage:  /img/rules.jpg
+thumbnailImage: /images/posts/rules.jpg
+heroImage: /images/posts/rules.jpg
 slug: ""
 heroCaption: ""
 date: 2020-09-09

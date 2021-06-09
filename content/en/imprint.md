@@ -6,7 +6,7 @@ showPagination: false
 showSocial: false
 showTags: false
 title: Imprint
-heroImage: /img/gespraechunterbaeumen.jpg
+heroImage: /images/posts/gespraechunterbaeumen.jpg
 ---
 
 ## According to § 5 Telemediengesetz (TMG)

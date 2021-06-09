@@ -1,8 +1,8 @@
 ---
 title: "Herbstzeit ist Hack- und Bastelzeit!"
 slug: ""
-thumbnailImage: /img/autumn.jpg
-heroImage: /img/autumn.jpg
+thumbnailImage: /images/posts/autumn.jpg
+heroImage: /images/posts/autumn.jpg
 heroCaption: "Foto [Heye Jensen](http://foto.heyeje.de/content/herbstbaum/) ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))"
 date: 2016-09-05
 categories:

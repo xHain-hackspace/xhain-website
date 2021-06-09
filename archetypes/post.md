@@ -1,8 +1,8 @@
 ---
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
 slug: ""
-thumbnailImage: /img/post_default_thumbnail.jpg
-heroImage: /img/post_default_hero.jpg
+thumbnailImage: /images/posts/post_default_thumbnail.jpg
+heroImage: /images/posts/post_default_hero.jpg
 heroCaption: ""
 date: {{ .Date }}
 categories:

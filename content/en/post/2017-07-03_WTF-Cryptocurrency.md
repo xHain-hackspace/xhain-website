@@ -1,8 +1,8 @@
 ---
 title: "WTF are Cryptocurrencies?"
 slug: ""
-thumbnailImage: /img/cryptocurrency.jpg
-heroImage: /img/cryptocurrency.jpg
+thumbnailImage: /images/posts/cryptocurrency.jpg
+heroImage: /images/posts/cryptocurrency.jpg
 heroCaption: "(http://community-currency.info/) ([CC BY NC SA](https://creativecommons.org/publicdomain/zero/1.0/deed.de))"
 date: 2017-07-03
 categories:

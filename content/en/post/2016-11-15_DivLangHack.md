@@ -1,8 +1,8 @@
 ---
 title: "<div>#lang:Hack"
 slug: "div-lang-hack"
-thumbnailImage: /img/cables.jpg
-heroImage: /img/cables.jpg
+thumbnailImage: /images/posts/cables.jpg
+heroImage: /images/posts/cables.jpg
 heroCaption: "Randall Bruder via [Unsplash](https://unsplash.com/photos/3_I4NVI9d1k) ([CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.de))"
 date: 2016-11-15
 categories:

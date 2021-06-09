@@ -1,8 +1,8 @@
 ---
 title: "Rückblick 4. Veranstaltung “Gespräch unter Bäumen” und Shownotes"
 slug: ""
-thumbnailImage: /img/post_default_thumbnail.jpg
-heroImage: /img/post_default_hero.jpg
+thumbnailImage: /images/posts/post_default_thumbnail.jpg
+heroImage: /images/posts/post_default_hero.jpg
 heroCaption: ""
 date: 2019-05-10
 categories:

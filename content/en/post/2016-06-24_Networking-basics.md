@@ -1,8 +1,8 @@
 ---
 title: "Networking Basics - How does my computer connect to the Internet?"
 slug: ""
-thumbnailImage: /img/network.jpg
-heroImage: /img/network.jpg
+thumbnailImage: /images/posts/network.jpg
+heroImage: /images/posts/network.jpg
 heroCaption: "Athena Lam via [Unsplash](https://unsplash.com/photos/EG9qfm3BHR4) ([CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.de))"
 date: 2016-06-24
 categories:

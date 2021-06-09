@@ -1,8 +1,8 @@
 ---
 title: "Es sprießt und gedeiht der Hain!"
 slug: ""
-thumbnailImage: /img/grow.jpg
-heroImage: /img/grow.jpg
+thumbnailImage: /images/posts/grow.jpg
+heroImage: /images/posts/grow.jpg
 heroCaption: "chuttersnap via [Unsplash](https://unsplash.com/photos/UmncJq4KPcA) ([CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.de))"
 date: 2016-08-01
 categories:

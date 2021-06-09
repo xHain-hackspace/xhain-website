@@ -1,7 +1,7 @@
 ---
 title: Bakiwi Robotik-Bastelworkshop II 
-thumbnailImage: /img/bakiwi.jpg
-heroImage:  /img/bakiwi.jpg
+thumbnailImage: /images/posts/bakiwi.jpg
+heroImage: /images/posts/bakiwi.jpg
 slug: ""
 heroCaption: ""
 date: 2019-10-20

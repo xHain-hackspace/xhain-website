@@ -1,8 +1,8 @@
 ---
 title: Der xHain macht zu. Es lebe der xHain.
 slug: ""
-thumbnailImage: /img/truck.jpg
-heroImage: /img/truck.jpg
+thumbnailImage: /images/posts/truck.jpg
+heroImage: /images/posts/truck.jpg
 heroCaption: ""
 date: 2019-05-29
 categories:

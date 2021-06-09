@@ -1,8 +1,8 @@
 ---
 title: "Die Daten, die ich rief"
 slug: ""
-thumbnailImage: /img/kattascha.jpg
-heroImage: /img/kattascha.jpg
+thumbnailImage: /images/posts/kattascha.jpg
+heroImage: /images/posts/kattascha.jpg
 heroCaption: ""
 date: 2018-10-24
 categories:

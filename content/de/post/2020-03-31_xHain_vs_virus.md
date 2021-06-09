@@ -1,7 +1,7 @@
 ---
 title: xHain vs. Virus
-thumbnailImage: /img/xhainvsvirus.jpg
-heroImage:  /img/xhainvsvirus.jpg
+thumbnailImage: /images/posts/xhainvsvirus.jpg
+heroImage: /images/posts/xhainvsvirus.jpg
 slug: ""
 heroCaption: ""
 date: 2020-03-31

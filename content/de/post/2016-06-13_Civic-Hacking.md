@@ -1,8 +1,8 @@
 ---
 title: "Civic Hacking"
 slug: ""
-thumbnailImage: /img/civic.jpg
-heroImage: /img/civic.jpg
+thumbnailImage: /images/posts/civic.jpg
+heroImage: /images/posts/civic.jpg
 heroCaption: "Jace Grandinetti via [Unsplash](https://unsplash.com/photos/nuOdDlVCpDU) ([CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.de))"
 date: 2016-06-13
 categories:

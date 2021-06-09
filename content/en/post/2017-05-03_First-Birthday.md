@@ -1,8 +1,8 @@
 ---
 title: "One year is over. Time for a party!"
 slug: ""
-thumbnailImage: /img/birthday.jpg
-heroImage: /img/birthday.jpg
+thumbnailImage: /images/posts/birthday.jpg
+heroImage: /images/posts/birthday.jpg
 heroCaption: "Rich Helmer via [Unsplash](https://unsplash.com/search/birthday?photo=8gNG1eorhpM) ([CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.de))"
 date: 2017-05-03
 categories:

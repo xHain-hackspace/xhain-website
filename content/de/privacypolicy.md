@@ -7,5 +7,5 @@ showPagination: false
 showSocial: false
 showTags: false
 title: Datenschutzerklärung
-heroImage: /img/autumn.jpg
+heroImage: /images/autumn.jpg
 ---

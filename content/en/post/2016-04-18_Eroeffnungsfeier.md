@@ -1,8 +1,8 @@
 ---
 title: "hackspace > fear – Opening on Friday, 13 May 2016"
 slug: ""
-thumbnailImage: /img/opening.jpg
-heroImage: /img/opening.jpg
+thumbnailImage: /images/posts/opening.jpg
+heroImage: /images/posts/opening.jpg
 heroCaption: "Finn Hackshaw via [Unsplash](https://unsplash.com/photos/FQgI8AD-BSg) ([CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.de))"
 date: 2016-04-18
 categories:

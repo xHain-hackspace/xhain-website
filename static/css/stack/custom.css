@@ -264,7 +264,7 @@ label a {
 .blog--teaser-image {
     height: 245px;
     width: 100%;
-    /* background: url("http://localhost:1313/img/kattascha.jpg"); */
+    /* background: url("http://localhost:1313/images/kattascha.jpg"); */
     background-position: center!important;
     background-repeat: no-repeat;
     background-size: cover;

@@ -1,8 +1,8 @@
 ---
 title: "Rückblick 2. Veranstaltung “Gespräch unter Bäumen”"
 slug: ""
-thumbnailImage: /img/post_default_thumbnail.jpg
-heroImage: /img/post_default_hero.jpg
+thumbnailImage: /images/posts/post_default_thumbnail.jpg
+heroImage: /images/posts/post_default_hero.jpg
 heroCaption: ""
 date: 2019-02-25
 categories:

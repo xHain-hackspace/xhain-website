@@ -1,8 +1,8 @@
 ---
 title: "Lizenz zum Löten"
 slug: ""
-thumbnailImage: /img/solder.jpg
-heroImage: /img/solder.jpg
+thumbnailImage: /images/posts/solder.jpg
+heroImage: /images/posts/solder.jpg
 heroCaption: "Ossewa via [wikipedia](https://de.wikipedia.org/wiki/Datei:Solder_Paste_Printed_on_a_PCB.jpg) ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.de))"
 date: 2016-06-20
 categories:

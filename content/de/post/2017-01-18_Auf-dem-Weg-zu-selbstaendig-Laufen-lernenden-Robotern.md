@@ -1,8 +1,8 @@
 ---
 title: "Vortrag: Auf dem Weg zu selbständig Laufen-lernenden Robotern"
 slug: ""
-thumbnailImage: /img/Robot_wireframe.jpg
-heroImage: /img/Robot_wireframe.jpg
+thumbnailImage: /images/posts/Robot_wireframe.jpg
+heroImage: /images/posts/Robot_wireframe.jpg
 heroCaption: "Obsidian Soul via [Wikimedia](https://commons.wikimedia.org/wiki/File%3ARobot_wireframe.jpg) ([CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en))"
 date: 2017-01-18
 categories:

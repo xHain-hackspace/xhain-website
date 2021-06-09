@@ -1,8 +1,8 @@
 ---
 title: "Half birthday - full Yeah!"
 slug: ""
-thumbnailImage: /img/party.jpg
-heroImage: /img/party.jpg
+thumbnailImage: /images/posts/party.jpg
+heroImage: /images/posts/party.jpg
 heroCaption: "Sofia Levchenko via [Unsplash](https://unsplash.com/photos/l6yLVM-FJxc) ([CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.de))"
 date: 2016-11-23
 categories:

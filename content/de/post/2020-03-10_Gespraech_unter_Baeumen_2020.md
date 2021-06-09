@@ -1,7 +1,7 @@
 ---
 title: Gespräch unter Bäumen 2020 – Ankündigung März und April
-thumbnailImage: /img/parkbench.jpg
-heroImage:  /img/parkbench.jpg
+thumbnailImage: /images/posts/parkbench.jpg
+heroImage: /images/posts/parkbench.jpg
 slug: ""
 heroCaption: ""
 date: 2020-03-10

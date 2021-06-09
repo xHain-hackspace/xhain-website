@@ -1,7 +1,7 @@
 ---
 title: xHain vs. Virus - space rules
-thumbnailImage: /img/houserules.jpg
-heroImage:  /img/houserules.jpg
+thumbnailImage: /images/posts/houserules.jpg
+heroImage: /images/posts/houserules.jpg
 slug: ""
 heroCaption: "Marco Verch - Decoration HOUSE Rules via (https://www.flickr.com/photos/30478819@N08/37028529186/) ([CC-BY 2.0](https://creativecommons.org/licenses/by/2.0/))"
 date: 2020-06-29

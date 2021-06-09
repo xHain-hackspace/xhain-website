@@ -1,7 +1,7 @@
 ---
 title: xHain unlocked
-thumbnailImage: /img/unlocked.jpg
-heroImage:  /img/unlocked.jpg
+thumbnailImage: /images/posts/unlocked.jpg
+heroImage: /images/posts/unlocked.jpg
 slug: ""
 heroCaption: ""
 date: 2021-05-19

@@ -1,7 +1,7 @@
 ---
 title: xHain-Re0pening-Party
-thumbnailImage: /img/Re0pening.jpg
-heroImage:  /img/Re0pening.jpg
+thumbnailImage: /images/posts/Re0pening.jpg
+heroImage: /images/posts/Re0pening.jpg
 slug: ""
 heroCaption: ""
 date: 2019-09-05

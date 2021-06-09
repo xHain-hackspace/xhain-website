@@ -1,8 +1,8 @@
 ---
 title: "Literatur im xHain"
 slug: ""
-thumbnailImage: /img/books.jpg
-heroImage: /img/books.jpg
+thumbnailImage: /images/posts/books.jpg
+heroImage: /images/posts/books.jpg
 heroCaption: ""
 date: 2018-10-23
 categories:

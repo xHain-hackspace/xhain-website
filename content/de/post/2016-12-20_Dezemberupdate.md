@@ -1,8 +1,8 @@
 ---
 title: "Dezemberupdate"
 slug: ""
-thumbnailImage: /img/nordsee.jpg
-heroImage: /img/nordsee.jpg
+thumbnailImage: /images/posts/nordsee.jpg
+heroImage: /images/posts/nordsee.jpg
 heroCaption: "Foto [Heye Jensen](http://heyeje.de) - [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
 date: 2016-12-20
 categories:

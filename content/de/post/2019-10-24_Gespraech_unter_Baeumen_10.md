@@ -1,7 +1,7 @@
 ---
 title:  Rückblick “Gespräch unter Bäumen” mit Patricia Cammarata und Shownotes
-thumbnailImage: /img/gespraechunterbaeumen.jpg
-heroImage:  /img/gespraechunterbaeumen.jpg
+thumbnailImage: /images/posts/gespraechunterbaeumen.jpg
+heroImage: /images/posts/gespraechunterbaeumen.jpg
 slug: ""
 heroCaption: ""
 date: 2019-10-24

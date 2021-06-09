@@ -1,8 +1,8 @@
 ---
 title: "Let's play a game"
 slug: ""
-thumbnailImage: /img/boardgame.jpg
-heroImage: /img/boardgame.jpg
+thumbnailImage: /images/posts/boardgame.jpg
+heroImage: /images/posts/boardgame.jpg
 heroCaption: "Maarten van den Heuvel via [Unsplash](https://unsplash.com/photos/_pc8aMbI9UQ) ([CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.de))"
 date: 2016-10-25
 categories:

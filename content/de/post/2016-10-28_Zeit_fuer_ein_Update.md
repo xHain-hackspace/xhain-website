@@ -1,8 +1,8 @@
 ---
 title: "Zeit für ein Update"
 slug: ""
-thumbnailImage: /img/notebook.jpg
-heroImage: /img/notebook.jpg
+thumbnailImage: /images/posts/notebook.jpg
+heroImage: /images/posts/notebook.jpg
 heroCaption: "Volkan Olmez via [Unsplash](https://unsplash.com/photos/aG-pvyMsbis) ([CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.de))"
 date : 2016-10-28
 categories:
