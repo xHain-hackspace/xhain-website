@@ -5,19 +5,16 @@ showMap: false
 draft: false
 ---
 
-There are several ways to support xHain. As we’ve only just started building the place, there are two main things you can contribute: time and money.
+xHain is mainly financed by membership fees, but one-off donations are always welcome and help us to further develop our space.
 
-## Coming Over
+## become a member
+We get asked a lot how our membership works. Actually, xHain is different from most other spaces, since we are an *open* space and you *don't have to* become a member to hang out and have fun with us. But of course, we welcome any donations and memberships that will help support us.
 
-Come over and help us! There are still shelves and tables to be built, a bathroom to be wallpapered, chairs to be painted, a cable harness to be built, window blinds to be put up, and things to be done in general. All helping hands are welcome! If you have one or two to spare, shoot Felix an email (info@x-hain.de) or tweet to us @xhain_hackspace.
+As a non-member you only have access to xHain on monday nights, public events or workshops. Also prices for using some tools (e.g. our lasercutter) may differ. As a member you may become eligible to receive access to our xdoor and hence gain 24/7 access to xHain.
 
-## Support Rate
+The monthly minimum donation is 13.37€ or more and your membership begins with the first payment. You will be assigned a random tree name, which we kindly ask you to use as description/reference in your bank transfer to our xHain bank account. You will receive the payment details by email after signing up.
 
-If you think it’s good and important to have a hackspace in Friedrichshain, support us! Our support rate sets you back €13.37 a month. In return, you get discounts on everything we’ll have to offer in future. We’re planning to have t-shirts, workshops, training sessions, 3D prints and lots more. Supporters are also free to use our tools and devices such as the 3D printer. If the support rate is beyond your means, talk to us and we’ll find a way. Of course, you’re also free to support us with more than €13.37 and help sponsor somebody else’s membership.
-
-Running a hackspace isn’t free: we need to pay rent, electricity, internet and other niceties. All proceeds from the support rate go towards our running costs. Should there be a surplus, we’ll use it to buy more tools and devices that keep turning our hackspace into the place to go for all tech enthusiasts in Friedrichshain.
-
-You can either use the form below (data will be send to us via formspree.com) - or you just send us an email.
+You can either use the form below (data will be send to us via formspree.com) - or just send us an email.
 
 <form action="https://formspree.io/signup@x-hain.de"
       method="POST">
@@ -35,10 +32,16 @@ You can either use the form below (data will be send to us via formspree.com) - 
 	</label><br>
 </form>
 
+## Donations
+If you would like to support us, you're welcome to donate a small or bigger amount to the following bank account:
+
+Accountholder: xHain hack+makespace gemeinnützige UG (haftungsbeschränkt)
+GLS Bank
+IBAN: DE72 4306 0967 1050 8465 00
+BIC: GENODEM1GLS
+
+You’ll receive a donation receipt, if you add your contact information to the reference! :)
+
 ## Renting the Place
 
 You can rent xHain for a small conference or an event. There’s not enough room for huge birthday parties, but if you’re planning a workshop, if you’re looking for a less conventional place for your meetings, if you want to screen your movie or if you’re looking for a creative environment where you can write your fan fiction, just contact us and we’ll work out the details.
-
-## Donating Equipment
-
-If your laser cutters, soldering stations, 3D printers, screwdrivers, Arduinos, Raspberry Pis, rad1o badges or webcams are only collecting dust: give them to us! We’re thrilled to give a new home to all your old-but-functional gadgets and devices.
