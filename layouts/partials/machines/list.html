@@ -1,8 +1,0 @@
-<div class="row">
-    <div class="col-md-12 col--machines">
-        {{ $data := index .Site.Data .Site.Language.Lang }}
-        {{ range $data.machines }}
-            {{ partial "machines/machine.html" . }}
-        {{ end }}
-    </div>
-</div>

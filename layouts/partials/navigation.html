@@ -1,0 +1,14 @@
+<nav id="main-navigation">
+    <ul class="mobile">
+      <li>menu</li>
+    </ul>
+    <ul class="desktop">
+        {{- $currentPage := . -}}
+        {{ range .Site.Menus.main -}}
+            <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+                <a  href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+            </li>
+        {{- end }}
+        {{ partial "languageswitch.html" . }}
+    </ul>
+</nav>

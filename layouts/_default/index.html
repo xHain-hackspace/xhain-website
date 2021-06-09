@@ -1,0 +1,28 @@
+{{ define "main" }}
+<div id="frontpage-hero">
+  <img class="logo" alt="xhain logo" src="/images/logo/xhain.svg" />
+</div>
+<div id="content">
+  <main class="section-list">
+    <div id="main-wrapper">
+      <p>{{ .Content }}</p>
+      <br />
+      <section id="blog">
+        <h2>Blog</h2>
+        {{ range first 3 (where .Site.RegularPages "Section" "articles") }}
+        <article>
+          <p class="article-post-date">{{ .Date.Format "02 January 2006" }}</p>
+          <h2 class="article-title"><a href="{{.Permalink}}">{{.Title}}</a></h2>
+          <div class="teaser-image"><a href="{{.Permalink}}"><img src="{{ .Params.image | absURL }}" /></a></div>
+          <p>{{ .Summary }}</p>
+          <p><a class="button" href="{{.Permalink}}">{{ i18n "continueReading" }}</a></p>
+        </article>
+        {{ end }}
+      </section>
+    </div>
+  </main>
+  {{ partial "footer" . }}
+</div>
+{{ end }} {{ define "footer" }}
+<!-- footer included before -->
+{{ end }}

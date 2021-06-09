@@ -1,32 +1,44 @@
-<footer class="space--xs footer-2 bg--dark" style="padding-bottom:2.71428571em">
-        <div class="container">
-            <div class="row footer--row" style="margin-top: 0px">
-                <div class="col-sm-6 col-md-6 col-xs-12">
-                    <h4 class=""><!--<span class="update-year" style="margin-bottom:1em"></span>--> {{ .Site.Params.name }}</span></h4>
-                </div>
-                <div class="col-sm-3 col-md-3 col-xs-12">
-                    <h5 class="type--uppercase" style="margin-bottom:1em">Links</h5>
-                    <ul class="list--hover" style="padding-bottom:1em">
-                        {{- $currentPage := . -}}
-                        {{ range .Site.Menus.second -}}
-                        <li class="">		
-                            <a href="{{ .URL | absLangURL }}" target="blank" class="">
-                               {{ .Name }}
-                            </a>
-                        </li> 
-                        {{- end }}
-                    </ul>
-                </div>
-                <div class="col-sm-3 col-md-3 col-xs-12">
-                    <h5 class="type--uppercase" style="margin-bottom:1em">Informationen</h5>
-                    <ul class="list--hover" style="padding-bottom:1em">
-                        {{ range .Site.Menus.footerlinks.ByWeight }}
-                            <li>
-                                <a class="" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
-                            </li>
-                        {{ end }}
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
+<footer>
+  <div id="footer-wrapper">
+    <div class="first-part">
+      <img class="logo" src="/images/logo/xhain.svg" />
+
+      <nav id="footer-navigation">
+        <ul>
+          {{ range .Site.Menus.footer.ByWeight }}
+          <li>
+            <a class="" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+          </li>
+          {{ end }}
+        </ul>
+      </nav>
+    </div>
+    <div class="second-part">
+      <h5>{{ .Site.Params.tools.title }}:</h5>
+
+      <nav id="tools-navigation">
+        <ul>
+          {{- $currentPage := . -}} {{ range .Site.Menus.tools -}}
+          <li class="">
+            <a href="{{ .URL | absLangURL }}" target="blank" class="">
+              {{ .Name }}
+            </a>
+          </li>
+          {{- end }}
+        </ul>
+      </nav>
+      <h5>{{ .Site.Params.social.title }}:</h5>
+      <nav id="social-navigation">
+        <ul>
+          {{- $currentPage := . -}} {{ range .Site.Menus.social -}}
+          <li class="">
+            <a href="{{ .URL | absLangURL }}" target="blank" class="">
+              {{ .Name }}
+            </a>
+          </li>
+          {{- end }}
+        </ul>
+      </nav>
+    </div>
+  </div>
+</footer>

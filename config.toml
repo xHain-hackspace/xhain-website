@@ -1,12 +1,10 @@
-baseurl = "https://staging.x-hain.de"
+baseURL = "https://staging.x-hain.de"
 title = "xHain hack+makespace"
 canonifyurls = true
-languageCode = "de"
+languageCode = "en-us"
 defaultContentLanguage = "de"
 DefaultContentLanguageInSubdir = "true"
 MetaDataFormat = "yaml"
-
-disableLanguageSwitchingButton = true
 
 # Define the number of posts per page
 paginate = 6
@@ -15,64 +13,213 @@ paginate = 6
   post = "/:year/:month/:slug/"
 
 [params]
-  viewMorePostLink = "/blog/"
-  author = "Webteam"
+  author = "xHain hack+makespace"
   defaultKeywords = ["hackspace", "makerspace", "xhain"]
   defaultDescription = "Hack- & Makespace im Herzen von Friedrichshain, Bastelstube für Technikinteressierte + Raum für Netzpolitisches"
-  defaultThumbnailPlaceholder = "img/thumbnailPlaceholder.png" #existiert noch
-  favicon = "images/favicons/"
-
-  # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-  style = "green"
-
-  # Since this template is static, the contact form uses www.formspree.io as a
-  # proxy. The form makes a POST request to their servers to send the actual
-  # email. Visitors can send up to a 1000 emails each month for free.
-  #
-  # What you need to do for the setup?
-  #
-  # - set your email address under 'email' below
-  # - upload the generated site to your server
-  # - send a dummy email yourself to confirm your account
-  # - click the confirm link in the email from www.formspree.io
-  # - you're done. Happy mailing!
-  #
-  # Enable the contact form by entering your Formspree.io email
   email = "info@x-hain.de"
-
-  name = "xHain hack+makespace"
-  about_us = ""
-
-  # Format dates with Go's time formatting
-  date_Format = "2. January 2006"
-
-  logo = "/images/xhain_logo_small.png"
-  logo_small = "/images/xhain_logo_small.png"
-  address = """Grünberger Str. 14 10243 Berlin"""
   latitude = "52.512815"
   longitude = "13.4493919"
 
 [Permalinks]
-    blog = "/blog/:year/:month/:day/:filename/"
+    articles = "/blog/:year/:month/:day/:title/"
 
-# Enable or disable icon menu
-[params.icon_menu]
-    enable = true
-
-# Enable and disable widgets for the right sidebar
-[params.widgets]
-    categories = false
-    tags = false
-    search = false
-
-[params.hero]
-    enable = true
-    url = "/images/hero.jpg"
-    # For more informtion take a look at the README.
-
-[params.recent_posts]
-    enable = true
+[outputs]
+  home = ["HTML"]
+  page = ["HTML"]
+  section = ["HTML"]
+  taxonomy = ["HTML"]
+  term = ["HTML"]
 
 [markup.goldmark.renderer]
   unsafe= true
 
+
+###### TRANSLATIONS ######
+
+[languages]
+[languages.de]
+weight = 1
+languageName = "Deutsch"
+contentDir = "content/de"
+title = "xHain hack+makespace"
+
+[languages.en]
+weight = 2
+languageName = "English"
+contentDir = "content/en"
+title = "xHain hack+makespace"
+
+[languages.de.params.recent_posts_intro]
+title = "Aktuelle Posts"
+subtitle = "Alle Posts gibt's unter 'Blog'"
+
+[languages.en.params.recent_posts_intro]
+title = "Last Posts"
+subtitle = "Click 'Blog' to see all posts"
+
+[languages.de.params.tools]
+title = "Unsere tools"
+
+[languages.en.params.tools]
+title = "Our tools"
+
+[languages.de.params.social]
+title = "Wir sind auch auf"
+
+[languages.en.params.social]
+title = "Find us elsewhere"
+
+[menu]
+
+###### MAIN MENU ######
+
+[[languages.de.menu.main]]
+  weight = 1
+  identifier = "blog"
+  name = "Blog"
+  url = "/blog"
+
+[[languages.de.menu.main]]
+  weight = 2
+  identifier = "calendar"
+  name = "Kalender"
+  url = "/calendar"
+
+[[languages.de.menu.main]]
+  weight = 3
+  identifier = "support"
+  name = "Unterstützendes"
+  url = "/support"
+
+[[languages.de.menu.main]]
+  weight = 5
+  identifier = "about"
+  name = "Über uns"
+  url = "/about"
+
+[[languages.en.menu.main]]
+  weight = 1
+  identifier = "blog"
+  name = "Blog"
+  url = "/blog"
+
+[[languages.en.menu.main]]
+  weight = 2
+  identifier = "calendar"
+  name = "Calendar"
+  url = "/calendar"
+
+[[languages.en.menu.main]]
+  weight = 3
+  identifier = "support"
+  name = "Support"
+  url = "/support"
+
+[[languages.en.menu.main]]
+  weight = 5
+  identifier = "about"
+  name = "About Us"
+  url = "/about"
+
+###### TOOLS MENU ######
+
+[[languages.de.menu.tools]]
+  weight = 1
+  identifier = "wiki"
+  name = "Wiki"
+  url = "https://wiki.x-hain.de/"
+
+[[languages.de.menu.tools]]
+  weight = 2
+  identifier = "rocketchat"
+  name = "Chat"
+  url = "https://chat.x-hain.de/home"
+
+[[languages.en.menu.tools]]
+  weight = 1
+  identifier = "wiki"
+  name = "Wiki"
+  url = "https://wiki.x-hain.de/"
+
+[[languages.en.menu.tools]]
+  weight = 2
+  identifier = "rocketchat"
+  name = "Chat"
+  url = "https://chat.x-hain.de/home"
+
+###### SOCIAL MENU ######
+
+[[languages.de.menu.social]]
+  weight = 3
+  identifier = "fediverse"
+  name = "Fediverse"
+  url = "https://chaos.social/@xHain_hackspace"
+
+[[languages.de.menu.social]]
+  weight = 4
+  identifier = "twitter"
+  name = "Twitter"
+  url = "https://twitter.com/xHain_hackspace"
+
+[[languages.de.menu.social]]
+  weight = 5
+  identifier = "gitlab"
+  name = "Gitlab"
+  url = "https://gitlab.com/xHain-hackspace"
+
+[[languages.de.menu.social]]
+  weight = 6
+  identifier = "github"
+  name = "Github"
+  url = "https://github.com/orgs/xHain-hackspace/"
+
+[[languages.en.menu.social]]
+  weight = 3
+  identifier = "fediverse"
+  name = "Fediverse"
+  url = "https://chaos.social/@xHain_hackspace"
+
+[[languages.en.menu.social]]
+  weight = 4
+  identifier = "twitter"
+  name = "Twitter"
+  url = "https://twitter.com/xHain_hackspace"
+
+[[languages.en.menu.social]]
+  weight = 5
+  identifier = "gitlab"
+  name = "Gitlab"
+  url = "https://gitlab.com/xHain-hackspace"
+
+[[languages.en.menu.social]]
+  weight = 6
+  identifier = "github"
+  name = "Github"
+  url = "https://github.com/orgs/xHain-hackspace/"
+
+
+###### FOOTER MENU ######
+
+[[languages.de.menu.footer]]
+  weight = 1
+  identifier = "Contact"
+  name = "Kontakt"
+  url = "/contact"
+
+[[languages.en.menu.footer]]
+  weight = 1
+  identifier = "Contact"
+  name = "Contact"
+  url = "/contact"
+
+[[languages.de.menu.footer]]
+  weight = 1
+  identifier = "Privacy"
+  name = "Datenschutz"
+  url = "/privacy"
+
+[[languages.en.menu.footer]]
+  weight = 1
+  identifier = "Privacy"
+  name = "Privacy"
+  url = "/privacy"

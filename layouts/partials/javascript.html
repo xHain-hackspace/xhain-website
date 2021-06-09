@@ -1,0 +1,7 @@
+<script src="/js/jquery-3.6.0.min.js"></script>
+{{ $javascript := resources.Get "js/main.js" | js.Build | minify | fingerprint }}
+<script
+  type="text/javascript"
+  src="{{ $javascript.RelPermalink }}"
+  defer
+></script>

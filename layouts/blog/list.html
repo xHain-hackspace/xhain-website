@@ -1,0 +1,17 @@
+{{ define "main" }}
+<main class="section-list section-{{ .Section }}" id="blog">
+  <div id="main-wrapper">
+    <h1 id="section-title">Blog</h1>
+    <hr class="short" />
+    {{ range (where .Site.RegularPages "Section" "articles") }}
+    <article>
+      <h2 class="article-title"><a href="{{.Permalink}}">{{.Title}}</a></h2>
+      <p class="article-post-date">{{ .Date.Format "2006-01-02" }}</p>
+      <div class="teaser-image"><a href="{{.Permalink}}"><img src="{{ .Params.image | absURL }}" /></a></div>
+      <p>{{ .Summary }}</p>
+      <p><a class="button" href="{{.Permalink}}">{{ i18n "continueReading" }}</a></p>
+    </article>
+    {{ end }}
+  </div>
+</main>
+{{ end }}

@@ -1,0 +1,14 @@
+{{ define "main" }}
+<main>
+  <div id="main-wrapper">
+    <h1 id="article-title">{{ .Title }}</h1>
+    <p class="article-post-date">{{ .Date.Format "2006-01-02" }}</p>
+    <div class="image"><a href="{{.Permalink}}"><img src="{{ .Params.image | absURL }}" /></a></div>
+    <div>
+      <article id="content">{{ .Content }}</article>
+      <!-- {{ if .Params.tags }}<div class="tags">{{ delimit .Params.tags ", " }}</div>{{end}}
+          {{ if .Params.categories }}<div class="categories">{{ delimit .Params.categories ", " }}</div>{{end}} -->
+    </div>
+  </div>
+</main>
+{{ end }}

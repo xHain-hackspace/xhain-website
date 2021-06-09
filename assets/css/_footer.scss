@@ -1,0 +1,21 @@
+footer {
+  img.logo {
+    height: 140px;
+    width: auto;
+  }
+  .first-part {
+    float: left;
+    padding-bottom: 30px;
+
+  }
+  .second-part {
+    float: right;
+    text-align: right;
+    padding-bottom: 30px;
+
+    h5 {
+      margin-bottom: 5px;
+      text-align: right;
+    }
+  }
+}

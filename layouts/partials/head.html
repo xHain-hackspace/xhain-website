@@ -1,117 +1,49 @@
 <head>
-    <meta charset="utf-8">
-    <meta name="robots" content="all,follow">
-    <meta name="googlebot" content="index,follow,snippet,archive">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ .Title }}</title>
-    <meta name="author" content="{{ .Site.Author.name }}" />
+  <meta charset="utf-8" />
+  <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+  <meta name="robots" content="all,follow" />
+  <meta
+    name="viewport"
+    content="user-scalable=yes, width=device-width, initial-scale=1"
+  />
+  {{ if .Description }}
+  <meta name="description" content="{{ .Description }}" />
+  {{ else if .Site.Params.DefaultDescription }}
+  <meta name="description" content="{{ .Site.Params.DefaultDescription }}" />
+  {{ end }}
+  {{ if .Keywords }}
+  <meta name="keywords" content="{{ delimit .Keywords ", " }}">
+  {{ else if .Site.Params.DefaultKeywords }}
+  <meta name="keywords" content="{{ delimit .Site.Params.DefaultKeywords ", " }}"> 
+  {{ end }}
+  <meta name="author" content="{{ .Site.Params.Author }}" />
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  {{ $style := resources.Get "css/main.scss" | toCSS | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}" />
 
-    {{ if .Keywords }}
-    <meta name="keywords" content="{{ delimit .Keywords ", " }}">
-    {{ else if .Site.Params.DefaultKeywords }}
-    <meta name="keywords" content="{{ delimit .Site.Params.DefaultKeywords ", " }}">
-    {{ end }}
-
-
-    {{ if .Description }}
-    <meta name="description" content="{{ .Description }}">
-    {{ else if .Site.Params.DefaultDescription }}
-    <meta name="description" content="{{ .Site.Params.DefaultDescription }}">
-    {{ end }}
-
-    {{ .Hugo.Generator }}
-
-    <link href='{{ .Site.BaseURL }}/css/google_font.css' rel='stylesheet' type='text/css'>
-    <link href='{{ .Site.BaseURL }}/css/google_font_icon.css' rel="stylesheet" type='text/css'>
-
-    <!-- Font Awesome css -->
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/font-awesome.min.css">
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/fontawesome_all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-    <!-- Css animations  -->
-    <link href="{{ "css/animate.css" | relURL}}" rel="stylesheet">
-
-    <!-- Favicon and apple touch icons-->
-    <link rel="shortcut icon" href="{{ "images/favicons/favicon.ico" | relURL }}" type="image/x-icon" />
-
-    <!-- leaflet -->
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/leaflet.css" />
-
-
-    <meta name="msapplication-TileColor" content="#FFFFFF">
-    <meta name="msapplication-square70x70logo" content="{{ "images/favicons/ms-icon-70x70.png" | relURL }}" />
-    <meta name="msapplication-square150x150logo" content="{{ "images/favicons/ms-icon-150x150.png" | relURL }}" />
-    <meta name="msapplication-square310x310logo" content="{{ "images/favicons/ms-icon-310x310.png" | relURL }}" />
-    <meta name="msapplication-wide310x150logo" content="{{ "images/favicons/ms-icon-310x150.png" | relURL }}" />
-
-    <link rel="apple-touch-icon" href="{{ "images/favicons/apple-touch-icon.png" | relURL }}" />
-    <link rel="apple-touch-icon" sizes="152x152" href="{{ "images/favicons/Icon-76.png" | relURL }}" />
-    <link rel="apple-touch-icon" sizes="76x76" href="{{ "images/favicons/Icon-76@2x.png" | relURL }}" />
-    <link rel="apple-touch-icon" sizes="60x60" href="{{ "images/favicons/Icon-60.png" | relURL }}" />
-    <link rel="apple-touch-icon" sizes="120x120" href="{{ "images/favicons/Icon-60@2x.png" | relURL }}" />
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ "images/favicons/Icon-60@3x.png" | relURL }}" />
-
-    <!-- owl carousel css -->
-    <!-- <link href="{{ "css/owl.carousel.css" | relURL}}" rel="stylesheet">
-    <link href="{{ "css/owl.theme.css" | relURL}}" rel="stylesheet"> -->
-
-    <!-- Sitemap -->
-    <link rel="alternate" href="{{ "/index.xml" | absURL }}" type="application/rss+xml" title="{{ .Site.Title }}">
-
-    <!-- Facebook OpenGraph tags -->
-    <meta property="og:title" content="{{ .Title }}" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="{{ .URL }}/" />
-    <meta property="og:image" content="{{ .Site.Params.logo }}" />
-
-    <!-- bsnav -->
-    <link href="{{ "css/bsnav.min.css" | relURL}}" rel="stylesheet">
-
-    <!-- Stack Theme CSS -->
-    <link href="{{ "css/stack/stack-interface.css" | relURL}}" rel="stylesheet" type="text/css" media="all">
-    <link href="{{ "css/stack/socicon.css" | relURL}}" rel="stylesheet" type="text/css" media="all" />
-    <!-- <link href="{{ "css/stack/bootstrap.css" | relURL}}" rel="stylesheet" type="text/css" media="all" /> -->
-    <link href="{{ "css/stack/stack-interface.css" | relURL}}" rel="stylesheet" type="text/css" media="all" />
-    <link href="{{ "css/stack/theme.css" | relURL}}" rel="stylesheet" type="text/css" media="all" />
-    <link href="{{ "css/stack/flickity.css" | relURL}}" rel="stylesheet" type="text/css" media="all" />
-    <link href="{{ "css/stack/font-roboto.css" | relURL}}" rel="stylesheet" type="text/css" media="all" />
-    <link href="{{ "css/stack/iconsmind.css" | relURL}}" rel="stylesheet" type="text/css" media="all" />
-    <link href="{{ "css/stack/jquery.steps.css" | relURL}}" rel="stylesheet" type="text/css" media="all" />
-    <link href="{{ "css/stack/lightbox.min.css" | relURL}}" rel="stylesheet" type="text/css" media="all" />
-
-    <!-- Custom stylesheet - for your changes -->
-    <link href="{{ "css/stack/custom.css" | relURL}}" rel="stylesheet">
-    <link href="{{ "css/custom.css" | relURL}}" rel="stylesheet">
-
+  <!-- Facebook OpenGraph tags -->
+  <meta property="og:title" content="{{ .Title }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ .Permalink }}" />
+  <meta
+    property="og:image"
+    content="{{ .Site.BaseURL }}{{ .Site.Params.logo }}"
+  />
+  <noscript>
     <style>
-        #map {
-            height: 500px;
-            width: 100vw;
-        }
+      #frontpage header {
+        display: block;
+      }
+      #main-navigation .mobile {
+        display: none;
+      }
+      #main-navigation .desktop {
+        display: block;
+      }
+      main {
+        margin-top: 200px;
+      }
     </style>
-
-
-
-
-    <!--- calendar from here --->
-    <link href='/js/fullcalendar-4.2.0/packages/core/main.css' rel='stylesheet' />
-    <link href='/js/fullcalendar-4.2.0/packages/daygrid/main.css' rel='stylesheet' />
-    <link href='/js/fullcalendar-4.2.0/packages/list/main.css' rel='stylesheet' />
-    <link href='/js/fullcalendar-4.2.0/packages/daygrid/main.min.css' rel='stylesheet' />
-    <link href='/js/fullcalendar-4.2.0/packages/timegrid/main.min.css' rel='stylesheet' />
-
-
-    <script src='/js/fullcalendar-4.2.0/packages/core/main.js'></script>
-    <script src='/js/fullcalendar-4.2.0/packages/daygrid/main.js'></script>
-    <script src='/js/fullcalendar-4.2.0/packages/core/locales-all.js'></script>
-    <script src='/js/fullcalendar-4.2.0/packages/list/main.js'></script>
-    <script src='/js/fullcalendar-4.2.0/packages/interaction/main.min.js'></script>
-    <script src='/js/fullcalendar-4.2.0/packages/timegrid/main.min.js'></script>
-    <script src='/js/fullcalendar-4.2.0/packages/google-calendar/main.js'></script>
-    <script src="/js/calendar.js"></script>
+  </noscript>
 </head>

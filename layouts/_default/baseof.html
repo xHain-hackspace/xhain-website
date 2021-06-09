@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  {{ block "head" . }}{{ partial "head" . }}{{ end }}
+
+  <body{{ if .IsHome }} id="frontpage"{{ end }}>
+    {{ block "header" . }}{{ partial "header" .}}{{ end }}
+    {{ block "main" . }}{{ end }}
+    {{ block "footer" . }}{{ partial "footer" . }}{{ end }}
+    {{ block "javascript" . }}{{ partial "javascript" . }}{{ end }}
+  </body>
+</html>
