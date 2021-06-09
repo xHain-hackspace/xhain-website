@@ -49,14 +49,6 @@ languageName = "English"
 contentDir = "content/en"
 title = "xHain hack+makespace"
 
-[languages.de.params.recent_posts_intro]
-title = "Aktuelle Posts"
-subtitle = "Alle Posts gibt's unter 'Blog'"
-
-[languages.en.params.recent_posts_intro]
-title = "Last Posts"
-subtitle = "Click 'Blog' to see all posts"
-
 [languages.de.params.tools]
 title = "Unsere tools"
 
@@ -74,13 +66,13 @@ title = "Find us elsewhere"
 ###### MAIN MENU ######
 
 [[languages.de.menu.main]]
-  weight = 1
+  weight = 5
   identifier = "blog"
   name = "Blog"
   url = "/blog"
 
 [[languages.de.menu.main]]
-  weight = 2
+  weight = 4
   identifier = "calendar"
   name = "Kalender"
   url = "/calendar"
@@ -92,19 +84,19 @@ title = "Find us elsewhere"
   url = "/support"
 
 [[languages.de.menu.main]]
-  weight = 5
+  weight = 3
   identifier = "about"
   name = "Über uns"
   url = "/about"
 
 [[languages.en.menu.main]]
-  weight = 1
+  weight = 5
   identifier = "blog"
   name = "Blog"
   url = "/blog"
 
 [[languages.en.menu.main]]
-  weight = 2
+  weight = 4
   identifier = "calendar"
   name = "Calendar"
   url = "/calendar"
@@ -116,7 +108,7 @@ title = "Find us elsewhere"
   url = "/support"
 
 [[languages.en.menu.main]]
-  weight = 5
+  weight = 2
   identifier = "about"
   name = "About Us"
   url = "/about"
