@@ -35,9 +35,9 @@ You can either use the form below (data will be send to us via formspree.com) - 
 ## Donations
 If you would like to support us, you're welcome to donate a small or bigger amount to the following bank account:
 
-Accountholder: xHain hack+makespace gemeinnützige UG (haftungsbeschränkt)
-GLS Bank
-IBAN: DE72 4306 0967 1050 8465 00
+Accountholder: xHain hack+makespace gemeinnützige UG (haftungsbeschränkt)<br>
+GLS Bank<br>
+IBAN: DE72 4306 0967 1050 8465 00<br>
 BIC: GENODEM1GLS
 
 You’ll receive a donation receipt, if you add your contact information to the reference! :)
