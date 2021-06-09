@@ -37,9 +37,9 @@ The first thing you should do before entering xHain or our <a href="https://chat
 
 ## important links and accounts
 - If you haven't done so yet, it is advisable to create an account for our <a href="https://chat.x-hain.de" target="_blank">Rocket Chat</a>. This is not mandatory, but it is our main means of communication at xHain between members and also non-members. We also have a mailing list for members only, but we use it sparsely and only for important announcements or dates. Everything else is communicated in the chat.
-- <a href="https://chaos.social/@xhain_hackspace" target="_blank">Fediverse</a>  or <a href="https://twitter.com/xHain_hackspace" target="_blank">Twitter</a>: Public announcements about workshops or other events. 
+- <a href="https://chaos.social/@xhain_hackspace" target="_blank">Fediverse</a>  or <a href="https://twitter.com/xHain_hackspace" target="_blank">Twitter</a>: public announcements about workshops or other events. 
 - calendar on our webseite: regular events and meetups.
-- <a href="https://gitlab.com/xHain-hackspace" target="_blank">gitlab</a> or <a href="https://gitlab.com/xHain-hackspace" target="_blank">github</a>: Source code of xHain projects.
+- <a href="https://gitlab.com/xHain-hackspace" target="_blank">gitlab</a> or <a href="https://gitlab.com/xHain-hackspace" target="_blank">github</a>: source code of xHain projects.
 - <a href="https://wiki.x-hain.de" target="_blank">Wiki</a>: project documentations and more info.
 - We also have a <a href="https://files.x-hain.de" target="_blank">nextcloud</a> installation. To get an account please contact @reimerei in our Rocket chat.
 - <a href="https://www.youtube.com/channel/UCndtqJj4CxWpn2PDdBE6q8g" target="_blank">youtube</a>: our videos of course :)
