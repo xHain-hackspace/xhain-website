@@ -1,7 +1,7 @@
 ---
 title: Über uns
 date: 2017-03-30
-showMap: true
+showMap: false
 draft: false
 ---
 

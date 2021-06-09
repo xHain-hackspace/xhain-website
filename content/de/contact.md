@@ -1,7 +1,7 @@
 ---
 title: Kontakt
 date: 2017-04-04
-showMap: false
+showMap: true
 draft: false
 ---
 
@@ -12,9 +12,6 @@ Geschäftsführer: Felix Just\
 Grünberger Str. 16\
 10243 Berlin
 
-Steuer-Nr.: 27/612/07371\
-Handelsregister-Nr. HRB: 216726
-
-## Contakt
+## Email
 
 [info@x-hain.de](mailto:info@x-hain.de)
