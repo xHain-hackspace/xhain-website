@@ -37,11 +37,12 @@ The first thing you should do before entering xHain or our <a href="https://chat
 
 ## important links and accounts
 - If you haven't done so yet, it is advisable to create an account for our <a href="https://chat.x-hain.de" target="_blank">Rocket Chat</a>. This is not mandatory, but it is our main means of communication at xHain between members and also non-members. We also have a mailing list for members only, but we use it sparsely and only for important announcements or dates. Everything else is communicated in the chat.
-- Public announcements about workshops or other events are mainly published in the <a href="https://chaos.social/@xhain_hackspace" target="_blank">Fediverse</a> and on <a href="https://twitter.com/xHain_hackspace" target="_blank">Twitter</a>. Please also check our calendar on our webseite for regular events and meetups
-- Source code of xHain projects can be found on <a href="https://gitlab.com/xHain-hackspace" target="_blank">gitlab</a> or <a href="https://gitlab.com/xHain-hackspace" target="_blank">github</a>.
-- Project documentations and more can be found in our <a href="https://wiki.x-hain.de" target="_blank">Wiki</a>.
+- <a href="https://chaos.social/@xhain_hackspace" target="_blank">Fediverse</a>  or <a href="https://twitter.com/xHain_hackspace" target="_blank">Twitter</a>: Public announcements about workshops or other events. 
+- calendar on our webseite: regular events and meetups.
+- <a href="https://gitlab.com/xHain-hackspace" target="_blank">gitlab</a> or <a href="https://gitlab.com/xHain-hackspace" target="_blank">github</a>: Source code of xHain projects.
+- <a href="https://wiki.x-hain.de" target="_blank">Wiki</a>: project documentations and more info.
 - We also have a <a href="https://files.x-hain.de" target="_blank">nextcloud</a> installation. To get an account please contact @reimerei in our Rocket chat.
-- Videos can be found on our <a href="https://www.youtube.com/channel/UCndtqJj4CxWpn2PDdBE6q8g" target="_blank">youtube</a> channel.
+- <a href="https://www.youtube.com/channel/UCndtqJj4CxWpn2PDdBE6q8g" target="_blank">youtube</a>: our videos of course :)
 
 We would like to keep the #general chatroom of our Rocket Chat (chat.x-hain.de) clean and tidy. Topic specific requests therefore belong in the corresponding chatrooms. Please create separate "channels" or "discussions" for chitchat and small talk. You can find an overview of the most important channels in our <a href="https://wiki.x-hain.de/en/xHain/spacerules#rocket-chat" target="_blank">space rules</a>.
 
