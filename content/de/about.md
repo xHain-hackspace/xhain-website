@@ -5,7 +5,7 @@ showMap: false
 draft: false
 ---
 
-Ein Ort im Kiez, der sich für Austausch, gegenseitige Schulung und gute Laune eignet. So soll der xHain werden.
+Ein Ort im Kiez, der sich für Austausch, gegenseitige Schulung und gute Laune eignet. 
 
 **Tagsüber:** Ein Lernort für Projekt- und Schülergruppen.
 
@@ -13,7 +13,6 @@ Ein Ort im Kiez, der sich für Austausch, gegenseitige Schulung und gute Laune e
 
 **Zwischendurch:** Ein Tagungsraum oder temporärer Schreibtisch für bürolose Friedrichshainer\*innen.
 
-So oder ähnlich könnte sich der xHain, wenn es nach Gründer Felix geht, entwickeln.
 
 ## Die Nutzer\*innen
 
@@ -23,11 +22,20 @@ Damit sind nicht nur Berufstätige, sondern auch Schüler\*innen, Senior\*innen,
 Der xHain ist ein rauchfreier Ort. Wer rauchen will, kann das draußen tun.
 Wer ein Arschloch ist, z.B. sexistisch, rassistisch, oder homophob, braucht nicht zu kommen.
 
-## Barrierefreiheit
+Inklusion ist uns wichtig. Daher haben wir einerseits ein Awareness-Team sowie <a href="https://wiki.x-hain.de/de/xHain/xRoots" target="_blank">xRoots Mentor:innen</a> als Ansprechpartner:innen für dich aufgestellt.
 
+## Barrierefreiheit
 Menschen mit handicaps bzw. disabilities sind uns willkommen! Wir haben noch kein rollstuhlgerechtes WC, aber schon eine mobile Rampe und unsere Werkbank ist unterfahrbar für Rollstühle. Wir bemühen uns stetig , weitere Barrieren abzubauen.
 
+Mehr Infos zu den Räumlichkeiten sowie eine Space-Karte findet du <a href="https://wiki.x-hain.de/de/xHain/rooms-and-equipment" target="_blank">hier</a>.
+
 <img alt="Wheelchair symbol" src="/images/icons/accessible.svg" class="icon" />
+
+## Awareness-Team
+Solltest du Verbesserungsvorschläge in Sachen Inklusion, persönliche und vertrauliche Anliegen, sonstige Bedürfnisse, Sorgen oder Probleme rund um den xHain, dessen Nutzung oder einzelnen Personen oder Personengruppen besprechen wollen, dann wende dich im <a href="https://chat.x-hain.de" target="_blank">Rocket Chat</a> bitte an folgende Personen. Wir sind stets bemüht solche Probleme zu beseitigen. Alle Informationen werden vertraulich behandelt.
+
+- @trial.error (she/her), spricht deutsch/englisch
+- @felix (he/him), spricht deutsch/englisch/französisch
 
 ## Adresse
 
