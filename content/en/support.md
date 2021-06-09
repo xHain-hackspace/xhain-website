@@ -44,4 +44,4 @@ You’ll receive a donation receipt, if you add your contact information to the 
 
 ## Renting the Place
 
-You can rent xHain for a small conference or an event. There’s not enough room for huge birthday parties, but if you’re planning a workshop, if you’re looking for a less conventional place for your meetings, if you want to screen your movie or if you’re looking for a creative environment where you can write your fan fiction, just contact us and we’ll work out the details.
+You can rent xHain for a small conference or an event. Huge birthday parties may not be advisable, but if you’re planning a workshop, if you’re looking for an unconventional place for your meetings, if you want to screen your movie or if you’re looking for a creative environment where you can write your fan fiction, just contact us and we’ll work out the details.
