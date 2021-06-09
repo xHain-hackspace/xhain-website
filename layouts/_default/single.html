@@ -8,6 +8,9 @@
       </article>
       <!-- {{ if .Params.tags }}<div class="tags">{{ delimit .Params.tags ", " }}</div>{{end}}
           {{ if .Params.categories }}<div class="categories">{{ delimit .Params.categories ", " }}</div>{{end}} -->
+      {{ if .Params.showMap }}
+      <div id="map"></div>
+      {{ end }}
     </div>
   </div>
 </main>
