@@ -53,8 +53,6 @@ Wir möchten den #general Chatraum unseres Rocket Chats (chat.x-hain.de) gerne "
 ## Member-Box, Arbeitsmaterialien, Lager
 Wenn du Mitglied bist, kannst du im Space eine persönliche Kiste die nur dir gehört erhalten, die sogenannte Memberbox. Darin kannst du deine persönlichen Basteleien lagern. Was nicht in die Box passt nimmst du bitte wieder mit nach hause. Wir sind kein Lagerort und wollen keine größeren Bastelprojekte rumstehen haben. Auch Arbeitsmaterial solltest du nicht ohne Absprache herumstehen lassen. Grundsätzlich gilt: Arbeitsmaterial (z.B. Holz oder Acrylplatten) das irgendwo rumsteht darf benutzt werden (wirf etwas in die Spendenkasse dafür!), Namenszettel gelten nicht und dürfen ignoriert werden. Das gilt allerdings nicht für Werkzeuge und Maschinen!
 
-- Wenn du ein Werkzeug hast, das besser ist oder noch nicht im xHain vorhanden, so freuen wir uns wenn du es dem xHain zur allgemeinen Verfügung stellst. Beschrifte dein Eigentum mit deinem Namen. Sei aber vorgewarnt, daß Geräte beschädigt werden können und der xHain nicht dafür haftet. Sprich es aber bitte vorher mit anderen ab und lasse nicht irgendwas irgendwo unbeschriftet herumstehen.
-
 ## Maschinen- und Gerätenutzung
 Lies unbedingt auch die Abschnitte "Maschinen" und "Sicherheit" in unseren <a href="https://wiki.x-hain.de/de/xHain/spacerules" target="_blank">Space Regeln</a> nach. Manche Geräte/Maschinen erfodern eine Einweisung durch authorisierte Personen und dürfen nicht ohne Erlaubnis genutzt werden. Wiki-Dokumentationen dienen nur der Gedächtnisstütze und ersetzen NICHT die persönliche Einweisung. Bei Verstößen gegen die Nutzungsregeln kann die Nutzungserlaubnis entzogen werden.
 
@@ -65,3 +63,6 @@ Wir haben eine elektronische Steuerung für die Eingangstür, unsere <a href="ht
 
 Aktuell: Zu Covid19-Zeiten vergeben wir nur zögerlich Schlüsselberechtigungen. Wir möchten zwar ein bisschen Aktivität im Space haben, müssen aber auch für die Einhaltung unseres <a href="https://wiki.x-hain.de/de/xHain/hygiene-konzept" target="_blank">Hygiene-Konzeptes</a> sorgen.
 
+# Adresse
+Grünberger Str. 16<br>
+10243 Berlin
