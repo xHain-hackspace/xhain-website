@@ -32,7 +32,7 @@ Mehr Infos zu den Räumlichkeiten sowie eine Space-Karte findet du <a href="http
 <img alt="Wheelchair symbol" src="/images/icons/accessible.svg" class="icon" />
 
 ## Awareness-Team
-Solltest du Verbesserungsvorschläge in Sachen Inklusion, persönliche und vertrauliche Anliegen, sonstige Bedürfnisse, Sorgen oder Probleme rund um den xHain, dessen Nutzung oder einzelnen Personen oder Personengruppen besprechen wollen, dann wende dich im <a href="https://chat.x-hain.de" target="_blank">Rocket Chat</a> bitte an folgende Personen. Alle Informationen werden vertraulich behandelt.
+Solltest du Verbesserungsvorschläge in Sachen Inklusion, persönliche und vertrauliche Anliegen, sonstige Bedürfnisse, Sorgen oder Probleme rund um den xHain, dessen Nutzung oder einzelnen Personen oder Personengruppen besprechen wollen, dann wende dich im <a href="https://chat.x-hain.de" target="_blank">Rocket Chat</a> bitte an folgende Personen oder schreib uns eine Mail (awareness[ät]x-hain.de). Alle Informationen werden vertraulich behandelt.
 
 - @trial.error (she/her), spricht deutsch/englisch
 - @felix (he/him), spricht deutsch/englisch/französisch
