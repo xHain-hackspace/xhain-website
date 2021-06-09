@@ -15,4 +15,4 @@ Fragst du dich, ob der xHain was für dich ist? Ob Hacker:in, Maker:in oder einf
 
 ![](/images/xHain_xRoots.png)
 
-**Unsere <a href="https://wiki.x-hain.de/de/xHain/xRoots" target="_blank">xRoots</a> Mentor:innen sind für *dich* da: Sie verbringen Zeit und reden mit dir, zeigen dir den xHain und beantworten deine Fragen. Solltest du besondere Bedürfnisse oder Anliegen haben, halte nach dem xRoots Logo/Badge Ausschau oder sprich uns im <a href="chat.x-hain.de" target="_blank">Chat</a> an.**
+**Unsere <a href="https://wiki.x-hain.de/de/xHain/xRoots" target="_blank">xRoots</a> Mentor:innen sind für *dich* da: Sie verbringen Zeit und reden mit dir, zeigen dir den xHain und beantworten deine Fragen. Solltest du besondere Bedürfnisse oder Anliegen haben, halte nach dem xRoots Logo/Badge Ausschau oder sprich uns im <a href="https://chat.x-hain.de" target="_blank">Chat</a> an.**
