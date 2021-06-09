@@ -1,12 +1,10 @@
 // Show navigation on frontpage when scrolling down
 $(window).scroll(function () {
   if ($(this).scrollTop() > $(window).height() - 107) {
-    $("#frontpage header .logo").show();
-    $("#frontpage header").fadeIn(300);
-    $("#frontpage header").removeClass("displayed");
+    $("#frontpage header").removeClass("semi-transparent");
   } else {
-    if (!$("#frontpage header").hasClass("displayed")) {
-      $("#frontpage header").fadeOut(300);
+    if (!$("#frontpage header").hasClass("semi-transparent")) {
+      $("#frontpage header").addClass("semi-transparent");
     }
   }
 });
@@ -21,12 +19,7 @@ $(document).ready(function () {
       $("#main-navigation .desktop").hide();
     }
   });
-
-  $("#frontpage-hero .logo").click(function () {
-    $("#frontpage header #logo").hide();
-    $("#frontpage header").fadeIn(300);
-    $("#frontpage header").addClass("displayed");
-  });
+  $("#frontpage header").addClass("semi-transparent");
 });
 
 var map = L.map("map", {
