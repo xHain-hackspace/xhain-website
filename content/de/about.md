@@ -16,7 +16,7 @@ Ein Ort im Kiez, der sich für Austausch, gegenseitige Schulung und gute Laune e
 
 ## Die Nutzer:innen
 
-Wir möchten mit dem xHain einen Ort schaffen, an dem sich Bastler\*innen, Technikinteressierte und (Gesellschafts-)hacker\*innen wohl fühlen.
+Wir möchten mit dem xHain einen Ort schaffen, an dem sich Bastler:innen, Technikinteressierte und (Gesellschafts-)hacker:innen wohl fühlen.
 Damit sind nicht nur Berufstätige, sondern auch Schüler:innen, Senior:innen, Menschen in der Ausbildung oder jene die erwerbslos sind gemeint.
 
 Der xHain ist ein rauchfreier Ort. Wer rauchen will, kann das draußen tun.
