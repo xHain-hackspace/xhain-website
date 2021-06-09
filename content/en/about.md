@@ -23,7 +23,7 @@ If you’re an asshole, e.g. sexist, racist, or homophobic, please don’t bothe
 
 People with handicaps and disabilities are welcome! We don't have an accessibly designed bathroom yet, but a mobile ramp and our workshops workbench is wheelchair accessible. We are constantly trying to improve in order to become a barrier-free space.
 
-![](/images/icons/accessible.svg)
+<img alt="Wheelchair symbol" src="/images/icons/accessible.svg" class="icon" />
 
 ## Address
 
