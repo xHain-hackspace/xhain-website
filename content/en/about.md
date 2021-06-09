@@ -5,67 +5,32 @@ showMap: false
 draft: false
 ---
 
-To have a local place for exchanges, mutual learning and fun: that’s the vision for xHain.
-During the day: a place where projects and school groups can learn.
-At night: a place where hackers and makers can meet.
-At other times: a conference room or a temporary desk for Friedrichshainers with no office to go to.
-This – or something similar – is what founder Felix hopes xHain turns out to be.
+To have a local place for exchanges, mutual learning and fun: that’s the vision for xHain.<br>
+**During the day:** a place where projects and school groups can learn.<br>
+**At night:** a place where hackers and makers can meet.<br>
+**At other times:** a conference room or a temporary desk for Friedrichshainers with no office to go to.
 
 ## Who It’s For
-
 We want to create a place where makers, people who are interested in tech, and (society) hackers feel comfortable.
 You’re welcome no matter who you are or what you do – whether you have a job or not, whether you’re a trainee or a student, a single parent or a senior citizen.
 
 xHain is a non-smoking place. People who want to smoke can do so outside.
 If you’re an asshole, e.g. sexist, racist, or homophobic, please don’t bother coming.
 
-## Accessibility
+We take inclusivity very seriously and hence have put together an awareness team as well as our <a href="https://wiki.x-hain.de/en/xHain/xRoots" target="_blank">xroots mentors</a> as personal contacts for you.
 
+## Accessibility
 People with handicaps and disabilities are welcome! We don't have an accessibly designed bathroom yet, but a mobile ramp and our workshops workbench is wheelchair accessible. We are constantly trying to improve in order to become a barrier-free space.
 
-<img alt="Wheelchair symbol" src="/images/icons/accessible.svg" class="icon" />
-
-
-
-
----
-title: Über uns
-date: 2017-03-30
-showMap: false
-draft: false
----
-
-Ein Ort im Kiez, der sich für Austausch, gegenseitige Schulung und gute Laune eignet. 
-
-**Tagsüber:** Ein Lernort für Projekt- und Schülergruppen.
-
-**Abends:** Ein Treffpunkt für Hacker:innen und Bastler:innen.
-
-**Zwischendurch:** Ein Tagungsraum oder temporärer Schreibtisch für bürolose Friedrichshainer:innen.
-
-
-## Die Nutzer:innen
-
-Wir möchten mit dem xHain einen Ort schaffen, an dem sich Bastler:innen, Technikinteressierte und (Gesellschafts-)hacker:innen wohl fühlen.
-Damit sind nicht nur Berufstätige, sondern auch Schüler:innen, Senior:innen, Menschen in der Ausbildung oder jene die erwerbslos sind gemeint.
-
-Der xHain ist ein rauchfreier Ort. Wer rauchen will, kann das draußen tun.
-Wer ein Arschloch ist, z.B. sexistisch, rassistisch, oder homophob, braucht nicht zu kommen.
-
-Inklusion ist uns wichtig. Daher haben wir einerseits ein Awareness-Team sowie <a href="https://wiki.x-hain.de/de/xHain/xRoots" target="_blank">xRoots Mentor:innen</a> als Ansprechpartner:innen für dich aufgestellt.
-
-## Barrierefreiheit
-Menschen mit handicaps bzw. disabilities sind uns willkommen! Wir haben noch kein rollstuhlgerechtes WC, aber schon eine mobile Rampe und unsere Werkbank ist unterfahrbar für Rollstühle. Wir bemühen uns stetig , weitere Barrieren abzubauen.
-
-Mehr Infos zu den Räumlichkeiten sowie eine Space-Karte findet du <a href="https://wiki.x-hain.de/de/xHain/rooms-and-equipment" target="_blank">hier</a>.
+You can find more info about our physical space and a floor map <a href="https://wiki.x-hain.de/en/xHain/rooms-and-equipment" target="_blank">here</a>.
 
 <img alt="Wheelchair symbol" src="/images/icons/accessible.svg" class="icon" />
 
-## Awareness-Team
-Solltest du Verbesserungsvorschläge in Sachen Inklusion, persönliche und vertrauliche Anliegen, sonstige Bedürfnisse, Sorgen oder Probleme rund um den xHain, dessen Nutzung oder einzelnen Personen oder Personengruppen besprechen wollen, dann wende dich im <a href="https://chat.x-hain.de" target="_blank">Rocket Chat</a> bitte an folgende Personen oder schreib uns eine Mail (awareness[ät]x-hain.de). Alle Informationen werden vertraulich behandelt.
+## Awareness Team
+If you have suggestions for inclusivity improvements, personal or confidential concerns, needs, worries or problems in the context of xHain, problems with individual persons or groups, or if you would like to point out problematic structures or bad experiences you had at xHain, please contact the following people in our <a href="https://chat.x-hain.de" target="_blank">rocket chat</a>. All information will be kept strictly confidential.
 
-- @trial.error (she/her), spricht deutsch/englisch
-- @felix (he/him), spricht deutsch/englisch/französisch
+- @trial.error (she/her), speaks german/english
+- @felix (he/him), speaks german/english/french
 
 # First Steps
 The first thing you should do before entering xHain or our <a href="https://chat.x-hain.de" target="_blank">rocket chat</a> is to read and respect our <a href="https://wiki.x-hain.de/de/xHain/spacerules" target="_blank">space rules</a>. Before spending time alone in our space, you should have received a personal introduction and tour. If this has not already been done, please ask any member for a guided tour on a Monday evening.
