@@ -37,10 +37,6 @@ Solltest du Verbesserungsvorschläge in Sachen Inklusion, persönliche und vertr
 - @trial.error (she/her), spricht deutsch/englisch
 - @felix (he/him), spricht deutsch/englisch/französisch
 
-## Adresse
-Grünberger Str. 16\
-10243 Berlin
-
 # Erste Schritte
 Bevor du unseren Space oder unseren Rocket-Chat betrittst, solltest du als erstes unsere <a href="https://wiki.x-hain.de/de/xHain/spacerules" target="_blank">Space Regeln</a> gelesen und beachtet haben. Bevor du dich alleine im Space aufhalten darfst, solltest du ausserdem eine persönliche (Ein)Führung erhalten haben. Falls das noch nicht geschehen ist, bitte ein Member an einem Montag abend um eine Führung.
 
