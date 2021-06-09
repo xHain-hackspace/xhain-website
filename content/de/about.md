@@ -21,7 +21,7 @@ Wer ein Arschloch ist, z.B. sexistisch, rassistisch, oder homophob, braucht nich
 Inklusion ist uns wichtig. Daher haben wir einerseits ein Awareness-Team sowie <a href="https://wiki.x-hain.de/de/xHain/xRoots" target="_blank">xRoots Mentor:innen</a> als Ansprechpartner:innen für dich aufgestellt.
 
 ## Barrierefreiheit
-Menschen mit handicaps bzw. disabilities sind uns willkommen! Wir haben noch kein rollstuhlgerechtes WC, aber schon eine mobile Rampe und unsere Werkbank ist unterfahrbar für Rollstühle. Wir bemühen uns stetig , weitere Barrieren abzubauen.
+Menschen mit handicaps bzw. disabilities sind uns willkommen! Wir haben noch kein rollstuhlgerechtes WC, aber schon eine mobile Rampe und unsere Werkbank ist unterfahrbar für Rollstühle. Wir bemühen uns stetig, weitere Barrieren abzubauen.
 
 Mehr Infos zu den Räumlichkeiten sowie eine Space-Karte findet du <a href="https://wiki.x-hain.de/de/xHain/rooms-and-equipment" target="_blank">hier</a>.
 
