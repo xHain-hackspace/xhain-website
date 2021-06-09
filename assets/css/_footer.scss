@@ -1,21 +1,10 @@
 footer {
-  img.logo {
-    height: 140px;
-    width: auto;
-  }
-  .first-part {
-    float: left;
-    padding-bottom: 30px;
-
+  #footer-wrapper {
+    display: flow-root;
+    background: url(/images/logo/xhain.svg) right 30px top 30px no-repeat;
+    background-size: 140px 140px;
   }
   .second-part {
-    float: right;
-    text-align: right;
     padding-bottom: 30px;
-
-    h5 {
-      margin-bottom: 5px;
-      text-align: right;
-    }
   }
 }

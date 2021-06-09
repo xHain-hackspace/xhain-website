@@ -227,6 +227,29 @@ input {
   #main-navigation .desktop li {
     display: inline;
   }
+
+  #footer-wrapper {
+    display: flow-root;
+    background: url(/images/logo/xhain.svg) center center no-repeat;
+    background-size: 150px 150px;
+  }
+  footer  {
+    #footer-wrapper {
+      background-position: center center;
+    }
+    .first-part {
+      float: left;
+      padding-bottom: 30px;
+    }
+    .second-part {
+      float: right;
+      text-align: right;
+      h5 {
+        margin-bottom: 5px;
+        text-align: right;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 380px) {
@@ -247,6 +270,10 @@ input {
   #main-navigation ul {
     padding: 5px;
   }
+  #footer-wrapper {
+    background: none !important;
+  }
+
 }
 
 @media screen and (max-width: 280px) {
@@ -254,7 +281,6 @@ input {
     display: none;
   }
 }
-
 
 iframe {
   border-radius: 10px;

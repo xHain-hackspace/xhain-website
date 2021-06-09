@@ -1,8 +1,7 @@
 <footer>
   <div id="footer-wrapper">
     <div class="first-part">
-      <img class="logo" src="/images/logo/xhain.svg" />
-
+      <h5>{{ .Site.Params.info.title }}:</h5>
       <nav id="footer-navigation">
         <ul>
           {{ range .Site.Menus.footer.ByWeight }}
@@ -12,10 +11,8 @@
           {{ end }}
         </ul>
       </nav>
-    </div>
-    <div class="second-part">
-      <h5>{{ .Site.Params.tools.title }}:</h5>
 
+      <h5>{{ .Site.Params.tools.title }}:</h5>
       <nav id="tools-navigation">
         <ul>
           {{- $currentPage := . -}} {{ range .Site.Menus.tools -}}
@@ -27,6 +24,8 @@
           {{- end }}
         </ul>
       </nav>
+    </div>
+    <div class="second-part">
       <h5>{{ .Site.Params.social.title }}:</h5>
       <nav id="social-navigation">
         <ul>

@@ -49,6 +49,12 @@ languageName = "English"
 contentDir = "content/en"
 title = "xHain hack+makespace"
 
+[languages.de.params.info]
+title = "Mehr informationen"
+
+[languages.en.params.info]
+title = "More information"
+
 [languages.de.params.tools]
 title = "Unsere tools"
 
