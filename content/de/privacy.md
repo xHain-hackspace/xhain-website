@@ -1,5 +1,5 @@
 ---
-title: Datenschutzerklärung
+title: Datenschutz
 date: 2017-04-04
 showMap: false
 draft: false
