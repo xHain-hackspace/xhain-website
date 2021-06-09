@@ -7,7 +7,7 @@ draft: false
 Der xHain finanziert sich hauptsächlich aus den Mitgliedsbeiträgen, aber auch einmalige Spenden sind natürlich immer willkommen und helfen uns unseren Space weiterzugestalten.
 
 ## Mitglied werden
-Wir werden oft danach gefragt, wie das mit der Mitliedschaft so ist. Der xHain unterscheidet sich von den meisten anderen Hackspaces insofern, daß er ein offener Space ist und du bei uns kein Mitglied sein musst um vorbei zu kommen und Spaß mit uns zu haben. Aber natürlich freuen wir uns über Spenden und Mitgliedschaften, die uns unterstützen und finanzieren.
+Wir werden oft danach gefragt, wie das mit der Mitliedschaft so ist. Der xHain unterscheidet sich von den meisten anderen Hackspaces insofern, daß er ein *offener Space* ist und du bei uns kein Mitglied sein *musst* um vorbei zu kommen und Spaß mit uns zu haben. Aber natürlich freuen wir uns über Spenden und Mitgliedschaften, die uns unterstützen und finanzieren.
 
 Als Nicht-Mitglied hast du nur an offenen Montagen, öffentlichen Events oder Meetups Zugang zum xHain. Ausserdem unterscheiden sich bei manchen Werkzeugen/Maschinen die Nutzungspreise (z.B. bei unserem Lasercutter). Als Mitglied kannst du nach 3 Monaten Zugang zur xDoor beantragen, wodurch dir der xHain 24/7 zur Verfügung steht.
 
