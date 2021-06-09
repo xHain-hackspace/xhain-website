@@ -1,7 +1,5 @@
 baseurl = "https://staging.x-hain.de"
 title = "xHain hack+makespace"
-theme = "xhain-theme"
-themesDir = "themes/"
 canonifyurls = true
 languageCode = "de"
 defaultContentLanguage = "de"
@@ -9,9 +7,6 @@ DefaultContentLanguageInSubdir = "true"
 MetaDataFormat = "yaml"
 
 disableLanguageSwitchingButton = true
-
-# Enable Google Analytics by entering your tracking code
-#googleAnalytics = "UA-11111"
 
 # Define the number of posts per page
 paginate = 6

@@ -25,28 +25,21 @@ title = "xHain hack+makespace"
   identifier = "calendar"
   name = "Kalender"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-calendar-o\"></i>"
-  url = "/page/calendar"
+  url = "/calendar"
 
 [[languages.de.menu.main]]
   weight = 3
   identifier = "support"
   name = "Unterstützendes"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-life-ring\"></i>"
-  url = "/page/support"
-
-[[languages.de.menu.main]]
-  weight = 4
-  identifier = "live"
-  name = "Live"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-life-ring\"></i>"
-  url = "/page/live"
+  url = "/support"
 
 [[languages.de.menu.main]]
   weight = 5
   identifier = "about"
   name = "Über uns"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-info\"></i>"
-  url = "/page/about"
+  url = "/about"
 
 [[languages.en.menu.main]]
   weight = 1
@@ -60,28 +53,21 @@ title = "xHain hack+makespace"
   identifier = "calendar"
   name = "Calendar"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-calendar-o\"></i>"
-  url = "/page/calendar"
+  url = "/calendar"
 
 [[languages.en.menu.main]]
   weight = 3
   identifier = "support"
   name = "Support"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-life-ring\"></i>"
-  url = "/page/support"
-
-[[languages.de.menu.main]]
-  weight = 4
-  identifier = "live"
-  name = "Live"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-life-ring\"></i>"
-  url = "/page/live"
+  url = "/support"
 
 [[languages.en.menu.main]]
   weight = 5
   identifier = "about"
   name = "About Us"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-info\"></i>"
-  url = "/page/about"
+  url = "/about"
 
 # second menu (icon based)
 [[languages.de.menu.second]]
@@ -169,11 +155,11 @@ subtitle = "That's us on Twitter"
   identifier = "Imprint"
   name = "Impressum"
   pre = ""
-  url = "/page/imprint"
+  url = "/imprint"
 
 [[languages.en.menu.footerlinks]]
   weight = 1
   identifier = "Imprint"
   name = "Imprint"
   pre = ""
-  url = "/page/imprint"
+  url = "/imprint"

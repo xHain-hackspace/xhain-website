@@ -1,4 +1,4 @@
-<<---
+---
 title: xHain-Re0pening-Party
 thumbnailImage: /img/Re0pening.jpg
 heroImage:  /img/Re0pening.jpg
