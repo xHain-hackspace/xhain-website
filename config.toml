@@ -155,15 +155,27 @@ title = "Find us elsewhere"
 
 [[languages.de.menu.social]]
   weight = 5
+  identifier = "youtube"
+  name = "Youtube"
+  url = "https://www.youtube.com/channel/UCndtqJj4CxWpn2PDdBE6q8g"
+
+[[languages.de.menu.social]]
+  weight = 6
   identifier = "gitlab"
   name = "Gitlab"
   url = "https://gitlab.com/xHain-hackspace"
 
 [[languages.de.menu.social]]
-  weight = 6
+  weight = 7
   identifier = "github"
   name = "Github"
   url = "https://github.com/orgs/xHain-hackspace/"
+
+[[languages.de.menu.social]]
+  weight = 5
+  identifier = "youtube"
+  name = "Youtube"
+  url = "https://www.youtube.com/channel/UCndtqJj4CxWpn2PDdBE6q8g"
 
 [[languages.en.menu.social]]
   weight = 3
@@ -179,12 +191,18 @@ title = "Find us elsewhere"
 
 [[languages.en.menu.social]]
   weight = 5
+  identifier = "youtube"
+  name = "Youtube"
+  url = "https://www.youtube.com/channel/UCndtqJj4CxWpn2PDdBE6q8g"
+
+[[languages.en.menu.social]]
+  weight = 6
   identifier = "gitlab"
   name = "Gitlab"
   url = "https://gitlab.com/xHain-hackspace"
 
 [[languages.en.menu.social]]
-  weight = 6
+  weight = 7
   identifier = "github"
   name = "Github"
   url = "https://github.com/orgs/xHain-hackspace/"
