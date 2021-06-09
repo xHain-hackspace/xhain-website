@@ -5,7 +5,7 @@ showMap: true
 draft: false
 ---
 
-## Address
+## Anschrift
 
 xHain hack+makespace gemeinnützige UG (haftungsbeschränkt)\
 Geschäftsführer: Felix Just\
