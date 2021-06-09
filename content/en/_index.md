@@ -5,10 +5,6 @@ showMap: true
 draft: false
 ---
 
-Hack- & Makespace in the heart of Friedrichshain, tinkering room for people interested in technology + space for net politics.
-
-![](/images/space-map.png)
-
 **Welcome to xHain: Hack- & Makespace in the heart of Friedrichshain, tinkering room for people interested in technology + space for net politics.**
 
 **Open monday nights**: Come by, take a look and join in! Every Monday from 5pm until late at night in Grünberger Str. 16, 10243 Berlin.<br>
