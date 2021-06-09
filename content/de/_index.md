@@ -6,6 +6,7 @@ draft: false
 ---
 
 **Willkommen im xHain: Hack- & Makespace im Herzen von Friedrichshain, Bastelstube für Technikinteressierte + Raum für Netzpolitisches.**
+![](/images/space-map.png)
 
 **Offener Montag Abend**: Komm vorbei, schnupper rein und mach mit! Immer Montags ab 17h bis spät in die Nacht in der Grünberger Str. 16, 10243 Berlin.
 
@@ -13,5 +14,4 @@ Fragst du dich, ob der xHain was für dich ist? Ob Hacker:in, Maker:in oder einf
 
 **Unsere [xRoots](https://wiki.x-hain.de/de/xHain/xRoots) Mentor:innen sind für *dich* da: Sie verbringen Zeit und reden mit dir, zeigen dir den xHain und beantworten deine Fragen. Solltest du besondere Bedürfnisse oder Anliegen haben, sprich uns einfach an.**
 
-
-![](/images/space-map.png)
+![](/images/xHain_xRoots.png)
