@@ -18,3 +18,5 @@ Fragst du dich, ob der xHain was für dich ist? Ob Hacker:in, Maker:in oder einf
 ![](/images/xHain_xRoots.png)
 
 Bedenken "nicht dazu zu gehören", eigentlich (noch) gar kein:e Hacker:in oder Maker:in zu sein oder besondere Bedürfnisse zu haben, sollte dich nicht daran hindern dich im xHain wohl zu fühlen. Auch wenn du introvertiert oder schüchtern bist, die meisten Member sind freundliche Gestalten, die du jederzeit einfach ansprechen kannst. Wenn du ein:e persönliche Ansprechpartner:in suchst, dann kannst du dich jederzeit an die <a href="https://wiki.x-hain.de/de/xHain/xRoots" target="_blank">xRoots</a> wenden!
+
+Und hier findest du uns:
