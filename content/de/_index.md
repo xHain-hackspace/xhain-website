@@ -14,4 +14,4 @@ Fragst du dich, ob der xHain was für dich ist? Ob Hacker:in, Maker:in oder einf
 
 **Unsere [xRoots](https://wiki.x-hain.de/de/xHain/xRoots) Mentor:innen sind für *dich* da: Sie verbringen Zeit und reden mit dir, zeigen dir den xHain und beantworten deine Fragen. Solltest du besondere Bedürfnisse oder Anliegen haben, sprich uns einfach an.**
 
-![](/images/xHain_xRoots.png)
+![](/images/xHain_xRoots.png =200x)
