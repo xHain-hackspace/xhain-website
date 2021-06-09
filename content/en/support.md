@@ -20,16 +20,16 @@ You can either use the form below (data will be send to us via formspree.com) - 
       method="POST">
     <label for="Name">name:
     	<input type="text" name="Name" title="name" required>
-    </label><br>
+    </label>
     <label for="email">email:
     	<input type="email" name="_replyto" title="email" required>
-    </label><br>
+    </label>
     <label for="amount">amount:
     	<input type="text" name="amount" title="amount" value="13.37" required>
-    </label><br>
+    </label>
     <label>Order the support rate
     	<input type="submit" value="Send">
-	</label><br>
+	</label>
 </form>
 
 ## Donations
