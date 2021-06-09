@@ -84,7 +84,7 @@ title = "Find us elsewhere"
   url = "/support"
 
 [[languages.de.menu.main]]
-  weight = 3
+  weight = 2
   identifier = "about"
   name = "Über uns"
   url = "/about"
