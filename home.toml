@@ -72,60 +72,73 @@ title = "xHain hack+makespace"
 # second menu (icon based)
 [[languages.de.menu.second]]
   weight = 1
+  identifier = "rocketchat"
+  name = "RocketChat"
+  pre = "<i class='fab fa-rocketchat fa-inverse'></i>"
+  url = "https://chat.x-hain.de/home"
+
+[[languages.de.menu.second]]
+  weight = 2
+  identifier = "fediverse"
+  name = "Fediverse"
+  pre = "<i class='fab fa-mastodon fa-inverse'></i>"
+  url = "https://chaos.social/@xHain_hackspace"
+
+[[languages.de.menu.second]]
+  weight = 3
   identifier = "twitter"
   name = "Twitter"
   pre = "<i class='fab fa-twitter fa-inverse'></i>"
   url = "https://twitter.com/xHain_hackspace"
 
 [[languages.de.menu.second]]
-  weight = 2
-  identifier = "github"
-  name = "Github"
-  pre = "<i class='fab fa-github fa-inverse'></i>"
-  url = "https://github.com/orgs/xHain-hackspace/"
-
-[[languages.de.menu.second]]
-  weight = 3
+  weight = 4
   identifier = "gitlab"
   name = "Gitlab"
   pre = "<i class='fab fa-gitlab fa-inverse'></i>"
   url = "https://gitlab.com/xHain-hackspace"
 
 [[languages.de.menu.second]]
-  weight = 4
-  identifier = "rocketchat"
-  name = "RocketChat"
-  pre = "<i class='fab fa-rocketchat fa-inverse'></i>"
-  url = "https://chat.x-hain.de/home"
+  weight = 5
+  identifier = "github"
+  name = "Github"
+  pre = "<i class='fab fa-github fa-inverse'></i>"
+  url = "https://github.com/orgs/xHain-hackspace/"
 
 [[languages.en.menu.second]]
   weight = 1
+  identifier = "rocketchat"
+  name = "RocketChat"
+  pre = "<i class='fab fa-rocketchat fa-inverse'></i>"
+  url = "https://chat.x-hain.de/home"
+
+[[languages.en.menu.second]]
+  weight = 2
+  identifier = "fediverse"
+  name = "Fediverse"
+  pre = "<i class='fab fa-mastodon fa-inverse'></i>"
+  url = "https://chaos.social/@xHain_hackspace"
+
+[[languages.en.menu.second]]
+  weight = 3
   identifier = "twitter"
   name = "Twitter"
   pre = "<i class='fab fa-twitter fa-inverse'></i>"
   url = "https://twitter.com/xHain_hackspace"
 
 [[languages.en.menu.second]]
-  weight = 2
-  identifier = "github"
-  name = "Github"
-  pre = "<i class='fab fa-github fa-inverse'></i>"
-  url = "https://github.com/orgs/xHain-hackspace/"
-
-[[languages.en.menu.second]]
-  weight = 3
+  weight = 4
   identifier = "gitlab"
   name = "Gitlab"
   pre = "<i class='fab fa-gitlab fa-inverse'></i>"
   url = "https://gitlab.com/xHain-hackspace"
 
 [[languages.en.menu.second]]
-  weight = 4
-  identifier = "rocketchat"
-  name = "RocketChat"
-  pre = "<i class='fab fa-rocketchat fa-inverse'></i>"
-  url = "https://chat.x-hain.de/home"
-
+  weight = 5
+  identifier = "github"
+  name = "Github"
+  pre = "<i class='fab fa-github fa-inverse'></i>"
+  url = "https://github.com/orgs/xHain-hackspace/"
 
 # Recent Post
 [languages.de.params.recent_posts_intro]
@@ -138,28 +151,31 @@ enable = true
 title = "Last Posts"
 subtitle = "Click 'Blog' to see all posts"
 
-# Twitter 
-[languages.de.params.twitter_intro]
-enable = true
-title = "Wir bei Twitter"
-subtitle = "Für kurzweiligen Content"
-
-[languages.en.params.twitter_intro]
-enable = true
-title = "Follow us for news, updates and jokes"
-subtitle = "That's us on Twitter"
-
 # footer links
 [[languages.de.menu.footerlinks]]
   weight = 1
-  identifier = "Imprint"
-  name = "Impressum"
+  identifier = "Contact"
+  name = "Kontakt"
   pre = ""
-  url = "/imprint"
+  url = "/contact"
 
 [[languages.en.menu.footerlinks]]
   weight = 1
-  identifier = "Imprint"
-  name = "Imprint"
+  identifier = "Contact"
+  name = "Contact"
   pre = ""
-  url = "/imprint"
+  url = "/contact"
+
+[[languages.de.menu.footerlinks]]
+  weight = 1
+  identifier = "Privacy"
+  name = "Datenschutz"
+  pre = ""
+  url = "/privacy"
+
+[[languages.en.menu.footerlinks]]
+  weight = 1
+  identifier = "Privacy"
+  name = "Privacy"
+  pre = ""
+  url = "/privacy"

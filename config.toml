@@ -70,15 +70,6 @@ paginate = 6
     url = "/images/hero.jpg"
     # For more informtion take a look at the README.
 
-[params.instagram]
-    enable = false
-    # For more informtion take a look at the README.
-    
-[params.twitter]
-    enable = true
-    username = "xHain_hackspace"
-    url = "https://twitter.com/xHain_hackspace"
-
 [params.recent_posts]
     enable = true
 
