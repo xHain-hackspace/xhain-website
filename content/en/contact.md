@@ -7,7 +7,7 @@ draft: false
 
 ## Address
 
-xHain hack+makespace gUG (nonprofit, limited))\
+xHain hack+makespace gUG (nonprofit, limited)\
 Responsible: Felix Just\
 Grünberger Str. 16\
 10243 Berlin\

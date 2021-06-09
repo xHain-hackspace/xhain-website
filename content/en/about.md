@@ -58,7 +58,3 @@ You can find an overview of our equipment on the <a href="https://wiki.x-hain.de
 We have an electronically controlled front door called <a href="https://wiki.x-hain.de/de/Infrastructure/xDoor" target="_blank">xDoor</a>. New members can apply for a key after 3 months of paid membership (after the 3 months have passed). Be aware that there is no right to be granted key access to xHain. A small group of active longtime members, the so called "Schlüsselkinder" (latch-key kids), will decide if you will receive a key. A prerequisite to be eligible is that you have recently been active at the space, show up regularly and are generally a friendly, open-minded and trustworthy person (and have been with us for at least 3 months).
 
 Currently: During times of covid19 we are a little reluctant to grant key authorizations. We do want to have some activity at our space, but we need to ensure our <a href="https://wiki.x-hain.de/en/xHain/hygiene-konzept" target="_blank">hygiene concept</a> is being followed.
-
-# Address
-Grünberger Str. 16\
-10243 Berlin
