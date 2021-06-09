@@ -7,8 +7,8 @@ draft: false
 
 ## Address
 
-xHain hack+makespace gemeinnützige UG (haftungsbeschränkt)\
-Geschäftsführer: Felix Just\
+xHain hack+makespace UG (nonprofit, limited))\
+Director: Felix Just\
 Grünberger Str. 16\
 10243 Berlin\
 Germany
