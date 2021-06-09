@@ -38,11 +38,13 @@ Bevor du unseren Space oder unseren Rocket-Chat betrittst, solltest du als erste
 
 ## wichtige Links und Accounts
 - Falls du noch keinen Account im <a href="https://chat.x-hain.de" target="_blank">Rocket Chat</a> erstellt hast, solltest du das nachholen. Das ist keine Pflicht, aber ein Hauptkommunikationsmedium im xHain zwischen den Mitgliedern und auch offen für Nichtmitglieder. Es gibt auch eine member-mailing-Liste, die wir aber nur für wichtige Ankündigungen oder Termine und sehr sparsam nutzen. Alles andere läuft über den Chat.
-- Öffentliche Ankündigungen zu Workshops o.ä. werden auch im <a href="https://chaos.social/@xhain_hackspace" target="_blank">Fediverse</a> oder auf <a href="https://twitter.com/xHain_hackspace" target="_blank">Twitter</a> bekannt gegeben. Schau auch mal auf unserer Webseite in den Kalender, dort werden Veranstaltungen und regelmäßige Treffen eingetragen.
-- Quellcode von xHain-Projekten sind auf <a href="https://gitlab.com/xHain-hackspace" target="_blank">gitlab</a> oder <a href="https://gitlab.com/xHain-hackspace" target="_blank">github</a> zu finden.
-- Projektdokumentationen und anderes findest du in unserem <a href="https://wiki.x-hain.de" target="_blank">Wiki</a>. 
-- Und wir haben eine <a href="https://files.x-hain.de" target="_blank">nextcloud</a> Instanz. Um einen Account zu erhalten, kontaktiere @reimerei im Rocket Chat.
-- Videos findest du auf unserem <a href="https://www.youtube.com/channel/UCndtqJj4CxWpn2PDdBE6q8g" target="_blank">Youtube-Kanal</a>.
+
+- <a href="https://chaos.social/@xhain_hackspace" target="_blank">Fediverse</a> oder <a href="https://twitter.com/xHain_hackspace" target="_blank">Twitter</a>: Öffentliche Ankündigungen zu Workshops o.ä.
+- Kalender auf der Webseite: regelmäßige Veranstaltungen und Treffen.
+- <a href="https://gitlab.com/xHain-hackspace" target="_blank">gitlab</a> oder <a href="https://gitlab.com/xHain-hackspace" target="_blank">github</a>: Quellcode von xHain-Projekten.
+- <a href="https://wiki.x-hain.de" target="_blank">Wiki</a>: Projektdokumentationen und weitere Infos. 
+- Wir haben eine <a href="https://files.x-hain.de" target="_blank">nextcloud</a> Instanz. Um einen Account zu erhalten, kontaktiere @reimerei im Rocket Chat.
+- <a href="https://www.youtube.com/channel/UCndtqJj4CxWpn2PDdBE6q8g" target="_blank">Youtube</a>: unsere Videos natürlich :)
 
 Wir möchten den #general Chatraum unseres Rocket Chats (chat.x-hain.de) gerne "sauber" und übersichtlich halten. Themenspezifische Anfragen gehören daher in die zugehörigen Chaträume. Zum Plaudern oder für Smalltalk bitte separate "channel" oder "discussions" erstellen. Einen Überblick über die wichtigsten Kanäle findest du in unseren <a href="https://wiki.x-hain.de/de/xHain/spacerules#rocket-chat" target="_blank">Space Regeln</a>.
 
