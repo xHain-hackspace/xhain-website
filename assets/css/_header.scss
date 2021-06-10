@@ -20,7 +20,9 @@ header {
     }
   }
   #main-navigation {
-    margin-top: 4px;
+    display: contents;
+    right: 0px;
+    margin-top: 2px;
     float: right;
     text-align: right;
     ul {
@@ -31,7 +33,7 @@ header {
     }
   }
   nav ul {
-    padding: 20px 0 0 0;
+    padding: 36px 0 0 0;
   }
   
 }

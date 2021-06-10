@@ -218,24 +218,24 @@ title = "Find us elsewhere"
 
 [[languages.de.menu.footer]]
   weight = 1
-  identifier = "Contact"
+  identifier = "contact"
   name = "Kontakt"
   url = "/contact"
 
 [[languages.en.menu.footer]]
   weight = 1
-  identifier = "Contact"
+  identifier = "contact"
   name = "Contact"
   url = "/contact"
 
 [[languages.de.menu.footer]]
-  weight = 1
-  identifier = "Privacy"
+  weight = 2
+  identifier = "privacy"
   name = "Datenschutz"
   url = "/privacy"
 
 [[languages.en.menu.footer]]
-  weight = 1
-  identifier = "Privacy"
+  weight = 2
+  identifier = "privacy"
   name = "Privacy"
   url = "/privacy"
