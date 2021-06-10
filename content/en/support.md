@@ -7,8 +7,9 @@ draft: false
 
 xHain is mainly financed by membership fees, but one-off donations are always welcome and help us to further develop our space.
 
-## become a member
-We get asked a lot how our membership works. Actually, xHain is different from most other spaces, since we are an *open* space and you *don't have to* become a member to hang out and have fun with us. But of course, we welcome any donations and memberships that will help support us.
+## Become a member
+
+We get asked a lot how our membership works. Actually, xHain is different from most other spaces, since we are an _open_ space and you _don't have to_ become a member to hang out and have fun with us. But of course, we welcome any donations and memberships that will help support us.
 
 As a non-member you only have access to xHain on monday nights, public events or workshops. Also prices for using some tools (e.g. our lasercutter) may differ. As a member you may become eligible to receive access to our xdoor and hence gain 24/7 access to xHain.
 
@@ -33,6 +34,7 @@ You can either use the form below (data will be send to us via formspree.com) - 
 </form>
 
 ## Donations
+
 If you would like to support us, you're welcome to donate a small or bigger amount to the following bank account:
 
 Accountholder: xHain hack+makespace gemeinnützige UG (haftungsbeschränkt)<br>

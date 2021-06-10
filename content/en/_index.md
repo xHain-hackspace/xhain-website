@@ -22,4 +22,4 @@ Are you unsure if xHain is the right place for you? No matter if you're a hacker
 
 <br clear="all">
 
-Come visit us:
+### Come and visit us:
