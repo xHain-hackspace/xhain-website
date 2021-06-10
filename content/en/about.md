@@ -5,7 +5,7 @@ showMap: false
 draft: false
 ---
 
-To have a local place for exchanges, mutual learning and fun: that’s the vision for xHain.<br>
+A local place for exchanges, mutual learning and having fun together.<br>
 **During the day:** a place where projects and school groups can learn.<br>
 **At night:** a place where hackers and makers can meet.<br>
 **At other times:** a conference room or a temporary desk for Friedrichshainers with no office to go to.
