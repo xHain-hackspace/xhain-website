@@ -11,7 +11,7 @@ Der xHain finanziert sich hauptsächlich aus den Mitgliedsbeiträgen, aber auch 
 
 Wir werden oft danach gefragt, wie das mit der Mitliedschaft so ist. Der xHain unterscheidet sich von den meisten anderen Hackspaces insofern, daß er ein _offener Space_ ist und du bei uns kein Mitglied sein _musst_ um vorbei zu kommen und Spaß mit uns zu haben. Aber natürlich freuen wir uns über Spenden und Mitgliedschaften, die uns unterstützen und finanzieren.
 
-Member spenden üblicherweise 13,37€ oder mehr im Monat. Eine Mitgliedschaft gilt natürlich erst ab dem ersten Zahlungseingang. Du bekommst einen zufälligen Baumnamen zugewiesen, den du bitte in der Überweisung als Verwendungszweck einträgst und an unser xHain-Konto überweist. Die Kontonummer erhälst du nach der Anmeldung per Mail.
+Member spenden üblicherweise 13,37€ oder mehr im Monat. Du bekommst einen zufälligen Baumnamen zugewiesen, den du bitte in der Überweisung als Verwendungszweck einträgst und an unser xHain-Konto überweist. Die Kontonummer erhälst du nach der Anmeldung per Mail.
 
 Du kannst entweder das Formular verwenden, die Daten werden über formspree.com übertragen - oder du schickst uns einfach eine Mail mit den nötigen Angaben.
 
