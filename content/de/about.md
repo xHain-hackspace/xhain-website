@@ -48,9 +48,9 @@ Bevor du unseren Space oder unseren Rocket-Chat betrittst, solltest du als erste
 ## deine Vorteile als Member
 
 - 24/7 Zugang zum xHain dank unserer xDoor
-- eine Memberbox um deine persönlichen Dinge zu Veranstaltungen
+- eine Memberbox um deine persönlichen Dinge zu verstauen
 - reduzierte Preise für Maschinen- und Werkzeugnutzung
-- eine freundliche Community zum Austausch 
+- eine freundliche Community für Austausch 
 
 ## deine Aufgaben als Member
 
