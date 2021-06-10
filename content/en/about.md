@@ -30,7 +30,7 @@ You can find more info about our physical space and a floor map <a href="https:/
 
 ## Awareness Team
 
-If you have suggestions for inclusivity improvements, personal or confidential concerns, needs, worries or problems in the context of xHain, please contact the following people in our <a href="https://chat.x-hain.de" target="_blank">rocket chat</a>. All information will be kept strictly confidential.
+If you have suggestions for inclusivity improvements, personal or confidential concerns, needs, worries or problems in the context of xHain, please contact one of the following people in our <a href="https://chat.x-hain.de" target="_blank">rocket chat</a>. All information will be kept strictly confidential.
 
 - @trial.error (she/her), speaks german/english
 - @felix (he/him), speaks german/english/french
@@ -41,13 +41,29 @@ You're new to xHain and would like to check it out?
 
 Concerns about “not belonging”, not being a hacker or maker (yet) or having special needs should not prevent you from feeling comfortable with us. Even if you are introverted or shy, most of the members are friendly folk you can easily talk to at any time. If you prefer a personal contact, simply contact an <a href="https://wiki.x-hain.de/en/xHain/xRoots" target="_blank">xroots mentor</a> in our chat or look out for people wearing the xRoots logo/badge on monday nights.
 
-# First Steps
+# getting started as a new member
 
-The first thing you should do before entering xHain or our <a href="https://chat.x-hain.de" target="_blank">rocket chat</a> is to read and respect our <a href="https://wiki.x-hain.de/de/xHain/spacerules" target="_blank">space rules</a>. Before spending time alone in our space, you probably already have received a personal introduction and tour. If this has not already been done, please ask any member for a guided tour on a Monday evening.
+The first thing you should be aware of before entering xHain or our <a href="https://chat.x-hain.de" target="_blank">rocket chat</a> is our <a href="https://wiki.x-hain.de/de/xHain/spacerules" target="_blank">space rules</a>. Before spending time alone in our space, you probably already have received a personal introduction and tour. If this has not already been done, please ask any member for a guided tour on a Monday evening.
+
+## your benefits as a member
+- 24/7 access to xHain thanks to our xDoor
+- a member box for storage of personal things
+- reduced prices for machines and tools
+- a friendly community to hang out with
+
+## your tasks as a member
+- Be friendly and welcoming to everyone :)
+- Keep our space clean and tidy: the cleanup crew is *you*! Please empty rubbish bins in the back yard and tidy up workspace areas. Please also keep the kitchen sink clean. 
+- Drinks are financed and organized by members for members: please help keep the fridge stacked with bottles and return empty bottles to our storage area.  
 
 ## important links and accounts
 
-- If you haven't done so yet, it is advisable to create an account for our <a href="https://chat.x-hain.de" target="_blank">Rocket Chat</a>. This is not mandatory, but it is our main means of communication at xHain between members and also non-members. We also have a mailing list for members only, but we use it sparsely and only for important announcements or dates. Everything else is communicated in the chat.
+If you haven't done so yet, it is advisable to create an account for our <a href="https://chat.x-hain.de" target="_blank">Rocket Chat</a>. This is not mandatory, but it is our main means of communication at xHain between members and also non-members. We also have a mailing list for members only, but we use it sparsely and only for important announcements or dates. Everything else is communicated in the chat.
+
+We would like to keep the #general chatroom of our Rocket Chat (chat.x-hain.de) clean and tidy. Topic specific requests therefore belong in the corresponding chatrooms. Please create separate "channels" or "discussions" for chitchat and small talk. You can find an overview of the most important channels in our <a href="https://wiki.x-hain.de/en/xHain/spacerules#rocket-chat" target="_blank">space rules</a>.
+
+More links:
+
 - <a href="https://chaos.social/@xhain_hackspace" target="_blank">Fediverse</a> or <a href="https://twitter.com/xHain_hackspace" target="_blank">Twitter</a>: public announcements about workshops or other events.
 - calendar on our webseite: regular events and meetups.
 - <a href="https://gitlab.com/xHain-hackspace" target="_blank">gitlab</a> or <a href="https://gitlab.com/xHain-hackspace" target="_blank">github</a>: source code of xHain projects.
@@ -55,17 +71,13 @@ The first thing you should do before entering xHain or our <a href="https://chat
 - We also have a <a href="https://files.x-hain.de" target="_blank">nextcloud</a> installation. To get an account please contact @reimerei in our Rocket chat.
 - <a href="https://www.youtube.com/channel/UCndtqJj4CxWpn2PDdBE6q8g" target="_blank">youtube</a>: our videos of course :)
 
-We would like to keep the #general chatroom of our Rocket Chat (chat.x-hain.de) clean and tidy. Topic specific requests therefore belong in the corresponding chatrooms. Please create separate "channels" or "discussions" for chitchat and small talk. You can find an overview of the most important channels in our <a href="https://wiki.x-hain.de/en/xHain/spacerules#rocket-chat" target="_blank">space rules</a>.
-
 ## member box, materials, storage at xHain
 
-If you require storage space, you can get a personal box, our so called member box, to store your personal projects and stuff at xHain. Please take anything home with you that doesn't fit into this box. We are not a storage location and do not want to have any large craft or tinkering projects laying around. The same goes for workpieces and materials like wood or acrylic plates etc., do not store them at xHain! We have a general rule that any material you find at xHain may be used by anyone (please donate a small amount into our donation box). Name tags are not valid and will be ignored. However, this is not the case for tools and machinery!
+If you require storage space, you can get a personal box, our so called member box, to store your personal projects and stuff at xHain. Please take anything home with you that doesn't fit into this box. We are not a storage location and do not want to have any large craft or tinkering projects cluttering the place. The same goes for workpieces and materials like wood or acrylic plates etc.: you can store larger things for up to 4 weeks in a large box (put a name tag and date on it!). We will regularly get rid of untagged or outdated things.
 
 ## use of machinery and devices
 
-Please also read the sections on "machinery" and "safety" in our <a href="https://wiki.x-hain.de/en/xHain/spacerules" target="_blank">space rules</a>. For some devices or machines it is mandatory to first receive instructions and permissions from authorized members. Our wiki documentations are only a reminder and do NOT replace personal instruction. If the rules of use are violated, permissions can be revoked.
-
-You can find an overview of our equipment on the <a href="https://wiki.x-hain.de/en/xHain/rooms-and-equipment" target="_blank">rooms and equipment</a> page.
+We have colour coded our different work areas and marked the machines and tools with stickers and paint. Some tools require safety training and may only be used after a personal introduction from an authorized instructor. You can find an overview of our equipment and more details on the <a href="https://wiki.x-hain.de/en/xHain/rooms-and-equipment" target="_blank">rooms and equipment</a> page in our Wiki. 
 
 ## key authorisation
 
