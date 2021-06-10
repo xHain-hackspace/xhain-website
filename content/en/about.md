@@ -45,13 +45,8 @@ Concerns about “not belonging”, not being a hacker or maker (yet) or having 
 
 The first thing you should be aware of before entering xHain or our <a href="https://chat.x-hain.de" target="_blank">rocket chat</a> is our <a href="https://wiki.x-hain.de/de/xHain/spacerules" target="_blank">space rules</a>. Before spending time alone in our space, you probably already have received a personal introduction and tour. If this has not already been done, please ask any member for a guided tour on a Monday evening.
 
-## your benefits as a member
-- 24/7 access to xHain thanks to our xDoor
-- a member box for storage of personal things
-- reduced prices for machines and tools
-- a friendly community to hang out with
-
-## your tasks as a member
+## your support as a member
+This is how you can help out:
 - Be friendly and welcoming to everyone :)
 - Keep our space clean and tidy: the cleanup crew is *you*! Please empty rubbish bins in the back yard and tidy up workspace areas. Please also keep the kitchen sink clean. 
 - Drinks are financed and organized by members for members: please help keep the fridge stacked with bottles and return empty bottles to our storage area.  
