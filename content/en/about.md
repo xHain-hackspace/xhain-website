@@ -48,7 +48,7 @@ The first thing you should be aware of before entering xHain or our <a href="htt
 ## your support as a member
 This is how you can help out:
 - Be friendly and welcoming to everyone :)
-- Keep our space clean and tidy: the cleanup crew is *you*! Please empty rubbish bins in the back yard and tidy up workspace areas. Please also keep the kitchen sink clean. 
+- Keep our space clean and tidy. Please empty rubbish bins in the back yard and tidy up workspace areas. Please also keep the kitchen sink clean. 
 - Drinks are financed and organized by members for members: please help keep the fridge stacked with bottles and return empty bottles to our storage area.  
 
 ## important links and accounts
