@@ -41,14 +41,30 @@ Du bist neu im xHain oder möchtest reinschnuppern?
 
 Bedenken “nicht dazu zu gehören”, eigentlich (noch) gar kein:e Hacker:in oder Maker:in zu sein oder besondere Bedürfnisse zu haben, sollte dich nicht daran hindern dich im xHain wohl zu fühlen. Auch wenn du introvertiert oder schüchtern bist, die meisten Member sind freundliche Gestalten, die du jederzeit einfach ansprechen kannst. Wenn du jedoch lieber ein:e persönliche Ansprechpartner:in suchst, dann kannst du dich jederzeit an unsere <a href="https://wiki.x-hain.de/de/xHain/xRoots" target="_blank">xRoots crew</a> wenden!
 
-# Erste Schritte
+# Erste Schritte als Neumitglied
 
 Bevor du unseren Space oder unseren Rocket-Chat betrittst, solltest du als erstes unsere <a href="https://wiki.x-hain.de/de/xHain/spacerules" target="_blank">Space Regeln</a> gelesen und beachtet haben. Bevor du dich alleine im Space aufhalten darfst, solltest du ausserdem eine persönliche (Ein)Führung erhalten haben. Falls das noch nicht geschehen ist, bitte ein Member an einem Montag abend um eine Führung.
 
+## deine Vorteile als Member
+
+- 24/7 Zugang zum xHain dank unserer xDoor
+- eine Memberbox um deine persönlichen Dinge zu Veranstaltungen
+- reduzierte Preise für Maschinen- und Werkzeugnutzung
+- eine freundliche Community zum Austausch 
+
+## deine Aufgaben als Member
+
+- Sei freundlich zu allen und heiße Menschen herzlich willkommen :)
+- Halte unseren Space sauber und aufgeräumt: Die Aufräumcrew bist *du*! Bitte leere Mülleimer im Hof und räume Arbeitsbereiche auf. Bitte halte auch die Küche sauber und aufgeräumt. 
+- Getränke werden von Membern für Member bereitgestellt: Bitte hilf mit den Kühlschrank mit Getränken zu füllen und Leergut in den Keller zu bringen. 
+
 ## wichtige Links und Accounts
 
-- Falls du noch keinen Account im <a href="https://chat.x-hain.de" target="_blank">Rocket Chat</a> erstellt hast, solltest du das nachholen. Das ist keine Pflicht, aber ein Hauptkommunikationsmedium im xHain zwischen den Mitgliedern und auch offen für Nichtmitglieder. Es gibt auch eine member-mailing-Liste, die wir aber nur für wichtige Ankündigungen oder Termine und sehr sparsam nutzen. Alles andere läuft über den Chat.
+Falls du noch keinen Account im <a href="https://chat.x-hain.de" target="_blank">Rocket Chat</a> erstellt hast, solltest du das nachholen. Das ist keine Pflicht, aber ein Hauptkommunikationsmedium im xHain zwischen den Mitgliedern und auch offen für Nichtmitglieder. Es gibt auch eine member-mailing-Liste, die wir aber nur für wichtige Ankündigungen oder Termine und sehr sparsam nutzen. Alles andere läuft über den Chat.
 
+Wir möchten den #general Chatraum unseres Rocket Chats (chat.x-hain.de) gerne "sauber" und übersichtlich halten. Themenspezifische Anfragen gehören daher in die zugehörigen Chaträume. Zum Plaudern oder für Smalltalk bitte separate "channel" oder "discussions" erstellen. Einen Überblick über die wichtigsten Kanäle findest du in unseren <a href="https://wiki.x-hain.de/de/xHain/spacerules#rocket-chat" target="_blank">Space Regeln</a>.
+
+Mehr Links:
 - <a href="https://chaos.social/@xhain_hackspace" target="_blank">Fediverse</a> oder <a href="https://twitter.com/xHain_hackspace" target="_blank">Twitter</a>: Öffentliche Ankündigungen zu Workshops o.ä.
 - Kalender auf der Webseite: regelmäßige Veranstaltungen und Treffen.
 - <a href="https://gitlab.com/xHain-hackspace" target="_blank">gitlab</a> oder <a href="https://gitlab.com/xHain-hackspace" target="_blank">github</a>: Quellcode von xHain-Projekten.
@@ -56,17 +72,14 @@ Bevor du unseren Space oder unseren Rocket-Chat betrittst, solltest du als erste
 - Wir haben eine <a href="https://files.x-hain.de" target="_blank">Nextcloud-Instanz</a>. Um einen Account zu erhalten, kontaktiere @reimerei im Rocket Chat.
 - <a href="https://www.youtube.com/channel/UCndtqJj4CxWpn2PDdBE6q8g" target="_blank">Youtube</a>: unsere Videos natürlich :)
 
-Wir möchten den #general Chatraum unseres Rocket Chats (chat.x-hain.de) gerne "sauber" und übersichtlich halten. Themenspezifische Anfragen gehören daher in die zugehörigen Chaträume. Zum Plaudern oder für Smalltalk bitte separate "channel" oder "discussions" erstellen. Einen Überblick über die wichtigsten Kanäle findest du in unseren <a href="https://wiki.x-hain.de/de/xHain/spacerules#rocket-chat" target="_blank">Space Regeln</a>.
 
 ## Member-Box, Arbeitsmaterialien, Lager
 
-Wenn du Mitglied bist, kannst du im Space eine persönliche Kiste die nur dir gehört erhalten, die sogenannte Memberbox. Darin kannst du deine persönlichen Basteleien lagern. Was nicht in die Box passt nimmst du bitte wieder mit nach hause. Wir sind kein Lagerort und wollen keine größeren Bastelprojekte rumstehen haben. Auch Arbeitsmaterial solltest du nicht ohne Absprache herumstehen lassen. Grundsätzlich gilt: Arbeitsmaterial (z.B. Holz oder Acrylplatten) das irgendwo rumsteht darf benutzt werden (wirf etwas in die Spendenkasse dafür!), Namenszettel gelten nicht und dürfen ignoriert werden. Das gilt allerdings nicht für Werkzeuge und Maschinen!
+Wenn du Mitglied bist, kannst du im Space eine persönliche Kiste die nur dir gehört erhalten, die sogenannte Memberbox. Darin kannst du deine persönlichen Basteleien lagern. Was nicht in die Box passt nimmst du bitte wieder mit nach hause. Wir sind kein Lagerort und wollen keine größeren Bastelprojekte rumstehen haben. Größeres Arbeitsmaterial kannst du bis zu 4 Wochen lang in einer großen Kiste lagern (mit Namen und Datum beschriftet!). Wir werden regelmäßig alte und unbeschriftete Dinge entsorgen. 
 
 ## Maschinen- und Gerätenutzung
 
-Lies unbedingt auch die Abschnitte "Maschinen" und "Sicherheit" in unseren <a href="https://wiki.x-hain.de/de/xHain/spacerules" target="_blank">Space Regeln</a> nach. Manche Geräte/Maschinen erfodern eine Einweisung durch authorisierte Personen und dürfen nicht ohne Erlaubnis genutzt werden. Wiki-Dokumentationen dienen nur der Gedächtnisstütze und ersetzen NICHT die persönliche Einweisung. Bei Verstößen gegen die Nutzungsregeln kann die Nutzungserlaubnis entzogen werden.
-
-Hier findest du einen Überblick über unsere <a href="https://wiki.x-hain.de/de/xHain/rooms-and-equipment" target="_blank">Arbeitsbereiche und Geräte</a>.
+Wir haben unsere Werkeuge und Arbeitsbereiche farblich markiert. Benutze bitte keine Werkzeuge im falschen Bereich oder für einen falschen Verwendungszweck. Manche Geräte erfordern eine Sicherheitseinweisung durch eine authorisierte Person. Einen Überblick über unsere <a href="https://wiki.x-hain.de/de/xHain/rooms-and-equipment" target="_blank">Arbeitsbereiche und Geräte</a> findest du in unserem Wiki.
 
 ## Schlüsselberechtigung
 
