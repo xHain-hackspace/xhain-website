@@ -45,17 +45,10 @@ Bedenken “nicht dazu zu gehören”, eigentlich (noch) gar kein:e Hacker:in od
 
 Bevor du unseren Space oder unseren Rocket-Chat betrittst, solltest du als erstes unsere <a href="https://wiki.x-hain.de/de/xHain/spacerules" target="_blank">Space Regeln</a> gelesen und beachtet haben. Bevor du dich alleine im Space aufhalten darfst, solltest du ausserdem eine persönliche (Ein)Führung erhalten haben. Falls das noch nicht geschehen ist, bitte ein Member an einem Montag abend um eine Führung.
 
-## deine Vorteile als Member
-
-- 24/7 Zugang zum xHain dank unserer xDoor
-- eine Memberbox um deine persönlichen Dinge zu verstauen
-- reduzierte Preise für Maschinen- und Werkzeugnutzung
-- eine freundliche Community für Austausch 
-
-## deine Aufgaben als Member
-
+## deine Unterstützung als Member
+So kannst du uns unterstützen:
 - Sei freundlich zu allen und heiße Menschen herzlich willkommen :)
-- Halte unseren Space sauber und aufgeräumt: Die Aufräumcrew bist *du*! Bitte leere Mülleimer im Hof und räume Arbeitsbereiche auf. Bitte halte auch die Küche sauber und aufgeräumt. 
+- Halte unseren Space sauber und aufgeräumt. Bitte leere Mülleimer im Hof und räume Arbeitsbereiche auf. Bitte halte auch die Küche sauber und aufgeräumt. 
 - Getränke werden von Membern für Member bereitgestellt: Bitte hilf mit den Kühlschrank mit Getränken zu füllen und Leergut in den Keller zu bringen. 
 
 ## wichtige Links und Accounts
