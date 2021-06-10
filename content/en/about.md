@@ -27,13 +27,13 @@ You can find more info about our physical space and a floor map <a href="https:/
 <img alt="Wheelchair symbol" src="/images/icons/accessible.svg" class="icon" />
 
 ## Awareness Team
-If you have suggestions for inclusivity improvements, personal or confidential concerns, needs, worries or problems in the context of xHain, problems with individual persons or groups, or if you would like to point out problematic structures or bad experiences you had at xHain, please contact the following people in our <a href="https://chat.x-hain.de" target="_blank">rocket chat</a>. All information will be kept strictly confidential.
+If you have suggestions for inclusivity improvements, personal or confidential concerns, needs, worries or problems in the context of xHain, please contact the following people in our <a href="https://chat.x-hain.de" target="_blank">rocket chat</a>. All information will be kept strictly confidential.
 
 - @trial.error (she/her), speaks german/english
 - @felix (he/him), speaks german/english/french
 
 # First Steps
-The first thing you should do before entering xHain or our <a href="https://chat.x-hain.de" target="_blank">rocket chat</a> is to read and respect our <a href="https://wiki.x-hain.de/de/xHain/spacerules" target="_blank">space rules</a>. Before spending time alone in our space, you should have received a personal introduction and tour. If this has not already been done, please ask any member for a guided tour on a Monday evening.
+The first thing you should do before entering xHain or our <a href="https://chat.x-hain.de" target="_blank">rocket chat</a> is to read and respect our <a href="https://wiki.x-hain.de/de/xHain/spacerules" target="_blank">space rules</a>. Before spending time alone in our space, you probably already have received a personal introduction and tour. If this has not already been done, please ask any member for a guided tour on a Monday evening.
 
 ## important links and accounts
 - If you haven't done so yet, it is advisable to create an account for our <a href="https://chat.x-hain.de" target="_blank">Rocket Chat</a>. This is not mandatory, but it is our main means of communication at xHain between members and also non-members. We also have a mailing list for members only, but we use it sparsely and only for important announcements or dates. Everything else is communicated in the chat.
@@ -55,6 +55,6 @@ Please also read the sections on "machinery" and "safety" in our <a href="https:
 You can find an overview of our equipment on the <a href="https://wiki.x-hain.de/en/xHain/rooms-and-equipment" target="_blank">rooms and equipment</a> page.
 
 ## key authorisation
-We have an electronically controlled front door called <a href="https://wiki.x-hain.de/de/Infrastructure/xDoor" target="_blank">xDoor</a>. New members can apply for a key after 3 months of paid membership (after the 3 months have passed). Be aware that there is no right to be granted key access to xHain. A small group of active longtime members, the so called "Schlüsselkinder" (latch-key kids), will decide if you will receive a key. A prerequisite to be eligible is that you have recently been active at the space, show up regularly and are generally a friendly, open-minded and trustworthy person (and have been with us for at least 3 months).
+We have an electronically controlled front door called <a href="https://wiki.x-hain.de/de/Infrastructure/xDoor" target="_blank">xDoor</a>. New members can apply for a key after 3 months of paid membership (after the 3 months have passed). Be aware that there is no right to be granted key access to xHain. A small group of active longtime members, our so called "Schlüsselkinder" group (latch-key kids), will decide if you will receive a key.
 
 Currently: During times of covid19 we are a little reluctant to grant key authorizations. We do want to have some activity at our space, but we need to ensure our <a href="https://wiki.x-hain.de/en/xHain/hygiene-konzept" target="_blank">hygiene concept</a> is being followed.
