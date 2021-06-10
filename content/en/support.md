@@ -11,9 +11,7 @@ xHain is mainly financed by membership fees, but one-off donations are always we
 
 We get asked a lot how our membership works. Actually, xHain is different from most other spaces, since we are an _open_ space and you _don't have to_ become a member to hang out and have fun with us. But of course, we welcome any donations and memberships that will help support us.
 
-As a non-member you only have access to xHain on monday nights, public events or workshops. Also prices for using some tools (e.g. our lasercutter) may differ. As a member you may become eligible to receive access to our xdoor and hence gain 24/7 access to xHain.
-
-The monthly minimum donation is 13.37€ or more and your membership begins with the first payment. You will be assigned a random tree name, which we kindly ask you to use as description/reference in your bank transfer to our xHain bank account. You will receive the payment details by email after signing up.
+Most members typically donate 13.37€ or more per month. Membership begins with the first payment. You will be assigned a random tree name, which we kindly ask you to use as description/reference in your bank transfer to our xHain bank account. You will receive the payment details by email after signing up.
 
 You can either use the form below (data will be send to us via formspree.com) - or just send us an email.
 
