@@ -43,9 +43,10 @@ Bedenken “nicht dazu zu gehören”, eigentlich (noch) gar kein:e Hacker:in od
 
 # Erste Schritte als Neumitglied
 
-Bevor du unseren Space oder unseren Rocket-Chat betrittst, solltest du als erstes unsere <a href="https://wiki.x-hain.de/de/xHain/spacerules" target="_blank">Space Regeln</a> gelesen und beachtet haben. Bevor du dich alleine im Space aufhalten darfst, solltest du ausserdem eine persönliche (Ein)Führung erhalten haben. Falls das noch nicht geschehen ist, bitte ein Member an einem Montag abend um eine Führung.
+Bevor du unseren Space oder unseren Rocket-Chat betrittst, solltest du als erstes unsere <a href="https://wiki.x-hain.de/de/xHain/spacerules" target="_blank">Space Regeln</a> lesen und beachten. Du hast hoffentlich bereits eine persönliche Einweisung und Tour bekommen, bevor du dich alleine im Space aufhälst. Falls das noch nicht geschehen ist, bitte ein Member an einem Montag abend um eine Führung.
 
 ## deine Unterstützung als Member
+
 So kannst du uns unterstützen:
 - Sei freundlich zu allen und heiße Menschen herzlich willkommen :)
 - Halte unseren Space sauber und aufgeräumt. Bitte leere Mülleimer im Hof und räume Arbeitsbereiche auf. Bitte halte auch die Küche sauber und aufgeräumt. 
@@ -65,10 +66,9 @@ Mehr Links:
 - Wir haben eine <a href="https://files.x-hain.de" target="_blank">Nextcloud-Instanz</a>. Um einen Account zu erhalten, kontaktiere @reimerei im Rocket Chat.
 - <a href="https://www.youtube.com/channel/UCndtqJj4CxWpn2PDdBE6q8g" target="_blank">Youtube</a>: unsere Videos natürlich :)
 
+## Memberbox, Arbeitsmaterialien, Lager
 
-## Member-Box, Arbeitsmaterialien, Lager
-
-Wenn du Mitglied bist, kannst du im Space eine persönliche Kiste die nur dir gehört erhalten, die sogenannte Memberbox. Darin kannst du deine persönlichen Basteleien lagern. Was nicht in die Box passt nimmst du bitte wieder mit nach hause. Wir sind kein Lagerort und wollen keine größeren Bastelprojekte rumstehen haben. Größeres Arbeitsmaterial kannst du bis zu 4 Wochen lang in einer großen Kiste lagern (mit Namen und Datum beschriftet!). Wir werden regelmäßig alte und unbeschriftete Dinge entsorgen. 
+Wenn du Mitglied bist, kannst du im Space eine persönliche Kiste die nur dir gehört erhalten, die sogenannte Memberbox. Darin kannst du deine persönlichen Basteleien lagern. Was nicht in die Box passt nimmst du bitte wieder mit nach hause. Wir sind kein Lagerort und wollen keine größeren Bastelprojekte rumstehen haben. Größeres Arbeitsmaterial kannst du bis zu 4 Wochen lang in einer großen Kiste lagern (mit Namen und Datum beschriftet!). Wir entsorgen regelmäßig alte und unbeschriftete Dinge. 
 
 ## Maschinen- und Gerätenutzung
 
