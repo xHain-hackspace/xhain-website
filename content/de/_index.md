@@ -19,9 +19,6 @@ Fragst du dich, ob der xHain was für dich ist? Ob Hacker:in, Maker:in oder einf
 
 **Unsere <a href="https://wiki.x-hain.de/de/xHain/xRoots" target="_blank">xRoots</a> Mentor:innen sind für *dich* da: Sie verbringen Zeit und reden mit dir, zeigen dir den xHain und beantworten deine Fragen. Solltest du besondere Bedürfnisse oder Anliegen haben, halte Montags nach Menschen mit dem xRoots Logo/Badge Ausschau oder sprich uns im <a href="https://chat.x-hain.de" target="_blank">Chat</a> an.**
 
-
 <br clear="all">
-
-Bedenken "nicht dazu zu gehören", eigentlich (noch) gar kein:e Hacker:in oder Maker:in zu sein oder besondere Bedürfnisse zu haben, sollte dich nicht daran hindern dich im xHain wohl zu fühlen. Auch wenn du introvertiert oder schüchtern bist, die meisten Member sind freundliche Gestalten, die du jederzeit einfach ansprechen kannst. Wenn du ein:e persönliche Ansprechpartner:in suchst, dann kannst du dich jederzeit an die <a href="https://wiki.x-hain.de/de/xHain/xRoots" target="_blank">xRoots</a> wenden!
 
 Komm vorbei:
