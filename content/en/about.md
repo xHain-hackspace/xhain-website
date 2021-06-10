@@ -35,7 +35,7 @@ If you have suggestions for inclusivity improvements, personal or confidential c
 ## xRoots mentors
 You're new to xHain and would like to check it out? 
 
-Concerns about “not belonging”, not being a hacker or maker (yet) or having special needs should not prevent you from feeling comfortable with us. Even if you are introverted or shy, most of the members are friendly folk you can easily talk to at any time. If you are looking for a personal contact, simply contact an <a href="https://wiki.x-hain.de/en/xHain/xRoots" target="_blank">xroots mentor</a> in our chat or look out for people wearing the xRoots logo/badge on monday nights. 
+Concerns about “not belonging”, not being a hacker or maker (yet) or having special needs should not prevent you from feeling comfortable with us. Even if you are introverted or shy, most of the members are friendly folk you can easily talk to at any time. If you prefer a personal contact, simply contact an <a href="https://wiki.x-hain.de/en/xHain/xRoots" target="_blank">xroots mentor</a> in our chat or look out for people wearing the xRoots logo/badge on monday nights. 
 
 # First Steps
 The first thing you should do before entering xHain or our <a href="https://chat.x-hain.de" target="_blank">rocket chat</a> is to read and respect our <a href="https://wiki.x-hain.de/de/xHain/spacerules" target="_blank">space rules</a>. Before spending time alone in our space, you probably already have received a personal introduction and tour. If this has not already been done, please ask any member for a guided tour on a Monday evening.
