@@ -5,4 +5,4 @@ showMap: false
 draft: false
 ---
 
-Wir tracken nicht! Diese Website setzt keine Cookies. Es gibt keine Bibliotheken, Medien oder Webfonts, die von Dritten gehostet werden, und Sie werden keine Social-Networking-Buttons finden. Es gibt keine Analysefunktionen und alle Serverlogs enthalten standardmäßig nur anonymisierte IP-Adressen.
+Wir tracken nicht! Diese Website setzt keine Cookies. Es gibt keine Bibliotheken, Medien, Social-Networking-Buttons oder Webfonts, die von Dritten gehostet werden. Es gibt keine Analysefunktionen und alle Serverlogs enthalten standardmäßig nur anonymisierte IP-Adressen.
