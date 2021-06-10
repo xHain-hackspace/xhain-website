@@ -24,19 +24,22 @@ $(document).ready(function () {
   }
 });
 
-var map = L.map("map", {
-  center: [52.51278, 13.44978],
-  zoom: 16,
-});
+var mapDiv = document.getElementById("map");
+if (mapDiv) {
+  var map = L.map("map", {
+    center: [52.51278, 13.44978],
+    zoom: 16,
+  });
 
-L.tileLayer("http://{s}.tile.osm.org/{z}/{x}/{y}.png", {
-  attribution:
-    '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
-}).addTo(map);
+  L.tileLayer("http://{s}.tile.osm.org/{z}/{x}/{y}.png", {
+    attribution:
+      '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
+  }).addTo(map);
 
-var xHainIcon = L.icon({
-  iconUrl: "/images/logo/xhain.svg",
-  iconSize: [50, 50],
-});
+  var xHainIcon = L.icon({
+    iconUrl: "/images/logo/xhain.svg",
+    iconSize: [50, 50],
+  });
 
-var marker = L.marker([52.51278, 13.44978], { icon: xHainIcon }).addTo(map);
+  var marker = L.marker([52.51278, 13.44978], { icon: xHainIcon }).addTo(map);
+}
