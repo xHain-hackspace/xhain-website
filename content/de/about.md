@@ -4,14 +4,12 @@ date: 2017-03-30
 showMap: false
 draft: false
 ---
-
 Ein Ort im Kiez, der sich für Austausch, gegenseitige Schulung und gute Laune eignet. <br>
 **Tagsüber:** Ein Lernort für Projekt- und Schülergruppen.<br>
 **Abends:** Ein Treffpunkt für Hacker:innen und Bastler:innen.<br>
 **Zwischendurch:** Ein Tagungsraum oder temporärer Schreibtisch für bürolose Friedrichshainer:innen.
 
 ## Die Nutzer:innen
-
 Wir möchten mit dem xHain einen Ort schaffen, an dem sich Bastler:innen, Technikinteressierte und (Gesellschafts-)hacker:innen wohl fühlen.
 Damit sind nicht nur Berufstätige, sondern auch Schüler:innen, Senior:innen, Menschen in der Ausbildung oder jene die erwerbslos sind gemeint.
 
@@ -32,6 +30,11 @@ Solltest du Verbesserungsvorschläge in Sachen Inklusion, persönliche und vertr
 
 - @trial.error (she/her), spricht deutsch/englisch
 - @felix (he/him), spricht deutsch/englisch/französisch
+
+## xRoots Mentor:innen
+Du bist neu im xHain oder möchtest reinschnuppern? 
+
+Bedenken “nicht dazu zu gehören”, eigentlich (noch) gar kein:e Hacker:in oder Maker:in zu sein oder besondere Bedürfnisse zu haben, sollte dich nicht daran hindern dich im xHain wohl zu fühlen. Auch wenn du introvertiert oder schüchtern bist, die meisten Member sind freundliche Gestalten, die du jederzeit einfach ansprechen kannst. Wenn du jedoch lieber ein:e persönliche Ansprechpartner:in suchst, dann kannst du dich jederzeit an unsere <a href="https://wiki.x-hain.de/de/xHain/xRoots" target="_blank">xRoots crew</a> wenden!
 
 # Erste Schritte
 Bevor du unseren Space oder unseren Rocket-Chat betrittst, solltest du als erstes unsere <a href="https://wiki.x-hain.de/de/xHain/spacerules" target="_blank">Space Regeln</a> gelesen und beachtet haben. Bevor du dich alleine im Space aufhalten darfst, solltest du ausserdem eine persönliche (Ein)Führung erhalten haben. Falls das noch nicht geschehen ist, bitte ein Member an einem Montag abend um eine Führung.
