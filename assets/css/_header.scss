@@ -27,8 +27,9 @@ header {
     ul {
       text-align: right;
     }
-    .mobile {
+    .mobile li {
       cursor: pointer;
+      display: contents;
     }
     .desktop {
       display: none;
@@ -37,5 +38,4 @@ header {
   nav ul {
     padding: 36px 0 0 0;
   }
-  
 }
