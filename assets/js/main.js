@@ -30,6 +30,7 @@ var map = new maplibregl.Map({
   center: [13.44978, 52.51278],
   zoom: 16,
 });
+map.addControl(new maplibregl.NavigationControl());
 
 var xHainIcon = document.createElement("div");
 xHainIcon.classList.add("xhainicon");
