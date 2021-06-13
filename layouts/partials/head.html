@@ -21,7 +21,7 @@
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
   {{ $style := resources.Get "css/main.scss" | toCSS | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $style.Permalink }}" />
-  <link rel="stylesheet" href="/css/leaflet.css" />
+  <link rel="stylesheet" href="/css/maplibre-gl.css" />
 
   <!-- Facebook OpenGraph tags -->
   <meta property="og:title" content="{{ .Title }}" />

@@ -246,6 +246,14 @@ input {
   }
 }
 
+#map .xhainicon {
+  height: 50px;
+  width: 50px;
+  background-image: url(/images/logo/xhain.svg);
+  background-size: contain;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 380px) {
   main {
     margin: 105px 0 50px 0;
