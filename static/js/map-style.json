@@ -10,7 +10,6 @@
       "url": "https://basemap.openbuildingmap.org/data/v3.json"
     }
   },
-  "sprite": "https://openmaptiles.github.io/dark-matter-gl-style/sprite",
   "glyphs": "https://basemap.openbuildingmap.org/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {
