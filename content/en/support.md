@@ -25,9 +25,7 @@ You can either use the form below or just send us an email.
     <label for="amount">amount:
     	<input type="text" name="amount" title="amount" value="13.37" required>
     </label>
-    <label>Order the support rate
-    	<input type="submit" value="Send">
-	</label>
+  	<input type="submit" value="Become a member">
 </form>
 
 ## Donations

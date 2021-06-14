@@ -173,6 +173,7 @@ main {
 form {
   label {
     font-size: 14px;
+    font-family: $font-family-brand;
   }
   input {
     padding: 8px;
@@ -180,8 +181,21 @@ form {
     border: 1px solid #000;
     display: block;
 
-    &:focus {
-      outline: none;
+    &[type=number], &[type=email], &[type=text] {
+      width: 290px;
+      &:focus {
+        outline: none;
+      }
+    }  
+    &[type=button], &[type=submit] {
+      margin: 20px 0 30px 0;
+      background-color: $tertiary-color;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      &:hover {
+        background-color: $secondary-color;
+      }
     }
   }
 }

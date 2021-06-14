@@ -25,9 +25,7 @@ Du kannst entweder das Formular verwenden oder du schickst uns einfach eine Mail
   <label for="amount">Betrag:
     <input type="number" name="amount" title="Betrag" value="13.37" required>
   </label>
-  <label>
-    <input type="submit" value="Abschicken">
-	</label>
+  <input type="submit" value="Werde Mitglied">
 </form>
 
 ## Spendenkonto
