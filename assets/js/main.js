@@ -69,8 +69,8 @@ var pulsingDot = {
     // Draw the inner circle.
     context.beginPath();
     context.arc(this.width / 2, this.height / 2, radius, 0, Math.PI * 2);
-    context.fillStyle = "rgba(180, 255, 119, 1)";
-    context.strokeStyle = "rgba(42, 235, 170)";
+    context.fillStyle = "#aed919";
+    context.strokeStyle = "white";
     context.lineWidth = 2 + 4 * (1 - t);
     context.fill();
     context.stroke();
