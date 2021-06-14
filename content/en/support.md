@@ -25,7 +25,7 @@ You can either use the form below or just send us an email.
     <label for="amount">amount:
     	<input type="text" name="amount" title="amount" value="13.37" required>
     </label>
-  	<input type="submit" value="Become a sypporter">
+  	<input type="submit" value="Become a supporter">
 </form>
 
 ## Donations
