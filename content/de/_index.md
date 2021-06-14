@@ -14,11 +14,11 @@ Aktuelles zu Covid19: Offene Abende finden seit dem 24.5.21 wieder statt, allerd
 
 <br clear="all">
 
-Fragst du dich, ob der xHain was für dich ist? Ob Hacker:in, Maker:in oder einfach nur neugierig: Wichtig ist nicht, wieviel Erfahrung du mitbringst oder ob du irgendwas beitragen kannst, sondern ob du dich für Themen wie Coding, Elektronik & Löten, Holzarbeiten, Lasercutting, CNC-Fräsen, 3D-Drucken, Textilien & Nähen usw. interessierst.
+Ob Hacker:in, Maker:in oder einfach nur neugierig, du bist im xHain willkommen! Es ist nicht wichtig, wieviel Erfahrung du mitbringst oder ob du irgendwas beitragen kannst, sondern ob du dich für Themen wie Coding, Elektronik & Löten, Holzarbeiten, Lasercutting, CNC-Fräsen, 3D-Drucken, Textilien & Nähen usw. interessierst.
 
 <a href="https://wiki.x-hain.de/de/xHain/xRoots" target="_blank"><img alt="xRoots symbol" src="/images/logo/xroots.png" style="float: left; padding: 10px 30px 0 0; width: 120px; height: auto;" /></a>
 
-**Unsere <a href="https://wiki.x-hain.de/de/xHain/xRoots" target="_blank">xRoots</a> Mentor:innen sind für _dich_ da: Sie verbringen Zeit und reden mit dir, zeigen dir den xHain und beantworten deine Fragen. Solltest du besondere Bedürfnisse oder Anliegen haben, halte Montags nach Menschen mit dem xRoots Logo/Badge Ausschau oder sprich uns im <a href="https://chat.x-hain.de" target="_blank">Chat</a> an.**
+**Unsere <a href="https://wiki.x-hain.de/de/xHain/xRoots" target="_blank">xRoots</a> Mentor:innen sind für dich da: Wir erleichtern dir den Einstieg, zeigen dir den xHain und beantworten deine Fragen. Wenn du besondere Bedürfnisse oder Anliegen hast, dann kümmern wir uns darum. Halte einfach Montags nach Menschen mit dem xRoots Logo/Badge Ausschau oder sprich uns im <a href="https://chat.x-hain.de" target="_blank">Chat</a> an.**
 
 <br clear="all">
 

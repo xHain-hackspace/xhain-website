@@ -14,11 +14,11 @@ Covid19 news: open mondays have resumed since 24.5.21, currently outdoor only th
 
 <br clear="all">
 
-Are you unsure if xHain is the right place for you? No matter if you're a hacker, maker or simply curious: it doesn't matter how much experience you have or how much you can contribute, it only matters whether you are interested in topics such as coding, electronics & soldering, woodworking, lasercutting, CNC milling, 3D printing, textiles & sewing, etc. 
+No matter if you're a hacker, maker or simply curious, you are welcome at the xHain. It doesn't matter how much experience you have or how much you can contribute, it only matters whether you are interested in topics such as coding, electronics & soldering, woodworking, lasercutting, CNC milling, 3D printing, textiles & sewing, etc. 
 
 <a href="https://wiki.x-hain.de/en/xHain/xRoots" target="_blank"><img alt="xRoots symbol" src="/images/logo/xroots.png" style="float: left; padding: 10px 30px 0 0; width: 120px; height: auto;" /></a>
 
-**Our <a href="https://wiki.x-hain.de/en/xHain/xRoots" target="_blank">xRoots</a> mentors are here for *you*: They will hang out and chat with you on monday nights, answer any questions you may have, will help you get started at xHain and give you a tour of the place. If you have any special needs, look for people wearing the xRoots logo/badge on monday nights or have an <a href="https://chat.x-hain.de" target="_blank">online chat</a> with us.**
+**Our <a href="https://wiki.x-hain.de/en/xHain/xRoots" target="_blank">xRoots</a> mentors are here for *you*: We will get you started, show you the xHain, and answer your questions. If you have special needs or concerns, we will take care of them. Look for people wearing the xRoots logo/badge on monday nights or have an <a href="https://chat.x-hain.de" target="_blank">online chat</a> with us.**
 
 <br clear="all">
 
