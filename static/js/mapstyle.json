@@ -787,7 +787,7 @@
         "circle-color": "rgba(226, 0, 26, 1)",
         "circle-stroke-color": "rgba(0, 0, 0, 1)",
         "circle-stroke-width": 1,
-        "circle-radius": 7
+        "circle-radius": 4
       }
     },
     {
