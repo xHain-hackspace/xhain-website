@@ -47,25 +47,3 @@ Für den Workshop gibt es 2 Termine mit jeweils maximal 5 Teilnehmenden:
 - 18. und 19. Januar 2020, jeweils von 12-18 Uhr.<br>   
 
 Die Kosten für den Workshop (2 Tage und 3D-Drucker zum mit-nach-Hause-Nehmen!) belaufen sich auf 500€.
-
-Zur Anmeldung bitte hier eintragen:
-<form action="https://formspree.io/3DPrinterWorkshop@x-hain.de"
-      method="POST">      
-    <label for="Name">Name:
-    	<input type="text" name="Name" title="Name" required>
-    </label><br>
-    <label for="email">E-Mail:
-    	<input type="email" name="_replyto" title="E-Mail" required>
-    </label><br>
-    <label for="date">Workshop am:    
-     <select>
-  <option value="December">7./8. Dezember 2019</option>
-  <option value="January">18./19. Januar 2020</option>
-</select> 
-<br>
-<br>
-<br>
-   	<input type="submit" value="Ja, bitte" style="background:#408e27">
-	<br>
-</form>
-

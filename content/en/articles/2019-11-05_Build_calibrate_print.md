@@ -44,23 +44,5 @@ The workshop including the 3D-printer to take home with you costs 500€.
  
 There are 2 dates for the workshop, each with a maximum of 5 participants:
 
-
-If you want to sign up for the workshop, please fill out this form:
-<form action="https://formspree.io/3DPrinterWorkshop@x-hain.de"
-      method="POST">      
-    <label for="Name">Name:
-    	<input type="text" name="Name" title="Name" required>
-    </label><br>
-    <label for="email">E-Mail:
-    	<input type="email" name="_replyto" title="E-Mail" required>
-    </label><br>
-    <label for="date">Workshop Date:    <select>
-  <option value="December">December 7/8, 2019</option>
-  <option value="January">January 18/19, 2020</option>
-</select> 
-<br>
-<br>
-    <label>Sign up
-    	<input type="submit" value="Yes, please" style="background:#408e27">
-	</label><br>
-</form>
+* December 7/8, 2019
+* January 18/19, 2020
