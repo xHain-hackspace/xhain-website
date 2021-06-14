@@ -259,6 +259,10 @@ input {
     font-size: 12px;
     height: auto;
     margin-top: 15px;
+    padding-left: 50px;
+    a {
+      padding: 0;
+    }
   }
 
   #main-navigation ul {
@@ -270,7 +274,7 @@ input {
 
 }
 
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 290px) {
   header .logo a {
     display: none;
   }
