@@ -15,19 +15,18 @@ Member spenden üblicherweise 13,37€ oder mehr im Monat. Du bekommst einen zuf
 
 Du kannst entweder das Formular verwenden, die Daten werden über formspree.com übertragen - oder du schickst uns einfach eine Mail mit den nötigen Angaben.
 
-<form action="https://formspree.io/signup@x-hain.de"
-      method="POST">
-    <label for="Name">Name:
-    	<input type="text" name="Name" title="Name" required>
-    </label>
-    <label for="email">Email:
-    	<input type="email" name="_replyto" title="Email" required>
-    </label>
-    <label for="amount">Betrag:
-    	<input type="text" name="amount" title="Betrag" value="13.37" required>
-    </label>
-    <label>Support-Flatrate abschließen
-    	<input type="submit" value="Abschicken">
+<form action="https://moped.x-hain.de/members/signup" method="POST">
+  <label for="Name">Name:
+    <input type="text" name="name" title="Name" required>
+  </label>
+  <label for="email">Email:
+    <input type="email" name="email" title="Email" required>
+  </label>
+  <label for="amount">Betrag:
+    <input type="number" name="amount" title="Betrag" value="13.37" required>
+  </label>
+  <label>
+    <input type="submit" value="Abschicken">
 	</label>
 </form>
 
