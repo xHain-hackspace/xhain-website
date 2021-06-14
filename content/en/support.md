@@ -13,10 +13,9 @@ We get asked a lot how our membership works. Actually, xHain is different from m
 
 Most members typically donate 13.37€ or more per month. You will be assigned a random tree name, which we kindly ask you to use as description/reference in your bank transfer to our xHain bank account. You will receive the payment details by email after signing up.
 
-You can either use the form below (data will be send to us via formspree.com) - or just send us an email.
+You can either use the form below or just send us an email.
 
-<form action="https://formspree.io/signup@x-hain.de"
-      method="POST">
+<form action="https://moped.x-hain.de/members/signup" method="POST">
     <label for="Name">name:
     	<input type="text" name="Name" title="name" required>
     </label>

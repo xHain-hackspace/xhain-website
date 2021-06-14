@@ -13,7 +13,7 @@ Wir werden oft danach gefragt, wie das mit der Mitliedschaft so ist. Der xHain u
 
 Member spenden üblicherweise 13,37€ oder mehr im Monat. Du bekommst einen zufälligen Baumnamen zugewiesen, den du bitte in der Überweisung als Verwendungszweck einträgst und an unser xHain-Konto überweist. Die Kontonummer erhälst du nach der Anmeldung per Mail.
 
-Du kannst entweder das Formular verwenden, die Daten werden über formspree.com übertragen - oder du schickst uns einfach eine Mail mit den nötigen Angaben.
+Du kannst entweder das Formular verwenden oder du schickst uns einfach eine Mail mit den nötigen Angaben.
 
 <form action="https://moped.x-hain.de/members/signup" method="POST">
   <label for="Name">Name:
