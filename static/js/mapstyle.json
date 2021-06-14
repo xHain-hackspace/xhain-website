@@ -740,7 +740,7 @@
       "type": "circle",
       "source": "openmaptiles",
       "source-layer": "poi",
-      "minzoom": 12,
+      "minzoom": 10,
       "maxzoom": 24,
       "filter": [
         "all",
@@ -748,7 +748,7 @@
         ["==", "subclass", "station"]
       ],
       "paint": {
-        "circle-color": "rgba(7, 173, 52, 1)",
+        "circle-color": "rgba(0, 141, 79, 1)",
         "circle-stroke-color": "rgba(0, 0, 0, 1)",
         "circle-radius": 8,
         "circle-stroke-width": 1
@@ -759,7 +759,7 @@
       "type": "circle",
       "source": "openmaptiles",
       "source-layer": "poi",
-      "minzoom": 12,
+      "minzoom": 10,
       "filter": [
         "all",
         ["==", "class", "railway"],
@@ -784,7 +784,7 @@
         ["==", "subclass", "tram_stop"]
       ],
       "paint": {
-        "circle-color": "rgba(173, 106, 7, 1)",
+        "circle-color": "rgba(226, 0, 26, 1)",
         "circle-stroke-color": "rgba(0, 0, 0, 1)",
         "circle-stroke-width": 1,
         "circle-radius": 7
@@ -795,7 +795,7 @@
       "type": "symbol",
       "source": "openmaptiles",
       "source-layer": "poi",
-      "minzoom": 13,
+      "minzoom": 10,
       "maxzoom": 24,
       "filter": [
         "all",
@@ -809,7 +809,7 @@
       },
       "paint": {
         "text-color": "rgba(255, 255, 255, 1)",
-        "text-halo-color": "rgba(59, 209, 72, 1)",
+        "text-halo-color": "rgba(0, 141, 79, 1)",
         "text-halo-width": 2
       }
     },
@@ -818,7 +818,7 @@
       "type": "symbol",
       "source": "openmaptiles",
       "source-layer": "poi",
-      "minzoom": 12,
+      "minzoom": 11,
       "maxzoom": 24,
       "filter": [
         "all",
@@ -832,7 +832,7 @@
       },
       "paint": {
         "text-color": "rgba(255, 255, 255, 1)",
-        "text-halo-color": "rgba(68, 59, 209, 1)",
+        "text-halo-color": "rgba(6, 100, 171, 1)",
         "text-halo-width": 2
       }
     },
@@ -855,7 +855,7 @@
       },
       "paint": {
         "text-color": "rgba(255, 255, 255, 1)",
-        "text-halo-color": "rgba(209, 59, 65, 1)",
+        "text-halo-color": "rgba(226, 0, 26, 1)",
         "text-halo-width": 2
       }
     }

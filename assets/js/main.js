@@ -26,13 +26,13 @@ $(document).ready(function () {
 
 var map = new maplibregl.Map({
   container: "map",
-  style: "/js/map-style.json",
+  style: "/js/mapstyle.json",
   center: [13.44978, 52.51278],
-  zoom: 16,
+  zoom: 14,
 });
 map.addControl(new maplibregl.NavigationControl());
 
-var size = 500;
+var size = 350;
 
 // This implements `StyleImageInterface`
 // to draw a pulsing dot icon on the map.
@@ -99,7 +99,7 @@ map.on("load", function () {
           type: "Feature",
           geometry: {
             type: "Point",
-            coordinates: [13.4497773, 52.5127904], // icon position [lng, lat]
+            coordinates: [13.4497773, 52.5127904],
           },
         },
       ],
