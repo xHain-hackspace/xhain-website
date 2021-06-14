@@ -1,19 +1,14 @@
 ---
 title: "Komm, wir spielen ein Spiel!"
-slug: ""
 image: /images/articles/boardgame.jpg
 image_reference: "Maarten van den Heuvel via [Unsplash](https://unsplash.com/photos/_pc8aMbI9UQ) ([CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.de))"
 date: 2016-10-25
 categories:
-- news
-- events
+  - news
+  - events
 tags:
-- xhain
-- events
-keywords:
-- xhain
-aliases:
-- /de/2016/10/komm-wir-spielen-ein-spiel
+  - xhain
+  - events
 ---
 
 Lange erwartet, nun geht's endlich los:

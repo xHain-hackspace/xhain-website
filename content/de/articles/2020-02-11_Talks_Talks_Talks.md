@@ -1,15 +1,13 @@
 ---
 title: Talks, Talks, Talks
 image: /images/articles/talks.jpg
-heroImage: /images/articles/talks.jpg
-slug: ""
 image_reference: ""
 date: 2020-02-11
 categories:
-- news
-- events
+  - news
+  - events
 tags:
-- xhain
+  - xhain
 ---
 
 Jede Menge tolle Talks gibt es im xHain!
@@ -22,12 +20,12 @@ Es wird in 2 Runden bis zu 6 kurze Talks zu verschiednesten Hardware- und Bastel
 
 Wir freuen uns auf euch und auf das Programm des Abends:
 
-* Vavrek talks about body hacking
-* Dave redet über synthesizer
-* James presenting something
-* Sam mit smarter Batterie
-* Helen und ihr Tentakel
-* Drew presenting something
+- Vavrek talks about body hacking
+- Dave redet über synthesizer
+- James presenting something
+- Sam mit smarter Batterie
+- Helen und ihr Tentakel
+- Drew presenting something
 
 Themen sind teilweise "to be announced" und auch die Reihenfolge muss noch ausgelost werden, insofern kommt pünktlich, dann verpasst ihr nix!
 

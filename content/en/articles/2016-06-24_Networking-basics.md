@@ -1,18 +1,14 @@
 ---
 title: "Networking Basics - How does my computer connect to the Internet?"
-slug: ""
 image: /images/articles/network.jpg
-heroImage: /images/articles/network.jpg
 image_reference: "Athena Lam via [Unsplash](https://unsplash.com/photos/EG9qfm3BHR4) ([CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.de))"
 date: 2016-06-24
 categories:
-- news
-- events
+  - news
+  - events
 tags:
-- xhain
-- events
-keywords:
-- xhain
+  - xhain
+  - events
 ---
 
 Sunday, 26. June, 5 pm
@@ -22,6 +18,7 @@ But how does networking function behind the scenes? What's an IP address? How do
 In this workshop me, Theresa, will give a basic overview of some concepts and some programs that can help you understand your network from your computer. Then you will have time to try the programs that I'm showing on your own computer. You don't have to be able to program for this. If something doesn't work, we'll help you. ☺
 
 <!--more-->
+
 Beginners welcome! If you don't know anything about networking yet, this workshop is for you. If you know a bit, it's also for you. If you consider yourself an expert already, maybe it will be too boring.
 
 Please bring your computer. Operating system doesn't matter, but I have the most experience with Linux. You probably already have most of the important programs you'll need, but if you have time for it before the workshop, you can install wireshark (https://www.wireshark.org/#download). If you don't find the time before the workshop, it's okay, we can do it there, too!

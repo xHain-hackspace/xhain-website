@@ -1,19 +1,19 @@
 ---
 title: xHain vs. Virus
 image: /images/articles/xhainvsvirus.jpg
-heroImage: /images/articles/xhainvsvirus.jpg
-slug: ""
-image_reference: ""
 date: 2020-03-31
 categories:
-- news
-- events
+  - news
+  - events
 tags:
-- xhain
+  - xhain
 ---
-***
+
+---
+
 TL;DR: We are currently producing DIY cloth masks and 3D printed face shields to give out for free to medical staff and people of high risk. We are looking for funding for the materials necessary to do so.
-***
+
+---
 
 DIY cloth masks are needed by caretakers and people who work in hospitals and doctor's offices, as the demand for protective gear is growing while the supplies are running out.
 
@@ -27,10 +27,7 @@ We not only produce but also coordinate between the people that produce DIY mask
 
 If you want to support this effort, please feel free to donate. You'll receive a donation receipt, if you add your contact information to the reference.
 
-
-
 Accountholder: xHain hack+makespace gemeinnützige UG (haftungsbeschränkt)
 Bank: GLS Bank
 IBAN: DE72 4306 0967 1050 8465 00
 BIC: GENODEM1GLS
-

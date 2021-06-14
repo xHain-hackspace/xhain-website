@@ -1,18 +1,17 @@
 ---
 title: "hackspace statt Angst - Eröffnung am Freitag, den 13. Mai 2016"
-slug: ""
 image: /images/articles/opening.jpg
 image_reference: "Finn Hackshaw via [Unsplash](https://unsplash.com/photos/FQgI8AD-BSg) ([CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.de))"
 date: 2016-04-18
 categories:
-- news
-- events
+  - news
+  - events
 tags:
-- xhain
-- events
+  - xhain
+  - events
 ---
 
-Am Freitag, den 13. Mai feiern wir die Eröffnung des xHains!  
+Am Freitag, den 13. Mai feiern wir die Eröffnung des xHains!
 
 Ab 18 Uhr steht Euch die Tür offen.
 

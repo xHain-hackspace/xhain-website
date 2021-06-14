@@ -4,11 +4,10 @@ date: {{ .Date }}
 image: /images/hero.jpg
 image_reference: ""
 categories:
-- news
-- events
+  - news
+  - events
 tags:
-- xhain
-- events
+  - xhain
+  - events
 draft: true
 ---
-

@@ -1,15 +1,13 @@
 ---
 title: Covid 19 space rules - the update
 image: /images/articles/rules.jpg
-heroImage: /images/articles/rules.jpg
-slug: ""
 image_reference: ""
 date: 2020-09-09
 categories:
-- news
-- events
+  - news
+  - events
 tags:
-- xhain
+  - xhain
 ---
 
 As you have probably noticed, we have been holding the open evening in the xHain for some time.

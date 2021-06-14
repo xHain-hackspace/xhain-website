@@ -1,19 +1,14 @@
 ---
 title: "Vortrag: Auf dem Weg zu selbständig Laufen-lernenden Robotern"
-slug: ""
 image: /images/articles/Robot_wireframe.jpg
 image_reference: "Obsidian Soul via [Wikimedia](https://commons.wikimedia.org/wiki/File%3ARobot_wireframe.jpg) ([CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en))"
 date: 2017-01-18
 categories:
-- news
-- events
+  - news
+  - events
 tags:
-- xhain
-- events
-keywords:
-- xhain
-aliases:
-- /de/2017/01/auf-dem-weg-zu-selbstaendig-laufen-lernenden-robotern
+  - xhain
+  - events
 ---
 
 Heutige Roboter haben das Laufen nicht gelernt, jedenfalls nicht in der

@@ -1,18 +1,14 @@
 ---
 title: "One year is over. Time for a party!"
-slug: ""
 image: /images/articles/birthday.jpg
-heroImage: /images/articles/birthday.jpg
 image_reference: "Rich Helmer via [Unsplash](https://unsplash.com/search/birthday?photo=8gNG1eorhpM) ([CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.de))"
 date: 2017-05-03
 categories:
-- news
-- events
+  - news
+  - events
 tags:
-- xhain
-- events
-keywords:
-- xhain
+  - xhain
+  - events
 ---
 
 Wow, that was fast: a whole year is already over and the xHain is turning 1!<br>

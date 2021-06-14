@@ -1,15 +1,14 @@
 ---
 title: "Die Daten, die ich rief"
-slug: ""
 image: /images/articles/kattascha.jpg
 image_reference: ""
 date: 2018-10-24
 categories:
-- news
-- events
+  - news
+  - events
 tags:
-- xhain
-- events
+  - xhain
+  - events
 ---
 
 "Die Daten, die ich rief"
@@ -28,6 +27,6 @@ Katharina Nocun ist Bürgerrechtlerin, Netzaktivistin und studierte
 Ökonomin. Sie leitete bundesweite Kampagnen zum Thema Datenschutz,
 Whistleblowing und Bürgerrechte, u.a. für die Bürgerbewegung Campact
 e.V., Mehr Demokratie e.V., und den Verbraucherzentrale Bundesverband
-(vzbv). 
+(vzbv).
 Sie bloggt unter kattascha.de. 2018 erschien ihr Buch "Die
 Daten, die ich rief" bei Lübbe.

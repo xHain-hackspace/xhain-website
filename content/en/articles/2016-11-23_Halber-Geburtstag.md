@@ -1,18 +1,14 @@
 ---
 title: "Half birthday - full Yeah!"
-slug: ""
 image: /images/articles/party.jpg
-heroImage: /images/articles/party.jpg
 image_reference: "Sofia Levchenko via [Unsplash](https://unsplash.com/photos/l6yLVM-FJxc) ([CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.de))"
 date: 2016-11-23
 categories:
-- news
-- events
+  - news
+  - events
 tags:
-- xhain
-- events
-keywords:
-- xhain
+  - xhain
+  - events
 ---
 
 # Half birthday - full Yeah!

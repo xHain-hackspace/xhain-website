@@ -1,16 +1,12 @@
 ---
-title : "Time for an update"
-slug: ""
+title: "Time for an update"
 image: /images/articles/notebook.jpg
-heroImage: /images/articles/notebook.jpg
 image_reference: "Volkan Olmez via [Unsplash](https://unsplash.com/photos/aG-pvyMsbis) ([CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.de))"
-date : 2016-10-28
+date: 2016-10-28
 categories:
-- news
+  - news
 tags:
-- xhain
-keywords:
-- xhain
+  - xhain
 ---
 
 It's been a while since the last one, so it's time again for a quick

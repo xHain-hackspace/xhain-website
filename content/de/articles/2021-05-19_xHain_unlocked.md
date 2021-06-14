@@ -1,15 +1,13 @@
 ---
 title: xHain unlocked
 image: /images/articles/unlocked.jpg
-heroImage: /images/articles/unlocked.jpg
-slug: ""
 image_reference: ""
 date: 2021-05-19
 categories:
-- news
-- events
+  - news
+  - events
 tags:
-- xhain
+  - xhain
 ---
 
 Hey ihr Lieben,
@@ -26,12 +24,12 @@ Einseits haben wir seit dem Lockdown eine Menge neues, tolles Zeug angeschafft, 
 Andererseits müssen wir uns pandemie-bedingt an zahlreiche Vorschriften und Beschränkungen halten - dafür haben wir uns ein Hygienekonzept für Veranstaltungen im xHain einfallen lassen. Ihr findet das komplette hier: https://wiki.x-hain.de/de/xHain/hygiene-konzept .
 
 Wir werden es - je nach Entwicklung der Vorschriften - anpassen, für jetzt sind die wichtigsten Punkte:
+
 - Betreten des xHain nur für Toilettenbesuche und Führungen
 
 - Betreten nur mit FFP2-Maske und aktuellem, negativen Schnelltest. Selbsttests vor Ort sind auch okay, aber denkt bitte dran, dann muss wieder jemand ein Auge drauf haben, dass ihr das vorschriftsmäßig macht, insofern klickt euch doch einfach im Testcenter am Berghain (Wriezener Carree, https://berlin.meincoronaschnelltest.de/ ) einen Termin.
 
 - wer sich nicht dran hält, muss gehen
-
 
 Führungen werden wir in kleineren Gruppen machen, mit Lüftungspausen dazwischen.
 

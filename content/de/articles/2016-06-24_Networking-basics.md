@@ -1,15 +1,14 @@
 ---
 title: "Netzwerk-Grundlagen - Wie verbindet sich mein Rechner mit dem Internet?"
-slug: ""
 image: /images/articles/network.jpg
 image_reference: "Athena Lam via [Unsplash](https://unsplash.com/photos/EG9qfm3BHR4) ([CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.de))"
 date: 2016-06-24
 categories:
-- news
-- events
+  - news
+  - events
 tags:
-- xhain
-- events
+  - xhain
+  - events
 ---
 
 Sonntag, 26. Juni, 17 Uhr

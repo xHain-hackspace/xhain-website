@@ -1,16 +1,15 @@
 ---
 title: xHain vs. Virus - space rules
 image: /images/articles/houserules.jpg
-heroImage: /images/articles/houserules.jpg
-slug: ""
 image_reference: "Marco Verch - Decoration HOUSE Rules via (https://www.flickr.com/photos/30478819@N08/37028529186/) ([CC-BY 2.0](https://creativecommons.org/licenses/by/2.0/))"
 date: 2020-06-29
 categories:
-- news
-- events
+  - news
+  - events
 tags:
-- xhain
+  - xhain
 ---
+
 Hey ihr Lieben!
 
 Wir hoffen ihr habt die letzten Wochen alle halbwegs unbeschadet überstanden.
@@ -30,7 +29,7 @@ Es wird darum gebeten, wenn möglich, sich nicht in den Räumen des Xhains aufzu
 
 Generell ist das Tragen einer Maske im xHain Pflicht. Masken wirken.
 
-= Anwesenheitsliste = 
+= Anwesenheitsliste =
 
 Wer den xHain betritt, trägt sich ausnahmslos in die Anwesenheitsliste. Selbst wenn man alleine im xHain war, muss feststellbar sein, wer sich wegen Aerosolen und Schmierinfektion angesteckt haben könnte. Vernachlässigung gehört ausgebuht. Es gibt Mitglieder, die sich darauf verlassen können wollen - bitte habt an der Stelle den nötigen Respekt.
 
@@ -42,6 +41,5 @@ Die oben genannten Regeln gelten weiter. Nur im Aussenbereich ist keine Maske er
 
 In einer früheren Version dieses Blogpost hat die Quelle und die Lizenz des genutzten Bildes gefehlt.
 Wir entschuldigen uns bei Marco Verch.
-
 
 Bild: Marco Verch - Decoration HOUSE Rules via (https://www.flickr.com/photos/30478819@N08/37028529186/) ([CC-BY 2.0](https://creativecommons.org/licenses/by/2.0/))

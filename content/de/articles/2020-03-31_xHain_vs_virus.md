@@ -1,28 +1,28 @@
 ---
 title: xHain vs. Virus
 image: /images/articles/xhainvsvirus.jpg
-heroImage: /images/articles/xhainvsvirus.jpg
-slug: ""
 image_reference: ""
 date: 2020-03-31
 categories:
-- news
-- events
+  - news
+  - events
 tags:
-- xhain
+  - xhain
 ---
-***
+
+---
+
 TLDR: Wir stellen Behelfsmasken und Gesichtsschilde her und verteilen sie kostenfrei an medizinisches Personal und Personen aus Risikogruppen. Wir sammeln Geld um das Material dafür zu kaufen.
 
-***
+---
 
-Akut gibt es bei Krankenhauspersonal, Pflegepersonen, MitarbeiterInnen von Arztpraxen und auch vielen anderen, die aufgrund der hohen Nachfrage keinen Zugang zu benötigter Schutzausrüstung haben, einen großen Bedarf an Behelfsmasken. 
+Akut gibt es bei Krankenhauspersonal, Pflegepersonen, MitarbeiterInnen von Arztpraxen und auch vielen anderen, die aufgrund der hohen Nachfrage keinen Zugang zu benötigter Schutzausrüstung haben, einen großen Bedarf an Behelfsmasken.
 
-Wir MakerInnen vom xHain hack+makespace in Berlin haben uns mit UnterstützerInnen zusammengetan und nähen, wie auch viele andere, Behelfsmasken aus Stoff. 
+Wir MakerInnen vom xHain hack+makespace in Berlin haben uns mit UnterstützerInnen zusammengetan und nähen, wie auch viele andere, Behelfsmasken aus Stoff.
 Darüber hinaus drucken wir 3D-Gesichtsschilde aus Filament und PET-Folie, die vom Personal in Krankenhäusern verwendet werden können, um die Ansteckungsgefahr weiter zu verringern.
 
 Der Bedarf ist hoch. Aktuell haben wir bereits Anfragen für 1000 Masken erhalten. Tendenz steigend und suchen dringend NäherInnen:
-Auf http://masken.berlin/ findet ihr Anleitungen, Video Tutorials, Schnittmuster und auch Hinweise zu Filtern. 
+Auf http://masken.berlin/ findet ihr Anleitungen, Video Tutorials, Schnittmuster und auch Hinweise zu Filtern.
 Dort findet ihr alle Infos und auch Kontaktmöglichkeiten dazu, wie ihr uns unterstützen könnt.
 
 Zusammen mit dem Verstehbahnhof in Fürstenberg/Havel, der Fachhochschule Beuth und vielen mehr arbeiten wir außerdem gerade daran, 5000 Gesichtsschilde zu produzieren.
@@ -40,4 +40,4 @@ IBAN: DE72 4306 0967 1050 8465 00
 
 BIC: GENODEM1GLS
 
-***
+---
