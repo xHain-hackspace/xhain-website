@@ -1,8 +1,10 @@
 ---
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
 date: {{ .Date }}
-image: /images/hero.jpg
-image_reference: ""
+image: /images/forest.jpg
+image_reference: 
+image_url:
+image_license:
 categories:
   - news
   - events

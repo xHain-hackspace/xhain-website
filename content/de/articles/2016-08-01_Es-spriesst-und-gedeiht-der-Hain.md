@@ -1,7 +1,9 @@
 ---
 title: "Es sprießt und gedeiht der Hain!"
 image: /images/articles/grow.jpg
-image_reference: "chuttersnap via [Unsplash](https://unsplash.com/photos/UmncJq4KPcA) ([CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.de))"
+image_reference: Foto von chuttersnap
+image_url: https://unsplash.com/photos/UmncJq4KPcA
+image_license: CC0
 date: 2016-08-01
 categories:
   - news

@@ -1,7 +1,9 @@
 ---
 title: "Ein ganzes Jahr ist rum. Zeit für Party!"
 image: /images/articles/birthday.jpg
-image_reference: "Rich Helmer via [Unsplash](https://unsplash.com/search/birthday?photo=8gNG1eorhpM) ([CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.de))"
+image_reference: Foto von Rich Helmer
+image_url: https://unsplash.com/search/birthday?photo=8gNG1eorhpM
+image_license: CC0
 date: 2017-05-03
 categories:
   - news

@@ -1,7 +1,9 @@
 ---
 title: "hello world!"
 image: /images/articles/forest.jpg
-image_reference: "Carmine De Fazio via [Unsplash](https://unsplash.com/photos/3ytjETpQMNY) ([CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.de))"
+image_reference: Foto von Carmine De Fazio
+image_url: https://unsplash.com/photos/3ytjETpQMNY
+image_license: CC0
 date: 2016-06-01
 categories:
   - news

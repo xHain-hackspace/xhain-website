@@ -7,7 +7,15 @@
       {{ if .Params.image_reference }}
       <div class="image-attribution">
         <button class="image-attribution-button" title="Toggle attribution" aria-label="Toggle attribution" aria-pressed="false"></button>
-        <div class="image-attribution-inner" role="list">{{ .Params.image_reference }}</div>
+        <div class="image-attribution-inner" role="list">
+          {{ if .Params.image_url }}
+          <a href="{{ .Params.image_url }}" target="_blank">
+          {{ end }}
+            {{ .Params.image_reference }}
+          {{ if .Params.image_url }}
+          </a>
+          {{ end }}
+        </div>
       </div>
       {{ end }}
       <img src="{{ .Params.image | absURL }}" />

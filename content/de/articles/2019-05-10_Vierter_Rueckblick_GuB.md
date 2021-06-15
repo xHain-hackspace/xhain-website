@@ -1,6 +1,6 @@
 ---
 title: "Rückblick 4. Veranstaltung “Gespräch unter Bäumen” und Shownotes"
-image: /images/hero.jpg
+image: /images/forest.jpg
 image_reference: ""
 date: 2019-05-10
 categories:

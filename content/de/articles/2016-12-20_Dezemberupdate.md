@@ -1,7 +1,9 @@
 ---
 title: "Dezemberupdate"
 image: /images/articles/nordsee.jpg
-image_reference: "Foto [Heye Jensen](http://heyeje.de) - [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
+image_reference: Foto von Heye Jensen
+image_url: http://heyeje.de
+image_license: CC BY-SA 4.0
 date: 2016-12-20
 categories:
   - news

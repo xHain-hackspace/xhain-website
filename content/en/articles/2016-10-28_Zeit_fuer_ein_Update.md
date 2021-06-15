@@ -1,7 +1,9 @@
 ---
 title: "Time for an update"
 image: /images/articles/notebook.jpg
-image_reference: "Volkan Olmez via [Unsplash](https://unsplash.com/photos/aG-pvyMsbis) ([CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.de))"
+image_reference: Photo by Volkan Olmez
+image_url: https://unsplash.com/photos/aG-pvyMsbis
+image_license: CC0
 date: 2016-10-28
 categories:
   - news

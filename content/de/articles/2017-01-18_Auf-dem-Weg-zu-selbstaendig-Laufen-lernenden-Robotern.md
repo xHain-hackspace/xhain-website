@@ -1,7 +1,9 @@
 ---
 title: "Vortrag: Auf dem Weg zu selbständig Laufen-lernenden Robotern"
 image: /images/articles/Robot_wireframe.jpg
-image_reference: "Obsidian Soul via [Wikimedia](https://commons.wikimedia.org/wiki/File%3ARobot_wireframe.jpg) ([CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en))"
+image_reference: Foto von Obsidian Soul
+image_url: https://commons.wikimedia.org/wiki/File%3ARobot_wireframe.jpg
+image_license: CC0
 date: 2017-01-18
 categories:
   - news

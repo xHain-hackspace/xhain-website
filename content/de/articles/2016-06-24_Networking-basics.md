@@ -1,7 +1,9 @@
 ---
 title: "Netzwerk-Grundlagen - Wie verbindet sich mein Rechner mit dem Internet?"
 image: /images/articles/network.jpg
-image_reference: "Athena Lam via [Unsplash](https://unsplash.com/photos/EG9qfm3BHR4) ([CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.de))"
+image_reference: Foto von Athena Lam
+image_url: https://unsplash.com/photos/EG9qfm3BHR4
+image_license: CC0
 date: 2016-06-24
 categories:
   - news

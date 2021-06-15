@@ -1,7 +1,9 @@
 ---
 title: "hackspace > fear – Opening on Friday, 13 May 2016"
 image: /images/articles/opening.jpg
-image_reference: "Finn Hackshaw via [Unsplash](https://unsplash.com/photos/FQgI8AD-BSg) ([CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.de))"
+image_reference: Photo by Finn Hackshaw
+image_url: https://unsplash.com/photos/FQgI8AD-BSg
+image_license: CC0
 date: 2016-04-18
 categories:
   - news

@@ -1,7 +1,9 @@
 ---
 title: "Civic Hacking"
 image: /images/articles/civic.jpg
-image_reference: "Jace Grandinetti via [Unsplash](https://unsplash.com/photos/nuOdDlVCpDU) ([CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.de))"
+image_reference: Photo by Jace Grandinetti
+image_url: https://unsplash.com/photos/nuOdDlVCpDU
+image_license: CC0
 date: 2016-06-13
 categories:
   - news

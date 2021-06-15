@@ -1,7 +1,9 @@
 ---
 title: "License to solder"
 image: /images/articles/solder.jpg
-image_reference: "Ossewa via [wikipedia](https://de.wikipedia.org/wiki/Datei:Solder_Paste_Printed_on_a_PCB.jpg) ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.de))"
+image_reference: Photo by Ossewa
+image_url: https://de.wikipedia.org/wiki/Datei:Solder_Paste_Printed_on_a_PCB.jpg
+image_license: CC BY-SA 3.0
 date: 2016-06-20
 categories:
   - news

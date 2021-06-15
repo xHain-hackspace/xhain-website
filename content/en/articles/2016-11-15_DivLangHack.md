@@ -1,7 +1,9 @@
 ---
 title: "<div>#lang:Hack"
 image: /images/articles/cables.jpg
-image_reference: "Randall Bruder via [Unsplash](https://unsplash.com/photos/3_I4NVI9d1k) ([CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.de))"
+image_reference: Photo by Randall Bruder
+image_url: https://unsplash.com/photos/3_I4NVI9d1k
+image_license: CC0
 date: 2016-11-15
 categories:
   - news

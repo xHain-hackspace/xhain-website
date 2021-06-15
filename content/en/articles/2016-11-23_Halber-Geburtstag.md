@@ -1,7 +1,9 @@
 ---
 title: "Half birthday - full Yeah!"
 image: /images/articles/party.jpg
-image_reference: "Sofia Levchenko via [Unsplash](https://unsplash.com/photos/l6yLVM-FJxc) ([CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.de))"
+image_reference: Photo by Sofia Levchenko
+image_url: https://unsplash.com/photos/l6yLVM-FJxc
+image_license: CC0
 date: 2016-11-23
 categories:
   - news

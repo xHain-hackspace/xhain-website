@@ -1,6 +1,6 @@
 ---
 title: "Rückblick 1. Veranstaltung “Gespräch unter Bäumen” und Shownotes"
-image: /images/hero.jpg
+image: /images/forest.jpg
 image_reference: ""
 date: 2019-01-25
 categories:

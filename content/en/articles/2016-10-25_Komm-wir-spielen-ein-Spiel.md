@@ -1,7 +1,9 @@
 ---
 title: "Let's play a game"
 image: /images/articles/boardgame.jpg
-image_reference: "Maarten van den Heuvel via [Unsplash](https://unsplash.com/photos/_pc8aMbI9UQ) ([CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.de))"
+image_reference: Photo by Maarten van den Heuvel
+image_url: https://unsplash.com/photos/_pc8aMbI9UQ
+image_license: CC0
 date: 2016-10-25
 categories:
   - news
