@@ -32,6 +32,7 @@ if (mapDiv) {
     center: [13.44978, 52.51278],
     zoom: 14,
   });
+  map.scrollZoom.disable();
   map.addControl(new maplibregl.NavigationControl());
 
   var size = 300;
