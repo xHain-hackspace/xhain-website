@@ -34,7 +34,7 @@ if (mapDiv) {
   });
   map.addControl(new maplibregl.NavigationControl());
 
-  var size = 350;
+  var size = 300;
 
   // This implements `StyleImageInterface`
   // to draw a pulsing dot icon on the map.
@@ -54,7 +54,7 @@ if (mapDiv) {
 
     // Call once before every frame where the icon will be used.
     render: function () {
-      var duration = 1000;
+      var duration = 5000;
       var t = (performance.now() % duration) / duration;
 
       var radius = (size / 2) * 0.1;
