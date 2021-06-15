@@ -218,14 +218,55 @@ iframe {
   border: none;
 }
 
-
-
 #map {
   height: 400px;
   width: 100%;
   border-radius: 10px;
   box-shadow: 0 1px 10px rgba(42, 235, 170, 0.2);
+  img {
+    border-radius: 10px;
+  }
 }
+
+.image-attribution {
+  min-height: 20px;
+  padding: 2px 24px 2px 0;
+  margin: 10px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  border-radius: 12px;
+  line-height: normal;
+}
+
+.image-attribution-button {
+  display: block;
+  cursor: pointer;
+  position: absolute;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='24' height='24' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg' fill-rule='evenodd'%3E%3Cpath d='M4 10a6 6 0 1012 0 6 6 0 10-12 0m5-3a1 1 0 102 0 1 1 0 10-2 0m0 3a1 1 0 112 0v3a1 1 0 11-2 0'/%3E%3C/svg%3E");
+  background-color: hsla(0, 0%, 100%, 0.5);
+  width: 24px;
+  height: 24px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  outline: none;
+  top: 0;
+  right: 0;
+  border: 0;
+}
+
+.image-attribution-inner {
+  display: none;
+  color: black;
+  font-size: 12px;
+  padding: 1px 6px 1px 12px;
+  a {
+    color: black;
+    text-decoration: underline;
+  }
+}
+
 
 @media screen and (min-width: 750px) {
   main {

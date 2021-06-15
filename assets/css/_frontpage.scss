@@ -4,17 +4,11 @@
   }
 
   #frontpage-hero {
-    box-align: center;
-    align-items: center;
     background: $main-color;
     background: url("/images/hero.jpg");
     background-size: cover;
     background-position: center;
-    display: box;
-    display: flex;
     height: 100vh;
-    box-pack: center;
-    justify-content: center;
     position: fixed;
     width: 100%;
     z-index: 1;

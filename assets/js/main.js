@@ -22,6 +22,9 @@ $(document).ready(function () {
   if ($(window).scrollTop() < $(window).height() - 107) {
     $("#frontpage header").addClass("semi-transparent");
   }
+  $(".image-attribution-button").click(function () {
+     $(".image-attribution-inner").slideToggle(100);
+  });
 });
 
 var mapDiv = document.getElementById("map");
