@@ -156,7 +156,7 @@ main {
     padding-bottom: 40px;
   }
 
-  .teaser-image {
+  .image {
     max-height: 280px;
     overflow: hidden;
 
@@ -233,8 +233,6 @@ iframe {
   padding: 2px 24px 2px 0;
   margin: 10px;
   position: absolute;
-  right: 0;
-  bottom: 0;
   background-color: #fff;
   border-radius: 12px;
   line-height: normal;
@@ -252,7 +250,6 @@ iframe {
   border-radius: 12px;
   outline: none;
   top: 0;
-  right: 0;
   border: 0;
 }
 
@@ -260,7 +257,7 @@ iframe {
   display: none;
   color: black;
   font-size: 12px;
-  padding: 1px 6px 1px 12px;
+  padding: 1px 0px 1px 28px;
   a {
     color: black;
     text-decoration: underline;

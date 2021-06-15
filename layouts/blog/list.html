@@ -7,7 +7,15 @@
     <article>
       <h2 class="article-title"><a href="{{.Permalink}}">{{.Title}}</a></h2>
       <p class="article-post-date">{{ .Date.Format "2006-01-02" }}</p>
-      <div class="teaser-image"><a href="{{.Permalink}}"><img src="{{ .Params.image | absURL }}" /></a></div>
+      <div class="image">
+        {{ if .Params.image_reference }}
+        <div class="image-attribution">
+          <button class="image-attribution-button" title="Toggle attribution" aria-label="Toggle attribution" aria-pressed="false"></button>
+          <div class="image-attribution-inner" role="list">{{ .Params.image_reference }}</div>
+        </div>
+        {{ end }}
+        <a href="{{.Permalink}}"><img src="{{ .Params.image | absURL }}" /></a>
+      </div>
       <p>{{ .Summary }}</p>
       <p><a class="button" href="{{.Permalink}}">{{ i18n "continueReading" }}</a></p>
     </article>

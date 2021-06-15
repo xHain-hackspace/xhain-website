@@ -17,6 +17,18 @@
       width: 275px;
       height: auto;
     }
+    .image-attribution {
+      right: 0;
+      bottom: 0;
+      margin: 10px;
+
+      .image-attribution-button {
+        right: 0;
+      }
+      .image-attribution-inner {
+        padding: 1px 6px 1px 12px;
+      }
+    }
   }
   #content {
     position: absolute;
