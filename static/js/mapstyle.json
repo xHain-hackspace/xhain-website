@@ -7,10 +7,10 @@
   "sources": {
     "openmaptiles": {
       "type": "vector",
-      "url": "https://basemap.openbuildingmap.org/data/v3.json"
+      "url": "https://tiles.x-hain.de/data/v3.json"
     }
   },
-  "glyphs": "https://basemap.openbuildingmap.org/fonts/{fontstack}/{range}.pbf",
+  "glyphs": "https://tiles.x-hain.de/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
