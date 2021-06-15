@@ -1,7 +1,7 @@
 ---
 title: "WTF are Cryptocurrencies?"
 image: /images/articles/cryptocurrency.jpg
-image_reference: Qoin Foundation
+image_reference: Photo by Qoin Foundation
 image_url: http://community-currency.info/
 image_license: CC0
 date: 2017-07-03

@@ -1,7 +1,7 @@
 ---
 title: xHain unlocked
 image: /images/articles/unlocked.jpg
-image_reference: Photo by NeZoomie Pictures
+image_reference: Foto von NeZoomie Pictures
 image_url: https://nezoomie.pictures
 image_license: Personal permit
 date: 2021-05-19
