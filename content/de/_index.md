@@ -10,7 +10,7 @@ draft: false
 
 ### Offener Montag Abend
 
-Komm vorbei, schnupper rein und mach mit! Immer Montags ab 17h bis spät in die Nacht in der Grünberger Str. 16 in Berlin.\
+Komm vorbei, schnupper rein und mach mit! Immer Montags ab 17 Uhr bis spät in die Nacht in der Grünberger Str. 16 in Berlin.\
 Aufgrund von COVID-19 finden unsere Aktivitäten nur draußen statt. Bitte lies dazu unser <a href="https://wiki.x-hain.de/de/xHain/hygiene-konzept" target="_blank">Hygiene-Konzept</a>.
 
 <br clear="all">
@@ -21,7 +21,7 @@ Aufgrund von COVID-19 finden unsere Aktivitäten nur draußen statt. Bitte lies 
 
 ### All creatures welcome
 
-Ob Hacker:in, Maker:in oder einfach nur neugierig, du bist im xHain willkommen! Es ist nicht wichtig, wieviel Erfahrung du mitbringst oder ob du irgendwas beitragen kannst, sondern ob du dich für Themen wie Coding, Elektronik & Löten, Holzarbeiten, Lasercutting, CNC-Fräsen, 3D-Drucken, Textilien & Nähen usw. interessierst.
+Ob Hacker:in, Maker:in oder einfach nur neugierig, du bist im xHain willkommen! Es ist nicht wichtig, wieviel Erfahrung du mitbringst, oder ob du Schüler:in, Senior:in oder irgendwas dazwischen bist, sondern ob du dich für Themen wie Coding, Elektronik & Löten, Holzarbeiten, Lasercutting, CNC-Fräsen, 3D-Drucken, Textilien & Nähen usw. interessierst. 
 
 <a href="https://wiki.x-hain.de/de/xHain/xRoots" target="_blank"><img alt="xRoots symbol" src="/images/logo/xroots.png" style="float: left; padding: 10px 30px 0 0; width: 120px; height: auto;" /></a>
 
@@ -33,10 +33,8 @@ Ob Hacker:in, Maker:in oder einfach nur neugierig, du bist im xHain willkommen! 
 
 ![](/images/space-map.png)
 
-## Barrieren und Freiheiten
+### Barrieren und Freiheiten
 
 <img alt="Wheelchair symbol" src="/images/icons/accessible.svg" style="float: left; padding: 10px 30px 0 0; width: 70px; height: auto;" />
 
 Menschen mit handicaps bzw. disabilities sind uns willkommen! Wir haben noch kein rollstuhlgerechtes WC, aber schon eine mobile Rampe und unsere Werkbank ist unterfahrbar für Rollstühle. Wir bemühen uns stetig, weitere Barrieren abzubauen.
-
-<br clear="all">

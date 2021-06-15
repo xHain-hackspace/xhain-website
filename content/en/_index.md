@@ -22,7 +22,7 @@ Due to COVID-19 we currently meet outdoors only. Please also read our <a href="h
 
 ### All creatures welcome
 
-No matter if you're a hacker, maker or simply curious, you are welcome at the xHain. It doesn't matter how much experience you have or how much you can contribute, it only matters whether you are interested in topics such as coding, electronics & soldering, woodworking, lasercutting, CNC milling, 3D printing, textiles & sewing, etc. 
+No matter if you're a hacker, maker or simply curious, you are welcome at the xHain. It doesn't matter how much experience you have or if you are a student or retired or anything in between. It only matters whether you are interested in topics such as coding, electronics & soldering, woodworking, lasercutting, CNC milling, 3D printing, textiles & sewing, etc. 
 
 <a href="https://wiki.x-hain.de/en/xHain/xRoots" target="_blank"><img alt="xRoots symbol" src="/images/logo/xroots.png" style="float: left; padding: 10px 30px 0 0; width: 120px; height: auto;" /></a>
 
@@ -34,10 +34,8 @@ No matter if you're a hacker, maker or simply curious, you are welcome at the xH
 
 ![](/images/space-map.png)
 
-## Accessibility
+### Accessibility
 
 <img alt="Wheelchair symbol" src="/images/icons/accessible.svg" style="float: left; padding: 10px 30px 0 0; width: 70px; height: auto;" />
 
 People with handicaps and disabilities are welcome! We don't have an accessibly designed bathroom yet, but a mobile ramp and our workshops workbench is wheelchair accessible. We are constantly trying to improve in order to become a barrier-free space.
-
-<br clear="all">
