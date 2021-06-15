@@ -5,4 +5,4 @@ showMap: false
 draft: false
 ---
 
-<iframe width="100%" height="900" src="https://files.x-hain.de/index.php/apps/calendar/embed/MgYNoHeGjcPDPJnr/timeGridWeek/now"></iframe>
+<iframe width="100%" height="900" src="https://files.x-hain.de/index.php/apps/calendar/embed/MgYNoHeGjcPDPJnr/listMonth/now"></iframe>
