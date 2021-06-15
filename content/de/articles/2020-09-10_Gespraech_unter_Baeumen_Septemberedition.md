@@ -1,6 +1,6 @@
 ---
 title: Gespräch unter Bäumen - September Edition
-image: /images/articles/Octopussy_preview.JPG
+image: /images/articles/octopussy.jpg
 image_reference: ""
 date: 2020-09-10
 categories:
