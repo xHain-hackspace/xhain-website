@@ -1,7 +1,6 @@
 ---
 title: Kontakt
 date: 2017-04-04
-showMap: true
 draft: false
 ---
 
@@ -17,3 +16,5 @@ Grünberger Str. 16\
 [info@x-hain.de](mailto:info@x-hain.de)
 
 ## Karte
+
+<div id="map"><noscript><img src="/images/location-map.jpg" alt="Karte die den xHain anzeigt in der Grünberger Str. 16, Berlin" /></noscript></div>

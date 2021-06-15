@@ -1,18 +1,25 @@
 ---
 title: "Willkommen im xHain"
 date: 2021-06-09T00:00:00Z
-showMap: true
 draft: false
 ---
 
 **Willkommen im xHain: Hack- & Makespace im Herzen von Friedrichshain, Bastelstube für Technikinteressierte + Raum für Netzpolitisches.**
 
-**Offener Montag Abend**: Komm vorbei, schnupper rein und mach mit! Immer Montags ab 17h bis spät in die Nacht in der Grünberger Str. 16, 10243 Berlin.<br>
-Aktuelles zu Covid19: Offene Abende finden seit dem 24.5.21 wieder statt, allerdings nur draußen. Bitte lies dazu unser <a href="https://wiki.x-hain.de/de/xHain/hygiene-konzept" target="_blank">Hygiene-Konzept</a>.
+<br clear="all">
 
-![](/images/space-map.png)
+### Offener Montag Abend
+
+Komm vorbei, schnupper rein und mach mit! Immer Montags ab 17h bis spät in die Nacht in der Grünberger Str. 16 in Berlin.\
+Aufgrund von COVID-19 finden unsere Aktivitäten nur draußen statt. Bitte lies dazu unser <a href="https://wiki.x-hain.de/de/xHain/hygiene-konzept" target="_blank">Hygiene-Konzept</a>.
 
 <br clear="all">
+
+<div id="map"><noscript><img src="/images/location-map.jpg" alt="Karte die den xHain anzeigt in der Grünberger Str. 16, Berlin" /></noscript></div>
+
+<br clear="all">
+
+### All creatures welcome
 
 Ob Hacker:in, Maker:in oder einfach nur neugierig, du bist im xHain willkommen! Es ist nicht wichtig, wieviel Erfahrung du mitbringst oder ob du irgendwas beitragen kannst, sondern ob du dich für Themen wie Coding, Elektronik & Löten, Holzarbeiten, Lasercutting, CNC-Fräsen, 3D-Drucken, Textilien & Nähen usw. interessierst.
 
@@ -22,4 +29,14 @@ Ob Hacker:in, Maker:in oder einfach nur neugierig, du bist im xHain willkommen! 
 
 <br clear="all">
 
-### Komm vorbei und besuch uns:
+### Der Ort
+
+![](/images/space-map.png)
+
+## Barrieren und Freiheiten
+
+<img alt="Wheelchair symbol" src="/images/icons/accessible.svg" style="float: left; padding: 10px 30px 0 0; width: 70px; height: auto;" />
+
+Menschen mit handicaps bzw. disabilities sind uns willkommen! Wir haben noch kein rollstuhlgerechtes WC, aber schon eine mobile Rampe und unsere Werkbank ist unterfahrbar für Rollstühle. Wir bemühen uns stetig, weitere Barrieren abzubauen.
+
+<br clear="all">

@@ -8,10 +8,7 @@
 <div id="content">
   <main>
     <div id="main-wrapper">
-      <p>{{ .Content }}</p>
-      {{ if .Params.showMap }}
-      <div id="map"><noscript><img src="/images/location-map.jpg" alt="Map showing the location of the xHain space in Grünberger Str. 16, Berlin" /></noscript></div>
-      {{ end }}
+      {{ .Content }}
   </main>
   {{ partial "footer" . }}
 </div>

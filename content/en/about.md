@@ -20,14 +20,6 @@ If you’re an asshole, e.g. sexist, racist, or homophobic, please don’t bothe
 
 We take inclusivity very seriously and hence have put together an awareness team as well as our <a href="https://wiki.x-hain.de/en/xHain/xRoots" target="_blank">xroots mentors</a> as personal contacts for you.
 
-## Accessibility
-
-People with handicaps and disabilities are welcome! We don't have an accessibly designed bathroom yet, but a mobile ramp and our workshops workbench is wheelchair accessible. We are constantly trying to improve in order to become a barrier-free space.
-
-You can find more info about our physical space and a floor map <a href="https://wiki.x-hain.de/en/xHain/rooms-and-equipment" target="_blank">here</a>.
-
-<img alt="Wheelchair symbol" src="/images/icons/accessible.svg" class="icon" />
-
 ## Awareness Team
 
 If you have suggestions for inclusivity improvements, personal or confidential concerns, needs, worries or problems in the context of xHain, please contact one of the following people in our <a href="https://chat.x-hain.de" target="_blank">rocket chat</a>. All information will be kept strictly confidential.

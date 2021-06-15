@@ -1,7 +1,6 @@
 ---
 title: Contact
 date: 2017-04-04
-showMap: true
 draft: false
 ---
 
@@ -18,3 +17,5 @@ Germany
 [info@x-hain.de](mailto:info@x-hain.de)
 
 ## Location
+
+<div id="map"><noscript><img src="/images/location-map.jpg" alt="Map showing the location of the xHain space in Grünberger Str. 16, Berlin" /></noscript></div>

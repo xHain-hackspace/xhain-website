@@ -7,12 +7,20 @@ draft: false
 
 **Welcome to xHain: Hack- & Makespace in the heart of Friedrichshain, tinkering room for people interested in technology + space for net politics.**
 
-**Open monday nights**: Come by, take a look and join in! Every Monday from 5pm until late at night in Grünberger Str. 16, 10243 Berlin.<br>
-Covid19 news: open mondays have resumed since 24.5.21, currently outdoor only though. Please also read our <a href="https://wiki.x-hain.de/en/xHain/hygiene-konzept" target="_blank">hygiene concept</a>.
+<br clear="all">
 
-![](/images/space-map.png)
+### Open monday nights
+
+Come by, take a look and join in! Every Monday from 5pm until late at night in Grünberger Str. 16 in Berlin.\
+Due to COVID-19 we currently meet outdoors only. Please also read our <a href="https://wiki.x-hain.de/en/xHain/hygiene-konzept" target="_blank">hygiene concept</a>.
 
 <br clear="all">
+
+<div id="map"><noscript><img src="/images/location-map.jpg" alt="Map showing the location of the xHain space in Grünberger Str. 16, Berlin" /></noscript></div>
+
+<br clear="all">
+
+### All creatures welcome
 
 No matter if you're a hacker, maker or simply curious, you are welcome at the xHain. It doesn't matter how much experience you have or how much you can contribute, it only matters whether you are interested in topics such as coding, electronics & soldering, woodworking, lasercutting, CNC milling, 3D printing, textiles & sewing, etc. 
 
@@ -22,4 +30,14 @@ No matter if you're a hacker, maker or simply curious, you are welcome at the xH
 
 <br clear="all">
 
-### Come and visit us:
+### The space
+
+![](/images/space-map.png)
+
+## Accessibility
+
+<img alt="Wheelchair symbol" src="/images/icons/accessible.svg" style="float: left; padding: 10px 30px 0 0; width: 70px; height: auto;" />
+
+People with handicaps and disabilities are welcome! We don't have an accessibly designed bathroom yet, but a mobile ramp and our workshops workbench is wheelchair accessible. We are constantly trying to improve in order to become a barrier-free space.
+
+<br clear="all">
