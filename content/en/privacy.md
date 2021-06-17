@@ -1,7 +1,6 @@
 ---
 title: Privacy Policy
-date: 2017-04-04
-showMap: false
+date: 2021-06-15
 draft: false
 ---
 

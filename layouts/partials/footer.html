@@ -1,17 +1,6 @@
 <footer>
   <div id="footer-wrapper">
     <div class="first-part">
-      <h5>{{ .Site.Params.info.title }}:</h5>
-      <nav id="footer-navigation">
-        <ul>
-          {{ range .Site.Menus.footer.ByWeight }}
-          <li>
-            <a class="" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
-          </li>
-          {{ end }}
-        </ul>
-      </nav>
-
       <h5>{{ .Site.Params.tools.title }}:</h5>
       <nav id="tools-navigation">
         <ul>
@@ -22,6 +11,16 @@
             </a>
           </li>
           {{- end }}
+        </ul>
+      </nav>
+      <h5>{{ .Site.Params.info.title }}:</h5>
+      <nav id="footer-navigation">
+        <ul>
+          {{ range .Site.Menus.footer.ByWeight }}
+          <li>
+            <a class="" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+          </li>
+          {{ end }}
         </ul>
       </nav>
     </div>

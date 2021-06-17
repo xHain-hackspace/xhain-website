@@ -1,19 +1,16 @@
 ---
 title: Support
 date: 2017-03-30
-showMap: false
 draft: false
 ---
 
-xHain is mainly financed by membership fees, but one-off donations are always welcome and help us to further develop our space.
+xHain is an _open space_. No one has to be a member to come by and have fun. We are mainly financed by membership fees, one-time donations and rental income for events and office space.
 
 ## Become a member
 
-We get asked a lot how our membership works. Actually, xHain is different from most other spaces, since we are an _open_ space and you _don't have to_ become a member to hang out and have fun with us. But of course, we welcome any donations and memberships that will help support us.
+Members are the heart of our space. Typically, members donate €13.37 or more per month and are most active in the use of equipment and tools, as well as the design of the xHain. See the wiki for <a href="https://wiki.x-hain.de/en/xHain/members" target="_blank">more details about membership</a>.
 
-Most members typically donate 13.37€ or more per month. You will be assigned a random tree name, which we kindly ask you to use as description/reference in your bank transfer to our xHain bank account. You will receive the payment details by email after signing up.
-
-You can either use the form below or just send us an email.
+You can either use the form or just send us a mail with the necessary information. After that you will receive an account number and the purpose for setting up a standing order by mail.
 
 <form action="https://moped.x-hain.de/members/signup" method="POST">
     <label for="Name">name:
@@ -30,15 +27,11 @@ You can either use the form below or just send us an email.
 
 ## Donations
 
-If you would like to support us, you're welcome to donate a small or bigger amount to the following bank account:
+You are also welcome to support us with one-time donations to the following account:
 
-Accountholder: xHain hack+makespace gemeinnützige UG (haftungsbeschränkt)<br>
-GLS Bank<br>
-IBAN: DE72 4306 0967 1050 8465 00<br>
-BIC: GENODEM1GLS
+- **Accountholder**: xHain hack+makespace gemeinnützige UG (haftungsbeschränkt)
+- **Bank**: GLS Bank
+- **IBAN**: DE72 4306 0967 1050 8465 00
+- **BIC**: GENODEM1GLS
 
-You’ll receive a donation receipt, if you add your contact information to the reference! :)
-
-## Renting the Place
-
-You can rent xHain for a small conference or an event. Huge birthday parties may not be advisable, but if you’re planning a workshop, if you’re looking for an unconventional place for your meetings, if you want to screen your movie or if you’re looking for a creative environment where you can write your fan fiction, just contact us and we’ll work out the details.
+If you write contact information in the payment reference, we will also issue a donation receipt.

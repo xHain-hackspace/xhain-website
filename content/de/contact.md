@@ -15,6 +15,10 @@ Grünberger Str. 16\
 
 [info@x-hain.de](mailto:info@x-hain.de)
 
+## Telefon
+
++49 30-57714272
+
 ## Karte
 
 <div id="map"><noscript><img src="/images/location-map.jpg" alt="Karte die den xHain anzeigt in der Grünberger Str. 16, Berlin" /></noscript></div>

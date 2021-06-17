@@ -1,19 +1,16 @@
 ---
-title: Unterstützendes
+title: Unterstützen
 date: 2017-03-30
-showMap: false
 draft: false
 ---
 
-Der xHain finanziert sich hauptsächlich aus den Mitgliedsbeiträgen, aber auch einmalige Spenden sind natürlich immer willkommen und helfen uns unseren Space weiterzugestalten.
+xHain ist ein _offener Space_. Niemand muss Member sein um vorbei zu kommen und Spaß zu haben. Wir finanzieren uns hauptsächlich aus den Mitgliedsbeiträgen, einmaligen Spenden sowie Mieteinahmen für Veranstaltungen und Büroplätze.
 
-## Mitglied werden
+## Member werden
 
-Wir werden oft danach gefragt, wie das mit der Mitliedschaft so ist. Der xHain unterscheidet sich von den meisten anderen Hackspaces insofern, daß er ein _offener Space_ ist und du bei uns kein Mitglied sein _musst_ um vorbei zu kommen und Spaß mit uns zu haben. Aber natürlich freuen wir uns über Spenden und Mitgliedschaften, die uns unterstützen und finanzieren.
+Mitglieder sind das Herz unseres Spaces. Üblicherweise spenden Member 13,37 € oder mehr im Monat und sind am aktivsten in der Benutzung der Geräte und Werkzeuge, sowie der Gestaltung des xHains. Im Wiki erfährt ihr <a href="https://wiki.x-hain.de/de/xHain/members" target="_blank">mehr Details über die Mitgliedschaft</a>.
 
-Member spenden üblicherweise 13,37€ oder mehr im Monat. Du bekommst einen zufälligen Baumnamen zugewiesen, den du bitte in der Überweisung als Verwendungszweck einträgst und an unser xHain-Konto überweist. Die Kontonummer erhälst du nach der Anmeldung per Mail.
-
-Du kannst entweder das Formular verwenden oder du schickst uns einfach eine Mail mit den nötigen Angaben.
+Ihr könnt entweder das Formular verwenden oder uns einfach eine Mail mit den nötigen Angaben schicken. Danach erhaltet ihr per Mail eine Kontonummer und den Verwendungszweck für die Einrichtung eines Dauerauftrags.
 
 <form action="https://moped.x-hain.de/members/signup" method="POST">
   <label for="Name">Name:
@@ -28,17 +25,13 @@ Du kannst entweder das Formular verwenden oder du schickst uns einfach eine Mail
   <input type="submit" value="Werde Unterstützer:in">
 </form>
 
-## Spendenkonto
+## Spenden
 
-Wenn ihr uns unterstützen wollt überweist uns doch gerne einen kleinen (oder größeren) Betrag auf folgendes Konto:
+Gerne kann man uns auch mit Einmalspenden auf folgendes Konto unterstützen:
 
-Kontoinhaber: xHain hack+makespace gemeinnützige UG (haftungsbeschränkt)<br>
-GLS Bank<br>
-IBAN: DE72 4306 0967 1050 8465 00<br>
-BIC: GENODEM1GLS
+- **Kontoinhaber**: xHain hack+makespace gemeinnützige UG (haftungsbeschränkt)
+- **Bank**: GLS Bank
+- **IBAN**: DE72 4306 0967 1050 8465 00
+- **BIC**: GENODEM1GLS
 
-Wenn ihr Kontaktdaten in den Verwendungszweck schreibt, gibt’s auch eine Spendenbescheinigung! :)
-
-## Raum mieten
-
-Du kannst den xHain außerdem als Tagungsort oder Raum für Veranstaltungen mieten. Fette Geburtstagsparties gehen leider nicht, aber wenn du einen Workshop planst, einen unkonventionelleren Sitzungsort suchst, deinen Film vorführen willst oder in kreativer Umgebung deine Fan Fiction voran bringen willst, dann kontaktiere uns, und wir klären die Details.
+Wenn ihr Kontaktdaten in den Verwendungszweck schreibt, stellen wir auch eine Spendenbescheinigung aus.

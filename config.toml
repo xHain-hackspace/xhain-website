@@ -72,60 +72,48 @@ title = "Find us elsewhere"
 ###### MAIN MENU ######
 
 [[languages.de.menu.main]]
-  weight = 5
-  identifier = "blog"
-  name = "Blog"
-  url = "/blog"
-
-[[languages.de.menu.main]]
   weight = 4
-  identifier = "calendar"
-  name = "Kalender"
-  url = "/calendar"
+  identifier = "support"
+  name = "Unterstützen"
+  url = "/support"
 
 [[languages.de.menu.main]]
   weight = 3
-  identifier = "support"
-  name = "Unterstützendes"
-  url = "/support"
+  identifier = "participate"
+  name = "Mitmachen"
+  url = "/participate"
 
 [[languages.de.menu.main]]
   weight = 2
   identifier = "about"
-  name = "Über uns"
-  url = "/about"
-
-[[languages.en.menu.main]]
-  weight = 5
-  identifier = "blog"
-  name = "Blog"
-  url = "/blog"
+  name = "Vorbeikommen"
+  url = "/#about"
 
 [[languages.en.menu.main]]
   weight = 4
-  identifier = "calendar"
-  name = "Calendar"
-  url = "/calendar"
-
-[[languages.en.menu.main]]
-  weight = 3
   identifier = "support"
   name = "Support"
   url = "/support"
 
 [[languages.en.menu.main]]
+  weight = 3
+  identifier = "participate"
+  name = "Participate"
+  url = "/participate"
+
+[[languages.en.menu.main]]
   weight = 2
   identifier = "about"
-  name = "About Us"
-  url = "/about"
+  name = "Drop by"
+  url = "/#about"
 
 ###### TOOLS MENU ######
 
 [[languages.de.menu.tools]]
   weight = 1
-  identifier = "wiki"
-  name = "Wiki"
-  url = "https://wiki.x-hain.de/"
+  identifier = "blog"
+  name = "Blog"
+  url = "/blog"
 
 [[languages.de.menu.tools]]
   weight = 2
@@ -133,17 +121,29 @@ title = "Find us elsewhere"
   name = "Chat"
   url = "https://chat.x-hain.de/home"
 
-[[languages.en.menu.tools]]
-  weight = 1
+[[languages.de.menu.tools]]
+  weight = 3
   identifier = "wiki"
   name = "Wiki"
   url = "https://wiki.x-hain.de/"
+
+[[languages.en.menu.tools]]
+  weight = 1
+  identifier = "blog"
+  name = "Blog"
+  url = "/blog"
 
 [[languages.en.menu.tools]]
   weight = 2
   identifier = "rocketchat"
   name = "Chat"
   url = "https://chat.x-hain.de/home"
+
+[[languages.en.menu.tools]]
+  weight = 3
+  identifier = "wiki"
+  name = "Wiki"
+  url = "https://wiki.x-hain.de/"
 
 ###### SOCIAL MENU ######
 
@@ -222,17 +222,17 @@ title = "Find us elsewhere"
   name = "Kontakt"
   url = "/contact"
 
-[[languages.en.menu.footer]]
-  weight = 1
-  identifier = "contact"
-  name = "Contact"
-  url = "/contact"
-
 [[languages.de.menu.footer]]
   weight = 2
   identifier = "privacy"
   name = "Datenschutz"
   url = "/privacy"
+
+[[languages.en.menu.footer]]
+  weight = 1
+  identifier = "contact"
+  name = "Contact"
+  url = "/contact"
 
 [[languages.en.menu.footer]]
   weight = 2

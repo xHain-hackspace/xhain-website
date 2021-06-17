@@ -1,7 +1,6 @@
 ---
 title: "Welcome to xHain"
 date: 2021-06-09T00:00:00Z
-showMap: true
 draft: false
 ---
 
@@ -9,10 +8,9 @@ draft: false
 
 <br clear="all">
 
-### Open monday nights
+## Open monday nights
 
-Come by, take a look and join in! Every Monday from 5pm until late at night in Grünberger Str. 16 in Berlin.\
-Due to COVID-19 we currently meet outdoors only. Please also read our <a href="https://wiki.x-hain.de/en/xHain/hygiene-konzept" target="_blank">hygiene concept</a>.
+Come by, take a look and join in! Every Monday from 5pm until late at night in Grünberger Str. 16 in Berlin. Due to COVID-19 we currently meet outdoors only. Please read our <a href="https://wiki.x-hain.de/en/xHain/hygiene-konzept" target="_blank">hygiene concept</a>.
 
 <br clear="all">
 
@@ -20,22 +18,24 @@ Due to COVID-19 we currently meet outdoors only. Please also read our <a href="h
 
 <br clear="all">
 
-### All creatures welcome
+## All creatures welcome
 
-No matter if you're a hacker, maker or simply curious, you are welcome at the xHain. It doesn't matter how much experience you have or if you are a student or retired or anything in between. It only matters whether you are interested in topics such as coding, electronics & soldering, woodworking, lasercutting, CNC milling, 3D printing, textiles & sewing, etc. 
+Whether you're a hacker:in, maker:in, or just curious, you're welcome at xHain! It doesn't matter how much experience you have, or if you're a student, retired, or anything in between, but whether you're interested in coding, electronics & soldering, woodworking, laser cutting, CNC milling, 3D printing, textiles, sewing, and more.
 
-<a href="https://wiki.x-hain.de/en/xHain/xRoots" target="_blank"><img alt="xRoots symbol" src="/images/logo/xroots.png" style="float: left; padding: 10px 30px 0 0; width: 120px; height: auto;" /></a>
+**We want everyone to feel comfortable in the xHain!**
 
-**Our <a href="https://wiki.x-hain.de/en/xHain/xRoots" target="_blank">xRoots</a> mentors are here for *you*: We will get you started, show you around at xHain, and answer your questions. If you have special needs or concerns, we will take care of them. Look for people wearing the xRoots logo/badge on monday nights or have an <a href="https://chat.x-hain.de" target="_blank">online chat</a> with us.**
+<a href="https://wiki.x-hain.de/en/xHain/xRoots" target="_blank"><img alt="xRoots symbol" src="/images/logo/xroots.png" style="float: left; padding: 10px 15px 0 0; width: 85px; height: auto;" /></a>
 
-<br clear="all">
+Our <a href="https://wiki.x-hain.de/en/xHain/xRoots" target="_blank">xRoots mentors</a> are here to help you get startedshow you the xHain, and answer your questions. If you have special needs or concerns, we will take care of them. Just look for people with the xRoots logo/badge on monday nights or talk to us in the <a href="https://chat.x-hain.de" target="_blank">chat</a>.
 
-### The space
+The xHain is a smoke-free place. If you want to smoke, you can do it outside. If you are an asshole, e.g. sexist, racist, or homophobic, you don't need to come. Please read and follow our <a href="https://wiki.x-hain.de/en/xHain/spacerules" target="_blank">space rules</a>. If you encounter problems or have suggestions, feel free to contact our <a href="https://wiki.x-hain.de/en/xHain/Awareness-Team" target="_blank">awareness team</a>.
+
+## The space
 
 ![](/images/space-map.png)
 
-### Accessibility
+Find out what you can do in the xHain on the [participate page](/en/participate).
 
-<img alt="Wheelchair symbol" src="/images/icons/accessible.svg" style="float: left; padding: 10px 30px 0 0; width: 70px; height: auto;" />
+## Accessibility
 
-People with handicaps and disabilities are welcome! We don't have an accessibly designed bathroom yet, but a mobile ramp and our workshops workbench is wheelchair accessible. We are constantly trying to improve in order to become a barrier-free space.
+People with physical or mental handicaps and disabilities are welcome! We do not yet have a wheelchair accessible toilet, but at least a mobile ramp and our workbench is wheelchair accessible. We are always open to remove further barriers.
