@@ -28,6 +28,6 @@ Für eure Projekte gib es die folgenden Arbeitsbereiche und Ausstattung:
 
 Die Arbeitsbereiche und deren Werkeuge sind farblich markiert. Manche Geräte erfordern eine Sicherheitseinweisung durch eine authorisierte Person. Im Wiki findet ihr einen genaueren <a href="https://wiki.x-hain.de/de/xHain/rooms-and-equipment" target="_blank">Überblick über unsere Arbeitsbereiche und Geräte</a>.
 
-## Coworking
+## Organisatorisches
 
-Außerdem habe wir begrenzte Plätze, die tagsüber als Büro und Corworking verwendet werden. Bei Interesse sprecht uns einfach an.
+Der xHain wurde von Felix Just im Mai 2016 gegründet und ist seit 2020 als gemeinnützige UG anerkannt. Der xHain versteht sich als Do-ocracy und lebt vom Engagement und den Ideen der Member. Das heißt, dass Member selbständig ihre Projekte aussuchen und ausführen. 

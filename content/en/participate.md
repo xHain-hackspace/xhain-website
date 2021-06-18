@@ -28,6 +28,6 @@ For your projects there are the following work areas and equipment:
 
 The work areas and their tools are marked in color. Some devices require a safety briefing by an authorized person. In the wiki you will find a more <a href="https://wiki.x-hain.de/en/xHain/rooms-and-equipment" target="_blank">detailed overview of our work areas and devices</a>.
 
-## Coworking
+## Organisation
 
-We also have limited spaces that are used as offices and corworking during the day. If you are interested, just ask us.
+The xHain was founded by Felix Just in May 2016 and is recognized as a non-profit incorporation since 2020. The xHain sees itself as a do-ocracy and lives from the commitment and ideas of the members. This means that members independently select and execute their projects.
