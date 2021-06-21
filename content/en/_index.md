@@ -20,21 +20,21 @@ Come by, take a look and join in! Every Monday from 5pm until late at night in G
 
 ## All creatures welcome
 
-Whether you're a hacker:in, maker:in, or just curious, you're welcome at xHain! It doesn't matter how much experience you have, or if you're a student, retired, or anything in between, but whether you're interested in coding, electronics & soldering, woodworking, laser cutting, CNC milling, 3D printing, textiles, sewing, and more.
+Whether you're a hacker, maker, or just curious, you're welcome at xHain! It doesn't matter how much experience you have, or if you're a student, retired, or anything in between, but whether you're interested in coding, electronics & soldering, woodworking, laser cutting, CNC milling, 3D printing, textiles, sewing, and more.
 
-**We want everyone to feel comfortable in the xHain!**
+**We want everyone to feel comfortable at xHain!**
 
 <a href="https://wiki.x-hain.de/en/xHain/xRoots" target="_blank"><img alt="xRoots symbol" src="/images/logo/xroots.png" style="float: left; padding: 10px 15px 0 0; width: 85px; height: auto;" /></a>
 
-Our <a href="https://wiki.x-hain.de/en/xHain/xRoots" target="_blank">xRoots mentors</a> are here to help you get startedshow you the xHain, and answer your questions. If you have special needs or concerns, we will take care of them. Just look for people with the xRoots logo/badge on monday nights or talk to us in the <a href="https://chat.x-hain.de" target="_blank">chat</a>.
+Our <a href="https://wiki.x-hain.de/en/xHain/xRoots" target="_blank">xRoots mentors</a> are here to help you get started, show you around at xHain, and answer your questions. If you have special needs or concerns, we will take care of them. Just look for people with the xRoots logo/badge on monday nights or talk to us in the <a href="https://chat.x-hain.de" target="_blank">chat</a>.
 
-The xHain is a smoke-free place. If you want to smoke, you can do it outside. If you are an asshole, e.g. sexist, racist, or homophobic, you don't need to come. Please read and follow our <a href="https://wiki.x-hain.de/en/xHain/spacerules" target="_blank">space rules</a>. If you encounter problems or have suggestions, feel free to contact our <a href="https://wiki.x-hain.de/en/xHain/Awareness-Team" target="_blank">awareness team</a>.
+xHain is a smoke-free place. If you want to smoke, you can do so outside. If you are an asshole, e.g. sexist, racist, or homophobic, don't bother coming. Please read and follow our <a href="https://wiki.x-hain.de/en/xHain/spacerules" target="_blank">space rules</a>. If you encounter problems or have suggestions, feel free to contact our <a href="https://wiki.x-hain.de/en/xHain/Awareness-Team" target="_blank">awareness team</a>.
 
 ## The space
 
 ![](/images/space-map.png)
 
-Find out what you can do in the xHain on the [participate page](/en/participate).
+Find out what you can do at xHain on the [participate page](/en/participate).
 
 ## Accessibility
 
