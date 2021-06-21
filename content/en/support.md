@@ -8,9 +8,9 @@ xHain is an _open space_. No one has to be a member to come by and have fun. We 
 
 ## Become a member
 
-Members are the heart of our space. Typically, members donate €13.37 or more per month and are most active in the use of equipment and tools, as well as the design of the xHain. See the wiki for <a href="https://wiki.x-hain.de/en/xHain/members" target="_blank">more details about membership</a>.
+Members are the heart of our space. Typically, members donate €13.37 or more per month and are most active in the use of equipment and tools, as well as the design of xHain. See our wiki for <a href="https://wiki.x-hain.de/en/xHain/members" target="_blank">more details about membership</a>.
 
-You can either use the form or just send us a mail with the necessary information. After that you will receive an account number and the purpose for setting up a standing order by mail.
+You can either use the form or just send us an email with the necessary information. After that you will receive an email with our account number and your reference information for setting up a standing order.
 
 <form action="https://formspree.io/signup@x-hain.de" method="POST">
     <label for="Name">name:
