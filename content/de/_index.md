@@ -38,4 +38,4 @@ Finde heraus was man im xHain alles tun kann unter [mitmachen](/de/participate).
 
 ## Barrieren
 
-Menschen mit körperlichen oder geistigen Einschränkungen sind bei uns willkommen! Wir haben noch kein rollstuhlgerechtes WC, aber zumindest eine mobile Rampe und unsere Werkbank ist unterfahrbar für Rollstühle. Wir sind immer offen dafür weitere Barrieren abzubauen.
+Menschen mit Einschränkungen sind bei uns willkommen! Wir haben noch kein rollstuhlgerechtes WC, aber zumindest eine mobile Rampe und unsere Werkbank ist unterfahrbar für Rollstühle. Wir sind immer offen dafür weitere Barrieren abzubauen.
