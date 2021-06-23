@@ -38,4 +38,4 @@ Find out what you can do at xHain on the [participate page](/en/participate).
 
 ## Accessibility
 
-People with physical or mental handicaps and disabilities are welcome! We do not yet have a wheelchair accessible toilet, but at least a mobile ramp and our workbench is wheelchair accessible. We are always open to remove further barriers.
+People with handicaps and disabilities are welcome! We do not yet have a wheelchair accessible toilet, but at least a mobile ramp and our workbench is wheelchair accessible. We are always open to remove further barriers.
