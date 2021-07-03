@@ -18,9 +18,9 @@ For your projects there are the following work areas and equipment:
 
 - **3D Lab** with various 3D printers.
 - **Audio-video equipment** with cameras, microphones, mixers and setup for streaming to the Internet.
-- **Electronics** with soldering stations.
+- **Electronics** with soldering stations and reflow oven.
 - **Hobelhöhle** with equipment and tools for woodworking and welding.
-- **Machine room** with laser cutter, plotter, laser microscope, reflow oven.
+- **Machine room** with laser cutter, plotter, laser microscope.
 - **Textiles** with sewing machines, overlock and embroidery machine.
 - **Tools** of all kinds are available in the respective work areas.
 
