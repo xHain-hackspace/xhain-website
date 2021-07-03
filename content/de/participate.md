@@ -10,7 +10,7 @@ Eigentlich darf man gerne immer vorbeischauen, allerdings haben wir bis auf Mont
 
 <iframe width="100%" height="450" src="https://files.x-hain.de/index.php/apps/calendar/embed/MgYNoHeGjcPDPJnr/listMonth/now"></iframe>
 
-Viele unserer Veranstaltungen sind offene Community-Events, die bei uns untergekommen sind. Außerdem kann man den xHain auch als Tagungsort oder Raum für (geschlossene) Veranstaltungen mieten. Wenn ihr einen Workshop planst, einen unkonventionelleren Sitzungsort sucht, euren Film vorführen oder in kreativer Umgebung eure Fan-Fiction voran bringen wollt, dann fragt uns, und wir klären gemeinsam die Details.
+Viele unserer Veranstaltungen sind offene Community-Events, die bei uns untergekommen sind. Außerdem kann man den xHain auch als Tagungsort oder Raum für (geschlossene) Veranstaltungen mieten. Wenn ihr einen Workshop plant, einen unkonventionelleren Sitzungsort sucht, euren Film vorführen oder in kreativer Umgebung eure Fan-Fiction voran bringen wollt, dann fragt uns, und wir klären gemeinsam die Details.
 
 ## Maschinen- und Gerätenutzung
 
@@ -18,9 +18,9 @@ Für eure Projekte gib es die folgenden Arbeitsbereiche und Ausstattung:
 
 - **3D-Lab** mit verschiedensten 3D-Druckern.
 - **Audio-Video-Equipment** mit Kameras, Mikrofonen, Mischpulten und Setup zum Streaming in das Internet.
-- **Elektronik** mit Lötstationen.
+- **Elektronik** mit Lötstationen und Reflow-Ofen.
 - **Hobelhöhle** mit Geräten und Werkzeugen zur Holzarbeit und Schweißen.
-- **Maschienenraum** mit Lasercutter, Plotter, Lasermikroskop, Reflow-Ofen.
+- **Maschienenraum** mit Lasercutter, Plotter, Lasermikroskop.
 - **Textiles** mit Nähmaschinen, Overlock und Stickmaschine.
 - **Werkzeuge** aller Art gibt es in den jeweiligen Arbeitsbereichen.
 
