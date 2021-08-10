@@ -1,8 +1,7 @@
 ---
 title: Näh-Workshop im xHain
 image: /images/articles/sewingcorner.jpg
-slug: ""
-heroCaption: ""
+image_reference: ""
 date: 2021-08-09
 categories:
 - news
