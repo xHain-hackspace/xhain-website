@@ -11,7 +11,7 @@ tags:
 type: blog
 ---
 
-Do you want to learn how to sew with a sewing machine from scratch? Our lovely Antje is a fashion designer and will show you how to do it properly. We will sew small bags or cushion covers, or even your own simple ideas (please bring your own fabrics, patterns, etc.). The first workshop will be on Sat 14.8. from 11am for approx. 3 hours for a minimum donation of 20EUR (materials included). Pre-registration is binding and required, as the number of places is limited (and all places are already fully booked). Due to the already high demand, more dates will follow from the end of August. Stay tuned! 🙂
+Do you want to learn how to sew with a sewing machine from scratch? Our lovely Antje is a fashion designer and will show you how to do it properly. We will sew small bags or cushion covers, or other simple projects. The first workshop will be on Sat 14.8. from 11am for approx. 3 hours for a minimum donation of 20EUR (materials included). Pre-registration is binding and required, as the number of places is limited (and all places are already fully booked). Due to the already high demand, more dates will follow from the end of August. Stay tuned! 🙂
 PS: The workshop will be held in German, basic German skills are advisable.
 
 Small xHain update:
