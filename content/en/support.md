@@ -14,13 +14,13 @@ You can either use the form or just send us an email with the necessary informat
 
 <form action="https://moped.x-hain.de/public/members/signup" method="POST">
     <label for="Name">name:
-    	<input type="text" name="Name" title="name" required>
+    	<input type="text" name="name" title="Name" required>
     </label>
     <label for="email">email:
-    	<input type="email" name="_replyto" title="email" required>
+    	<input type="email" name="email" title="Email" required>
     </label>
     <label for="amount">amount:
-    	<input type="text" name="amount" title="amount" value="13.37" step="any" required>
+    	<input type="text" name="amount" title="Amount" value="13.37" step="any" required>
     </label>
   	<input type="submit" value="Become a supporter">
 </form>
