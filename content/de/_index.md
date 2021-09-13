@@ -10,7 +10,7 @@ draft: false
 
 ## Offener Montag Abend
 
-Komm vorbei, schnupper rein und mach mit! Immer **Montags ab 17 Uhr bis in die Nacht in der Grünberger Str. 16** in Berlin. Aufgrund von COVID-19 finden derzeit unsere Aktivitäten nur draußen statt. Bitte lies dazu unser <a href="https://wiki.x-hain.de/de/xHain/hygiene-konzept" target="_blank">Hygiene-Konzept</a>.
+Komm vorbei, schnupper rein und mach mit! Immer **Montags ab 18 Uhr bis in die Nacht in der Grünberger Str. 16** in Berlin. Aufgrund von COVID-19 finden derzeit unsere Aktivitäten nur draußen statt. Bitte lies dazu unser <a href="https://wiki.x-hain.de/de/xHain/hygiene-konzept" target="_blank">Hygiene-Konzept</a>.
 
 <br clear="all">
 
