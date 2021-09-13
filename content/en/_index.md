@@ -10,7 +10,7 @@ draft: false
 
 ## Open monday nights
 
-Come by, take a look and join in! Every Monday from 5pm until late at night in Grünberger Str. 16 in Berlin. Due to COVID-19 we currently meet outdoors only. Please read our <a href="https://wiki.x-hain.de/en/xHain/hygiene-konzept" target="_blank">hygiene concept</a>.
+Come by, take a look and join in! Every Monday from 6pm until late at night in Grünberger Str. 16 in Berlin. Due to COVID-19 we currently meet outdoors only. Please read our <a href="https://wiki.x-hain.de/en/xHain/hygiene-konzept" target="_blank">hygiene concept</a>.
 
 <br clear="all">
 
