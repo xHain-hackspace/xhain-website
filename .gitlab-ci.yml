@@ -1,6 +1,7 @@
-2stages:
+stages:
   - build
   - deploy
+
 build:
   stage: build
   image: jojomi/hugo:0.83
