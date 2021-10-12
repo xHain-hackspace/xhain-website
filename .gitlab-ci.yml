@@ -23,7 +23,7 @@ deploy:
     - chmod 700 ssh_key
     - mkdir "${HOME}/.ssh"
     - echo "${SSH_HOST_KEY}" > "${HOME}/.ssh/known_hosts"
-    - rsync -hrvz --delete --exclude=_ -e "ssh -vi ssh_key -o 'StrictHostKeychecking no'" public_html/ "${SSH_USER_HOST_LOCATION}"
+    - rsync -hrvz --delete --exclude=_ -e 'ssh -vi ssh_key -o StrictHostKeychecking no' public_html/ "${SSH_USER_HOST_LOCATION}"
   only:
     - master
 
@@ -35,6 +35,6 @@ deploy_staging:
     - chmod 700 ssh_key
     - mkdir "${HOME}/.ssh"
     - echo "${SSH_HOST_KEY}" > "${HOME}/.ssh/known_hosts"
-    - rsync -hrvz --delete --exclude=_ -e "ssh -vi ssh_key -o 'StrictHostKeychecking no'" public_html/ "${SSH_USER_HOST_LOCATION_STAGING}"
+    - rsync -hrvz --delete --exclude=_ -e 'ssh -vi ssh_key -o StrictHostKeychecking no' public_html/ "${SSH_USER_HOST_LOCATION_STAGING}"
   only:
     - staging
