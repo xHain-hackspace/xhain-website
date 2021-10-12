@@ -19,11 +19,11 @@ deploy:
   stage: deploy
   image: dinofizz/rsync-ssh
   script:
-    - echo "${SSH_PRIVATE_KEY}" > id_rsa
-    - chmod 700 id_rsa
+    - echo "${SSH_PRIVATE_KEY}" > ssh_key
+    - chmod 700 ssh_key
     - mkdir "${HOME}/.ssh"
     - echo "${SSH_HOST_KEY}" > "${HOME}/.ssh/known_hosts"
-    - rsync -hrvz --delete --exclude=_ -e 'ssh -vi id_rsa -p 22' public_html/ "${SSH_USER_HOST_LOCATION}"
+    - rsync -hrvz --delete --exclude=_ -e 'ssh -vi ssh_key -o StrictHostKeychecking no' public_html/ "${SSH_USER_HOST_LOCATION}"
   only:
     - master
 
@@ -31,10 +31,10 @@ deploy_staging:
   stage: deploy
   image: dinofizz/rsync-ssh
   script:
-    - echo "${SSH_PRIVATE_KEY_STAGING}" > id_rsa
-    - chmod 700 id_rsa
+    - echo "${SSH_PRIVATE_KEY_STAGING}" > ssh_key
+    - chmod 700 ssh_key
     - mkdir "${HOME}/.ssh"
     - echo "${SSH_HOST_KEY}" > "${HOME}/.ssh/known_hosts"
-    - rsync -hrvz --delete --exclude=_ -e 'ssh -vi id_rsa -p 22' public_html/ "${SSH_USER_HOST_LOCATION_STAGING}"
+    - rsync -hrvz --delete --exclude=_ -e 'ssh -vi ssh_key -o StrictHostKeychecking no' public_html/ "${SSH_USER_HOST_LOCATION_STAGING}"
   only:
     - staging
