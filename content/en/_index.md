@@ -36,6 +36,10 @@ xHain is a smoke-free place. If you want to smoke, you can do so outside. If you
 
 Find out what you can do at xHain on the [participate page](/en/participate).
 
+## Events
+
+Check out our <a href="/calendar">calendar</a> for upcoming events.
+
 ## Accessibility
 
 People with handicaps and disabilities are welcome! We do not yet have a wheelchair accessible toilet, but at least a mobile ramp and our workbench is wheelchair accessible. We are always open to remove further barriers.

@@ -117,12 +117,18 @@ title = "Find us elsewhere"
 
 [[languages.de.menu.tools]]
   weight = 2
+  identifier = "calendar"
+  name = "Kalender"
+  url = "/calendar"
+
+[[languages.de.menu.tools]]
+  weight = 3
   identifier = "rocketchat"
   name = "Chat"
   url = "https://chat.x-hain.de/home"
 
 [[languages.de.menu.tools]]
-  weight = 3
+  weight = 4
   identifier = "wiki"
   name = "Wiki"
   url = "https://wiki.x-hain.de/"
@@ -135,12 +141,18 @@ title = "Find us elsewhere"
 
 [[languages.en.menu.tools]]
   weight = 2
+  identifier = "calendar"
+  name = "Calendar"
+  url = "/calendar"
+
+[[languages.en.menu.tools]]
+  weight = 3
   identifier = "rocketchat"
   name = "Chat"
   url = "https://chat.x-hain.de/home"
 
 [[languages.en.menu.tools]]
-  weight = 3
+  weight = 4
   identifier = "wiki"
   name = "Wiki"
   url = "https://wiki.x-hain.de/"
