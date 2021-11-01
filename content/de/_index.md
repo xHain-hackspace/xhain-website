@@ -36,6 +36,10 @@ Der xHain ist ein rauchfreier Ort. Wer rauchen will, kann das draußen tun. Wer 
 
 Finde heraus was man im xHain alles tun kann unter [mitmachen](/de/participate).
 
+## Veranstaltungen
+
+Informiere dich in unserem <a href="/calendar">Kalender</a> über anstehende Veranstaltungen.
+
 ## Barrieren
 
 Menschen mit Einschränkungen sind bei uns willkommen! Wir haben noch kein rollstuhlgerechtes WC, aber zumindest eine mobile Rampe und unsere Werkbank ist unterfahrbar für Rollstühle. Wir sind immer offen dafür weitere Barrieren abzubauen.
