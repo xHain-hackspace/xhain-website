@@ -8,7 +8,7 @@ Eigentlich darf man gerne immer vorbeischauen, allerdings haben wir bis auf Mont
 
 ## Veranstaltungen
 
-Informiere dich in unserem <a href="/calendar">Kalender</a> über anstehende Veranstaltungen.
+Informiere dich in unserem <a href="/de/calendar">Kalender</a> über anstehende Veranstaltungen.
 
 Viele unserer Veranstaltungen sind offene Community-Events, die bei uns untergekommen sind. Außerdem kann man den xHain auch als Tagungsort oder Raum für (geschlossene) Veranstaltungen mieten. Wenn ihr einen Workshop plant, einen unkonventionelleren Sitzungsort sucht, euren Film vorführen oder in kreativer Umgebung eure Fan-Fiction voran bringen wollt, dann fragt uns, und wir klären gemeinsam die Details.
 

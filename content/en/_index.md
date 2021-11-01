@@ -38,7 +38,7 @@ Find out what you can do at xHain on the [participate page](/en/participate).
 
 ## Events
 
-Check out our <a href="/calendar">calendar</a> for upcoming events.
+Check out our <a href="/en/calendar">calendar</a> for upcoming events.
 
 ## Accessibility
 

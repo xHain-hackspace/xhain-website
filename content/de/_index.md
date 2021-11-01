@@ -38,7 +38,7 @@ Finde heraus was man im xHain alles tun kann unter [mitmachen](/de/participate).
 
 ## Veranstaltungen
 
-Informiere dich in unserem <a href="/calendar">Kalender</a> über anstehende Veranstaltungen.
+Informiere dich in unserem <a href="/de/calendar">Kalender</a> über anstehende Veranstaltungen.
 
 ## Barrieren
 
