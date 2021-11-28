@@ -23,10 +23,6 @@ We really hope that we'll be able to have a rC3 with an audience and workshops -
 Hope to see you all soon!
 Your xHain-team
 
-## Open monday nights
-
-Come by, take a look and join in! Every Monday from 6pm until late at night in Grünberger Str. 16 in Berlin. Due to COVID-19 we currently meet outdoors only. Please read our <a href="https://wiki.x-hain.de/en/xHain/hygiene-konzept" target="_blank">hygiene concept</a>.
-
 <br clear="all">
 
 <div id="map"><noscript><img src="/images/location-map.jpg" alt="Map showing the location of the xHain space in Grünberger Str. 16, Berlin" /></noscript></div>
