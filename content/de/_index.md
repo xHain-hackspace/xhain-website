@@ -8,6 +8,19 @@ draft: false
 
 <br clear="all">
 
+## xHain geschlossen ab 28.11.2021
+Hey,
+
+die offiziellen Regeln erfordern nun ein striktes 2G+-Protokoll. Leider sehen wir uns nicht in der Lage, dies zuverlässig zu kontrollieren ... Es war schon schwer genug, die 2G-Regeln kontrolliert zu halten.
+Wir glauben - leider - es ist an der Zeit, den xHain in den lockdown zu schicken - mit sofortiger Wirkung. Kein offener Montag, Meetups oder Veranstaltungen.
+Und dann werden wir eine Woche vor Weihnachten schauen, ob wir denken, dass wir nach den Berliner Verordnungen (2G + oder was dann erforderlich ist) für den rC3 öffnen können.
+Es tut uns wirklich leid, dass wir diesen drastischen Schritt gehen müssen - schon wieder. ☹
+
+Wir hoffen sehr, dass wir einen rC3 mit Publikum und Workshops veranstalten können - wir denken, dass wir für diese vier Tage ein strengeres Hygieneregime organisieren und kontrollieren können, aber im Moment sehen wir keine andere Lösung.
+
+Wir hoffen, wir sehen uns alle bald!
+Euer xHain-Team
+
 ## Offener Montag Abend
 
 Komm vorbei, schnupper rein und mach mit! Immer **Montags ab 18 Uhr bis in die Nacht in der Grünberger Str. 16** in Berlin. Aufgrund von COVID-19 finden derzeit unsere Aktivitäten nur draußen statt. Bitte lies dazu unser <a href="https://wiki.x-hain.de/de/xHain/hygiene-konzept" target="_blank">Hygiene-Konzept</a>.
