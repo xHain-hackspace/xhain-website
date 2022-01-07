@@ -11,14 +11,9 @@ draft: false
 ## xHain geschlossen ab 28.11.2021
 Hey,
 
-die offiziellen Regeln erfordern nun ein striktes 2G+-Protokoll. Leider sehen wir uns nicht in der Lage, dies zuverlässig zu kontrollieren ... Es war schon schwer genug, die 2G-Regeln kontrolliert zu halten.
-Wir glauben - leider - es ist an der Zeit, den xHain in den lockdown zu schicken - mit sofortiger Wirkung. Kein offener Montag, Meetups oder Veranstaltungen.
-Und dann werden wir eine Woche vor Weihnachten schauen, ob wir denken, dass wir nach den Berliner Verordnungen (2G + oder was dann erforderlich ist) für den rC3 öffnen können.
-Es tut uns wirklich leid, dass wir diesen drastischen Schritt gehen müssen - schon wieder. ☹
+die offiziellen Regeln erfordern nun ein striktes 2G+-Protokoll. Leider sehen wir uns nicht in der Lage, dies zuverlässig zu kontrollieren. Leider ist es wieder an der Zeit, den xHain in den Lockdown zu schicken - mit sofortiger Wirkung. Kein offener Montag, Meetups oder Veranstaltungen.
 
-Wir hoffen sehr, dass wir einen rC3 mit Publikum und Workshops veranstalten können - wir denken, dass wir für diese vier Tage ein strengeres Hygieneregime organisieren und kontrollieren können, aber im Moment sehen wir keine andere Lösung.
-
-Wir hoffen, wir sehen uns alle bald!
+Wir hoffen, wir sehen uns alle bald wieder! Bleibt gesund!
 Euer xHain-Team
 
 <br clear="all">
@@ -37,7 +32,7 @@ Ob Hacker:in, Maker:in oder einfach nur neugierig, ihr seid im xHain willkommen!
 
 Unsere <a href="https://wiki.x-hain.de/de/xHain/xRoots" target="_blank">xRoots Mentor:innen</a> sind für euch da: Wir erleichtern euch den Einstieg, zeigen euch den xHain und beantworten eure Fragen. Wenn ihr besondere Bedürfnisse oder Anliegen habt, dann kümmern wir uns darum. Halte einfach Montags nach Menschen mit dem xRoots Logo/Badge Ausschau oder sprich uns im <a href="https://chat.x-hain.de" target="_blank">Chat</a> an.
 
-Der xHain ist ein rauchfreier Ort. Wer rauchen will, kann das draußen tun. Wer ein Arschloch ist, z.B. sexistisch, rassistisch, oder homophob, braucht nicht zu kommen. Lest bitte und beachtet unsere <a href="https://wiki.x-hain.de/de/xHain/spacerules" target="_blank">Space-Regeln</a>. Wenn ihr auf Probleme stoßt oder Anregungen habt, dann wendet euch gerne an unser <a href="https://wiki.x-hain.de/de/xHain/Awareness-Team" target="_blank">Awareness-Team</a>.
+Der xHain ist ein rauchfreier Ort. Wer rauchen will, kann das draußen tun. Wer ein Arschloch ist, z.B. sexistisch, rassistisch, oder homophob, braucht nicht zu kommen. Lest bitte und beachtet unsere <a href="https://wiki.x-hain.de/de/xHain/spacerules" target="_blank">Space-Regeln</a>. 
 
 ## Der Space
 

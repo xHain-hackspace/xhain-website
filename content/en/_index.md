@@ -12,15 +12,9 @@ draft: false
 
 Hey,
 
-so the official rules require a strict 2G+ protocol. Unfortunately we don't see us being able to control this reliably... It's been hard enough to keep the 2G rules checked.
-We believe - unfortunately - it's time to lockdown the xHain effective immediately. No open Monday, meetups or events.
+the official rules require a strict 2G+ protocol. Unfortunately we can't ensure to verify this reliably, so it's time to send xHain into lockdown again, effective immediately. No open Monday, meetups or events.
 
-And then we'll have look a week before Christmas, if we think we'll be able to open under city rules ((2G+ or what is then required) for the rC3.
-We're really sorry that we have to take this drastics step - again. ☹
-
-We really hope that we'll be able to have a rC3 with an audience and workshops - we think we can organise and control a stricter hygiene regime for those four days, but for now we don't see another solution.
-
-Hope to see you all soon!
+Hope to see you all soon! Stay safe!
 Your xHain-team
 
 <br clear="all">
@@ -39,7 +33,7 @@ Whether you're a hacker, maker, or just curious, you're welcome at xHain! It doe
 
 Our <a href="https://wiki.x-hain.de/en/xHain/xRoots" target="_blank">xRoots mentors</a> are here to help you get started, show you around at xHain, and answer your questions. If you have special needs or concerns, we will take care of them. Just look for people with the xRoots logo/badge on monday nights or talk to us in the <a href="https://chat.x-hain.de" target="_blank">chat</a>.
 
-xHain is a smoke-free place. If you want to smoke, you can do so outside. If you are an asshole, e.g. sexist, racist, or homophobic, don't bother coming. Please read and follow our <a href="https://wiki.x-hain.de/en/xHain/spacerules" target="_blank">space rules</a>. If you encounter problems or have suggestions, feel free to contact our <a href="https://wiki.x-hain.de/en/xHain/Awareness-Team" target="_blank">awareness team</a>.
+xHain is a smoke-free place. If you want to smoke, you can do so outside. If you are an asshole, e.g. sexist, racist, or homophobic, don't bother coming. Please read and follow our <a href="https://wiki.x-hain.de/en/xHain/spacerules" target="_blank">space rules</a>. 
 
 ## The space
 
