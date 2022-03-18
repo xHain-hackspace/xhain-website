@@ -8,14 +8,9 @@ draft: false
 
 <br clear="all">
 
-## xHain locked down from Nov, 28th 2021 
+## Open monday nights
 
-Hey,
-
-the official rules require a strict 2G+ protocol. Unfortunately we can't ensure to verify this reliably, so it's time to send xHain into lockdown again, effective immediately. No open Monday, meetups or events.
-
-Hope to see you all soon! Stay safe!
-Your xHain-team
+Come by, take a look and join in! **Every Monday from 6pm until late at night in Grünberger Str. 16** in Berlin.
 
 <br clear="all">
 

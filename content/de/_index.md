@@ -8,13 +8,9 @@ draft: false
 
 <br clear="all">
 
-## xHain geschlossen ab 28.11.2021
-Hey,
+## Offener Montag Abend
 
-die offiziellen Regeln erfordern nun ein striktes 2G+-Protokoll. Leider sehen wir uns nicht in der Lage, dies zuverlässig zu kontrollieren. Leider ist es wieder an der Zeit, den xHain in den Lockdown zu schicken - mit sofortiger Wirkung. Kein offener Montag, Meetups oder Veranstaltungen.
-
-Wir hoffen, wir sehen uns alle bald wieder! Bleibt gesund!
-Euer xHain-Team
+Komm vorbei, schnupper rein und mach mit! Immer **Montags ab 18 Uhr bis in die Nacht in der Grünberger Str. 16** in Berlin. 
 
 <br clear="all">
 
