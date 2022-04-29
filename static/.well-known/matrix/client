@@ -1,5 +1,8 @@
 {
     "m.homeserver": {
         "base_url": "https://matrix.x-hain.de"
+    },
+    "m.identity_server": {
+        "base_url": "https://login.x-hain.de"
     }
 }
