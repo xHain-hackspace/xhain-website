@@ -4,7 +4,7 @@ date: 2021-06-15
 draft: false
 ---
 
-Eigentlich darf man gerne immer vorbeischauen, allerdings haben wir bis auf Montag Abend keine regulären Öffnungszeiten. Viele aktive Member haben selbst einen Schlüssel. Sofern offen ist, oder Veranstaltungen angekündigt sind, ist jederzeit jede Person willkommen. Fragt auch gerne im <a href="https://chat.x-hain.de" target="_blank">Chat</a>, wann jemand im xHain ist.
+Eigentlich darf man gerne immer vorbeischauen, allerdings haben wir bis auf Montag Abend keine regulären Öffnungszeiten. Viele aktive Member haben selbst einen Schlüssel. Sofern offen ist, oder Veranstaltungen angekündigt sind, ist jederzeit jede Person willkommen. Fragt auch gerne im <a href="https://chat2.x-hain.de" target="_blank">Chat</a>, wann jemand im xHain ist.
 
 ## Veranstaltungen
 

@@ -4,7 +4,7 @@ date: 2021-06-15
 draft: false
 ---
 
-Actually, you are always welcome to drop by, but we don't have regular opening hours except for Monday evening. Many active members have a key themselves. If the space is just open or events are announced, every person is always welcome. Feel free to ask in the <a href="https://chat.x-hain.de" target="_blank">chat</a>, when someone is at xHain.
+Actually, you are always welcome to drop by, but we don't have regular opening hours except for Monday evening. Many active members have a key themselves. If the space is just open or events are announced, every person is always welcome. Feel free to ask in the <a href="https://chat2.x-hain.de" target="_blank">chat</a>, when someone is at xHain.
 
 ## Events
 

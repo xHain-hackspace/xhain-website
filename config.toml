@@ -123,9 +123,9 @@ title = "Find us elsewhere"
 
 [[languages.de.menu.tools]]
   weight = 3
-  identifier = "rocketchat"
+  identifier = "matrix"
   name = "Chat"
-  url = "https://chat.x-hain.de/home"
+  url = "https://chat2.x-hain.de"
 
 [[languages.de.menu.tools]]
   weight = 4
@@ -147,9 +147,9 @@ title = "Find us elsewhere"
 
 [[languages.en.menu.tools]]
   weight = 3
-  identifier = "rocketchat"
+  identifier = "matrix"
   name = "Chat"
-  url = "https://chat.x-hain.de/home"
+  url = "https://chat2.x-hain.de"
 
 [[languages.en.menu.tools]]
   weight = 4
