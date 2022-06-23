@@ -10,20 +10,7 @@ xHain is an _open space_. No one has to be a member to come by and have fun. We 
 
 Members are the heart of our space. Typically, members donate €13.37 or more per month and are most active in the use of equipment and tools, as well as the design of xHain. See our wiki for <a href="https://wiki.x-hain.de/en/xHain/members" target="_blank">more details about membership</a>.
 
-You can either use the form or just send us an email with the necessary information. After that you will receive an email with our account number and your reference information for setting up a standing order.
-
-<form action="https://moped.x-hain.de/public/members/signup" method="POST">
-    <label for="Name">name:
-    	<input type="text" name="name" title="Name" required>
-    </label>
-    <label for="email">email:
-    	<input type="email" name="email" title="Email" required>
-    </label>
-    <label for="amount">amount:
-    	<input type="text" name="amount" title="Amount" value="13.37" step="any" required>
-    </label>
-  	<input type="submit" value="Become a supporter">
-</form>
+You can <a href="https://login.x-hain.de/if/flow/xhain-member-enrollment/">register here</a> to become a member. You will receive a mail with all further details.
 
 ## Donations
 
