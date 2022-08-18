@@ -21,7 +21,7 @@ Wir sind eine Gruppe aus dem xHain, die aus dem [Gespräch unter Bäumen](https:
 
 Dank der Fördergelder des Sonderprogramms [Neustart Kultur](https://www.fonds-soziokultur.de/gefoerderte-projekte/sonderprogramm-neustart-kultur.html) des [Fonds Soziokultur](https://www.fonds-soziokultur.de/) ist die Teilnahme am Gespräch auf der Lichtung (inkl. Übernachtungen und Verpflegung) kostenlos.  
 
-Wir wollen dort Dinge tun, die Gesprächsanlässe bieten und uns wieder in ein intensives Miteinander bringen: eine DIY-Selbstbauanleitung für den [perfekten postpandemischen Gesprächsstuhl](https://de.wikipedia.org/wiki/T%C3%AAte-%C3%A0-t%C3%AAte_(Sitzm%C3%B6bel) basteln, LEDs programmieren, lernen und loslassen. 
+Wir wollen dort Dinge tun, die Gesprächsanlässe bieten und uns wieder in ein intensives Miteinander bringen: eine DIY-Selbstbauanleitung für den [perfekten postpandemischen Gesprächsstuhl](https://de.wikipedia.org/wiki/T%C3%AAte-%C3%A0-t%C3%AAte_(Sitzm%C3%B6bel)) basteln, LEDs programmieren, lernen und loslassen. 
 
 Erste Fragen und Themen haben wir schon formuliert - und vielleicht habt ihr weitere:
 
