@@ -13,11 +13,11 @@ type: blog
 
 Liebe Gesprächsfreundinnen und -freunde!
 
-Die Pandemie verändert viel. Und sie verändert uns: die Gesellschaft, die Communities, die Individuen. Deshalb möchten wir genau jetzt unsere Erfahrungen der vergangenen zweieinhalb Jahre in einem **Gespräch auf der Lichtung** reflektieren und für zukünftige Herausforderungen zu nutzen. 
+Die Pandemie verändert viel. Und sie verändert uns: die Gesellschaft, die Communities, die Individuen. Deshalb möchten wir genau jetzt unsere Erfahrungen der vergangenen zweieinhalb Jahre in einem *Gespräch auf der Lichtung* reflektieren und für zukünftige Herausforderungen zu nutzen. 
 
-Vom 9. bis 11. September 2022 veranstalten wir das **Gespräch auf der Lichtung**, ein Minigesprächsfestival im Barcampstil mit max. 40 Personen – außerhalb von Berlin bei unseren Freund*innen vom Verstehbahnhof Fürstenberg. [Hier geht es zur Anmeldung.](https://files.x-hain.de/apps/forms/k4JBoZNP9BAS2x8E)
+Vom **9. bis 11. September 2022** veranstalten wir das *Gespräch auf der Lichtung*, ein Minigesprächsfestival im Barcampstil mit max. 40 Personen – außerhalb von Berlin bei unseren Freund*innen vom Verstehbahnhof Fürstenberg. [Hier geht es zur Anmeldung.](https://files.x-hain.de/apps/forms/k4JBoZNP9BAS2x8E)
 
-Wir sind eine Gruppe aus dem xHain, die aus dem [Gespräch unter Bäumen](https://wiki.x-hain.de/de/Events/Gespr%C3%A4chunterB%C3%A4umen) hervor gegangen ist. Zur Gruppe gehören u.a. Maria Reimer und Gregor Sedlag. [monoxyd](https://twitter.com/monoxyd) wird das Wochenende moderieren. 
+Wir sind eine Gruppe aus dem xHain, die aus dem [Gespräch unter Bäumen](https://wiki.x-hain.de/de/Events/Gespr%C3%A4chunterB%C3%A4umen) hervor gegangen ist. Zur Gruppe gehören u.a. Maria Reimer und [Gregor Sedlag](https://twitter.com/gregorsedlag). [Marcus Richter](https://twitter.com/monoxyd) wird das Wochenende moderieren. 
 
 Dank der Fördergelder des Sonderprogramms [Neustart Kultur](https://www.fonds-soziokultur.de/gefoerderte-projekte/sonderprogramm-neustart-kultur.html) des [Fonds Soziokultur](https://www.fonds-soziokultur.de/) ist die Teilnahme am Gespräch auf der Lichtung (inkl. Übernachtungen und Verpflegung) kostenlos.  
 
@@ -26,10 +26,15 @@ Wir wollen dort Dinge tun, die Gesprächsanlässe bieten und uns wieder in ein i
 Erste Fragen und Themen haben wir schon formuliert - und vielleicht habt ihr weitere:
 
 *Was ist ein gutes Gespräch? Was ist ein gutes Gespräch im soziokulturellen Raum? Wie soll deine Community beschaffen sein, um gute Gespräche zu ermöglichen? Was brauchen gute Gespräche? Was brauchen Gespräche, um gut zu sein?*
+
 *Wie hat sich deine Community seit dem Beginn der Pandemie verändert? Wie hast du dich verändert? Was daran ist gut?*
+
 *Was muss mehr werden in einer Dauerkrisenumgebung? Was muss im Inneren mehr werden, wenn Außen Dauerkrise ist?*
+
 *Wie bleiben wir humor- und lustvoll, ohne zynisch oder entkoppelt zu sein?*
+
 *Wie wichtig ist Handwerk - physisch, psychisch, postapokalyptisch?*
+
 *Was machen wir, wenn wir uns auf einer Lichtung begegnen? Was machst du, wenn du deiner Freundin auf einer Lichtung begegnest? Was machst du, wenn du deiner Feindin auf einer Lichtung begegnest?*
 
 Das **Gespräch auf der Lichtung** ist offen für alle. Egal, ob ihr noch nie einen Hackspace betreten habt oder Member im xHain seid. Hast du Lust, eine Session über die Gesprächskunst im 18. Jahrhundert zu halten? Wir freuen uns über alles, was ihr mitbringt – sei es generelles Interesse, konkreter Input oder ein handwerklich passendes Projekt. Falls ihr nicht wisst, ob ihr neugierig seid und/oder mitmachen möchtet: Die bisherigen Vorbereitungsschritte haben wir [hier im Wiki des xHain](https://wiki.x-hain.de/en/Events/Gespr%C3%A4ch-auf-der-Lichtung) dokumentiert. 
