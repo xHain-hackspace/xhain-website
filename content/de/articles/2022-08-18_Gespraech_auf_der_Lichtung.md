@@ -1,5 +1,5 @@
 ---
-title: Gespräch auf der Lichtung vom 09.-11.09.2022: Anmeldung 
+title: Gespräch auf der Lichtung vom 09.-11.09.2022 
 image: /images/articles/gespraechunterbaeumen.jpg
 image_reference: ""
 date: 2022-08-18
