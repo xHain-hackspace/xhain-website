@@ -187,7 +187,7 @@ title = "Find us elsewhere"
   weight = 7
   identifier = "github"
   name = "Github"
-  url = "https://github.com/orgs/xHain-hackspace/"
+  url = "https://github.com/xHain-hackspace/"
 
 [[languages.de.menu.social]]
   weight = 5
@@ -223,7 +223,7 @@ title = "Find us elsewhere"
   weight = 7
   identifier = "github"
   name = "Github"
-  url = "https://github.com/orgs/xHain-hackspace/"
+  url = "https://github.com/xHain-hackspace/"
 
 
 ###### FOOTER MENU ######
