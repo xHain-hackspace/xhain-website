@@ -2,7 +2,7 @@
 title: Gespräch auf der Lichtung vom 09.-11.09.2022 
 image: /images/articles/gespraechunterbaeumen.jpg
 image_reference: ""
-date: 2022-08-18
+date: 2022-08-31
 categories:
 - news
 - events
@@ -10,6 +10,8 @@ tags:
 - xhain
 type: blog
 ---
+
+*Update (31.08.2022): Leider müssen wir die Veranstaltung absagen. Es gibt an dem geplanten Wochenende schlicht zu viel Konkurrenz durch alles andere, das gerade nachgeholt werden will. Wir bemühen uns derzeit um einen neuen Termin!*
 
 Liebe Gesprächsfreundinnen und -freunde!
 
