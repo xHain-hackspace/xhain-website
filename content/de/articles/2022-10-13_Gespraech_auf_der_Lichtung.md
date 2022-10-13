@@ -1,8 +1,8 @@
 ---
-title: Gespräch auf der Lichtung vom 09.-11.09.2022 
+title: Gespräch auf der Lichtung am 20.11. und 04.12.2022 
 image: /images/articles/gespraechunterbaeumen.jpg
 image_reference: ""
-date: 2022-08-22
+date: 2022-10-13
 categories:
 - news
 - events
@@ -11,19 +11,19 @@ tags:
 type: blog
 ---
 
-*Update (31.08.2022): Leider müssen wir die Veranstaltung absagen. Es gibt an dem geplanten Wochenende schlicht zu viel Konkurrenz durch alles andere, das gerade nachgeholt werden will. Wir bemühen uns derzeit um einen neuen Termin!*
-
 Liebe Gesprächsfreundinnen und -freunde!
 
 Die Pandemie verändert viel. Und sie verändert uns: die Gesellschaft, die Communities, die Individuen. Deshalb möchten wir genau jetzt unsere Erfahrungen der vergangenen zweieinhalb Jahre in einem *Gespräch auf der Lichtung* reflektieren und für zukünftige Herausforderungen zu nutzen. 
 
-Vom **9. bis 11. September 2022** veranstalten wir das *Gespräch auf der Lichtung*, ein Minigesprächsfestival im Barcampstil mit max. 40 Personen – außerhalb von Berlin bei unseren Freund*innen vom Verstehbahnhof Fürstenberg. [Hier geht es zur Anmeldung.](https://files.x-hain.de/apps/forms/k4JBoZNP9BAS2x8E)
+Am **Sonntag, 20. November** und am **Sonntag, 04. Dezember** veranstalten wir das *Gespräch auf der Lichtung*, ein Minigesprächsfestival im Barcampstil mit max. 40 Personen. Die Barcamps finden von 10 Uhr bis 16.30 Uhr statt. Die beiden Termine bauen aufeinander auf, sind aber (wie alle guten Fortsetzungsromane) auch separat besuchbar.
 
-Wir sind eine Gruppe aus dem xHain, die aus dem [Gespräch unter Bäumen](https://wiki.x-hain.de/de/Events/Gespr%C3%A4chunterB%C3%A4umen) hervor gegangen ist. Zur Gruppe gehören u.a. Maria Reimer und [Gregor Sedlag](https://twitter.com/gregorsedlag). [Marcus Richter](https://twitter.com/monoxyd) wird das Wochenende moderieren. 
+[Hier geht es zur Anmeldung.](https://files.x-hain.de/apps/forms/YCooT9AfZCFcWSz7)
 
-Dank der Fördergelder des Sonderprogramms [Neustart Kultur](https://www.fonds-soziokultur.de/gefoerderte-projekte/sonderprogramm-neustart-kultur.html) des [Fonds Soziokultur](https://www.fonds-soziokultur.de/) ist die Teilnahme am Gespräch auf der Lichtung (inkl. Übernachtungen und Verpflegung) kostenlos.  
+Wir sind eine Gruppe aus dem xHain, die aus dem [Gespräch unter Bäumen](https://wiki.x-hain.de/de/Events/Gespr%C3%A4chunterB%C3%A4umen) hervor gegangen ist. Zur Gruppe gehören u.a. Maria Reimer, [Gregor Sedlag](https://twitter.com/gregorsedlag) und [Marcus Richter](https://twitter.com/monoxyd). 
 
-Wir wollen dort Dinge tun, die Gesprächsanlässe bieten und uns wieder in ein intensives Miteinander bringen: eine DIY-Selbstbauanleitung für den [perfekten postpandemischen Gesprächsstuhl](https://tinyurl.com/2emolhft) basteln, LEDs programmieren, lernen und loslassen. 
+Dank der Fördergelder des Sonderprogramms [Neustart Kultur](https://www.fonds-soziokultur.de/gefoerderte-projekte/sonderprogramm-neustart-kultur.html) des [Fonds Soziokultur](https://www.fonds-soziokultur.de/) ist die Teilnahme an den Gesprächen auf der Lichtung kostenlos. In begrenztem Rahmen können wir Reisekosten erstatten.
+
+Beim Gespräch auf der Lichtung wollen wir Dinge tun, die Gesprächsanlässe bieten und uns wieder in ein intensives Miteinander bringen: eine DIY-Selbstbauanleitung für den [perfekten postpandemischen Gesprächsstuhl](https://tinyurl.com/2emolhft) basteln, LEDs programmieren, lernen und loslassen. Und natürlich reden. 
 
 Erste Fragen und Themen haben wir schon formuliert - und vielleicht habt ihr weitere:
 
@@ -41,6 +41,6 @@ Erste Fragen und Themen haben wir schon formuliert - und vielleicht habt ihr wei
 
 Das **Gespräch auf der Lichtung** ist offen für alle. Egal, ob ihr noch nie einen Hackspace betreten habt oder Member im xHain seid. Hast du Lust, eine Session über die Gesprächskunst im 18. Jahrhundert zu halten? Wir freuen uns über alles, was ihr mitbringt – sei es generelles Interesse, konkreter Input oder ein handwerklich passendes Projekt. Falls ihr nicht wisst, ob ihr neugierig seid und/oder mitmachen möchtet: Die bisherigen Vorbereitungsschritte haben wir [hier im Wiki des xHain](https://wiki.x-hain.de/en/Events/Gespr%C3%A4ch-auf-der-Lichtung) dokumentiert. 
 
-[Hier geht es zur Anmeldung.](https://files.x-hain.de/apps/forms/k4JBoZNP9BAS2x8E) 
+[Hier geht es zur Anmeldung.](https://files.x-hain.de/apps/forms/YCooT9AfZCFcWSz7) 
 
-P.S.: Wir akzeptieren nur Anmeldungen von Menschen mit vollständigem Impfschutz, die sich zusätzlich täglich testen. Die Infrastruktur stellen wir bereit.
+P.S.: Wir akzeptieren nur Anmeldungen von Menschen mit vollständigem Impfschutz, die sich zusätzlich täglich testen. Die Infrastruktur hierfür stellen wir bereit.
