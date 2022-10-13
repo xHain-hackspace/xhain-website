@@ -15,7 +15,7 @@ Liebe Gesprächsfreundinnen und -freunde!
 
 Die Pandemie verändert viel. Und sie verändert uns: die Gesellschaft, die Communities, die Individuen. Deshalb möchten wir genau jetzt unsere Erfahrungen der vergangenen zweieinhalb Jahre in einem *Gespräch auf der Lichtung* reflektieren und für zukünftige Herausforderungen zu nutzen. 
 
-Am **Sonntag, 20. November** und am **Sonntag, 04. Dezember** veranstalten wir das *Gespräch auf der Lichtung*, ein Minigesprächsfestival im Barcampstil mit max. 40 Personen. Die Barcamps finden von 10 Uhr bis 16.30 Uhr statt. Die beiden Termine bauen aufeinander auf, sind aber (wie alle guten Fortsetzungsromane) auch separat besuchbar.
+Am **Sonntag, 20. November** und am **Sonntag, 04. Dezember** veranstalten wir das *Gespräch auf der Lichtung*, ein Minigesprächsfestival im Barcampstil mit max. 40 Personen. Die Barcamps finden von 10 Uhr bis 16.30 Uhr im xHain (Grünberger Str. 16, 10243 Berlin) statt. Die beiden Termine bauen aufeinander auf, sind aber (wie alle guten Fortsetzungsromane) auch separat besuchbar.
 
 [Hier geht es zur Anmeldung.](https://files.x-hain.de/apps/forms/YCooT9AfZCFcWSz7)
 
