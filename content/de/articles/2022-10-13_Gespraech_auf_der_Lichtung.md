@@ -44,3 +44,7 @@ Das **Gespräch auf der Lichtung** ist offen für alle. Egal, ob ihr noch nie ei
 [Hier geht es zur Anmeldung.](https://files.x-hain.de/apps/forms/YCooT9AfZCFcWSz7) 
 
 P.S.: Wir akzeptieren nur Anmeldungen von Menschen mit vollständigem Impfschutz, die sich zusätzlich täglich testen. Die Infrastruktur hierfür stellen wir bereit.
+
+Wir sind sehr glücklich über die Förderung und danken:
+
+
