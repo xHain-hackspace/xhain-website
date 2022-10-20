@@ -47,4 +47,4 @@ P.S.: Wir akzeptieren nur Anmeldungen von Menschen mit vollständigem Impfschutz
 
 Wir sind sehr glücklich über die Förderung und danken:
 
-/image/articles/logopaket3.png
+![Hier stehen die Logos der Förderer](/image/articles/logopaket.png)
