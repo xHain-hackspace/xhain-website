@@ -17,9 +17,9 @@ Die Pandemie verändert viel. Und sie verändert uns: die Gesellschaft, die Comm
 
 Am **Sonntag, 20. November** und am **Sonntag, 04. Dezember** veranstalten wir das *Gespräch auf der Lichtung*, ein Minigesprächsfestival im Barcampstil mit max. 40 Personen. Die Barcamps finden von 10 Uhr bis 16.30 Uhr im xHain (Grünberger Str. 16, 10243 Berlin) statt. Die beiden Termine bauen aufeinander auf, sind aber (wie alle guten Fortsetzungsromane) auch separat besuchbar.
 
-Hier findet ihr [erste Vorschläge für Sessions].(https://files.x-hain.de/s/RAye3Dsca5ymA67)
+Hier findet ihr [erste Vorschläge für Sessions.](https://files.x-hain.de/s/RAye3Dsca5ymA67)
 
-[Hier geht es zur Anmeldung.](https://files.x-hain.de/apps/forms/YCooT9AfZCFcWSz7)
+Hier geht es zur [Anmeldung.](https://files.x-hain.de/apps/forms/YCooT9AfZCFcWSz7)
 
 Wir sind eine Gruppe aus dem xHain, die aus dem [Gespräch unter Bäumen](https://wiki.x-hain.de/de/Events/Gespr%C3%A4chunterB%C3%A4umen) hervor gegangen ist. Zur Gruppe gehören u.a. Maria Reimer, [Gregor Sedlag](https://twitter.com/gregorsedlag) und [Marcus Richter](https://twitter.com/monoxyd). 
 
