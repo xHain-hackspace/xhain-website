@@ -1,7 +1,8 @@
 # xHain hack+makespace Homepage
 
-Staging: https://staging.x-hain.de
-Production: https://www.x-hain.de
+Staging: https://staging.x-hain.de [![status-badge](https://ci.x-hain.de/api/badges/xHain-hackspace/xhain-website/status.svg?branch=staging)](https://ci.x-hain.de/xHain-hackspace/xhain-website)
+
+Production: https://www.x-hain.de  [![status-badge](https://ci.x-hain.de/api/badges/xHain-hackspace/xhain-website/status.svg?branch=main)](https://ci.x-hain.de/xHain-hackspace/xhain-website)
 
 # Getting started
 
