@@ -1,0 +1,42 @@
+pipeline:
+  build:
+    image: jojomi/hugo:0.83
+    commands:
+      - hugo version
+      - git submodule update --init --recursive
+      - hugo -d public_html --config config.toml,home.toml --cleanDestinationDir
+    when:
+      event: [push, tag, deployment]
+      branch: [main,staging]
+
+  deploy:
+    image: drillster/drone-rsync
+    settings:
+      hosts: [x-hain.de]
+      source: ./public_html/
+      exclude: _
+      target: /public
+      delete: true
+      recursive: true
+      user: 
+        from_secret: SSH_USER
+      key:
+        from_secret: SSH_PRIVATE_KEY
+    when:
+      branch: [main]
+
+  deploy_staging:
+    image: drillster/drone-rsync
+    settings:
+      hosts: [staging.x-hain.de]
+      source: ./public_html/
+      exclude: _
+      target: /public
+      delete: true
+      recursive: true
+      user: 
+        from_secret: SSH_USER_STAGING
+      key:
+        from_secret: SSH_PRIVATE_KEY_STAGING
+    when:
+      branch: [staging]
