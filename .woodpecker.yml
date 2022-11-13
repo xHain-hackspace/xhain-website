@@ -7,7 +7,7 @@ pipeline:
       - hugo -d public_html --config config.toml,home.toml --cleanDestinationDir
     when:
       event: [push, tag, deployment]
-      branch: [main,staging]
+      branch: [main, staging]
 
   deploy:
     image: drillster/drone-rsync
@@ -18,11 +18,12 @@ pipeline:
       target: /public
       delete: true
       recursive: true
-      user: 
+      user:
         from_secret: SSH_USER
       key:
         from_secret: SSH_PRIVATE_KEY
     when:
+      event: [push, tag, deployment]
       branch: [main]
 
   deploy_staging:
@@ -34,9 +35,10 @@ pipeline:
       target: /public
       delete: true
       recursive: true
-      user: 
+      user:
         from_secret: SSH_USER_STAGING
       key:
         from_secret: SSH_PRIVATE_KEY_STAGING
     when:
+      event: [push, tag, deployment]
       branch: [staging]
