@@ -30,6 +30,20 @@ Unsere <a href="https://wiki.x-hain.de/de/xHain/xRoots" target="_blank">xRoots M
 
 Der xHain ist ein rauchfreier Ort. Wer rauchen will, kann das draußen tun. Wer ein Arschloch ist, z.B. sexistisch, rassistisch, oder homophob, braucht nicht zu kommen. Lest bitte und beachtet unsere <a href="https://wiki.x-hain.de/de/xHain/spacerules" target="_blank">Space-Regeln</a>. 
 
+**Covid Regeln**
+<style>
+iframe {
+    height: 374px;
+    width: 100%;
+  }
+  @media screen and (max-width: 620px) {
+    iframe {
+      height: 600px;
+    }
+  }
+</style>
+<iframe src="/masks/index.html" frameborder="0"></iframe>
+
 ## Der Space
 
 ![](/images/space-map.png)

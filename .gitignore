@@ -3,3 +3,4 @@ public_html/
 resources/
 .vscode
 .DS_Store
+.hugo_build.lock

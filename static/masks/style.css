@@ -1,0 +1,521 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: rgb(42, 38, 41);
+  font-family: sans-serif;
+  color: white;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* DEFAULTS */
+
+button {
+  background: lightgrey;
+  border: none;
+  cursor: pointer;
+  padding: 4px 6px;
+  box-shadow: 0 0 4px black;
+  border-radius: 6px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+#main_wrap {
+  height: 100vh;
+  width: 100vw;
+  max-height: 374px;
+  max-width: 1000px;
+  overflow: hidden;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+#all_week_days {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: 2.2fr repeat(6, 1fr);
+  grid-gap: 4px;
+}
+
+.week_day {
+  background: grey;
+  padding: 3px;
+  display: grid;
+  grid-template-rows: min-content min-content min-content min-content auto;
+}
+
+.week_day.current {
+  background: #9b9a9a;
+}
+
+.week_day.on_and_on {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 0;
+}
+
+.week_day.current.on_and_on {
+  background: grey;
+}
+
+.on_and_on p,
+.on_and_on h2 {
+  grid-column: span 2;
+  text-align: center;
+  margin: 6px 0;
+}
+
+.week_column {
+  padding: 8px;
+  display: grid;
+  grid-template-rows: auto 50px 39px 23px 90px;
+  margin-top: -4px;
+}
+
+.week_column.c_current {
+  background: #9b9a9a;
+}
+
+.mon_checker {
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+div.week_column:nth-child(4) {
+ border-right: 1px solid black;
+}
+
+.on_and_on .week_signs > div {
+  height: 80px;
+  width: 67%;
+}
+
+.on_and_on .with_mask {
+  background: url(with_mask.png) center / contain no-repeat;
+}
+
+.on_and_on .no_mask {
+  background: url(no_mask.png) center / contain no-repeat;
+}
+
+.on_and_on .week_airing_wrap.on {
+  padding: 3px;
+}
+
+.on_and_on .week_airing {
+  height: 13px;
+}
+
+
+.week_signs.bevor > div {
+  height: 40px;
+}
+
+.week_signs.bevor > div::after {
+  top: 3px;
+  font-size: 11px;
+}
+
+.week_signs.alone {
+  grid-row: span 2;
+}
+
+.week_day.on_and_on .week_time {
+  margin-top: 12px;
+}
+
+.week_day.on_and_on h3 {
+  margin: 6px 0 0px 0;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.week_day.on_and_on h2 {
+  margin-bottom: 0;
+}
+
+.on_and_on .week_signs > div::after {
+  font-size: 10px;
+}
+
+.week_day h2 {
+  text-align: center;
+  margin: 10px 0 8px 0;
+  font-size: 18px;
+}
+
+.week_day.current h2 {
+  color: #aed919;
+}
+
+.week_time {
+  border-top: 2px dotted #aed919;
+  padding: 5px 2px;
+  margin-top: 22px;
+}
+
+.week_time::before {
+  content: "";
+  background: url(clock.png) bottom center / contain no-repeat;
+  width: 16px;
+  display: inline-block;
+  height: 16px;
+  margin: 0px 6px -3px 0;
+}
+
+.week_time.sunrise {
+  margin-top: 0px;
+  grid-row: span 2;
+}
+
+.week_airing_wrap.on {
+  background: #859746;
+  border-radius: 6px;
+  padding: 6px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.week_airing {
+  height: 22px;
+  width: 22px;
+  background: url(vent.png) center / contain no-repeat;
+  display: inline-block;
+}
+
+.week_signs {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.week_signs > div {
+  height: 160px;
+  width: 82%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.week_signs > div::after {
+  content: "";
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  color: white;
+  /*! margin-top: 6px; */
+  position: relative;
+  top: -6px;
+  font-size: 13px;
+  color: #aed919;
+}
+
+.with_mask {
+  background: url(with_mask.png) center bottom / contain no-repeat;
+}
+
+.week_signs > .with_mask::after {
+  content: "mandatory";
+}
+
+.no_mask {
+  background: url(no_mask.png) center bottom / contain no-repeat;
+}
+
+.week_signs > .no_mask::after {
+  content: "voluntary";
+}
+
+img.die_pfeile {
+  height: 32px;
+  grid-column: span 2;
+  justify-self: center;
+  z-index: 1;
+}
+
+/* CURRENT */
+
+#ganze_woche {
+  grid-column: 1/-1;
+  background: grey;
+  padding: 1vw;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+}
+
+#the_time > span {
+  background: url(clock.png) center / contain no-repeat;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+}
+
+.the_cur_hl {
+  font-size: 28px;
+  font-weight: bold;
+  padding: 12px;
+  text-align: center;
+}
+
+#cur_html {
+  grid-row: 3;
+}
+
+#today_html .week_signs > div::after {
+  top: 3px;
+}
+
+#today_html h2 {
+  display: none;
+}
+
+.curr_signs {
+  display: flex;
+  justify-content: center;
+}
+
+.curr_signs .with_mask,
+.curr_signs .no_mask {
+  height: 160px;
+  width: 160px;
+  position: relative;
+}
+
+.curr_signs > div::after {
+  content: "";
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  color: white;
+  position: relative;
+  bottom: -76%;
+  font-size: 18px;
+  color: #aed919;
+}
+
+.with_mask {
+  background: url(with_mask.png) center bottom / contain no-repeat;
+}
+
+.curr_signs > .with_mask::after {
+  content: "mandatory";
+}
+
+.no_mask {
+  background: url(no_mask.png) center bottom / contain no-repeat;
+}
+
+.curr_signs > .no_mask::after {
+  content: "voluntary";
+}
+
+#today_html {
+  align-self: flex-start;
+  justify-self: center;
+  width: 100px;
+  grid-row: 2/4;
+  border: 2px solid #b7b7b7;
+  border-radius: 12px;
+  padding: 12px;
+  z-index: 1;
+}
+
+#today_html .week_time.sunrise {
+  margin-bottom: 22px;
+}
+
+/* SWITCH */
+
+#view_switch {
+  grid-column: 1/-1;
+  background: grey;
+  text-align: center;
+  padding: 9px;
+}
+
+#ganze_woche {
+  height: calc(100% - 28px);
+  overflow: hidden;
+}
+
+.show_calendar #ganze_woche {
+  height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#all_week_days {
+  height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  overflow: hidden;
+  margin-top: 0;
+}
+
+.show_calendar #all_week_days {
+  height: calc(100% - 32px);
+  margin-top: 4px;
+}
+
+#ganze_woche,
+#all_week_days {
+  transition: height .6s, padding .6s, margin .6s;
+}
+
+#today_html .week_signs > div {
+  height: 60px;
+  margin: 6px 0;
+}
+
+#today_html .week_signs.bevor > div::after {
+  font-size: 12px;
+}
+
+.mon_dates {
+ font-size: 12px;
+ margin-top: 12px;
+ line-height: 15px;
+}
+
+#do_vent {
+  display: none;
+}
+
+#do_vent {
+  grid-row: 2;
+  align-items: center;
+  grid-template-columns: auto auto;
+  padding: 12px;
+  border-radius: 6px;
+  background: #859746;
+  width: 60%;
+  justify-self: center;
+  margin-bottom: 16px;
+}
+
+.show_vent #do_vent {
+  display: grid;
+}
+
+#do_vent::after {
+  content: '';
+  height: 42px;
+  width: 42px;
+  background: url(vent.png) center / contain no-repeat;
+  display: inline-block;
+  animation: drehen 14s linear infinite;
+  justify-self: flex-end;
+  align-self: center;
+}
+
+@keyframes drehen {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(-360deg); }
+}
+
+
+
+@media screen and (max-width: 620px) {
+
+  #all_week_days {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  #main_wrap {
+    max-height: 100vh;
+    overflow-y: scroll;
+  }
+
+  .week_day.on_and_on {
+    grid-column: span 2;
+  }
+
+  .week_signs > div {
+    height: 50px;
+  }
+
+  .week_column {
+    padding: 8px 8px 0;
+  }
+
+  .mon_checker {
+    margin-left: -9px;
+    margin-right: -9px;
+  }
+
+  #ganze_woche {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(4, min-content);
+  }
+
+  .show_vent #do_vent {
+    grid-row: 1;
+    grid-column: 2;
+    margin: 0;
+  }
+
+  #cur_html {
+    grid-row: 2;
+    grid-column: 1/3;
+    margin: 12px 0 32px 0;
+  }
+
+  .curr_signs .with_mask, .curr_signs .no_mask {
+    height: 130px;
+  }
+
+  #today_html {
+    width: 70px;
+    grid-row: 3/5;
+  }
+
+  #the_day {
+    grid-row: 3;
+  }
+
+  .the_cur_hl {
+    font-size: 17px;
+  }
+
+  #view_switch {
+    padding: 12px;
+  }
+
+  .week_day h2 {
+    font-size: 20px;
+  }
+
+  .the_cur_hl {
+    text-align: left;
+  }
+
+  button {
+    padding: 7px 12px;
+    font-size: 16px;
+  }
+
+  .week_time::before {
+    width: 12px;
+    height: 12px;
+  }
+
+  body {
+    font-size: 12px;
+  }
+
+}
