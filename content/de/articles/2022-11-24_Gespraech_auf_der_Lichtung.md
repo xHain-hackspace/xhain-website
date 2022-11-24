@@ -1,5 +1,5 @@
 ---
-title: Einladung: Gespräch auf der Lichtung am 04.12.2022 
+title: "Einladung: Gespräch auf der Lichtung am 04.12.2022"
 image: /images/articles/gespraechunterbaeumen.jpg
 image_reference: ""
 date: 2022-11-24
