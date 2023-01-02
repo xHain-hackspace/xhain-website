@@ -147,6 +147,7 @@ sunrises[326] = [05,21];
 
 var month;
 var day;
+var the_day;
 var weekday;
 var week_nr;
 var hour;
@@ -192,6 +193,12 @@ function check_again() { // get time
   var date = new Date();
   month = date.getMonth()+1;
   day = date.getDate();
+    if (day < 10) {
+    the_day = "0" + day;
+  } else {
+    the_day = day;
+  }
+
   weekday =date.getDay();
   week_nr = date.getWeek();
   hour = date.getHours();
@@ -223,7 +230,7 @@ function check_again() { // get time
       jQuery('#w_col_2 .mon_checker').html('- next week -');
     }
 
-    var sunrise_time = sunrises[month+''+day][0]+(sunrises[month+''+day][1]/60);
+    var sunrise_time = sunrises[month+''+the_day][0]+(sunrises[month+''+the_day][1]/60);
     var cur_time = hour+(minutes/60);
 
     // check the rules
