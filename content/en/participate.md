@@ -26,7 +26,7 @@ For your projects there are the following work areas and equipment:
 
 ![](/images/space-map.png)
 
-The work areas and their tools are marked in color. Some devices require a safety briefing by an authorized person. In our wiki you will find a more <a href="https://wiki.x-hain.de/en/xHain/rooms-and-equipment" target="_blank">detailed overview of our work areas and devices</a>.
+The work areas and their tools are marked in color. Some devices require a safety briefing by an authorized person. In our wiki you will find a more <a href="https://wiki.x-hain.de/en/Rooms_and_Equipment/rooms-and-equipment" target="_blank">detailed overview of our work areas and devices</a>.
 
 ## Organisation
 
