@@ -16,16 +16,14 @@ Unser Ziel ist es, mindestens die Hälfte der Gesamtsumme aufzustellen, um uns d
 Bitte hilf uns, den xHain zu erhalten. Kreative Menschen sollen weiterhin einen sicheren Ort zum Basteln, Hacken, Diskutieren und Erfinden behalten und weiterhin großartige Dinge im xHain (er)schaffen. 
 
 Eine richtige Spendenkampagne ist gerade in Arbeit, aber du kannst uns jetzt schon mit einer Überweisung auf das folgende Konto unterstützen:
-```
-    Kontoinhaber: xHain hack+makespace gemeinnützige UG (haftungsbeschränkt)
-    Bank: GLS Bank
-    IBAN: DE72 4306 0967 1050 8465 00
-    BIC: GENODEM1GLS
-```
 
-
+```
+Kontoinhaber: xHain hack+makespace gemeinnützige UG (haftungsbeschränkt)
+Bank: GLS Bank
+IBAN: DE72 4306 0967 1050 8465 00
+BIC: GENODEM1GLS
+```
 Deine Spende kannst du von der Steuer absetzen. Wenn du uns deine Adresse schickst,  bekommst du eine entsprechende Quittung von uns. Wenn du eine größere Spende (über 5.000 €) tätigen oder dich nur bei Erreichen einer Mindestspendenhöhe beteiligen möchtest, wende dich bitte direkt an xHain-Gründer Felix [felix[ätt]x-hain.de].
-
 
 
 <br clear="all">
