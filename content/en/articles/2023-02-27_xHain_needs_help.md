@@ -22,7 +22,7 @@ Amongst our diverse activities are "Gespräch unter Bäumen" - a series of women
 ## We need help
 The owners of the commercial space that we rent for xHain have informed us that they are selling. They have offered us the opportunity to buy for a fair price our space before placing it on the open market. If someone else buys the space we fear that the new owner would either drastically increase the rent or possibly evict us.
 
-Including taxes, notary fees, etc., the space will cost us around **700,000 €**. This is quite a lot of money and xHain cannot raise this sum alone. Our goal is to collect at least half of the total amount in order to be able to borrow the rest. We've currently raised **45,210 €** and still have until the first of May to reach our goal before we lose our pre-sale rights.
+Including taxes, notary fees, etc., the space will cost us around **700,000 €**. This is quite a lot of money and xHain cannot raise this sum alone. Our goal is to collect at least half of the total amount in order to be able to borrow the rest. We've currently raised **55,887.62 €** and still have until the first of May to reach our goal before we lose our pre-sale rights.
 
 ## That's why we need your support!
 Please help us keep xHain alive, so we can continue to provide a safe place for many creative people to craft, hack, discuss, invent, and create great things. A real fundraising campaign is in the works, but you can already support us by making a transfer to the following account:
