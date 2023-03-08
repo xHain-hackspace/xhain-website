@@ -22,7 +22,7 @@ Workshops für Erwachsene im Bereich Hacking und Making sind genauso Teil des An
 Die Gewerbefläche, die der xHain mietet, steht zum Verkauf. Wir als Mieter haben ein Vorkaufsrecht und wollen die Räume erwerben. Denn wir befürchten, dass ein neuer Eigentümer uns mit einer drastischen Mieterhöhung oder gar einer Kündigung konfrontieren wird.
 Inklusive Steuern, Notargebühren etc wird uns der Space rund **700.000 €** kosten. Mit Blick auf den Markt ist das ein fairer Preis. Aber für uns ist das eine Menge Geld. Wir als xHain können diese Summe alleine nicht aufbringen. 
 
-Unser Ziel ist es, mindestens die Hälfte der Gesamtsumme aufzustellen, um uns den Rest leihen zu können. Derzeit haben wir bereits **45.210 €** gesammelt (Stand 27.02.2023). Wir haben noch bis 1. Mai Zeit, um unser Ziel zu erreichen. Danach verlieren wir das  Vorkaufsrecht.
+Unser Ziel ist es, mindestens die Hälfte der Gesamtsumme aufzustellen, um uns den Rest leihen zu können. Derzeit haben wir bereits **55.887.62 €** gesammelt (Stand 08.03.2023). Wir haben noch bis 1. Mai Zeit, um unser Ziel zu erreichen. Danach verlieren wir das  Vorkaufsrecht.
 
 ## Deshalb brauchen wir deine Unterstützung!
 Bitte hilf uns, den xHain zu erhalten. Kreative Menschen sollen weiterhin einen sicheren Ort zum Basteln, Hacken, Diskutieren und Erfinden behalten und weiterhin großartige Dinge im xHain (er)schaffen. 
