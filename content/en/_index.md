@@ -8,7 +8,7 @@ draft: false
 
 ## We need help
 
-Here you'll get all the info: <a href="/en/blog/2023/02/27/xhain-braucht-hilfe">Blogpost</a>
+Here you'll get all the info: <a href="/en/blog/2023/02/27/xhain-needs-help">Blogpost</a>
 
 <br clear="all">
 
