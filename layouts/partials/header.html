@@ -3,4 +3,7 @@
         <div class="logo"><a href="{{ .Site.BaseURL }}">xHain | hack+makespace</a></div>
         {{ partial "navigation.html" . }}
     </div>
+    {{ if .IsHome }} 
+    {{ partial "banner" .}}
+    {{ end }}
 </header>
