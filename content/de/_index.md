@@ -4,25 +4,12 @@ date: 2021-06-09T00:00:00Z
 draft: false
 ---
 <style>
-.xhain-important-fade {
-    -webkit-animation: fadeinout 2s linear infinite;
-    animation: fadeinout 2s linear infinite;
-    color: red;
-    text-align: center;
-    opacity: 0;
-}
-@-webkit-keyframes fadeinout {
-  50% { opacity: 1; }
-}
-@keyframes fadeinout {
-  50% { opacity: 1; }
-}
 .xhain-important {
     color: red;
     text-align: center;
 }
 </style>
-<h2 class="xhain-important-fade">🚨 Wir brauchen Hilfe! 🚨</h2>
+<h2 class="xhain-important">🚨 Wir brauchen Hilfe! 🚨</h2>
 <h2 class="xhain-important">Mehr Infos gibt es im <a href="/de/blog/2023/02/27/xhain-braucht-hilfe">Blogpost</a></h2>
 
 <br clear="all">
