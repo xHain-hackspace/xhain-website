@@ -1,4 +1,4 @@
-baseURL = "https://staging.x-hain.de"
+baseURL = "https://x-hain.de"
 title = "xHain hack+makespace"
 canonifyurls = true
 languageCode = "en-us"
