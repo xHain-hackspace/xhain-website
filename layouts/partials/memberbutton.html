@@ -1,0 +1,23 @@
+<style>
+  .button-nav {
+    background-color: #aed919;
+    cursor: pointer;
+    border: none;
+    color: #002225;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    border-radius: 4px;
+    font-family: 'PoliticsHead', 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  }
+</style>
+<button class="button-nav" onclick="window.location.href='https://login.x-hain.de/if/flow/xhain-member-enrollment'">
+  {{ if strings.Contains .Site.Language.Lang "en" }}
+  become a member
+  {{ else }}
+  member werden
+  {{ end }}
+</button>

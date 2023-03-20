@@ -1,0 +1,26 @@
+<style>
+  .button-inline {
+    cursor: pointer;
+    background-color: #aed919;
+    border: none;
+    color: #002225;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    border-radius: 4px;
+    font-family: 'PoliticsHead', 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  }
+</style>
+<div style="padding: 20px; text-align: center;">
+  <button class="button-inline"
+    onclick="window.location.href='https://login.x-hain.de/if/flow/xhain-member-enrollment'">
+    {{ if strings.Contains (.Get 0) "en" }}
+    become a member
+    {{ else }}
+    member werden
+    {{ end }}
+  </button>
+</div>

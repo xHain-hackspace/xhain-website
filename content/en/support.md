@@ -12,6 +12,8 @@ Members are the heart of our space. Typically, members donate €13.37 or more p
 
 You can <a href="https://login.x-hain.de/if/flow/xhain-member-enrollment/">register here</a> to become a member. You will receive a mail with all further details.
 
+{{< memberbutton "en" >}}
+
 ## Donations
 
 You are also welcome to support us with one-time donations to the following account:

@@ -1,14 +1,17 @@
 <nav id="main-navigation">
-    <ul class="mobile">
-      <li>menu</li>
-    </ul>
-    <ul class="desktop">
-        {{- $currentPage := . -}}
-        {{ range .Site.Menus.main -}}
-            <li>
-                <a  href="{{ .URL | absLangURL }}#content">{{ .Name }}</a>
-            </li>
-        {{- end }}
-        {{ partial "languageswitch.html" . }}
-    </ul>
+  <ul class="mobile">
+    <li>menu</li>
+  </ul>
+  <ul class="desktop">
+    {{- $currentPage := . -}}
+    {{ range .Site.Menus.main -}}
+    <li>
+      <a href="{{ .URL | absLangURL }}#content">{{ .Name }}</a>
+    </li>
+    {{- end }}
+    <li>
+      {{ partial "memberbutton.html" . }}
+    </li>
+    {{ partial "languageswitch.html" . }}
+  </ul>
 </nav>

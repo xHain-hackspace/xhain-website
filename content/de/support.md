@@ -12,6 +12,8 @@ Member sind das Herz unseres Spaces. Üblicherweise spenden Member 13,37 € ode
 
 Ihr könnt euch <a href="https://login.x-hain.de/if/flow/xhain-member-enrollment/">hier anmelden</a>, um Member zu werden. Ihr bekommt dann eine Mail mit allen weitern Details.
 
+{{< memberbutton "de" >}}
+
 ## Spenden
 
 Gerne kann man uns auch mit Einmalspenden auf folgendes Konto unterstützen:
