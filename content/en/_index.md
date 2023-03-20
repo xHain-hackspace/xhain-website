@@ -7,6 +7,7 @@ draft: false
 ## Welcome to xHain
 **Hack- & Makespace in the heart of Friedrichshain, tinkering room for people interested in technology + space for net politics.**
 
+{{< memberbutton "en" >}}
 <br clear="all">
 
 ## Open monday nights

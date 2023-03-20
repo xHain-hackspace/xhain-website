@@ -1,0 +1,10 @@
+<div style="padding: 20px; text-align: center;">
+  <button class="button-inline"
+    onclick="window.location.href='https://login.x-hain.de/if/flow/xhain-member-enrollment'">
+    {{ if strings.Contains (.Get 0) "en" }}
+    become a member
+    {{ else }}
+    member werden
+    {{ end }}
+  </button>
+</div>
