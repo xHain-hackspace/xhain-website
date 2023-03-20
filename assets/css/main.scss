@@ -3,6 +3,7 @@
 @import "frontpage";
 @import "header";
 @import "footer";
+@import "button";
 
 html {
   scroll-behavior: smooth;
@@ -139,6 +140,7 @@ nav {
 }
 
 main {
+
   img,
   video,
   div.figure {
@@ -146,6 +148,7 @@ main {
     height: auto;
     pointer-events: none;
   }
+
   img.icon {
     max-width: 100px;
   }
@@ -175,6 +178,7 @@ form {
     font-size: 14px;
     font-family: $font-family-brand;
   }
+
   input {
     padding: 8px;
     border-radius: 4px;
@@ -185,10 +189,12 @@ form {
     &[type="email"],
     &[type="text"] {
       width: 270px;
+
       &:focus {
         outline: none;
       }
     }
+
     &[type="button"],
     &[type="submit"] {
       margin: 20px 0 30px 0;
@@ -196,12 +202,14 @@ form {
       color: white;
       font-weight: bold;
       cursor: pointer;
+
       &:hover {
         background-color: $secondary-color;
       }
     }
   }
 }
+
 input {
   padding: 8px;
   border-radius: 4px;
@@ -223,6 +231,7 @@ iframe {
   width: 100%;
   border-radius: 10px;
   box-shadow: 0 1px 10px rgba(42, 235, 170, 0.2);
+
   img {
     border-radius: 10px;
   }
@@ -258,6 +267,7 @@ iframe {
   color: black;
   font-size: 12px;
   padding: 1px 0px 1px 28px;
+
   a {
     color: black;
     text-decoration: underline;
@@ -280,6 +290,7 @@ iframe {
     li {
       margin-left: 10px;
     }
+
     .language-switch {
       border-top: none;
       border-left: 1px solid $secondary-color;
@@ -297,16 +308,20 @@ iframe {
     background: url(/images/logo/xhain.svg) center center no-repeat;
     background-size: 150px 150px;
   }
+
   footer {
     #footer-wrapper {
       background-position: center center;
     }
+
     .first-part {
       float: left;
     }
+
     .second-part {
       float: right;
       text-align: right;
+
       h5 {
         text-align: right;
       }
@@ -328,17 +343,22 @@ iframe {
     height: auto;
     margin-top: 15px;
     padding-left: 50px;
+
     a {
       padding: 0;
     }
   }
+
   #main-navigation ul {
     padding: 22px 5px 5px 5px;
   }
+
   #footer-wrapper {
     background: none !important;
   }
+
   form input {
+
     &[type="number"],
     &[type="email"],
     &[type="text"] {
@@ -351,7 +371,9 @@ iframe {
   header .logo a {
     display: none;
   }
+
   form input {
+
     &[type="number"],
     &[type="email"],
     &[type="text"] {
