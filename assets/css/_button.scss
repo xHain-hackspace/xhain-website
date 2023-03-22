@@ -1,0 +1,24 @@
+.button {
+  background-color: #aed919;
+  cursor: pointer;
+  border: none;
+  color: #002225;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  border-radius: 4px;
+  font-family: $font-family-brand;
+}
+
+.button-nav {
+  @extend .button;
+  font-size: 15px;
+}
+
+.button-inline {
+  @extend .button;
+  font-size: 20px;
+}
