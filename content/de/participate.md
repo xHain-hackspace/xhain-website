@@ -5,12 +5,15 @@ draft: false
 ---
 
 Eigentlich darf man gerne immer vorbeischauen, allerdings haben wir bis auf Montag Abend keine regulären Öffnungszeiten. Viele aktive Member haben selbst einen Schlüssel. Sofern offen ist, oder Veranstaltungen angekündigt sind, ist jederzeit jede Person willkommen. Fragt auch gerne im <a href="https://chat.x-hain.de" target="_blank">Chat</a>, wann jemand im xHain ist.
+Der xHain versteht sich als Do-ocracy und lebt vom Engagement und den Ideen der Member. Das heißt, dass Member selbständig ihre Projekte aussuchen und ausführen. 
 
-## Veranstaltungen
+## Member werden
 
-Informiere dich in unserem <a href="/de/calendar">Kalender</a> über anstehende Veranstaltungen.
+Member sind das Herz unseres Spaces. Üblicherweise spenden Member 13,37 € oder mehr im Monat und sind am aktivsten in der Benutzung der Geräte und Werkzeuge, sowie der Gestaltung des xHains. Im Wiki erfährt ihr <a href="https://wiki.x-hain.de/de/xHain/members" target="_blank">mehr Details über die Mitgliedschaft</a>.
 
-Viele unserer Veranstaltungen sind offene Community-Events, die bei uns untergekommen sind. Außerdem kann man den xHain auch als Tagungsort oder Raum für (geschlossene) Veranstaltungen mieten. Wenn ihr einen Workshop plant, einen unkonventionelleren Sitzungsort sucht, euren Film vorführen oder in kreativer Umgebung eure Fan-Fiction voran bringen wollt, dann fragt uns, und wir klären gemeinsam die Details.
+Ihr könnt euch <a href="https://login.x-hain.de/if/flow/xhain-member-enrollment/">hier anmelden</a>, um Member zu werden. Ihr bekommt dann eine Mail mit allen weitern Details.
+
+{{< memberbutton "de" >}}
 
 ## Maschinen- und Gerätenutzung
 
@@ -28,6 +31,8 @@ Für eure Projekte gib es die folgenden Arbeitsbereiche und Ausstattung:
 
 Die Arbeitsbereiche und deren Werkeuge sind farblich markiert. Manche Geräte erfordern eine Sicherheitseinweisung durch eine authorisierte Person. Im Wiki findet ihr einen genaueren <a href="https://wiki.x-hain.de/de/xHain/rooms-and-equipment" target="_blank">Überblick über unsere Arbeitsbereiche und Geräte</a>.
 
-## Organisatorisches
+## Veranstaltungen
 
-Der xHain wurde von Felix Just im Mai 2016 gegründet und ist seit 2020 als gemeinnützige UG anerkannt. Der xHain versteht sich als Do-ocracy und lebt vom Engagement und den Ideen der Member. Das heißt, dass Member selbständig ihre Projekte aussuchen und ausführen. 
+Informiere dich in unserem <a href="/de/calendar">Kalender</a> über anstehende Veranstaltungen.
+
+Viele unserer Veranstaltungen sind offene Community-Events, die bei uns untergekommen sind. Außerdem kann man den xHain auch als Tagungsort oder Raum für (geschlossene) Veranstaltungen mieten. Wenn ihr einen Workshop plant, einen unkonventionelleren Sitzungsort sucht, euren Film vorführen oder in kreativer Umgebung eure Fan-Fiction voran bringen wollt, dann fragt uns, und wir klären gemeinsam die Details.
