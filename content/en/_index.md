@@ -7,7 +7,6 @@ draft: false
 ## Welcome to xHain
 **Hack- & Makespace in the heart of Friedrichshain, tinkering room for people interested in technology + space for net politics.**
 
-{{< memberbutton "en" >}}
 <br clear="all">
 
 ## Open monday nights
@@ -32,6 +31,7 @@ Our <a href="https://wiki.x-hain.de/en/xHain/xRoots" target="_blank">xRoots ment
 
 xHain is a smoke-free place. If you want to smoke, you can do so outside. If you are an asshole, e.g. sexist, racist, or homophobic, don't bother coming. Please read and follow our <a href="https://wiki.x-hain.de/en/xHain/spacerules" target="_blank">space rules</a>. 
 
+{{< memberbutton "en" >}}
 
 ## The space
 
