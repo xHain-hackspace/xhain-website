@@ -7,7 +7,17 @@ pipeline:
       - hugo -d public_html --config config.toml,home.toml --cleanDestinationDir
     when:
       event: [push, tag, deployment]
-      branch: [main, staging]
+      branch: [main]
+
+  build-staging:
+    image: jojomi/hugo:0.83
+    commands:
+      - hugo version
+      - git submodule update --init --recursive
+      - hugo -d public_html --config config.toml,home.toml --cleanDestinationDir --baseURL https://staging.x-hain.de
+    when:
+      event: [push, tag, deployment]
+      branch: [staging]
 
   deploy:
     image: drillster/drone-rsync
