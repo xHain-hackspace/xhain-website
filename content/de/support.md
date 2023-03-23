@@ -27,4 +27,5 @@ Eine richtige Spendenkampagne ist gerade in Arbeit, aber du kannst uns jetzt sch
 - **IBAN**: DE72 4306 0967 1050 8465 00
 - **BIC**: GENODEM1GLS
 
-Deine Spende kannst du von der Steuer absetzen. Wenn du uns deine Adresse schickst,  bekommst du eine entsprechende Quittung von uns. Wenn du eine größere Spende (über 5.000 €) tätigen oder dich nur bei Erreichen einer Mindestspendenhöhe beteiligen möchtest, wende dich bitte direkt an xHain-Gründer Felix [felix[ätt]x-hain.de].
+Deine Spende kannst du von der Steuer absetzen. Wenn du uns deine Adresse schickst,  bekommst du eine entsprechende Quittung von uns. Wenn du eine größere Spende (über 5.000 €) tätigen oder dich nur bei Erreichen einer Mindestspendenhöhe beteiligen möchtest, wende dich bitte an info[ätt]x-hain.de.
+Wenn ihr Kontaktdaten in den Verwendungszweck schreibt, stellen wir auch eine Spendenbescheinigung aus.

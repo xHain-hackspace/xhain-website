@@ -26,4 +26,5 @@ Please help us keep xHain alive, so we can continue to provide a safe place for 
 - **IBAN**: DE72 4306 0967 1050 8465 00
 - **BIC**: GENODEM1GLS
 
-If you would like to make a donation of more than 5000 €, or if you would like to make a donation after a minimum threshold amount has already been donated, please contact felix[at]x-hain.de.
+If you would like to make a donation of more than 5000 €, or if you would like to make a donation after a minimum threshold amount has already been donated, please contact info[at]x-hain.de.
+If you write contact information in the payment reference, we will also issue a donation receipt.

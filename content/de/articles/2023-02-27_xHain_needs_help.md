@@ -38,5 +38,4 @@ Eine richtige Spendenkampagne ist gerade in Arbeit, aber du kannst uns jetzt sch
     BIC: GENODEM1GLS
 
 
-Deine Spende kannst du von der Steuer absetzen. Wenn du uns deine Adresse schickst,  bekommst du eine entsprechende Quittung von uns. Wenn du eine größere Spende (über 5.000 €) tätigen oder dich nur bei Erreichen einer Mindestspendenhöhe beteiligen möchtest, wende dich bitte direkt an xHain-Gründer Felix [felix[ätt]x-hain.de].
-
+Deine Spende kannst du von der Steuer absetzen. Wenn du uns deine Adresse schickst,  bekommst du eine entsprechende Quittung von uns. Wenn du eine größere Spende (über 5.000 €) tätigen oder dich nur bei Erreichen einer Mindestspendenhöhe beteiligen möchtest, wende dich bitte an info[ätt]x-hain.de.

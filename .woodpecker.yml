@@ -52,3 +52,5 @@ pipeline:
     when:
       event: [push, tag, deployment]
       branch: [staging]
+branches: [main, staging]
+
