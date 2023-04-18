@@ -29,7 +29,7 @@ Für eure Projekte gib es die folgenden Arbeitsbereiche und Ausstattung:
 
 ![](/images/space-map.png)
 
-Die Arbeitsbereiche und deren Werkeuge sind farblich markiert. Manche Geräte erfordern eine Sicherheitseinweisung durch eine authorisierte Person. Im Wiki findet ihr einen genaueren <a href="https://wiki.x-hain.de/de/xHain/rooms-and-equipment" target="_blank">Überblick über unsere Arbeitsbereiche und Geräte</a>.
+Die Arbeitsbereiche und deren Werkeuge sind farblich markiert. Manche Geräte erfordern eine Sicherheitseinweisung durch eine authorisierte Person. Im Wiki findet ihr einen genaueren <a href="https://wiki.x-hain.de/de/Rooms_and_Equipment/rooms-and-equipment" target="_blank">Überblick über unsere Arbeitsbereiche und Geräte</a>.
 
 ## Veranstaltungen
 
