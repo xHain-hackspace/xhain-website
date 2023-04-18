@@ -57,7 +57,7 @@ pipeline:
     commands:
       - hugo version
       - git submodule update --init --recursive
-      - hugo -d public_html --config config.toml,home.toml --cleanDestinationDir --baseURL '/'
+      - hugo -d public_html --config config.toml,home.toml --cleanDestinationDir --baseURL http://*.surge.sh
     when:
       event: pull_request
   preview:
