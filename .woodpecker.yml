@@ -52,5 +52,18 @@ pipeline:
     when:
       event: [push, tag, deployment]
       branch: [staging]
+  preview:
+    image: woodpeckerci/plugin-surge-preview:next
+    settings:
+      path: ./public
+      surge_token:
+        from_secret: SURGE_TOKEN
+      forge_type: github
+      forge_url: https://github.com
+      forge_repo_token:
+        from_secret: GITHUB_TOKEN
+    when:
+      event: pull_request
+    
 branches: [main, staging]
 
