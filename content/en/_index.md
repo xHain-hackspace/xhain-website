@@ -13,6 +13,10 @@ draft: false
 
 Come by, take a look and join in! **Every Monday from 6pm until late at night in Grünberger Str. 16** in Berlin.
 
+## Events
+
+Most of our events are open to non-members. Just check our [calendar](/en/calendar) to see what's going on and might be interesting to you.
+
 <br clear="all">
 
 <div id="map"><noscript><img src="/images/location-map.jpg" alt="Map showing the location of the xHain space in Grünberger Str. 16, Berlin" /></noscript></div>
