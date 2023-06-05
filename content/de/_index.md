@@ -13,6 +13,10 @@ draft: false
 
 Komm vorbei, schnupper rein und mach mit! Immer **Montags ab 18 Uhr bis in die Nacht in der Grünberger Str. 16** in Berlin. 
 
+## Veranstaltungen
+
+Ein Großteil unserer Veranstaltungen ist für Nicht-Mitglieder offen. Schau einfach im [Veranstaltungskalender](/de/calendar), was gerade los ist und dich interessiert.
+
 <br clear="all">
 
 <div id="map"><noscript><img src="/images/location-map.jpg" alt="Karte die den xHain anzeigt in der Grünberger Str. 16, Berlin" /></noscript></div>
