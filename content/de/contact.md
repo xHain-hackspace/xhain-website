@@ -11,11 +11,12 @@ Geschäftsführer: Felix Just\
 Grünberger Str. 16\
 10243 Berlin
 
-## Email
+## E-Mail
 
 [info@x-hain.de](mailto:info@x-hain.de)
 
 ## Telefon
+Achtung! Wir haben selten einen aktiven Telefondienst im hackspace, der Anrufbeantworter wird regelmäßig abgehört - aber wir bevorzugen stark den Kontakt via [E-Mail](mailto:info@x-hain.de) oder im besten Fall kommt ihr zu uns in den [Chat](https://chat.x-hain.de/).
 
 +49 30-57714272
 
