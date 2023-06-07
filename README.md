@@ -9,7 +9,7 @@ Production: https://www.x-hain.de  [![status-badge](https://ci.x-hain.de/api/bad
 ## Install Hugo
 
 ### Mac OS
-* Install brew (for installing the rest): ``/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"``
+* Install brew (for installing the rest): ``/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"``
 * Install go: ``brew install go``
 * Install hugo: ``brew install hugo``
 
