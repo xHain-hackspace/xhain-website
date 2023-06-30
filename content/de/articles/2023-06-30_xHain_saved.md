@@ -10,8 +10,6 @@ tags:
 - xhain
 type: blog
 ---
-
-# Fantastische Neuigkeiten
     
 Wir können mit dem xHain in der Grünberger Straße 16 in Berlin-Friedrichshain bleiben!
 
