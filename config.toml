@@ -19,7 +19,7 @@ paginate = 6
   email = "info@x-hain.de"
   latitude = "52.512815"
   longitude = "13.4493919"
-  og_image = "images/hero.jpg"
+  og_image = "/images/hero.jpg"
 
 [Permalinks]
     articles = "/blog/:year/:month/:day/:title/"
