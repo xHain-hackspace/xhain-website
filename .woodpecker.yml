@@ -52,5 +52,26 @@ pipeline:
     when:
       event: [push, tag, deployment]
       branch: [staging]
+  build-preview:
+    image: jojomi/hugo:0.83
+    commands:
+      - hugo version
+      - git submodule update --init --recursive
+      - hugo -d public_html --config config.toml,home.toml --cleanDestinationDir
+    when:
+      event: pull_request
+  preview:
+    image: woodpeckerci/plugin-surge-preview:next
+    settings:
+      path: ./public_html
+      surge_token:
+        from_secret: SURGE_TOKEN
+      forge_type: github
+      forge_url: https://github.com
+      forge_repo_token:
+        from_secret: GITHUB_TOKEN
+    when:
+      event: pull_request
+    
 branches: [main, staging]
 
