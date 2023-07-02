@@ -25,9 +25,15 @@
 
   <!-- Facebook OpenGraph tags -->
   <meta property="og:title" content="{{ .Title }}" />
+  {{ if .Description }}
+  <meta name="og:description" content="{{ .Description }}" />
+  {{ else if .Site.Params.DefaultDescription }}
+  <meta name="description" content="{{ .Site.Params.DefaultDescription }}" />
+  {{ end }}
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ .Permalink }}" />
   <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.og_image }}" />
+  
   <noscript>
     <style>
       #main-navigation .mobile {
