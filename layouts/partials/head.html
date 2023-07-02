@@ -28,7 +28,7 @@
   {{ if .Description }}
   <meta name="og:description" content="{{ .Description }}" />
   {{ else if .Site.Params.DefaultDescription }}
-  <meta name="description" content="{{ .Site.Params.DefaultDescription }}" />
+  <meta name="og:description" content="{{ .Site.Params.DefaultDescription }}" />
   {{ end }}
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ .Permalink }}" />
