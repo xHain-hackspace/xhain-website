@@ -30,7 +30,7 @@
         <ul>
           {{- $currentPage := . -}} {{ range .Site.Menus.social -}}
           <li class="">
-            <a href="{{ .URL | absLangURL }}" target="blank" class="">
+            <a href="{{ .URL | absLangURL }}" target="blank" rel="me" class="">
               {{ .Name }}
             </a>
           </li>
