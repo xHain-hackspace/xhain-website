@@ -15,10 +15,10 @@ paginate = 6
 [params]
   author = "xHain hack+makespace"
   defaultKeywords = ["hackspace", "makerspace", "xhain"]
-  defaultDescription = "Hack- & Makespace im Herzen von Friedrichshain, Bastelstube für Technikinteressierte + Raum für Netzpolitisches"
   email = "info@x-hain.de"
   latitude = "52.512815"
   longitude = "13.4493919"
+  og_image = "/images/hero.jpg"
 
 [Permalinks]
     articles = "/blog/:year/:month/:day/:title/"
@@ -42,12 +42,14 @@ weight = 1
 languageName = "Deutsch"
 contentDir = "content/de"
 title = "xHain hack+makespace"
+defaultDescription = "Hack- & Makespace im Herzen von Friedrichshain, Bastelstube für Technikinteressierte + Raum für Netzpolitisches"
 
 [languages.en]
 weight = 2
 languageName = "English"
 contentDir = "content/en"
 title = "xHain hack+makespace"
+defaultDescription = "Hack- & Makespace in the heart of Friedrichshain, tinkering room for people interested in technology + space for net politics."
 
 [languages.de.params.info]
 title = "Mehr informationen"
