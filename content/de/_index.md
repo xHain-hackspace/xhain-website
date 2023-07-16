@@ -31,11 +31,11 @@ Ob Hacker:in, Maker:in oder einfach nur neugierig, ihr seid im xHain willkommen!
 
 **Wir möchten das sich im xHain alle wohl fühlen!**
 
-<a href="https://wiki.x-hain.de/de/xHain/xRoots" target="_blank"><img alt="xRoots symbol" src="/images/logo/xroots.png" style="float: left; padding: 10px 20px 0 0; width: 100px; height: auto;" /></a>
+<a href="https://wiki.x-hain.de/de/xHain/xRoots"><img alt="xRoots symbol" src="/images/logo/xroots.png" style="float: left; padding: 10px 20px 0 0; width: 100px; height: auto;" /></a>
 
-Unsere <a href="https://wiki.x-hain.de/de/xHain/xRoots" target="_blank">xRoots Mentor:innen</a> sind für euch da: Wir erleichtern euch den Einstieg, zeigen euch den xHain und beantworten eure Fragen. Wenn ihr besondere Bedürfnisse oder Anliegen habt, dann kümmern wir uns darum. Halte einfach Montags nach Menschen mit dem xRoots Logo/Badge Ausschau oder sprich uns im <a href="https://chat.x-hain.de" target="_blank">Chat</a> an.
+Unsere <a href="https://wiki.x-hain.de/de/xHain/xRoots">xRoots Mentor:innen</a> sind für euch da: Wir erleichtern euch den Einstieg, zeigen euch den xHain und beantworten eure Fragen. Wenn ihr besondere Bedürfnisse oder Anliegen habt, dann kümmern wir uns darum. Halte einfach Montags nach Menschen mit dem xRoots Logo/Badge Ausschau oder sprich uns im <a href="https://chat.x-hain.de">Chat</a> an.
 
-Der xHain ist ein rauchfreier Ort. Wer rauchen will, kann das draußen tun. Wer ein Arschloch ist, z.B. sexistisch, rassistisch, oder homophob, braucht nicht zu kommen. Lest bitte und beachtet unsere <a href="https://wiki.x-hain.de/de/xHain/spacerules" target="_blank">Space-Regeln</a>. 
+Der xHain ist ein rauchfreier Ort. Wer rauchen will, kann das draußen tun. Wer ein Arschloch ist, z.B. sexistisch, rassistisch, oder homophob, braucht nicht zu kommen. Lest bitte und beachtet unsere <a href="https://wiki.x-hain.de/de/xHain/spacerules">Space-Regeln</a>. 
 
 ## Der Space
 
