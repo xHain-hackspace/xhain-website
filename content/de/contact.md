@@ -7,7 +7,7 @@ draft: false
 ## Anschrift
 
 xHain hack+makespace gemeinnützige UG (haftungsbeschränkt)\
-Geschäftsführer: Felix Just\
+Geschäftsführer: Björn Reimer\
 Grünberger Str. 16\
 10243 Berlin
 
