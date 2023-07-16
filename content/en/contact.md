@@ -7,7 +7,7 @@ draft: false
 ## Address
 
 xHain hack+makespace gUG (nonprofit, limited)\
-Responsible: Felix Just\
+Responsible: Björn Reimer\
 Grünberger Str. 16\
 10243 Berlin\
 Germany
