@@ -6,7 +6,7 @@
         <ul>
           {{- $currentPage := . -}} {{ range .Site.Menus.tools -}}
           <li class="">
-            <a href="{{ .URL | absLangURL }}" target="blank" class="">
+            <a href="{{ .URL | absLangURL }}" class="">
               {{ .Name }}
             </a>
           </li>
@@ -30,7 +30,7 @@
         <ul>
           {{- $currentPage := . -}} {{ range .Site.Menus.social -}}
           <li class="">
-            <a href="{{ .URL | absLangURL }}" target="blank" rel="me" class="">
+            <a href="{{ .URL | absLangURL }}" rel="me" class="">
               {{ .Name }}
             </a>
           </li>
