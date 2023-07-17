@@ -9,7 +9,7 @@
         <button class="image-attribution-button" title="Toggle attribution" aria-label="Toggle attribution" aria-pressed="false"></button>
         <div class="image-attribution-inner" role="list">
           {{ if .Params.image_url }}
-          <a href="{{ .Params.image_url }}" target="_blank">
+          <a href="{{ .Params.image_url }}">
           {{ end }}
             {{ .Params.image_reference }}
           {{ if .Params.image_url }}

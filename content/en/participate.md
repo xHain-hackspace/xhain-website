@@ -4,12 +4,12 @@ date: 2021-06-15
 draft: false
 ---
 
-You are always welcome to drop by, but we don't have regular opening hours except for Monday evening. Many active members have a key themselves. If the space is just open or events are announced, every person is always welcome. Feel free to ask in the <a href="https://chat.x-hain.de" target="_blank">chat</a>, when someone is at xHain.
+You are always welcome to drop by, but we don't have regular opening hours except for Monday evening. Many active members have a key themselves. If the space is just open or events are announced, every person is always welcome. Feel free to ask in the <a href="https://chat.x-hain.de">chat</a>, when someone is at xHain.
 xHain sees itself as a do-ocracy and thrives from the commitment and ideas of the members. This means that members independently select and execute their projects.
 
 ## Become a member
 
-Members are the heart of our space. Typically, members donate €13.37 or more per month and are most active in the use of equipment and tools, as well as the design of xHain. See our wiki for <a href="https://wiki.x-hain.de/de/HowTo_xhain/members" target="_blank">more details about membership</a>.
+Members are the heart of our space. Typically, members donate €13.37 or more per month and are most active in the use of equipment and tools, as well as the design of xHain. See our wiki for <a href="https://wiki.x-hain.de/de/HowTo_xhain/members">more details about membership</a>.
 
 You can <a href="https://login.x-hain.de/if/flow/xhain-member-enrollment/">register here</a> to become a member. You will receive a mail with all further details.
 
@@ -29,7 +29,7 @@ For your projects there are the following work areas and equipment:
 
 ![](/images/space-map.png)
 
-The work areas and their tools are marked in color. Some devices require a safety briefing by an authorized person. In our wiki you will find a more <a href="https://wiki.x-hain.de/en/Branches" target="_blank">detailed overview of our work areas and devices</a>.
+The work areas and their tools are marked in color. Some devices require a safety briefing by an authorized person. In our wiki you will find a more <a href="https://wiki.x-hain.de/en/Branches">detailed overview of our work areas and devices</a>.
 
 ## Events
 
