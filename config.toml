@@ -169,8 +169,8 @@ title = "Find us elsewhere"
 
 [[languages.de.menu.social]]
   weight = 4
-  identifier = "twitter"
-  name = "Twitter"
+  identifier = "x"
+  name = "X"
   url = "https://twitter.com/xHain_hackspace"
 
 [[languages.de.menu.social]]
@@ -199,8 +199,8 @@ title = "Find us elsewhere"
 
 [[languages.en.menu.social]]
   weight = 4
-  identifier = "twitter"
-  name = "Twitter"
+  identifier = "x"
+  name = "X"
   url = "https://twitter.com/xHain_hackspace"
 
 [[languages.en.menu.social]]
