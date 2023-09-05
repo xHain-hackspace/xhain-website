@@ -1,5 +1,5 @@
 ---
-title: Gespräch auf der Lichtung im September und Oktober 2023
+title: Gespräch unter Bäumen im September und Oktober 2023
 image: /images/articles/gespraechunterbaeumen.jpg
 image_reference: ""
 date: 2023-09-05
