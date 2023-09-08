@@ -24,7 +24,7 @@ paginate = 6
     articles = "/blog/:year/:month/:day/:title/"
 
 [outputs]
-  home = ["HTML"]
+  home = ["HTML", "RSS"]
   page = ["HTML"]
   section = ["HTML"]
   taxonomy = ["HTML"]
