@@ -74,16 +74,22 @@ title = "Find us elsewhere"
 ###### MAIN MENU ######
 
 [[languages.de.menu.main]]
-  weight = 4
+  weight = 5
   identifier = "support"
   name = "Unterstützen"
   url = "/support"
 
 [[languages.de.menu.main]]
-  weight = 3
+  weight = 4
   identifier = "participate"
   name = "Mitmachen"
   url = "/participate"
+
+[[languages.de.menu.main]]
+  weight = 3
+  identifier = "calendar"
+  name = "Kalender"
+  url = "/calendar"
 
 [[languages.de.menu.main]]
   weight = 2
@@ -102,6 +108,12 @@ title = "Find us elsewhere"
   identifier = "participate"
   name = "Participate"
   url = "/participate"
+
+[[languages.en.menu.main]]
+  weight = 3
+  identifier = "calendar"
+  name = "Calendar"
+  url = "/calendar"
 
 [[languages.en.menu.main]]
   weight = 2
