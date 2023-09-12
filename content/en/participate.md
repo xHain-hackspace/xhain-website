@@ -9,7 +9,7 @@ xHain sees itself as a do-ocracy and thrives from the commitment and ideas of th
 
 ## Become a member
 
-Members are the heart of our space. Typically, members donate €13.37 or more per month and are most active in the use of equipment and tools, as well as the design of xHain. See our wiki for <a href="https://wiki.x-hain.de/de/HowTo_xhain/members">more details about membership</a>.
+Members are the heart of our space. Typically, members donate €13.37 or more per month and are most active in the use of equipment and tools, as well as the design of xHain. See our wiki for <a href="https://wiki.x-hain.de/en/about-xhain/getting-started#become-a-member">more details about membership</a>.
 
 You can <a href="https://login.x-hain.de/if/flow/xhain-member-enrollment/">register here</a> to become a member. You will receive a mail with all further details.
 
