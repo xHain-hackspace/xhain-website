@@ -13,19 +13,12 @@ xHain has an open culture encouraging cooperation and providing inspiration. We 
 
 Amongst our diverse activities are "Gespräch unter Bäumen" - a series of women-led talks and discussions. Some of the many past highlights include our participation in large events, such as hosting stages for the Remote Chaos Experience during the pandemic, displaying our beautiful LED installations at live Chaos Computer Club events before the pandemic, and many contributions by individual xHain members at events large and small throughout Germany and the world. xHain is an important part of the Comenius neighborhood as an inclusive space for anyone who wants to discover and exchange ideas.
 
-## We need help
-The owners of the commercial space that xHain is renting have informed us that they want to sell. They have offered us the opportunity to buy our space for a fair price, before placing it on the open market. If someone else would buy the space, we fear that the new owner would either drastically increase the rent or possibly evict us, while buying the space gives a lot of opportunities.
-
-For more current updates on this topic, please see our [blog](https://x-hain.de/en/blog/).
-
-
-## That's why we need your support!
-Please help us keep xHain alive, so we can continue to provide a safe place for many creative people to craft, hack, discuss, invent, and create great things. A real fundraising campaign is in the works, but you can already support us by making a transfer to the following account:
+## Donations
+You are welcome to support us with one-time donations to the following account, so we can continue to provide a safe place for many creative people to craft, hack, discuss, invent, and create great things:
 
 - **Account holder**: xHain hack+makespace gemeinnützige UG (haftungsbeschränkt)
 - **Bank**: GLS Bank
 - **IBAN**: DE72 4306 0967 1050 8465 00
 - **BIC**: GENODEM1GLS
 
-If you would like to make a donation of more than 5000 €, or if you would like to make a donation after a minimum threshold amount has already been donated, please contact info[at]x-hain.de.
 If you write contact information in the payment reference, we will also issue a donation receipt.
