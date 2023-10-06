@@ -79,7 +79,7 @@ title = "Find us elsewhere"
   weight = 1
   identifier = "about"
   name = "Vorbeikommen"
-  url = "/#about"
+  url = "/#content"
 
 [[languages.de.menu.main]]
   weight = 2
@@ -98,7 +98,7 @@ title = "Find us elsewhere"
   weight = 1
   identifier = "about"
   name = "Drop by"
-  url = "/#about"
+  url = "/#content"
 
 [[languages.en.menu.main]]
   weight = 2
