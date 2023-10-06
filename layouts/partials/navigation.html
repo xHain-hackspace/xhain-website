@@ -10,7 +10,7 @@
             </li>
         {{- end }}
         <li class="calendar-link">
-            <a href="/{{ .Site.LanguageCode }}/calendar#content">{{ .Site.Params.calendarName }}</a>
+            <a href="/{{ .Permalink }}calendar#content">{{ .Site.Params.calendarName }}</a>
         </li>
         {{ partial "languageswitch.html" . }}
     </ul>
