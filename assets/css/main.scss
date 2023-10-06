@@ -128,9 +128,9 @@ nav ul {
   color: $font-color;
 }
 
-li.language-switch {
+li.language-switch, li.calendar-link {
   border-top: 1px solid $secondary-color;
-  padding: 5px 0 0 0;
+  padding: 10px 0 0 0;
   margin-top: 10px;
 }
 
