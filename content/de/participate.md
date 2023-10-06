@@ -23,7 +23,7 @@ Für eure Projekte gib es die folgenden Arbeitsbereiche und Ausstattung:
 - **Audio-Video-Equipment** mit Kameras, Mikrofonen, Mischpulten und Setup zum Streaming in das Internet.
 - **Elektronik** mit Lötstationen und Reflow-Ofen.
 - **Hobelhöhle** mit Geräten und Werkzeugen zur Holzarbeit und Schweißen.
-- **Maschienenraum** mit Lasercutter, Plotter, Lasermikroskop.
+- **Maschinenraum** mit Lasercutter, Plotter, Lasermikroskop.
 - **Textiles** mit Nähmaschinen, Overlock und Stickmaschine.
 - **Werkzeuge** aller Art gibt es in den jeweiligen Arbeitsbereichen.
 
