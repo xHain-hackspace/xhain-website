@@ -27,8 +27,6 @@ Ein Großteil unserer Veranstaltungen ist für Nicht-Mitglieder offen. Schau ein
 
 Ob Hacker:in, Maker:in oder einfach nur neugierig, ihr seid im xHain willkommen! Es ist nicht wichtig, wieviel Erfahrung ihr mitbringt, ob ihr Schüler:in, Senior:in oder irgendwas dazwischen seid, sondern ob ihr euch für Themen wie Coding, Elektronik & Löten, Holzarbeiten, Lasercutting, CNC-Fräsen, 3D-Drucken, Textilien & Nähen usw. interessiert.
 
-{{< memberbutton "de" >}}
-
 **Wir möchten das sich im xHain alle wohl fühlen!**
 
 <a href="https://wiki.x-hain.de/en/about-xhain/xRoots"><img alt="xRoots symbol" src="/images/logo/xroots.png" style="float: left; padding: 10px 20px 0 0; width: 100px; height: auto;" /></a>
@@ -43,10 +41,6 @@ Der xHain ist ein rauchfreier Ort. Wer rauchen will, kann das draußen tun. Wer 
 ![](/images/space-map.png)
 
 Finde heraus was man im xHain alles tun kann unter [mitmachen](/de/participate).
-
-## Veranstaltungen
-
-Informiere dich in unserem <a href="/de/calendar">Kalender</a> über anstehende Veranstaltungen.
 
 ## Barrieren
 
