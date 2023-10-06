@@ -6,9 +6,12 @@
         {{- $currentPage := . -}}
         {{ range .Site.Menus.main -}}
             <li>
-                <a  href="{{ .URL | absLangURL }}#content">{{ .Name }}</a>
+                <a href="{{ .URL | absLangURL }}#content">{{ .Name }}</a>
             </li>
         {{- end }}
+        <li class="calendar-link">
+            <a href="/{{ .Site.LanguageCode }}/calendar#content">{{ .Site.Params.calendarName }}</a>
+        </li>
         {{ partial "languageswitch.html" . }}
     </ul>
 </nav>

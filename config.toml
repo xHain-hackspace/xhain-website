@@ -40,6 +40,7 @@ paginate = 6
 [languages.de]
 weight = 1
 languageName = "Deutsch"
+calendarName = "Kalender"
 contentDir = "content/de"
 title = "xHain hack+makespace"
 defaultDescription = "Hack- & Makespace im Herzen von Friedrichshain, Bastelstube für Technikinteressierte + Raum für Netzpolitisches"
@@ -47,6 +48,7 @@ defaultDescription = "Hack- & Makespace im Herzen von Friedrichshain, Bastelstub
 [languages.en]
 weight = 2
 languageName = "English"
+calendarName = "Calendar"
 contentDir = "content/en"
 title = "xHain hack+makespace"
 defaultDescription = "Hack- & Makespace in the heart of Friedrichshain, tinkering room for people interested in technology + space for net politics."
@@ -74,52 +76,41 @@ title = "Find us elsewhere"
 ###### MAIN MENU ######
 
 [[languages.de.menu.main]]
-  weight = 5
-  identifier = "support"
-  name = "Unterstützen"
-  url = "/support"
-
-[[languages.de.menu.main]]
-  weight = 4
-  identifier = "participate"
-  name = "Mitmachen"
-  url = "/participate"
-
-[[languages.de.menu.main]]
-  weight = 3
-  identifier = "calendar"
-  name = "Kalender"
-  url = "/calendar"
-
-[[languages.de.menu.main]]
   weight = 2
   identifier = "about"
   name = "Vorbeikommen"
   url = "/#about"
 
-[[languages.en.menu.main]]
-  weight = 5
-  identifier = "support"
-  name = "Support"
-  url = "/support"
-
-[[languages.en.menu.main]]
-  weight = 4
+[[languages.de.menu.main]]
+  weight = 3
   identifier = "participate"
-  name = "Participate"
+  name = "Mitmachen"
   url = "/participate"
 
-[[languages.en.menu.main]]
-  weight = 3
-  identifier = "calendar"
-  name = "Calendar"
-  url = "/calendar"
+[[languages.de.menu.main]]
+  weight = 4
+  identifier = "support"
+  name = "Unterstützen"
+  url = "/support"
+
 
 [[languages.en.menu.main]]
   weight = 2
   identifier = "about"
   name = "Drop by"
   url = "/#about"
+
+[[languages.en.menu.main]]
+  weight = 3
+  identifier = "participate"
+  name = "Participate"
+  url = "/participate"
+
+[[languages.en.menu.main]]
+  weight = 4
+  identifier = "support"
+  name = "Support"
+  url = "/support"
 
 ###### TOOLS MENU ######
 
