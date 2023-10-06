@@ -171,34 +171,16 @@ title = "Find us elsewhere"
   url = "https://chaos.social/@xHain_hackspace"
 
 [[languages.de.menu.social]]
-  weight = 5
-  identifier = "youtube"
-  name = "Youtube"
-  url = "https://www.youtube.com/channel/UCndtqJj4CxWpn2PDdBE6q8g"
-
-[[languages.de.menu.social]]
   weight = 6
   identifier = "github"
   name = "Github"
   url = "https://github.com/xHain-hackspace/"
-
-[[languages.de.menu.social]]
-  weight = 5
-  identifier = "youtube"
-  name = "Youtube"
-  url = "https://www.youtube.com/channel/UCndtqJj4CxWpn2PDdBE6q8g"
 
 [[languages.en.menu.social]]
   weight = 3
   identifier = "fediverse"
   name = "Fediverse"
   url = "https://chaos.social/@xHain_hackspace"
-
-[[languages.en.menu.social]]
-  weight = 5
-  identifier = "youtube"
-  name = "Youtube"
-  url = "https://www.youtube.com/channel/UCndtqJj4CxWpn2PDdBE6q8g"
 
 [[languages.en.menu.social]]
   weight = 6
