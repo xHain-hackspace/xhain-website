@@ -275,7 +275,7 @@ iframe {
 }
 
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 880px) {
   main {
     margin: 150px 0 60px 0 !important;
   }
@@ -291,11 +291,11 @@ iframe {
       margin-left: 10px;
     }
 
-    .language-switch {
+    .language-switch, .calendar-link {
       border-top: none;
       border-left: 1px solid $secondary-color;
       margin-left: 20px;
-      padding-left: 15px;
+      padding-left: 20px;
     }
   }
 
