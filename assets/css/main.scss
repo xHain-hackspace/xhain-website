@@ -329,7 +329,7 @@ iframe {
   }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 400px) {
   main {
     margin: 105px 0 50px 0;
   }
@@ -343,7 +343,8 @@ iframe {
     height: auto;
     margin-top: 15px;
     padding-left: 50px;
-
+    background-size: 45px 40px;
+    height: 50px;
     a {
       padding: 0;
     }
