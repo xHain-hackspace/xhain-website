@@ -4,5 +4,8 @@
     },
     "m.identity_server": {
         "base_url": "https://login.x-hain.de"
+    },
+    "org.matrix.msc3575.proxy": {
+        "url": "https://sliding.matrix.x-hain.de"
     }
 }
