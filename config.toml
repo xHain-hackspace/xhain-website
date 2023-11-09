@@ -123,8 +123,8 @@ title = "Find us elsewhere"
 [[languages.de.menu.tools]]
   weight = 2
   identifier = "matrix"
-  name = "Chat"
-  url = "https://chat.x-hain.de"
+  name = "Matrix"
+  url = "https://matrix.to/#/#xhain:x-hain.de"
 
 [[languages.de.menu.tools]]
   weight = 3
@@ -141,8 +141,8 @@ title = "Find us elsewhere"
 [[languages.en.menu.tools]]
   weight = 2
   identifier = "matrix"
-  name = "Chat"
-  url = "https://chat.x-hain.de"
+  name = "Matrix"
+  url = "https://matrix.to/#/#xhain:x-hain.de"
 
 [[languages.en.menu.tools]]
   weight = 3
