@@ -4,3 +4,5 @@ resources/
 .vscode
 .DS_Store
 .hugo_build.lock
+content/de/calendar.md
+content/en/calendar.md
