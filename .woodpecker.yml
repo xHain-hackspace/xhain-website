@@ -6,7 +6,7 @@ steps:
       - git submodule update --init --recursive
       - hugo -d public_html --config config.toml,home.toml --cleanDestinationDir
     when:
-      event: [push, tag, deployment]
+      event: [push, tag, deployment, cron]
       branch: [main]
 
   build-staging:
@@ -16,8 +16,7 @@ steps:
       - git submodule update --init --recursive
       - hugo -d public_html --config config.toml,home.toml --cleanDestinationDir --baseURL https://staging.x-hain.de
     when:
-      event: [push, tag, deployment, cron]
-      cron: "nightly"
+      event: [push, tag, deployment]
       branch: [staging]
 
   deploy:
@@ -35,7 +34,6 @@ steps:
         from_secret: SSH_PRIVATE_KEY
     when:
       event: [push, tag, deployment, cron]
-      cron: "nightly"
       branch: [main]
 
   deploy_staging:
