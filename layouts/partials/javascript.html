@@ -1,8 +1,6 @@
 <script src="/js/jquery-3.6.0.min.js"></script>
 <script src="/js/maplibre-gl.js"></script>
 {{ $javascript := resources.Get "js/main.js" | js.Build | minify | fingerprint }}
-<script
-  type="text/javascript"
-  src="{{ $javascript.RelPermalink }}"
-  defer
-></script>
+{{ $javascript := resources.Get "js/calendar.js" | js.Build | minify | fingerprint }}
+
+<script type="text/javascript" src="{{ $javascript.RelPermalink }}" defer></script>

@@ -1,0 +1,54 @@
+---
+title: Kalender
+date: {{.Now.Format "2006-01-02"}}
+draft: false
+---
+
+{{index .HtmlWrapper 0}}
+<div id="xhain_calendar">
+    {{range $year, $months := .Events}}
+    {{range $month, $daysData := $months}}
+    <div class="month_wrapper">
+        <div class="year">{{$year}}</div>
+        <div class="month">{{$month | monthName}}</div>
+    </div>
+    {{range $day, $dayData := $daysData}}
+    <div class="day" id="{{.Date.Format "2006-01-02"}}">
+        <div class="day_title">
+            <span class="monthday">{{$day}}</span>
+            <span class="weekday">{{.Weekday | weekdayShort}}</span>
+        </div>
+        {{range $dayData.Events}}
+        <div class="event {{if .Description}}with-description{{end}}">
+            <div class="time">
+                <span class="start">{{.Start.Format "15:04"}}</span>
+                <span class="end"> - {{.End.Format "15:04"}}</span>
+            </div>
+            <span class="title">{{.Summary}}</span>
+            <span class="location">{{.Location}}</span>
+            <div class="description">{{.Description}}</div>
+        </div>
+        {{else}}
+            <div class="no-event"></div>
+            {{end}}
+    </div>
+    {{end}}
+    {{end}}
+    {{end}}
+
+    <div id="overlay">
+        <div id="event_modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div id="info_date_time"></div>
+                <div id="info_location"></div>
+                <div id="info_title"></div>
+                <div id="info_description"></div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+{{index .HtmlWrapper 1}}
