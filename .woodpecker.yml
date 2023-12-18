@@ -1,4 +1,4 @@
-pipeline:
+steps:
   build:
     image: jojomi/hugo:0.83
     commands:
@@ -16,7 +16,8 @@ pipeline:
       - git submodule update --init --recursive
       - hugo -d public_html --config config.toml,home.toml --cleanDestinationDir --baseURL https://staging.x-hain.de
     when:
-      event: [push, tag, deployment]
+      event: [push, tag, deployment, cron]
+      cron: "nightly"
       branch: [staging]
 
   deploy:
@@ -33,7 +34,8 @@ pipeline:
       key:
         from_secret: SSH_PRIVATE_KEY
     when:
-      event: [push, tag, deployment]
+      event: [push, tag, deployment, cron]
+      cron: "nightly"
       branch: [main]
 
   deploy_staging:
@@ -72,6 +74,4 @@ pipeline:
         from_secret: GITHUB_TOKEN
     when:
       event: pull_request
-    
 branches: [main, staging]
-
