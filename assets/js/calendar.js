@@ -9,14 +9,6 @@ document.addEventListener("DOMContentLoaded", function() {
 function getCurrentDateInfo() {
 
     var today = new Date()
-
-    // Timezone handling
-    var berlinOffset = 60;
-    if (today.getMonth() > 2 && today.getMonth() < 9) {
-        berlinOffset = 120;
-    }
-    today = new Date(today.getTime() + berlinOffset * 60000)
-
     return {
         dateString: today.toISOString().split('T')[0],
         currentTime: formatTime(today.getHours(), today.getMinutes())

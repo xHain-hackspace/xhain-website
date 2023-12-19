@@ -98,6 +98,14 @@
                 .title {
                     font-weight: bold;
                 }
+                &:hover {
+                    color: $base-color;
+                }
+                &:focus {
+                    opacity: 1;
+                    background-color: rgba(0, 0, 0, 0.5);
+                    color: $link-color;
+                }
             }
 
             cursor: pointer;
