@@ -100,26 +100,10 @@
                 }
             }
 
-            &.with-description {
-                position: relative;
+            cursor: pointer;
 
-                &::after {
-                    content: '...';
-                    display: block;
-                    position: absolute;
-                    right: 0;
-                    top: 50%;
-                    transform: translate(0, -50%) rotate(90deg);
-                    font-size: 2rem;
-                }
-
-                &.clickable {
-                    cursor: pointer;
-
-                    &:hover {
-                        color: $link-color;
-                    }
-                }
+            &:hover {
+                color: $link-color;
             }
         }
     }

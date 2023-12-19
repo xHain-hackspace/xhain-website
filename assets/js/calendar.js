@@ -73,11 +73,10 @@ function setupModal() {
     });
 
     // Setup for opening the modal
-    document.querySelectorAll('.event.with-description').forEach(function(eventElement) {
+    document.querySelectorAll('.event').forEach(function(eventElement) {
         eventElement.addEventListener('click', function() {
             openModal(eventElement);
         });
-        eventElement.classList.add('clickable');
     });
 
     // Setup for closing the modal with the close button

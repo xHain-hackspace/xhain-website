@@ -19,7 +19,7 @@ draft: false
             <span class="weekday">{{.Weekday | weekdayShort}}</span>
         </div>
         {{range $dayData.Events}}
-        <div class="event {{if .Description}}with-description{{end}}" data-start-time="{{.Start.Format "15:04"}}" data-end-time="{{.End.Format "15:04"}}">
+        <div class="event" data-start-time="{{.Start.Format "15:04"}}" data-end-time="{{.End.Format "15:04"}}">
             <div class="time">
                 <span class="start">{{.Start.Format "15:04"}}</span>
                 <span class="end"> - {{.End.Format "15:04"}}</span>
