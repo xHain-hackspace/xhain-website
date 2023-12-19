@@ -7,35 +7,46 @@ var imageAttributionInner = document.querySelector(".image-attribution-inner");
 
 // Function to toggle class based on condition
 function toggleClass(element, className, condition) {
-    element.classList.toggle(className, condition);
+    if (element) {
+        element.classList.toggle(className, condition);
+    }
 }
 
 // Handle scroll for frontpage header
 window.addEventListener('scroll', function() {
     var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-    toggleClass(frontpageHeader, "semi-transparent", scrollTop <= window.innerHeight - 107);
+    if (frontpageHeader) {
+        toggleClass(frontpageHeader, "semi-transparent", scrollTop <= window.innerHeight - 107);
+    }
 });
 
 // Initialize elements on DOMContentLoaded
 document.addEventListener('DOMContentLoaded', function() {
     // Toggle navigation for mobile view
-    mobileNav.addEventListener('click', function() {
-        desktopNav.style.display = desktopNav.style.display === 'block' ? 'none' : 'block';
-    });
+    if (mobileNav) {
+        mobileNav.addEventListener('click', function() {
+            desktopNav.style.display = desktopNav.style.display === 'block' ? 'none' : 'block';
+        });
+    }
 
-    desktopNav.addEventListener('click', function() {
-        if (window.innerWidth < 620) {
-            desktopNav.style.display = 'none';
-        }
-    });
+    if (desktopNav) {
+        desktopNav.addEventListener('click', function() {
+            if (window.innerWidth < 620) {
+                desktopNav.style.display = 'none';
+            }
+        });
+    }
 
     // Set initial class for frontpage header
-    toggleClass(frontpageHeader, "semi-transparent", window.pageYOffset < window.innerHeight - 107);
-
+    if (frontpageHeader) {
+        toggleClass(frontpageHeader, "semi-transparent", window.pageYOffset < window.innerHeight - 107);
+    }
     // Toggle image attribution
-    imageAttributionButton.addEventListener('click', function() {
-        imageAttributionInner.style.display = imageAttributionInner.style.display === 'block' ? 'none' : 'block';
-    });
+    if (imageAttributionButton) {
+        imageAttributionButton.addEventListener('click', function() {
+            imageAttributionInner.style.display = imageAttributionInner.style.display === 'block' ? 'none' : 'block';
+        });
+    }
 });
 
 var mapDiv = document.getElementById("map");
@@ -51,6 +62,7 @@ if (mapDiv) {
 
     var size = 300;
 
+
     // This implements `StyleImageInterface`
     // to draw a pulsing dot icon on the map.
     var pulsingDot = {
@@ -64,7 +76,11 @@ if (mapDiv) {
             var canvas = document.createElement("canvas");
             canvas.width = this.width;
             canvas.height = this.height;
-            this.context = canvas.getContext("2d");
+
+            // Set willReadFrequently to true for optimized performance
+            this.context = canvas.getContext("2d", {
+                willReadFrequently: true
+            });
         },
 
         // Call once before every frame where the icon will be used.
