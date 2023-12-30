@@ -5,8 +5,8 @@ steps:
       - cd calendar_parse
       - go run .
     when:
-      event: [push, tag, deployment, pull_request]
-      branch: [feature/mrhide_xhaincalendar, staging, main]
+      event: [push, tag, deployment, pull_request, cron]
+      branch: [staging, main]
   build:
     image: eclipsefdn/hugo-node:h0.120.4-n18.18.2
     commands:
