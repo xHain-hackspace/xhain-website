@@ -5,13 +5,13 @@ draft: false
 ---
 
 ## Welcome to xHain
-**Hack- & Makespace in the heart of Friedrichshain, tinkering room for people interested in technology + space for net politics.**
+**Hack- & Makespace in the heart of Friedrichshain, tinkering room for people interested in technology + space for digital politics.**
 
 <br clear="all">
 
 ## Open monday nights
 
-Come by, take a look and join in! **Every Monday from 6pm until late at night in Grünberger Str. 16** in Berlin. For children, we offer one Open Kids Sunday a month. 
+Come by, take a look, and join in! **Every Monday from 6pm until late at night in Grünberger Str. 16** in Berlin. For children, we offer one Open Kids Sunday a month (1pm-6pm, typically towards the end of the month). 
 
 ## Events
 
@@ -44,4 +44,4 @@ Find out what you can do at xHain on the [participate page](/en/participate).
 
 ## Accessibility
 
-People with handicaps and disabilities are welcome! We do not yet have a wheelchair accessible toilet, but at least a mobile ramp and our workbench is wheelchair accessible. We are always open to remove further barriers.
+People with handicaps and disabilities are welcome! We do not yet have a wheelchair-accessible toilet, but at least a mobile ramp and our workbench is wheelchair-accessible. We are always open to remove further barriers.
