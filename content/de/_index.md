@@ -9,9 +9,9 @@ draft: false
 
 <br clear="all">
 
-## Offener Montag Abend
+## Offener Montagabend
 
-Komm vorbei, schnupper rein und mach mit! Immer **Montags ab 18 Uhr bis in die Nacht in der Grünberger Str. 16** in Berlin. 
+Komm vorbei, schnupper rein und mach mit! Immer **Montags ab 18 Uhr bis in die Nacht in der Grünberger Str. 16** in Berlin. Für Kinder gibt es immer an einem Sonntag pro Monat Kindernachmittag, typischerweise gegen Ende des Monats.
 
 ## Veranstaltungen
 
