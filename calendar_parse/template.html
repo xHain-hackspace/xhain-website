@@ -9,30 +9,34 @@ draft: false
     {{range $year, $months := .Events}}
     {{range $month, $daysData := $months}}
     <div class="month_wrapper">
-        <div class="year">{{$year}}</div>
-        <div class="month">{{$month | monthName}}</div>
-    </div>
-    {{range $day, $dayData := $daysData}}
-    <div class="day" id="{{.Date.Format "2006-01-02"}}">
-        <div class="day_title">
-            <span class="monthday">{{$day}}</span>
-            <span class="weekday">{{.Weekday | weekdayShort}}</span>
+        <div class="month_header">
+            <div class="year">{{$year}}</div>
+            <div class="month">{{$month | monthName}}</div>
         </div>
-        {{range $dayData.Events}}
-        <div class="event" data-start-time="{{.Start.Format "15:04"}}" data-end-time="{{.End.Format "15:04"}}">
-            <div class="time">
-                <span class="start">{{.Start.Format "15:04"}}</span>
-                <span class="end"> - {{.End.Format "15:04"}}</span>
+        <div class="days_wrapper">
+            {{range $day, $dayData := $daysData}}
+            <div class="day day-{{.Weekday | weekdayShort}}" {{if not $dayData.Events}}data-empty{{end}} id="{{.Date.Format "2006-01-02"}}">
+                <div class="day_title">
+                    <span class="monthday">{{$day}}</span>
+                    <span class="weekday">{{.Weekday | weekdayShort}}</span>
+                </div>
+                {{range $dayData.Events}}
+                <div class="event" data-start-time="{{.Start.Format "15:04"}}" data-end-time="{{.End.Format "15:04"}}">
+                    <div class="time">
+                        <span class="start">{{.Start.Format "15:04"}}</span>
+                        <span class="end"> - {{.End.Format "15:04"}}</span>
+                    </div>
+                    <span class="title">{{.Summary}}</span>
+                    <span class="location">{{.Location}}</span>
+                    <div class="description">{{.Description}}</div>
+                </div>
+                {{else}}
+                <div class="no-event"></div>
+                {{end}}
             </div>
-            <span class="title">{{.Summary}}</span>
-            <span class="location">{{.Location}}</span>
-            <div class="description">{{.Description}}</div>
-        </div>
-        {{else}}
-            <div class="no-event"></div>
             {{end}}
+        </div>
     </div>
-    {{end}}
     {{end}}
     {{end}}
 
