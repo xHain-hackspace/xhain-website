@@ -3,7 +3,7 @@ title = "xHain ★ hack + make ★ space"
 canonifyurls = true
 languageCode = "en-us"
 defaultContentLanguage = "de"
-DefaultContentLanguageInSubdir = "true"
+DefaultContentLanguageInSubdir = true
 MetaDataFormat = "yaml"
 
 # Define the number of posts per page
