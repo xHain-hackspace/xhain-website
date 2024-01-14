@@ -1,25 +1,19 @@
 steps:
-  parse:
-    image: golang
-    commands:
-      - cd calendar_parse
-      - go run .
-    when:
-      event: [push, tag, deployment, pull_request, cron]
-      branch: [staging, main]
   build:
-    image: eclipsefdn/hugo-node:h0.120.4-n18.18.2
+    image: jojomi/hugo:0.83
     commands:
       - hugo version
+      - git submodule update --init --recursive
       - hugo -d public_html --config config.toml,home.toml --cleanDestinationDir
     when:
       event: [push, tag, deployment, cron]
       branch: [main]
 
   build-staging:
-    image: eclipsefdn/hugo-node:h0.120.4-n18.18.2
+    image: jojomi/hugo:0.83
     commands:
       - hugo version
+      - git submodule update --init --recursive
       - hugo -d public_html --config config.toml,home.toml --cleanDestinationDir --baseURL https://staging.x-hain.de
     when:
       event: [push, tag, deployment]
@@ -59,10 +53,11 @@ steps:
       event: [push, tag, deployment]
       branch: [staging]
   build-preview:
-    image: eclipsefdn/hugo-node:h0.120.4-n18.18.2
+    image: jojomi/hugo:0.83
     commands:
       - hugo version
-      - hugo -d public_html --config config.toml,home.toml --cleanDestinationDir --baseURL /
+      - git submodule update --init --recursive
+      - hugo -d public_html --config config.toml,home.toml --cleanDestinationDir
     when:
       event: pull_request
   preview:
