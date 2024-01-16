@@ -1,5 +1,5 @@
 baseURL = "https://x-hain.de"
-title = "xHain ★ hack + make ★ space"
+title = "xHain hack +makespace"
 canonifyurls = true
 languageCode = "en-us"
 defaultContentLanguage = "de"
@@ -13,7 +13,7 @@ paginate = 6
   post = "/:year/:month/:slug/"
 
 [params]
-  author = "xHain ★ hack + make ★ space"
+  author = "xHain hack +makespace"
   defaultKeywords = ["hackspace", "makerspace", "xhain"]
   email = "info@x-hain.de"
   latitude = "52.512815"
@@ -42,7 +42,7 @@ weight = 1
 languageName = "Deutsch"
 calendarName = "Kalender"
 contentDir = "content/de"
-title = "xHain ★ hack + make ★ space"
+title = "xHain hack +makespace"
 defaultDescription = "Hack- & Makespace im Herzen von Friedrichshain, Bastelstube für Technikinteressierte + Raum für Netzpolitisches"
 
 [languages.en]
@@ -50,7 +50,7 @@ weight = 2
 languageName = "English"
 calendarName = "Calendar"
 contentDir = "content/en"
-title = "xHain ★ hack + make ★ space"
+title = "xHain hack +makespace"
 defaultDescription = "Hack and make space in the heart of Friedrichshain, tinkering room for people interested in technology + space for net politics."
 
 [languages.de.params.info]

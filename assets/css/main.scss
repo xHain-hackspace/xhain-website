@@ -128,13 +128,26 @@ nav ul {
   color: $font-color;
 }
 
-li.language-switch, li.calendar-link {
+li.language-switch,
+li.calendar-link {
   border-top: 1px solid $secondary-color;
   padding: 10px 0 0 0;
   margin-top: 10px;
 }
 
-.logo,
+.logo {
+  font-family: $font-family-common;
+  font-weight: bolder;
+  font-size: 1.4em;
+
+  span {
+    font-size: 0.6em;
+    font-weight: 600;
+    display: block;
+    margin-top: -10px;
+  }
+}
+
 nav {
   font-family: $font-family-brand;
 }
@@ -291,7 +304,8 @@ iframe {
       margin-left: 10px;
     }
 
-    .language-switch, .calendar-link {
+    .language-switch,
+    .calendar-link {
       border-top: none;
       border-left: 1px solid $secondary-color;
       margin-left: 20px;
@@ -339,14 +353,21 @@ iframe {
   }
 
   header .logo {
-    font-size: 12px;
+    font-size: 1em;
     height: auto;
     margin-top: 15px;
     padding-left: 50px;
     background-size: 45px 40px;
     height: 50px;
+
     a {
       padding: 0;
+    }
+
+    span {
+      display: none;
+      // font-size: 9px;
+      // margin-top: -18px;
     }
   }
 

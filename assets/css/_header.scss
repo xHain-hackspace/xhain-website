@@ -16,28 +16,34 @@ header {
     float: left;
     height: 60px;
     background-size: 65px 60px;
+
     a {
       color: #fff;
-      padding: 13px 0;
+      padding: 6px 0;
       display: block;
     }
   }
+
   #main-navigation {
     display: contents;
     margin-top: 2px;
     float: right;
     text-align: right;
+
     ul {
       text-align: right;
     }
+
     .mobile li {
       cursor: pointer;
       display: contents;
     }
+
     .desktop {
       display: none;
     }
   }
+
   nav ul {
     padding: 28px 0 0 0;
   }
