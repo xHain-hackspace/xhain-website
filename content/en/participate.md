@@ -24,12 +24,12 @@ For your projects there are the following work areas and equipment:
 - **Electronics** with soldering stations and reflow oven.
 - **Hobelhöhle** with equipment and tools for woodworking and welding.
 - **Machine room** with laser cutter, plotter, laser microscope.
-- **Textiles** with sewing machines, overlock and embroidery machine.
+- **Textiles** with sewing machines, overlock and knitting machine.
 - **Tools** of all kinds are available in the respective work areas.
 
 ![](/images/space-map.png)
 
-The work areas and their tools are marked in color. Some devices require a safety briefing by an authorized person. In our wiki you will find a more <a href="https://wiki.x-hain.de/en/Branches">detailed overview of our work areas and devices</a>.
+The work areas and their tools are marked in color. All electric devices require a safety briefing by an authorized person. In our wiki you will find a more <a href="https://wiki.x-hain.de/en/Branches">detailed overview of our work areas and devices</a>.
 
 ## Events
 

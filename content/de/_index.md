@@ -9,9 +9,9 @@ draft: false
 
 <br clear="all">
 
-## Offener Montag Abend
+## Offener Montagabend
 
-Komm vorbei, schnupper rein und mach mit! Immer **Montags ab 18 Uhr bis in die Nacht in der Grünberger Str. 16** in Berlin. 
+Komm vorbei, schnupper rein und mach mit! Immer **Montags ab 18 Uhr bis in die Nacht in der Grünberger Str. 16** in Berlin. Für Kinder gibt es immer an einem Sonntag pro Monat Kindernachmittag, typischerweise gegen Ende des Monats.
 
 ## Veranstaltungen
 
@@ -44,4 +44,4 @@ Finde heraus was man im xHain alles tun kann unter [mitmachen](/de/participate).
 
 ## Barrieren
 
-Menschen mit Einschränkungen sind bei uns willkommen! Wir haben noch kein rollstuhlgerechtes WC, aber zumindest eine mobile Rampe und unsere Werkbank ist unterfahrbar für Rollstühle. Wir sind immer offen dafür weitere Barrieren abzubauen.
+Menschen mit Einschränkungen sind bei uns willkommen! Wir haben noch kein rollstuhlgerechtes WC, aber zumindest eine mobile Rampe und unsere Werkbank ist unterfahrbar für Rollstühle. Wir sind immer offen dafür, weitere Barrieren abzubauen.

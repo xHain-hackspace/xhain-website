@@ -4,12 +4,12 @@ date: 2021-06-15
 draft: false
 ---
 
-Eigentlich darf man gerne immer vorbeischauen, allerdings haben wir bis auf Montag Abend keine regulären Öffnungszeiten. Viele aktive Member haben selbst einen Schlüssel. Sofern offen ist, oder Veranstaltungen angekündigt sind, ist jederzeit jede Person willkommen. Fragt auch gerne im <a href="https://chat.x-hain.de">Chat</a>, wann jemand im xHain ist.
+Eigentlich darf man gerne immer vorbeischauen, allerdings haben wir bis auf Montagabend keine regulären Öffnungszeiten. Viele aktive Member haben selbst einen Schlüssel. Sofern offen ist, oder Veranstaltungen angekündigt sind, ist jederzeit jede Person willkommen. Fragt auch gerne im <a href="https://chat.x-hain.de">Chat</a>, wann jemand im xHain ist.
 Der xHain versteht sich als Do-ocracy und lebt vom Engagement und den Ideen der Member. Das heißt, dass Member selbständig ihre Projekte aussuchen und ausführen. 
 
 ## Member werden
 
-Member sind das Herz unseres Spaces. Üblicherweise spenden Member 13,37 € oder mehr im Monat und sind am aktivsten in der Benutzung der Geräte und Werkzeuge, sowie der Gestaltung des xHains. Im Wiki erfährt ihr <a href="https://wiki.x-hain.de/de/HowTo_xhain/members">mehr Details über die Mitgliedschaft</a>.
+Member sind das Herz unseres Spaces. Üblicherweise spenden Member 13,37 € oder mehr im Monat und sind am aktivsten in der Benutzung der Geräte und Werkzeuge, sowie der Gestaltung des xHains. Im Wiki erfahrt ihr <a href="https://wiki.x-hain.de/de/HowTo_xhain/members">mehr Details über die Mitgliedschaft</a>.
 
 Ihr könnt euch <a href="https://login.x-hain.de/if/flow/xhain-member-enrollment/">hier anmelden</a>, um Member zu werden. Ihr bekommt dann eine Mail mit allen weitern Details.
 
@@ -22,14 +22,14 @@ Für eure Projekte gib es die folgenden Arbeitsbereiche und Ausstattung:
 - **3D-Lab** mit verschiedensten 3D-Druckern.
 - **Audio-Video-Equipment** mit Kameras, Mikrofonen, Mischpulten und Setup zum Streaming in das Internet.
 - **Elektronik** mit Lötstationen und Reflow-Ofen.
-- **Hobelhöhle** mit Geräten und Werkzeugen zur Holzarbeit und Schweißen.
-- **Maschinenraum** mit Lasercutter, Plotter, Lasermikroskop.
-- **Textiles** mit Nähmaschinen, Overlock und Stickmaschine.
+- **Hobelhöhle** mit Geräten und Werkzeugen zur Holzarbeit.
+- **Laser-Lab** mit Lasercutter, Plotter, Lasermikroskop.
+- **Nähecke** mit Nähmaschinen, Overlock und Strickmaschine.
 - **Werkzeuge** aller Art gibt es in den jeweiligen Arbeitsbereichen.
 
 ![](/images/space-map.png)
 
-Die Arbeitsbereiche und deren Werkeuge sind farblich markiert. Manche Geräte erfordern eine Sicherheitseinweisung durch eine authorisierte Person. Im Wiki findet ihr einen genaueren <a href="https://wiki.x-hain.de/en/Branches">Überblick über unsere Arbeitsbereiche und Geräte</a>.
+Die Arbeitsbereiche und deren Werkeuge sind farblich markiert. Alle elektrischen Geräte erfordern eine Sicherheitseinweisung durch eine autorisierte Person. Im Wiki findet ihr einen genaueren <a href="https://wiki.x-hain.de/en/Branches">Überblick über unsere Arbeitsbereiche und Geräte</a>.
 
 ## Veranstaltungen
 
