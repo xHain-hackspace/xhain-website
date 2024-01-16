@@ -4,6 +4,10 @@
     border-bottom: 2px solid rgba(89, 89, 89, 0.44);
 
     .month_wrapper {
+        margin-bottom: 1rem;
+    }
+
+    .month_header {
         display: block;
         height: 100%;
         padding: 1.5rem 0;
@@ -35,6 +39,10 @@
             }
         }
 
+        &[data-empty]:not(.current) {
+            display: none;
+        }
+
         .day_title {
             padding: 0.2rem 1rem;
 
@@ -59,6 +67,8 @@
             border-radius: 0.3rem;
             font-size: 0.9rem;
             margin-top: 0.5em;
+            word-break: break-word;
+            hyphens: auto;
 
             .time {
                 font-family: $font-family-brand;
@@ -116,6 +126,26 @@
         }
     }
 
+    // start the days of the week in same day column every month
+    .day-Tue:first-child {
+        grid-column: 2;
+    }
+    .day-Wed:first-child {
+        grid-column: 3;
+    }
+    .day-Thu:first-child {
+        grid-column: 4;
+    }
+    .day-Fri:first-child {
+        grid-column: 5;
+    }
+    .day-Sat:first-child {
+        grid-column: 6;
+    }
+    .day-Sun:first-child {
+        grid-column: 7;
+    }
+
     .modal {
         display: none;
         position: fixed;
@@ -127,7 +157,6 @@
         overflow: auto;
         background-color: rgba(0, 0, 0, 0.4);
         padding-top: 80px;
-
 
         .close {
             color: #000;
@@ -175,6 +204,20 @@
 
             #info_location {
                 margin: 0.5rem 0;
+            }
+        }
+    }
+
+    @media (min-width: 950px) {
+        .days_wrapper {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            grid-gap: 0.5rem;
+        }
+
+        .day {
+            &[data-empty]:not(.current) {
+                display: block;
             }
         }
     }
