@@ -1,7 +1,7 @@
-<button class="button-nav" onclick="window.location.href='https://login.x-hain.de/if/flow/xhain-member-enrollment'">
-  {{ if strings.Contains .Site.Language.Lang "en" }}
-  become a member
-  {{ else }}
-  member werden
-  {{ end }}
-</button>
+<a
+  class="button-nav"
+  href="https://login.x-hain.de/if/flow/xhain-member-enrollment/"
+>
+  {{ if strings.Contains .Site.Language.Lang "en" }} become a member {{ else }}
+  member werden {{ end }}
+</a>
