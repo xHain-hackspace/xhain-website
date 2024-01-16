@@ -9,6 +9,8 @@ draft: false
 
 <br clear="all">
 
+## Swing by
+
 Come by, take a look, and join in! **Every Monday from 6pm until late at night in Grünberger Str. 16** in Berlin. We have an open event for kids every month. It is typically held towards the end of the month and runs from 1 – 6 p.m.
 
 ## Events
