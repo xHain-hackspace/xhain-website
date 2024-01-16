@@ -2,6 +2,7 @@ public/
 public_html/
 resources/
 .vscode
+.editorconfig
 .DS_Store
 .hugo_build.lock
 content/de/calendar.md
