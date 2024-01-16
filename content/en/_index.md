@@ -9,9 +9,7 @@ draft: false
 
 <br clear="all">
 
-## Open monday nights
-
-Come by, take a look, and join in! **Every Monday from 6pm until late at night in Grünberger Str. 16** in Berlin. For children, we offer one Open Kids Sunday a month (1pm-6pm, typically towards the end of the month). 
+Come by, take a look, and join in! **Every Monday from 6pm until late at night in Grünberger Str. 16** in Berlin. We have an open event for kids every month. It is typically held towards the end of the month and runs from 1 – 6 p.m.
 
 ## Events
 

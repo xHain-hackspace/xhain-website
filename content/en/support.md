@@ -5,9 +5,10 @@ draft: false
 ---
 
 ## Who we are
-Our hack- and makespace, xHain, has been around since 2018. xHain is an open workshop and community for everyone interested in hacking and making, and has become an important meeting place for people in Berlin.  
-xHain is a non-profit organization that enables anyone to build projects, provides space for many important contemporary areas, such as discussing digital politics. Over the years, it has become an essential place for organising youth activities.
-We currently have 200 members who support us. We organise Workshops for adults over a wide variety of topics that cover hacking and making. We cooperate with CoderDojo Germany e.V. and Jugend Hackt, where young people can learn programming and other skills.
+
+xHain is a non-profit organization that provides a space for anyone to build projects, learn new skills, and discuss important topics like digital politics. Over the years it has also become a hub for youth activities.
+
+We have 200 members who support us. We organize workshops for adults on a wide variety of topics, including hacking and making. We partner with CoderDojo Germany e.V. and Jugend Hackt, where young people can learn programming and other skills.
 
 xHain has an open culture encouraging cooperation and providing inspiration. We invite you to come and meet us every Monday evening, which is our Open Night. Come see our exhibit of art made of small bricks, circuit boards, and epoxy resin in our storefront street facing window. The huge tree made of LED strips is an iconic symbol for us, and is visible from the outside.
 
