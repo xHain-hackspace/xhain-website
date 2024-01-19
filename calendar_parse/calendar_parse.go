@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	cb "github.com/gueldenstone/calendar-bot/pkg/calendar"
+	"github.com/gueldenstone/calendar-bot/pkg/calendar"
 )
 
 func main() {
@@ -43,8 +43,16 @@ func main() {
 	}
 }
 
+type EventData struct {
+	Start       time.Time
+	End         time.Time
+	Summary     string
+	Location    string
+	Description string
+}
+
 type DayData struct {
-	Events  []cb.EventData
+	Events  []EventData
 	Weekday time.Weekday
 	Date    time.Time
 }
@@ -58,7 +66,7 @@ type TemplateData struct {
 func getICSData(url string, start time.Time, end time.Time) (map[int]map[string]map[int]DayData, error) {
 
 	// Download and read ICS file
-	calendar, err := cb.NewCalendar(url, log.Default())
+	calendar, err := calendar.NewCalendar(url, time.Local, log.Default())
 	if err != nil {
 		return nil, err
 	}
@@ -82,20 +90,61 @@ func getICSData(url string, start time.Time, end time.Time) (map[int]map[string]
 		// If the day does not exist in the map, create a DayData with no events
 		if _, exists := events[year][month][day]; !exists {
 			events[year][month][day] = DayData{
-				Events:  []cb.EventData{},
+				Events:  []EventData{},
 				Weekday: d.Weekday(),
 				Date:    d,
 			}
 		}
 
 		// Fetch events for the day
-		dailyEvents, err := calendar.GetEventsOn(d)
+		dailyICSEvents, err := calendar.GetEventsOn(d)
 		if err != nil {
 			return nil, err
 		}
 
 		// Convert ical.Event to EventData
-		for _, eventData := range dailyEvents {
+		for _, icalEvent := range dailyICSEvents {
+
+			eventStart, err := icalEvent.Props.DateTime("DTSTART", time.Local)
+			if err != nil {
+				return nil, err
+			}
+			eventData := EventData{
+				Start: time.Date(d.Year(), d.Month(), d.Day(), eventStart.Hour(), eventStart.Minute(), 0, 0, d.Location()),
+			}
+
+			// Fetch end time, summary, location, description if they exist
+			if endProp, ok := icalEvent.Props["DTEND"]; ok && len(endProp) > 0 {
+				eventEnd, err := endProp[0].DateTime(time.Local)
+				if err != nil {
+					return nil, err
+				}
+
+				// Calculate the difference in days and adjust eventData.End
+				daysDiff := int(eventEnd.Sub(eventStart).Hours() / 24)
+				eventData.End = time.Date(d.Year(), d.Month(), d.Day()+daysDiff, eventEnd.Hour(), eventEnd.Minute(), 0, 0, d.Location())
+			}
+
+			if summaryProp, ok := icalEvent.Props["SUMMARY"]; ok && len(summaryProp) > 0 {
+				eventData.Summary, err = summaryProp[0].Text()
+				if err != nil {
+					return nil, err
+				}
+			}
+
+			if locationProp, ok := icalEvent.Props["LOCATION"]; ok && len(locationProp) > 0 {
+				eventData.Location, err = locationProp[0].Text()
+				if err != nil {
+					return nil, err
+				}
+			}
+
+			if descriptionProp, ok := icalEvent.Props["DESCRIPTION"]; ok && len(descriptionProp) > 0 {
+				eventData.Description, err = descriptionProp[0].Text()
+				if err != nil {
+					return nil, err
+				}
+			}
 
 			// Append eventData to the day
 			yearKey := eventData.Start.Year()
@@ -111,7 +160,7 @@ func getICSData(url string, start time.Time, end time.Time) (map[int]map[string]
 			if _, ok := events[yearKey][monthKey][dayKey]; !ok {
 				events[yearKey][monthKey][dayKey] = DayData{
 					Date:    eventData.Start,
-					Events:  []cb.EventData{},
+					Events:  []EventData{},
 					Weekday: eventData.Start.Weekday(),
 				}
 			}
