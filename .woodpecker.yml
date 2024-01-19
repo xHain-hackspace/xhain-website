@@ -1,6 +1,8 @@
 steps:
   parse:
     image: golang
+    environment:
+      TZ: Europe/Berlin
     commands:
       - cd calendar_parse
       - go run .
