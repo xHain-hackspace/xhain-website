@@ -5,3 +5,5 @@ draft: false
 ---
 
 Wir tracken nicht! Diese Website setzt keine Cookies. Es gibt keine Bibliotheken, Medien, Social-Networking-Buttons oder Webfonts, die von Dritten gehostet werden. Es gibt keine Analysefunktionen und alle Serverlogs enthalten standardmäßig nur anonymisierte IP-Adressen.
+
+Unsere Web-Server werden bei [Hetzner Online GmbH](https://www.hetzner.com/) betrieben.
