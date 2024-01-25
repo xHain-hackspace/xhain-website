@@ -1,3 +1,5 @@
+when:
+  branch: [main, staging]
 steps:
   parse:
     image: golang
@@ -77,4 +79,3 @@ steps:
         from_secret: GITHUB_TOKEN
     when:
       event: pull_request
-branches: [main, staging]
