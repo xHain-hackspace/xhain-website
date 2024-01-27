@@ -13,7 +13,7 @@ function toggleClass(element, className, condition) {
 }
 
 // Handle scroll for frontpage header
-window.addEventListener('scroll', function() {
+window.addEventListener('scroll', function () {
     var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
     if (frontpageHeader) {
         toggleClass(frontpageHeader, "semi-transparent", scrollTop <= window.innerHeight - 107);
@@ -21,16 +21,16 @@ window.addEventListener('scroll', function() {
 });
 
 // Initialize elements on DOMContentLoaded
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     // Toggle navigation for mobile view
     if (mobileNav) {
-        mobileNav.addEventListener('click', function() {
+        mobileNav.addEventListener('click', function () {
             desktopNav.style.display = desktopNav.style.display === 'block' ? 'none' : 'block';
         });
     }
 
     if (desktopNav) {
-        desktopNav.addEventListener('click', function() {
+        desktopNav.addEventListener('click', function () {
             if (window.innerWidth < 620) {
                 desktopNav.style.display = 'none';
             }
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     // Toggle image attribution
     if (imageAttributionButton) {
-        imageAttributionButton.addEventListener('click', function() {
+        imageAttributionButton.addEventListener('click', function () {
             imageAttributionInner.style.display = imageAttributionInner.style.display === 'block' ? 'none' : 'block';
         });
     }
@@ -51,6 +51,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
 var mapDiv = document.getElementById("map");
 if (mapDiv) {
+
+    let protocol = new pmtiles.Protocol();
+    maplibregl.addProtocol("pmtiles", protocol.tile);
+
     var map = new maplibregl.Map({
         container: "map",
         style: "/js/mapstyle.json",
@@ -72,7 +76,7 @@ if (mapDiv) {
 
         // When the layer is added to the map,
         // get the rendering context for the map canvas.
-        onAdd: function() {
+        onAdd: function () {
             var canvas = document.createElement("canvas");
             canvas.width = this.width;
             canvas.height = this.height;
@@ -84,7 +88,7 @@ if (mapDiv) {
         },
 
         // Call once before every frame where the icon will be used.
-        render: function() {
+        render: function () {
             var duration = 5000;
             var t = (performance.now() % duration) / duration;
 
@@ -120,7 +124,7 @@ if (mapDiv) {
         },
     };
 
-    map.on("load", function() {
+    map.on("load", function () {
         map.addImage("pulsing-dot", pulsingDot, {
             pixelRatio: 2
         });
@@ -135,7 +139,7 @@ if (mapDiv) {
                         type: "Point",
                         coordinates: [13.4497773, 52.5127904],
                     },
-                }, ],
+                },],
             },
         });
         map.addLayer({
