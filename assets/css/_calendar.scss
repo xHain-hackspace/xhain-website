@@ -86,7 +86,7 @@
                 width: max-content;
                 color: $link-color;
                 background-color: $base-color;
-                display: block;
+                display: none;
                 font-size: 0.8rem;
                 padding: 0 0.3rem;
                 border-radius: 0.2rem;
@@ -95,6 +95,7 @@
             }
 
             .description {
+                display: none;
                 font-size: 0.8rem;
                 padding-right: 2rem;
             }
@@ -146,9 +147,9 @@
         grid-column: 7;
     }
 
-    .modal {
-        display: none;
+    .overlay {
         position: fixed;
+        display: none;
         z-index: 1;
         left: 0;
         top: 0;
@@ -157,6 +158,12 @@
         overflow: auto;
         background-color: rgba(0, 0, 0, 0.4);
         padding-top: 80px;
+        backdrop-filter: blur(5px);
+        z-index: 1000;
+
+        &[aria-hidden="false"] {
+            display: block;
+        }
 
         .close {
             color: #000;
@@ -172,7 +179,7 @@
             cursor: pointer;
         }
 
-        .modal-content {
+        .modal {
             padding: 1.6vw 2vw;
             border-radius: 0.6rem;
             background-color: $link-color;
