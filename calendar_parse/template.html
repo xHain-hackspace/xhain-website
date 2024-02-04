@@ -22,8 +22,8 @@ draft: false
                 </div>
                 {{range $dayData.Events}}
                 <div class="event" z-index="-1" role="button" aria-haspopup="dialog" 
-                    data-start-time="{{.Start.Format "15:04"}}" 
-                    data-end-time="{{.End.Format "15:04"}}"
+                    data-start-time="{{.Start.Format "2006-01-02T15:04:05Z0700"}}" 
+                    data-end-time="{{.End.Format "2006-01-02T15:04:05Z0700"}}"
                     data-title="{{.Summary}}"
                     data-location="{{.Location}}"
                     data-description="{{.Description}}"
@@ -44,7 +44,7 @@ draft: false
     {{end}}
     {{end}}
 
-    <div id="event_modal_template" aria-hidden>
+    <div id="event_modal_template" class="event_modal_template" aria-hidden>
         <div class="modal">
             <button type="button" class="close" title="close">&times;</button>
             <div id="info_date_time">
