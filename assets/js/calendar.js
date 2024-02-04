@@ -1,4 +1,5 @@
 // global DOM elements and variables
+const activeEventInterval = 1000 * 60 * 10; // 10 minutes
 let $calendar = null;
 let $modal = null;
 let $overlay = null;
@@ -12,6 +13,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     highlightCurrentDay();
     highlightCurrentEvents();
+    // keep the current events highlighted
+    setInterval(highlightCurrentEvents, activeEventInterval);
     setupModal();
     setTimeout(scrollToCurrentDay, 1000);
 });
