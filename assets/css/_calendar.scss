@@ -1,59 +1,3 @@
-.event.current {
-    --border-width: 3px;
-
-    position: relative;
-    border-radius: var(--border-width);
-
-    &::after {
-        position: absolute;
-        content: "";
-        top: 0;
-        left: 0;
-        z-index: -2;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(
-            60deg,
-            hsl(224, 85%, 66%),
-            hsl(269, 85%, 66%),
-            hsl(314, 85%, 66%),
-            hsl(359, 85%, 66%),
-            hsl(44, 85%, 66%),
-            hsl(89, 85%, 66%),
-            hsl(134, 85%, 66%),
-            hsl(179, 85%, 66%)
-        );
-        background-size: 300% 300%;
-        background-position: 0 50%;
-        border-radius: calc(2 * var(--border-width));
-        animation: moveGradient 4s alternate infinite;
-    }
-
-    &::before {
-        position: absolute;
-        content: "";
-        top: var(--border-width);
-        left: var(--border-width);
-        bottom: var(--border-width);
-        right: var(--border-width);
-        z-index: -1;
-        background: #041012;
-        background-size: 300% 300%;
-        background-position: 0 50%;
-        border-radius: calc(2 * var(--border-width));
-        animation: moveGradient 4s alternate infinite;
-    }
-}
-
-@keyframes moveGradient {
-    50% {
-        background-position: 100% 50%;
-    }
-}
-.event_modal_template {
-    display: none;
-}
-
 #xhain_calendar {
     padding-bottom: 2rem;
     margin-bottom: 2rem;
@@ -157,10 +101,21 @@
             }
 
             &.current {
-                background: transparent;
+                background: $link-color;
+                color: $base-color;
+                opacity: 0.75;
+                transition: opacity 1s ease-in-out;
 
                 .title {
                     font-weight: bold;
+                }
+                &:hover {
+                    color: $base-color;
+                }
+                &:focus {
+                    opacity: 1;
+                    background-color: rgba(0, 0, 0, 0.5);
+                    color: $link-color;
                 }
             }
 

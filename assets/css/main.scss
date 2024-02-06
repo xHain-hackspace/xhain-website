@@ -7,15 +7,12 @@
 @import "calendar";
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 html,
 body {
-    width: 100%;
-    // this helps reduce font stroke width which improves readability
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  width: 100%;
 }
 
 h1,
@@ -24,382 +21,386 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: 300;
-    line-height: 1.1;
-    text-align: left;
-    color: $font-color;
-    font-weight: bold;
-    font-family: $font-family-brand;
+  font-weight: 300;
+  line-height: 1.1;
+  text-align: left;
+  color: $font-color;
+  font-weight: bold;
+  font-family: $font-family-brand;
 }
 
 h1 {
-    font-size: 2.35em;
+  font-size: 2.35em;
 }
 
 h2 {
-    font-size: 1.5em;
-    margin-bottom: 15px;
+  font-size: 1.5em;
+  margin-bottom: 15px;
 }
 
 h3 {
-    font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 h4 {
-    font-size: 1.1em;
+  font-size: 1.1em;
 }
 
 h5 {
-    font-size: 1em;
+  font-size: 1em;
 }
 
 h6 {
-    font-size: 0.9em;
+  font-size: 0.9em;
 }
 
 code {
-    font-family: "Source Code Pro", "Consolas", monospace;
-    font-size: 0.8em;
-    color: red;
-    padding: 1px 3px;
-    background-color: #f7f7f9;
-    border: 1px solid #e1e1e8;
-    border-radius: 3px;
+  font-family: "Source Code Pro", "Consolas", monospace;
+  font-size: 0.8em;
+  color: red;
+  padding: 1px 3px;
+  background-color: #f7f7f9;
+  border: 1px solid #e1e1e8;
+  border-radius: 3px;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    background-color: $base-color;
-    color: $font-color;
-    font-family: $font-family-common;
-    font-size: 18px;
-    line-height: 32px;
-    font-feature-settings: "kern", "liga", "pnum";
+  margin: 0;
+  padding: 0;
+  background-color: $base-color;
+  color: $font-color;
+  font-family: $font-family-common;
+  font-size: 18px;
+  line-height: 32px;
+  font-feature-settings: "kern", "liga", "pnum";
 }
 
 a {
-    color: $secondary-color;
-    text-decoration: none;
+  color: $secondary-color;
+  text-decoration: none;
 }
 
 a:hover {
-    color: $main-color;
+  color: $main-color;
 }
 
 hr {
-    color: #eeeeee;
-    background-color: #eeeeee;
-    height: 1px;
-    border: none;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    clear: both;
+  color: #eeeeee;
+  background-color: #eeeeee;
+  height: 1px;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  clear: both;
 }
 
 #header-wrapper,
 #main-wrapper,
 #footer-wrapper {
-    margin: 0 auto;
-    padding: 0 20px;
-    max-width: $max-width;
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: $max-width;
 }
 
 main {
-    margin: 130px 0 60px 0;
+  margin: 130px 0 60px 0;
 }
 
 main article {
-    font-size: 1em;
-    line-height: 1.4em;
+  font-size: 1em;
+  line-height: 1.4em;
 }
 
 footer {
-    border-top: #eeeeee 1px solid;
-    padding: 20px 0 0 0;
-    max-width: 100%;
-    margin: 20px auto;
-    line-height: 1.3em;
+  border-top: #eeeeee 1px solid;
+  padding: 20px 0 0 0;
+  max-width: 100%;
+  margin: 20px auto;
+  line-height: 1.3em;
 }
 
 nav ul {
-    line-height: 1.5em;
-    text-transform: uppercase;
-    list-style-type: none;
-    padding: 0 0 0 0;
-    font-size: 0.8em;
-    font-weight: 600;
-    color: $font-color;
+  line-height: 1.5em;
+  text-transform: uppercase;
+  list-style-type: none;
+  padding: 0 0 0 0;
+  font-size: 0.8em;
+  font-weight: 600;
+  color: $font-color;
 }
 
 li.language-switch,
 li.calendar-link {
-    border-top: 1px solid $secondary-color;
-    padding: 10px 0 0 0;
-    margin-top: 10px;
+  border-top: 1px solid $secondary-color;
+  padding: 10px 0 0 0;
+  margin-top: 10px;
 }
 
 .logo {
-    font-family: $font-family-common;
-    font-weight: bolder;
-    font-size: 1.4em;
+  font-family: $font-family-common;
+  font-weight: bolder;
+  font-size: 1.4em;
 
-    span {
-        font-size: 0.6em;
-        font-weight: 600;
-        display: block;
-        margin-top: -10px;
-    }
+  span {
+    font-size: 0.6em;
+    font-weight: 600;
+    display: block;
+    margin-top: -10px;
+  }
 }
 
 nav {
-    font-family: $font-family-brand;
+  font-family: $font-family-brand;
 }
 
 main {
-    img,
-    video,
-    div.figure {
-        max-width: 100%;
-        height: auto;
-        pointer-events: none;
-    }
 
-    img.icon {
-        max-width: 100px;
-    }
+  img,
+  video,
+  div.figure {
+    max-width: 100%;
+    height: auto;
+    pointer-events: none;
+  }
+
+  img.icon {
+    max-width: 100px;
+  }
 }
 
 #blog {
-    article {
-        padding-bottom: 40px;
-    }
+  article {
+    padding-bottom: 40px;
+  }
 
-    .image {
-        max-height: 280px;
-        overflow: hidden;
+  .image {
+    max-height: 280px;
+    overflow: hidden;
 
-        img {
-            display: flex;
-            width: 100%;
-            max-width: 100%;
-            height: auto !important;
-            margin: -50px 0 0 0;
-        }
+    img {
+      display: flex;
+      width: 100%;
+      max-width: 100%;
+      height: auto !important;
+      margin: -50px 0 0 0;
     }
+  }
 }
 
 form {
-    label {
-        font-size: 14px;
-        font-family: $font-family-brand;
-    }
+  label {
+    font-size: 14px;
+    font-family: $font-family-brand;
+  }
 
-    input {
-        padding: 8px;
-        border-radius: 4px;
-        border: 1px solid #000;
-        display: block;
-
-        &[type="number"],
-        &[type="email"],
-        &[type="text"] {
-            width: 270px;
-
-            &:focus {
-                outline: none;
-            }
-        }
-
-        &[type="button"],
-        &[type="submit"] {
-            margin: 20px 0 30px 0;
-            background-color: $tertiary-color;
-            color: white;
-            font-weight: bold;
-            cursor: pointer;
-
-            &:hover {
-                background-color: $secondary-color;
-            }
-        }
-    }
-}
-
-input {
+  input {
     padding: 8px;
     border-radius: 4px;
     border: 1px solid #000;
     display: block;
 
-    &:focus {
+    &[type="number"],
+    &[type="email"],
+    &[type="text"] {
+      width: 270px;
+
+      &:focus {
         outline: none;
+      }
     }
+
+    &[type="button"],
+    &[type="submit"] {
+      margin: 20px 0 30px 0;
+      background-color: $tertiary-color;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $secondary-color;
+      }
+    }
+  }
+}
+
+input {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #000;
+  display: block;
+
+  &:focus {
+    outline: none;
+  }
 }
 
 iframe {
-    border-radius: 10px;
-    border: none;
+  border-radius: 10px;
+  border: none;
 }
 
 #map {
-    height: 400px;
-    width: 100%;
-    border-radius: 10px;
-    box-shadow: 0 1px 10px rgba(42, 235, 170, 0.2);
+  height: 400px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 1px 10px rgba(42, 235, 170, 0.2);
 
-    img {
-        border-radius: 10px;
-    }
+  img {
+    border-radius: 10px;
+  }
 }
 
 .image-attribution {
-    min-height: 20px;
-    padding: 2px 24px 2px 0;
-    margin: 10px;
-    position: absolute;
-    background-color: #fff;
-    border-radius: 12px;
-    line-height: normal;
+  min-height: 20px;
+  padding: 2px 24px 2px 0;
+  margin: 10px;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 12px;
+  line-height: normal;
 }
 
 .image-attribution-button {
-    display: block;
-    cursor: pointer;
-    position: absolute;
-    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='24' height='24' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg' fill-rule='evenodd'%3E%3Cpath d='M4 10a6 6 0 1012 0 6 6 0 10-12 0m5-3a1 1 0 102 0 1 1 0 10-2 0m0 3a1 1 0 112 0v3a1 1 0 11-2 0'/%3E%3C/svg%3E");
-    background-color: hsla(0, 0%, 100%, 0.5);
-    width: 24px;
-    height: 24px;
-    box-sizing: border-box;
-    border-radius: 12px;
-    outline: none;
-    top: 0;
-    border: 0;
+  display: block;
+  cursor: pointer;
+  position: absolute;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='24' height='24' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg' fill-rule='evenodd'%3E%3Cpath d='M4 10a6 6 0 1012 0 6 6 0 10-12 0m5-3a1 1 0 102 0 1 1 0 10-2 0m0 3a1 1 0 112 0v3a1 1 0 11-2 0'/%3E%3C/svg%3E");
+  background-color: hsla(0, 0%, 100%, 0.5);
+  width: 24px;
+  height: 24px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  outline: none;
+  top: 0;
+  border: 0;
 }
 
 .image-attribution-inner {
-    display: none;
-    color: black;
-    font-size: 12px;
-    padding: 1px 0px 1px 28px;
+  display: none;
+  color: black;
+  font-size: 12px;
+  padding: 1px 0px 1px 28px;
 
-    a {
-        color: black;
-        text-decoration: underline;
-    }
+  a {
+    color: black;
+    text-decoration: underline;
+  }
 }
 
+
 @media screen and (min-width: 900px) {
-    main {
-        margin: 150px 0 60px 0 !important;
+  main {
+    margin: 150px 0 60px 0 !important;
+  }
+
+  #main-navigation .mobile {
+    display: none !important;
+  }
+
+  #main-navigation .desktop {
+    display: block !important;
+
+    li {
+      margin-left: 10px;
     }
 
-    #main-navigation .mobile {
-        display: none !important;
+    .language-switch,
+    .calendar-link {
+      border-top: none;
+      border-left: 1px solid $secondary-color;
+      margin-left: 20px;
+      padding-left: 20px;
     }
+  }
 
-    #main-navigation .desktop {
-        display: block !important;
+  #main-navigation .desktop li {
+    display: inline;
+  }
 
-        li {
-            margin-left: 10px;
-        }
+  #footer-wrapper {
+    display: flow-root;
+    background: url(/images/logo/xhain.svg) center center no-repeat;
+    background-size: 150px 150px;
+  }
 
-        .language-switch,
-        .calendar-link {
-            border-top: none;
-            border-left: 1px solid $secondary-color;
-            margin-left: 20px;
-            padding-left: 20px;
-        }
-    }
-
-    #main-navigation .desktop li {
-        display: inline;
-    }
-
+  footer {
     #footer-wrapper {
-        display: flow-root;
-        background: url(/images/logo/xhain.svg) center center no-repeat;
-        background-size: 150px 150px;
+      background-position: center center;
     }
 
-    footer {
-        #footer-wrapper {
-            background-position: center center;
-        }
-
-        .first-part {
-            float: left;
-        }
-
-        .second-part {
-            float: right;
-            text-align: right;
-
-            h5 {
-                text-align: right;
-            }
-        }
+    .first-part {
+      float: left;
     }
+
+    .second-part {
+      float: right;
+      text-align: right;
+
+      h5 {
+        text-align: right;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 400px) {
-    main {
-        margin: 105px 0 50px 0;
+  main {
+    margin: 105px 0 50px 0;
+  }
+
+  header {
+    padding-bottom: 5px;
+  }
+
+  header .logo {
+    font-size: 1em;
+    height: auto;
+    margin-top: 15px;
+    padding-left: 50px;
+    background-size: 45px 40px;
+    height: 50px;
+
+    a {
+      padding: 0;
     }
 
-    header {
-        padding-bottom: 5px;
+    span {
+      display: none;
+      // font-size: 9px;
+      // margin-top: -18px;
     }
+  }
 
-    header .logo {
-        font-size: 1em;
-        height: auto;
-        margin-top: 15px;
-        padding-left: 50px;
-        background-size: 45px 40px;
-        height: 50px;
+  #main-navigation ul {
+    padding: 22px 5px 5px 5px;
+  }
 
-        a {
-            padding: 0;
-        }
+  #footer-wrapper {
+    background: none !important;
+  }
 
-        span {
-            display: none;
-            // font-size: 9px;
-            // margin-top: -18px;
-        }
+  form input {
+
+    &[type="number"],
+    &[type="email"],
+    &[type="text"] {
+      width: 220px;
     }
-
-    #main-navigation ul {
-        padding: 22px 5px 5px 5px;
-    }
-
-    #footer-wrapper {
-        background: none !important;
-    }
-
-    form input {
-        &[type="number"],
-        &[type="email"],
-        &[type="text"] {
-            width: 220px;
-        }
-    }
+  }
 }
 
 @media screen and (max-width: 290px) {
-    header .logo a {
-        display: none;
-    }
+  header .logo a {
+    display: none;
+  }
 
-    form input {
-        &[type="number"],
-        &[type="email"],
-        &[type="text"] {
-            width: 180px;
-        }
+  form input {
+
+    &[type="number"],
+    &[type="email"],
+    &[type="text"] {
+      width: 180px;
     }
+  }
 }
