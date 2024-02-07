@@ -7,7 +7,7 @@ steps:
       - cd calendar_parse
       - go run .
     when:
-      event: [push, tag, deployment, pull_request, cron]
+      event: [push, tag, deployment, pull_request, cron, manual]
       branch: [staging, main]
   build:
     image: eclipsefdn/hugo-node:h0.120.4-n18.18.2
@@ -15,7 +15,7 @@ steps:
       - hugo version
       - hugo -d public_html --config config.toml,home.toml --cleanDestinationDir
     when:
-      event: [push, tag, deployment, cron]
+      event: [push, tag, deployment, cron, manual]
       branch: [main]
 
   build-staging:
@@ -41,7 +41,7 @@ steps:
       key:
         from_secret: SSH_PRIVATE_KEY
     when:
-      event: [push, tag, deployment, cron]
+      event: [push, tag, deployment, cron, manual]
       branch: [main]
 
   deploy_staging:
@@ -60,6 +60,7 @@ steps:
     when:
       event: [push, tag, deployment]
       branch: [staging]
+
   build-preview:
     image: eclipsefdn/hugo-node:h0.120.4-n18.18.2
     commands:
