@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	cb "github.com/gueldenstone/calendar-bot/pkg/calendar"
+	cb "xhain/calendar_parse/calendar"
 )
 
 func main() {
