@@ -44,7 +44,7 @@ func main() {
 }
 
 type DayData struct {
-	Events  []cb.EventData
+	Events  []cb.Event
 	Weekday time.Weekday
 	Date    time.Time
 }
@@ -55,75 +55,49 @@ type TemplateData struct {
 	HtmlWrapper []template.HTML
 }
 
-func getICSData(url string, start time.Time, end time.Time) (map[int]map[string]map[int]DayData, error) {
-
+func getICSData(url string, start, end time.Time) (map[int]map[string]map[int]DayData, error) {
 	// Download and read ICS file
-	calendar, err := cb.NewCalendar(url, log.Default())
+	data, err := cb.ImportCalendar(url, log.Default())
 	if err != nil {
 		return nil, err
 	}
 
-	events := make(map[int]map[string]map[int]DayData)
-
-	// Loop through days from start to end
-	for d := start; !d.After(end); d = d.AddDate(0, 0, 1) {
-		year := d.Year()
-		month := d.Format("01")
-		day := d.Day()
-
-		// Initialize maps if necessary
-		if events[year] == nil {
-			events[year] = make(map[string]map[int]DayData)
-		}
-		if events[year][month] == nil {
-			events[year][month] = make(map[int]DayData)
-		}
-
-		// If the day does not exist in the map, create a DayData with no events
-		if _, exists := events[year][month][day]; !exists {
-			events[year][month][day] = DayData{
-				Events:  []cb.EventData{},
-				Weekday: d.Weekday(),
-				Date:    d,
-			}
-		}
-
-		// Fetch events for the day
-		dailyEvents, err := calendar.GetEventsOn(d)
-		if err != nil {
-			return nil, err
-		}
-
-		// Convert ical.Event to EventData
-		for _, eventData := range dailyEvents {
-
-			// Append eventData to the day
-			yearKey := eventData.Start.Year()
-			monthKey := eventData.Start.Format("01")
-			dayKey := eventData.Start.Day()
-
-			if _, ok := events[yearKey]; !ok {
-				events[yearKey] = make(map[string]map[int]DayData)
-			}
-			if _, ok := events[yearKey][monthKey]; !ok {
-				events[yearKey][monthKey] = make(map[int]DayData)
-			}
-			if _, ok := events[yearKey][monthKey][dayKey]; !ok {
-				events[yearKey][monthKey][dayKey] = DayData{
-					Date:    eventData.Start,
-					Events:  []cb.EventData{},
-					Weekday: eventData.Start.Weekday(),
-				}
-			}
-
-			dayData := events[yearKey][monthKey][dayKey]
-			dayData.Events = append(dayData.Events, eventData)
-			events[yearKey][monthKey][dayKey] = dayData
-		}
-
+	events, err := data.GetEventsOfRange(start, end)
+	if err != nil {
+		return nil, err
 	}
 
-	return events, nil
+	// Initialize empty DayData for all days in the range first.
+	days := make(map[int]map[string]map[int]DayData)
+	for d := start; !d.After(end); d = d.AddDate(0, 0, 1) {
+		year, month, day := d.Year(), d.Format("01"), d.Day()
+
+		if _, ok := days[year]; !ok {
+			days[year] = make(map[string]map[int]DayData)
+		}
+
+		if _, ok := days[year][month]; !ok {
+			days[year][month] = make(map[int]DayData)
+		}
+
+		// Initialize as empty; events may be added below.
+		days[year][month][day] = DayData{
+			Date:    d,
+			Events:  []cb.Event{},
+			Weekday: d.Weekday(),
+		}
+	}
+
+	// Sort in the events to the corresponding DayData
+	for _, event := range events {
+
+		eventYear, eventMonth, eventDay := event.Start.Year(), event.Start.Format("01"), event.Start.Day()
+		dayData := days[eventYear][eventMonth][eventDay]
+		dayData.Events = append(dayData.Events, event)
+		days[eventYear][eventMonth][eventDay] = dayData
+	}
+
+	return days, nil
 }
 
 func generateHTML(events map[int]map[string]map[int]DayData, start time.Time, end time.Time) (string, error) {
