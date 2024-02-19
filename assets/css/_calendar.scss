@@ -1,3 +1,59 @@
+.event.current {
+    --border-width: 3px;
+
+    position: relative;
+    border-radius: var(--border-width);
+
+    &::after {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        z-index: -2;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+            60deg,
+            hsl(224, 85%, 66%),
+            hsl(269, 85%, 66%),
+            hsl(314, 85%, 66%),
+            hsl(359, 85%, 66%),
+            hsl(44, 85%, 66%),
+            hsl(89, 85%, 66%),
+            hsl(134, 85%, 66%),
+            hsl(179, 85%, 66%)
+        );
+        background-size: 300% 300%;
+        background-position: 0 50%;
+        border-radius: calc(2 * var(--border-width));
+        animation: moveGradient 4s alternate infinite;
+    }
+
+    &::before {
+        position: absolute;
+        content: "";
+        top: var(--border-width);
+        left: var(--border-width);
+        bottom: var(--border-width);
+        right: var(--border-width);
+        z-index: -1;
+        background: #041012;
+        background-size: 300% 300%;
+        background-position: 0 50%;
+        border-radius: calc(2 * var(--border-width));
+        animation: moveGradient 4s alternate infinite;
+    }
+}
+
+@keyframes moveGradient {
+    50% {
+        background-position: 100% 50%;
+    }
+}
+.event_modal_template {
+    display: none;
+}
+
 #xhain_calendar {
     padding-bottom: 2rem;
     margin-bottom: 2rem;
@@ -86,7 +142,7 @@
                 width: max-content;
                 color: $link-color;
                 background-color: $base-color;
-                display: block;
+                display: none;
                 font-size: 0.8rem;
                 padding: 0 0.3rem;
                 border-radius: 0.2rem;
@@ -95,26 +151,16 @@
             }
 
             .description {
+                display: none;
                 font-size: 0.8rem;
                 padding-right: 2rem;
             }
 
             &.current {
-                background: $link-color;
-                color: $base-color;
-                opacity: 0.75;
-                transition: opacity 1s ease-in-out;
+                background: transparent;
 
                 .title {
                     font-weight: bold;
-                }
-                &:hover {
-                    color: $base-color;
-                }
-                &:focus {
-                    opacity: 1;
-                    background-color: rgba(0, 0, 0, 0.5);
-                    color: $link-color;
                 }
             }
 
@@ -146,9 +192,9 @@
         grid-column: 7;
     }
 
-    .modal {
-        display: none;
+    .overlay {
         position: fixed;
+        display: none;
         z-index: 1;
         left: 0;
         top: 0;
@@ -157,22 +203,31 @@
         overflow: auto;
         background-color: rgba(0, 0, 0, 0.4);
         padding-top: 80px;
+        backdrop-filter: blur(5px);
+        z-index: 1000;
+
+        &[aria-hidden="false"] {
+            display: block;
+        }
 
         .close {
             color: #000;
             float: right;
             font-size: 28px;
             font-weight: bold;
+            background: transparent;
+            border: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 5px;
         }
 
-        .close:hover,
-        .close:focus {
-            color: #000;
-            text-decoration: none;
+        .close:hover {
+            color: $main-color;
             cursor: pointer;
         }
 
-        .modal-content {
+        .modal {
             padding: 1.6vw 2vw;
             border-radius: 0.6rem;
             background-color: $link-color;

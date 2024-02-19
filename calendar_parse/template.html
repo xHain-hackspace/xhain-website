@@ -21,14 +21,20 @@ draft: false
                     <span class="weekday">{{.Weekday | weekdayShort}}</span>
                 </div>
                 {{range $dayData.Events}}
-                <div class="event" data-start-time="{{.Start.Format "15:04"}}" data-end-time="{{.End.Format "15:04"}}">
+                <div class="event" z-index="-1" role="button" aria-haspopup="dialog" 
+                    data-start-time="{{.Start.Format "2006-01-02T15:04:05Z0700"}}" 
+                    data-end-time="{{.End.Format "2006-01-02T15:04:05Z0700"}}"
+                    data-formatted-start-time="{{.Start.Format "15:04"}}"
+                    data-formatted-end-time="{{.End.Format "15:04"}}"
+                    data-title="{{.Summary}}"
+                    data-location="{{.Location}}"
+                    data-description="{{.Description}}"
+                    >
                     <div class="time">
                         <span class="start">{{.Start.Format "15:04"}}</span>
-                        <span class="end"> - {{.End.Format "15:04"}}</span>
+                        <span class="end"> – {{.End.Format "15:04"}}</span>
                     </div>
                     <span class="title">{{.Summary}}</span>
-                    <span class="location">{{.Location}}</span>
-                    <div class="description">{{.Description}}</div>
                 </div>
                 {{else}}
                 <div class="no-event"></div>
@@ -40,18 +46,23 @@ draft: false
     {{end}}
     {{end}}
 
-    <div id="overlay">
-        <div id="event_modal" class="modal">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <div id="info_date_time"></div>
-                <div id="info_location"></div>
-                <div id="info_title"></div>
-                <div id="info_description"></div>
+    <div id="event_modal_template" class="event_modal_template" aria-hidden>
+        <div class="modal">
+            <button type="button" class="close" title="close">&times;</button>
+            <div id="info_date_time">
+                <div class="time">
+                    <span class="start">${formattedStartTime}</span>
+                    <span class="end"> – ${formattedEndTime}</span>
+                </div>
             </div>
+            <div id="info_location">${location}</div>
+            <div id="info_title">${title}</div>
+            <div id="info_description">${description}</div>
         </div>
     </div>
-</div>
+
+    <div id="overlay" class="overlay" role="region" aria-live="polite" aria-hidden aria-modal="true">
+    </div>
 </div>
 
 

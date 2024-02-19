@@ -1,139 +1,148 @@
+// global DOM elements and variables
+const activeEventInterval = 1000 * 60 * 10; // 10 minutes
+let $calendar = null;
+let $modal = null;
+let $overlay = null;
+let modalTemplate = null;
+
 // Main entrypoint
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
+    $overlay = document.getElementById("overlay");
+    $modal = document.getElementById("event_modal_template");
+    modalTemplate = $modal.innerHTML;
+
+    highlightCurrentDay();
     highlightCurrentEvents();
-    setupModal()
-    startBlinking('.event.current', 1500);
+    // keep the current events highlighted
+    setInterval(highlightCurrentEvents, activeEventInterval);
+    setupModal();
     setTimeout(scrollToCurrentDay, 1000);
 });
 
-function getCurrentDateInfo() {
-
-    var today = new Date()
-    return {
-        dateString: today.toISOString().split('T')[0],
-        currentTime: formatTime(today.getHours(), today.getMinutes())
-    };
+function formatTime(date) {
+    // check if a date is being passed and use it or convert a string to a date
+    const dateObject = date instanceof Date ? date : new Date(date);
+    return dateObject.toLocaleTimeString("en-GB", {
+        hour: "2-digit",
+        minute: "2-digit",
+    });
 }
 
-function formatTime(hours, minutes) {
-    return (hours < 10 ? '0' : '') + hours + ":" + (minutes < 10 ? '0' : '') + minutes;
+function getCurrentDateInfo() {
+    const now = new Date();
+    return {
+        dateString: now.toISOString().split("T")[0],
+        currentTime: formatTime(now),
+    };
 }
 
 function scrollToCurrentDay() {
-    var {
-        dateString
-    } = getCurrentDateInfo();
+    var { dateString } = getCurrentDateInfo();
     var currentDayElement = document.getElementById(dateString);
     if (currentDayElement) {
         currentDayElement.scrollIntoView({
-            behavior: 'smooth',
-            block: 'center'
+            behavior: "smooth",
+            block: "center",
         });
     }
+}
+
+function highlightCurrentDay() {
+    const { dateString } = getCurrentDateInfo();
+    const now = new Date();
+    // Create a new Date object for midnight tomorrow
+    const tomorrowMidnight = new Date(
+        now.getFullYear(),
+        now.getMonth(),
+        now.getDate() + 1,
+        0,
+        0,
+        0,
+        0
+    );
+    // Calculate the difference in milliseconds
+    const msToTomorrow = tomorrowMidnight - now;
+    // Call this function again at midnight
+    setTimeout(() => {
+        highlightCurrentDay();
+    }, msToTomorrow);
+
+    document.querySelector(".day.current")?.classList.remove("current");
+    document.getElementById(dateString)?.classList.add("current");
 }
 
 function highlightCurrentEvents() {
-    var {
-        dateString,
-        currentTime
-    } = getCurrentDateInfo();
-    var currentDayElement = document.getElementById(dateString);
+    const { dateString, currentTime } = getCurrentDateInfo();
+    const now = new Date();
+    const events = document
+        .getElementById(dateString)
+        ?.querySelectorAll(".event");
 
-    if (currentDayElement) {
-        currentDayElement.classList.add("current");
-        var events = currentDayElement.querySelectorAll(".event");
+    events?.forEach(function (event) {
+        const { startTime, endTime } = event.dataset;
+        const startTimeDate = new Date(startTime);
+        const endTimeDate = new Date(endTime);
 
-        events.forEach(function(event) {
-            var startTime = event.getAttribute("data-start-time");
-            var endTime = event.getAttribute("data-end-time");
-
-            if (currentTime >= startTime && currentTime <= endTime) {
-                event.classList.add("current");
-            }
-        });
-    }
+        if (now >= startTimeDate && now < endTimeDate) {
+            const remainingEventTime = endTimeDate - now;
+            event.classList.add("current");
+            // Call this function again at the end of the event
+            setTimeout(() => {
+                highlightCurrentEvents();
+            }, remainingEventTime + 1000);
+        }
+    });
 }
-
-
 
 function setupModal() {
-
-    // Hide description and location
-    const elementsToHide = document.querySelectorAll('.location, .description');
-    elementsToHide.forEach(element => {
-        element.style.display = 'none';
-    });
-
-    // Setup for opening the modal
-    document.querySelectorAll('.event').forEach(function(eventElement) {
-        eventElement.addEventListener('click', function() {
-            openModal(eventElement);
+    const modalTriggerSelector = ".event";
+    // Add a single event listener to the container element, leveraging bubbling
+    document
+        .querySelector("#xhain_calendar")
+        .addEventListener("click", (event) => {
+            const clickedEvent = event.target.matches(modalTriggerSelector)
+                ? event.target
+                : event.target.closest(modalTriggerSelector);
+            // it's possible that the click event was not on an event, so we need to check that
+            if (clickedEvent) {
+                openModal(clickedEvent);
+            }
         });
-    });
 
-    // Setup for closing the modal with the close button
-    var closeModalButton = document.querySelector("#event_modal .close");
-    if (closeModalButton) {
-        closeModalButton.onclick = function() {
-            document.getElementById("event_modal").style.display = "none";
-        };
-    }
-
-    // Setup for closing the modal by clicking outside of it
-    window.onclick = function(event) {
-        var modal = document.getElementById("event_modal");
-        if (event.target == modal) {
-            modal.style.display = "none";
+    // Close modal when clicking on the overlay or close button
+    $overlay.addEventListener("click", function (event) {
+        if (event.target === $overlay || event.target.matches(".close")) {
+            hideModal();
         }
-    };
+    });
 
     // Setup for closing the modal with the ESC key
-    document.addEventListener('keydown', function(event) {
+    document.addEventListener("keydown", function (event) {
         if (event.key === "Escape") {
-            var modal = document.getElementById("event_modal");
-            if (modal.style.display === "block") {
-                modal.style.display = "none";
-            }
+            hideModal();
         }
     });
 }
 
-
 function openModal(eventElement) {
-    var modal = document.getElementById("event_modal");
-
-    document.getElementById("info_date_time").innerText = eventElement.querySelector('.time').innerText;
-    document.getElementById("info_location").innerText = eventElement.querySelector('.location').innerText;
-    document.getElementById("info_title").innerText = eventElement.querySelector('.title').innerText;
-    document.getElementById("info_description").innerHTML = eventElement.querySelector('.description').innerHTML;
-
-    modal.style.display = "block";
+    const eventData = { ...eventElement.dataset };
+    $overlay.innerHTML = renderModal(modalTemplate, eventData);
+    showModal();
 }
 
-
-function startBlinking(selector, interval) {
-    const blinkingElements = document.querySelectorAll(selector);
-    let isBlinking = true;
-
-    function blink() {
-        blinkingElements.forEach(function(element) {
-            if (isBlinking) {
-                element.style.opacity = '1';
-            } else {
-                element.style.opacity = '0.5';
-            }
-        });
-
-        isBlinking = !isBlinking;
-    }
-
-    // Call the blink function at the specified interval (e.g., every 1.5 seconds)
-    setInterval(blink, interval);
+// Given a string template formatted like a template literal,
+// and an object of values, return the modified string.
+function renderModal(template, args) {
+    return Object.entries(args).reduce(
+        (result, [arg, val]) => result.replace(`$\{${arg}}`, `${val}`),
+        template
+    );
 }
 
-window.onclick = function(event) {
-    var modal = document.getElementById("event_modal");
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-};
+function hideModal() {
+    $overlay.setAttribute("aria-hidden", true);
+}
+
+function showModal() {
+    $overlay.setAttribute("aria-hidden", false);
+}
