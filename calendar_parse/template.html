@@ -24,13 +24,15 @@ draft: false
                 <div class="event" z-index="-1" role="button" aria-haspopup="dialog" 
                     data-start-time="{{.Start.Format "2006-01-02T15:04:05Z0700"}}" 
                     data-end-time="{{.End.Format "2006-01-02T15:04:05Z0700"}}"
+                    data-formatted-start-time="{{.Start.Format "15:04"}}"
+                    data-formatted-end-time="{{.End.Format "15:04"}}"
                     data-title="{{.Summary}}"
                     data-location="{{.Location}}"
                     data-description="{{.Description}}"
                     >
                     <div class="time">
                         <span class="start">{{.Start.Format "15:04"}}</span>
-                        <span class="end"> - {{.End.Format "15:04"}}</span>
+                        <span class="end"> – {{.End.Format "15:04"}}</span>
                     </div>
                     <span class="title">{{.Summary}}</span>
                 </div>
@@ -49,8 +51,8 @@ draft: false
             <button type="button" class="close" title="close">&times;</button>
             <div id="info_date_time">
                 <div class="time">
-                    <span class="start">${startTime}</span>
-                    <span class="end"> - ${endTime}</span>
+                    <span class="start">${formattedStartTime}</span>
+                    <span class="end"> – ${formattedEndTime}</span>
                 </div>
             </div>
             <div id="info_location">${location}</div>

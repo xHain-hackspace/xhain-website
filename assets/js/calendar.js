@@ -19,14 +19,20 @@ document.addEventListener("DOMContentLoaded", function () {
     setTimeout(scrollToCurrentDay, 1000);
 });
 
+function formatTime(date) {
+    // check if a date is being passed and use it or convert a string to a date
+    const dateObject = date instanceof Date ? date : new Date(date);
+    return dateObject.toLocaleTimeString("en-GB", {
+        hour: "2-digit",
+        minute: "2-digit",
+    });
+}
+
 function getCurrentDateInfo() {
     const now = new Date();
     return {
-        dateString: now.toLocaleDateString("en-CA"),
-        currentTime: now.toLocaleTimeString("en-GB", {
-            hour: "2-digit",
-            minute: "2-digit",
-        }),
+        dateString: now.toISOString().split("T")[0],
+        currentTime: formatTime(now),
     };
 }
 
@@ -62,23 +68,23 @@ function highlightCurrentDay() {
     }, msToTomorrow);
 
     document.querySelector(".day.current")?.classList.remove("current");
-    document.getElementById(dateString).classList.add("current");
-
-    // console.log(difference / 1000 / 60 / 60);
+    document.getElementById(dateString)?.classList.add("current");
 }
 
 function highlightCurrentEvents() {
     const { dateString, currentTime } = getCurrentDateInfo();
-    const now = new Date().toISOString();
+    const now = new Date();
     const events = document
         .getElementById(dateString)
-        .querySelectorAll(".event");
+        ?.querySelectorAll(".event");
 
     events?.forEach(function (event) {
         const { startTime, endTime } = event.dataset;
+        const startTimeDate = new Date(startTime);
+        const endTimeDate = new Date(endTime);
 
-        if (now >= startTime && now < endTime) {
-            const remainingEventTime = new Date(endTime) - now;
+        if (now >= startTimeDate && now < endTimeDate) {
+            const remainingEventTime = endTimeDate - now;
             event.classList.add("current");
             // Call this function again at the end of the event
             setTimeout(() => {
