@@ -40,6 +40,7 @@ paginate = 6
 [languages.de]
 weight = 1
 languageName = "Deutsch"
+languageCode = "de"
 calendarName = "Kalender"
 contentDir = "content/de"
 title = "xHain hack+makespace"
@@ -48,6 +49,7 @@ defaultDescription = "Hack- & Makespace im Herzen von Friedrichshain, Bastelstub
 [languages.en]
 weight = 2
 languageName = "English"
+languageCode = "en"
 calendarName = "Calendar"
 contentDir = "content/en"
 title = "xHain hack+makespace"
