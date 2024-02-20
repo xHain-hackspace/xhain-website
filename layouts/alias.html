@@ -12,9 +12,9 @@
     <meta http-equiv="refresh" content="0; url={{ .Permalink }}"/>
   </noscript>
   <script type="text/javascript">
-    let siteLangs = [{{ range site.Languages }} '{{ .LanguageCode }}', {{ end }}];
+    const siteLangs = [{{ range site.Languages }} '{{ .LanguageCode }}', {{ end }}];
 
-    let findLang = () => {
+    function findLang() {
       for (i in navigator.languages) {
         let lang = navigator.languages[i].split('-')[0];
         if (siteLangs.includes(lang)) {
@@ -23,7 +23,7 @@
       }
       return 'en';
     }
-    window.location.replace("/" + findLang() + "/");
+    window.location.replace(`/${findLang()}/`);
   </script>
   {{ else }}
   <meta http-equiv="refresh" content="0; url={{ .Permalink }}"/>
