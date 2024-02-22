@@ -18,7 +18,7 @@
                 from now */}} {{/* This filtering reduces the list that later
                 has to be filtered on every day. Not sure if this is really a
                 performance boost (no idea how to measure) */}} 
-                {{ $filterRange:= `^(2024-02|2024-03)` }} {{ $events := where $.Site.Data.calendar ".dtstart" "like" $filterRange}}
+                {{ $events := $.Site.Data.calendar }}
                 <div class="month_wrapper">
                     <div class="month_header">
                         <div class="year">{{ $startOfMonth.Year }}</div>
@@ -27,7 +27,7 @@
                     <div class="days_wrapper">
                         {{ range $i, $sequence := (seq $daysInMonth) }} 
                             {{ $thisDate := $startOfMonth.AddDate 0 0 ( $i | int) }} 
-                            {{ $todayEvents := where $.Site.Data.calendar ".dtstart" "like" ($thisDate| time.Format "2006-01-02")}} 
+                            {{ $todayEvents := where $.Site.Data.calendar ".dtstart" "like" ($thisDate | time.Format "2006-01-02")}} 
                             {{ partial "calendar-day.html" (dict "date" $thisDate "events" $todayEvents) }} 
                         {{ end }}
                     </div>
