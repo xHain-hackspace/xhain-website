@@ -20,9 +20,11 @@ jobs:
         run: |
           # Get the first date of this month
           first_date=$(date +%Y-%m-01)
+          first_date_ms=`date -d "$first_date" +%s`
           # Get the last date of this month
           last_date=$(date -d "`date +%Y%m01` +2  month -1 day" +%Y-%m-%d)
-          curl 'https://files.x-hain.de/remote.php/dav/public-calendars/Yi63cicwgDnjaBHR/?export&accept=jcal&start=$first_date&end=$last_date&expand=1' > temp.json
+          last_date_ms=`date -d "$last_date" +%s`
+          curl "https://files.x-hain.de/remote.php/dav/public-calendars/Yi63cicwgDnjaBHR/?export&accept=jcal&start=$first_date_ms&end=$last_date_ms&expand=1" > temp.json
 
       - name: Create data directory if it doesn't exist
         run: mkdir -p data
