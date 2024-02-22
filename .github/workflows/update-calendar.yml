@@ -1,15 +1,15 @@
 name: update-calendar
 run-name: Update calendar
+
 on:
   workflow_dispatch:
   schedule:
     # Run every hour
     - cron: "0 */1 * * *"
+
 jobs:
   fetch-calendar:
     runs-on: ubuntu-latest
-    env:
-      DOC_ROOT: ${{ github.workspace }}/GIST
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -19,39 +19,20 @@ jobs:
       - name: Download calendar from Nextcloud
         run: curl 'https://files.x-hain.de/remote.php/dav/public-calendars/Yi63cicwgDnjaBHR/?export&accept=jcal' > temp.json
 
+      - name: Create data directory if it doesn't exist
+        run: mkdir -p data
+
       - name: Convert CalDav format to useful JSON
         uses: sergeysova/jq-action@v2
-        id: keywords
         with:
           cmd: 'jq ".[2][][1] | map({key:.[0], value:.[3]}) | from_entries" ./temp.json | jq -s > data/calendar.json'
           multiline: true
 
-      - name: Test output
+      - name: Commit and push changes to facts file
         run: |
-          keywords="${{ steps.keywords.outputs.value }}"
-          for keyword in $keywords; do
-            echo "$keyword"
-          done
+          git config user.email "robot@github.com"
+          git config user.name "${{ github.actor }}"
+          git add "data/calendar.json"
+          git diff --quiet && git diff --staged --quiet || git commit -m "ci: update calander data file"
+          git push
 
-      # - name: Commit and push changes to facts file
-      #   run: |
-      #     git config user.email "robot@github.com"
-      #     git config user.name "${{ github.actor }}"
-      #     git add 'backend/facts.json'
-      #     git commit -m "Update facts.json"
-      #     git push
-
-      # - name: Clone gist repo
-      #   run: |
-      #     git config --global url.https://github.com/.insteadOf git://github.com/
-      #     git clone https://gist.github.com/770f8f7ec5eeaee50f0e288e47d4e8fb.git ${{ env.DOC_ROOT }}
-      # - name: Override gist file
-      #   run: cp -f print-data.txt ${{ env.DOC_ROOT }}/print-data.txt
-      # - name: Commit and push changes to gist
-      #   run: |
-      #     cd ${{ env.DOC_ROOT }}
-      #     git config user.email "robot@github.com"
-      #     git config user.name "${{ github.actor }}"
-      #     git add .
-      #     git commit -m "Update print-data.txt"
-      #     git push https://jdwillemse:${{ secrets.GIST_TOKEN }}@gist.github.com/770f8f7ec5eeaee50f0e288e47d4e8fb.git
