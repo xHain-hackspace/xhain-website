@@ -23,7 +23,7 @@ jobs:
         uses: sergeysova/jq-action@v2
         id: keywords
         with:
-          cmd: 'jq '.[2][][1] | map({key:.[0], value:.[3]}) | from_entries' ./temp.json | jq -s > data/calendar.json'
+          cmd: 'jq ".[2][][1] | map({key:.[0], value:.[3]}) | from_entries" ./temp.json | jq -s > data/calendar.json'
           multiline: true
 
       - name: Test output
