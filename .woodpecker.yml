@@ -1,14 +1,6 @@
 when:
   branch: [main, staging]
 steps:
-  parse:
-    image: golang
-    commands:
-      - cd calendar_parse
-      - go run .
-    when:
-      event: [push, tag, deployment, pull_request, cron, manual]
-      branch: [staging, main]
   build:
     image: eclipsefdn/hugo-node:h0.120.4-n18.18.2
     commands:
