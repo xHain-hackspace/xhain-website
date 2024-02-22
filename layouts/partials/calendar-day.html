@@ -1,0 +1,10 @@
+<div class="day day-{{.date.Weekday|int}}" id="{{.date.Format "2006-01-02"}}">
+  <div class="day_title">
+    <span class="monthday">{{.date.Day}}</span>
+    <span class="weekday">{{.date.Format "Mon"}}</span>
+</div>
+{{range sort .events ".dtstart"}} {{ partial "calendar-event.html" . }} 
+{{else}}
+<div class="no-event"></div>
+{{end}}
+</div>

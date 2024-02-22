@@ -6,18 +6,18 @@ let $overlay = null;
 let modalTemplate = null;
 
 // Main entrypoint
-document.addEventListener("DOMContentLoaded", function () {
-    $overlay = document.getElementById("overlay");
-    $modal = document.getElementById("event_modal_template");
-    modalTemplate = $modal.innerHTML;
+// document.addEventListener("DOMContentLoaded", function () {
+//     $overlay = document.getElementById("overlay");
+//     $modal = document.getElementById("event_modal_template");
+//     modalTemplate = $modal?.innerHTML;
 
-    highlightCurrentDay();
-    highlightCurrentEvents();
-    // keep the current events highlighted
-    setInterval(highlightCurrentEvents, activeEventInterval);
-    setupModal();
-    setTimeout(scrollToCurrentDay, 1000);
-});
+//     highlightCurrentDay();
+//     highlightCurrentEvents();
+//     // keep the current events highlighted
+//     setInterval(highlightCurrentEvents, activeEventInterval);
+//     setupModal();
+//     setTimeout(scrollToCurrentDay, 1000);
+// });
 
 function formatTime(date) {
     // check if a date is being passed and use it or convert a string to a date

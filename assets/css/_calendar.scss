@@ -173,22 +173,22 @@
     }
 
     // start the days of the week in same day column every month
-    .day-Tue:first-child {
+    .day-2:first-child {
         grid-column: 2;
     }
-    .day-Wed:first-child {
+    .day-3:first-child {
         grid-column: 3;
     }
-    .day-Thu:first-child {
+    .day-4:first-child {
         grid-column: 4;
     }
-    .day-Fri:first-child {
+    .day-5:first-child {
         grid-column: 5;
     }
-    .day-Sat:first-child {
+    .day-6:first-child {
         grid-column: 6;
     }
-    .day-Sun:first-child {
+    .day-6:first-child {
         grid-column: 7;
     }
 
