@@ -156,41 +156,83 @@
   translation: "Alle Rechte vorbehalten"
 
 ## DATE ##
-- id: "date.month.january"
+- id: "January"
   translation: "Januar"
 
-- id: "date.month.february"
+- id: "February"
   translation: "Februar"
 
-- id: "date.month.march"
+- id: "March"
   translation: "März"
 
-- id: "date.month.april"
+- id: "April"
   translation: "April"
 
-- id: "date.month.may"
+- id: "May"
   translation: "Mai"
 
-- id: "date.month.june"
+- id: "June"
   translation: "Juni"
 
-- id: "date.month.july"
+- id: "July"
   translation: "Juli"
 
-- id: "date.month.august"
+- id: "August"
   translation: "August"
 
-- id: "date.month.september"
+- id: "September"
   translation: "September"
 
-- id: "date.month.october"
+- id: "October"
   translation: "Oktober"
 
-- id: "date.month.november"
+- id: "November"
   translation: "November"
 
-- id: "date.month.december"
+- id: "December"
   translation: "Dezember"
+
+- id: "Monday"
+  translation: "Montag"
+
+- id: "Tuesday"
+  translation: "Dienstag"
+
+- id: "Wednesday" 
+  translation: "Mittwoch"
+
+- id: "Thursday"  
+  translation: "Donnerstag" 
+
+- id: "Friday"  
+  translation: "Freitag"
+
+- id: "Saturday"
+  translation: "Samstag"
+
+- id: "Sunday"
+  translation: "Sonntag"
+
+- id: "Mon"
+  translation: "Mo."
+
+- id: "Tue"
+  translation: "Di."
+
+- id: "Wed"   
+  translation: "Mi."
+
+- id: "Thu"
+  translation: "Do."
+
+- id: "Fri"
+  translation: "Fr."
+
+- id: "Sat"
+  translation: "Sa."
+
+- id: "Sun"
+  translation: "So."
 
 # Recent Post
 - id: "continueReading"

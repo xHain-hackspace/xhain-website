@@ -1,6 +1,7 @@
-{{ $startTime := time.AsTime .dtstart }} {{ $formattedStartTime :=
-$startTime.Format "15:04" }} {{ $endTime := time.AsTime .dtend }} {{
-$formattedEndTime := $endTime.Format "15:04" }}
+{{ $startTime := time.AsTime .dtstart }} 
+{{ $formattedStartTime := $startTime.Format "15:04" }} 
+{{ $endTime := time.AsTime .dtend }} 
+{{ $formattedEndTime := $endTime.Format "15:04" }}
 <div
     class="event"
     z-index="-1"
@@ -15,8 +16,12 @@ $formattedEndTime := $endTime.Format "15:04" }}
     data-description="{{.description}}"
 >
     <div class="time">
-        <span class="start">{{$formattedStartTime}}</span>
-        <span class="end"> – {{$formattedEndTime}}</span>
+        <time class="start" datetime="{{$formattedStartTime}}" aria-label="start">
+            {{$formattedStartTime}}
+        </time>
+        <time class="end" datetime="{{$formattedEndTime}}" aria-label="end">
+            {{$formattedEndTime}}
+        </time>
     </div>
     <span class="title">{{.summary}}</span>
 </div>

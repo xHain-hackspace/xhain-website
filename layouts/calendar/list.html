@@ -5,8 +5,8 @@
 {{ $start := print ($now.Format "2006-01") "-01" }}
 {{ $startDate := time.AsTime $start "CET" }} 
 <main>
-    <div id="main-wrapper">
-        <div id="xhain_calendar">
+    <div id="main-wrapper" class="calendar-wrapper">
+        <div id="xhain_calendar" class="calendar">
             <h1 id="article-title">{{ .Title }}</h1>
             {{ range $i, $month := (seq $monthCount) }} 
                 {{ $startOfMonth := $startDate.AddDate 0 $i 0 }} 
@@ -22,7 +22,7 @@
                 <div class="month_wrapper">
                     <div class="month_header">
                         <div class="year">{{ $startOfMonth.Year }}</div>
-                        <div class="month">{{ $startOfMonth.Month }}</div>
+                        <div class="month">{{ T $startOfMonth.Month }}</div>
                     </div>
                     <div class="days_wrapper">
                         {{ range $i, $sequence := (seq $daysInMonth) }} 
