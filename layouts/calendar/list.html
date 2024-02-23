@@ -1,5 +1,5 @@
 {{ define "main" }} 
-{{ $monthCount := 2 }} 
+{{ $monthCount := 6 }} 
 {{ $now:= time.Now }} 
 {{/* The first of the month has to be a 00:00:00 hours otherwise the math goes wonky */}}
 {{ $start := print ($now.Format "2006-01") "-01" }}
@@ -12,8 +12,9 @@
                 {{ $startOfMonth := $startDate.AddDate 0 $i 0 }} 
                 {{ $endOfMonth := $startOfMonth.AddDate 0 1 0 }} 
                 {{ $monthLength := $endOfMonth.Sub $startOfMonth}} 
-                {{ $hoursInMonth:= $monthLength.Hours | int }}
-                {{ $daysInMonth := div $hoursInMonth 24 }}
+                {{/*  add 1 to account for daylight savings  */}}
+                {{ $hoursInMonth:= add ($monthLength.Hours | int) 1 }} 
+                {{ $daysInMonth := math.Round (div $hoursInMonth 24) }}
                 {{/* TODO: make these dates dynamic for this month to two months
                 from now */}} {{/* This filtering reduces the list that later
                 has to be filtered on every day. Not sure if this is really a

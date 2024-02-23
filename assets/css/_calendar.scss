@@ -181,6 +181,10 @@
         }
     }
 
+    .day-empty {
+        display: none;
+    }
+
     // start the days of the week in same day column every month
     .day-2:first-child {
         grid-column: 2;
@@ -275,15 +279,20 @@
 }
 
 @media (min-width: 830px) {
+    .calendar {
+        .days_wrapper {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            grid-gap: 0.5rem;
+        }
 
-    .days_wrapper {
-        display: grid;
-        grid-template-columns: repeat(7, 1fr);
-        grid-gap: 0.5rem;
-    }
+        .day {
+            &[data-empty]:not(.current) {
+                display: block;
+            }
+        }
 
-    .day {
-        &[data-empty]:not(.current) {
+        .day-empty {
             display: block;
         }
     }

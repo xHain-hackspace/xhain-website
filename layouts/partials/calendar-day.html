@@ -1,6 +1,6 @@
 {{ $fullDate := .date.Format "2006-01-02" }}
 {{ $weekday := .date.Format "Mon" }}
-<div class="day day-{{.date.Weekday|int}}" id="{{$fullDate}}">
+<div class="day day-{{.date.Weekday|int}} {{if not .events}}day-empty{{end}}" id="{{$fullDate}}">
   <div class="day_title">
     <time class="monthday" datetime="{{$fullDate}}">{{.date.Day}}</time>
     <span class="weekday">{{T $weekday}}</span>
