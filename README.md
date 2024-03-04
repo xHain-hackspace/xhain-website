@@ -50,4 +50,4 @@ Production: https://www.x-hain.de  [![status-badge](https://ci.x-hain.de/api/bad
 
 ## Calendar
 
-The calendar is managed by [Nextcloud](https://files.x-hain.de/apps/calendar/dayGridMonth/now). This in turn is accessed via the Nextcloud export API. The export is triggered by a cron job in a GitHub action. The action is defined in the file `.github/workflows/update-calendar.yml`.
+The calendar is managed by [Nextcloud](https://files.x-hain.de/apps/calendar/dayGridMonth/now). For your convenience (old) data is available in `data/calendar.json`. If you want to update the information you can run `./download_calendar.sh`.
