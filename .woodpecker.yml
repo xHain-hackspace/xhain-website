@@ -3,18 +3,31 @@ when:
 steps:
   build:
     image: eclipsefdn/hugo-node:h0.120.4-n18.18.2
-    commands:
-      - |
-        # Get the first date of this month
-        first_date=$(date +%Y-%m-01)
-        first_date_ms=`date -d "$first_date" +%s`
-        # Get the last date of this month
-        last_date=$(date -d "`date +%Y%m01` +2  month -1 day" +%Y-%m-%d)
-        last_date_ms=`date -d "$last_date" +%s`
-        curl "https://files.x-hain.de/remote.php/dav/public-calendars/Yi63cicwgDnjaBHR/?export&accept=jcal&start=$first_date_ms&end=$last_date_ms&expand=1" > temp.json
-      - 'jq ".[2][][1] | map({key:.[0], value:.[3]}) | from_entries" ./temp.json | jq -s > data/calendar.json'
-      - hugo version
-      - hugo -d public_html --config config.toml,home.toml --cleanDestinationDir
+    commands: |
+      mkdir -p data
+      first_date=$(date +%Y-%m-01)
+      first_date_ms=$(date -d "$first_date" +%s)
+      last_date=$(date -d "`date +%Y%m01` +1 month -1 day" +%Y-%m-%d)
+      last_date_ms=$(date -d "$last_date" +%s)
+
+      curl -s "https://files.x-hain.de/remote.php/dav/public-calendars/Yi63cicwgDnjaBHR/?export&accept=jcal&start=$first_date_ms&end=$last_date_ms&expand=1" -o temp.json
+      if [ $? -eq 0 ]; then
+          echo "Data fetched successfully."
+      else
+          echo "Error fetching data."
+          exit 1
+      fi
+
+      jq ".[2][][1] | map({key:.[0], value:.[3]}) | from_entries" temp.json | jq -s > data/calendar.json
+      if [ $? -eq 0 ]; then
+          echo "Data transformed successfully."
+      else
+          echo "Error processing data."
+          exit 1
+      fi
+
+      hugo version
+      hugo -d public_html --config config.toml,home.toml --cleanDestinationDir --baseURL https://staging.x-hain.de
     when:
       event: [push, tag, deployment, cron, manual]
       branch: [main]
@@ -23,16 +36,30 @@ steps:
     image: eclipsefdn/hugo-node:h0.120.4-n18.18.2
     commands:
       - |
-        # Get the first date of this month
+        mkdir -p data
         first_date=$(date +%Y-%m-01)
-        first_date_ms=`date -d "$first_date" +%s`
-        # Get the last date of this month
-        last_date=$(date -d "`date +%Y%m01` +2  month -1 day" +%Y-%m-%d)
-        last_date_ms=`date -d "$last_date" +%s`
-        curl "https://files.x-hain.de/remote.php/dav/public-calendars/Yi63cicwgDnjaBHR/?export&accept=jcal&start=$first_date_ms&end=$last_date_ms&expand=1" > temp.json
-      - 'jq ".[2][][1] | map({key:.[0], value:.[3]}) | from_entries" ./temp.json | jq -s > data/calendar.json'
-      - hugo version
-      - hugo -d public_html --config config.toml,home.toml --cleanDestinationDir --baseURL https://staging.x-hain.de
+        first_date_ms=$(date -d "$first_date" +%s)
+        last_date=$(date -d "`date +%Y%m01` +1 month -1 day" +%Y-%m-%d)
+        last_date_ms=$(date -d "$last_date" +%s)
+
+        curl -s "https://files.x-hain.de/remote.php/dav/public-calendars/Yi63cicwgDnjaBHR/?export&accept=jcal&start=$first_date_ms&end=$last_date_ms&expand=1" -o temp.json
+        if [ $? -eq 0 ]; then
+            echo "Data fetched successfully."
+        else
+            echo "Error fetching data."
+            exit 1
+        fi
+
+        jq ".[2][][1] | map({key:.[0], value:.[3]}) | from_entries" temp.json | jq -s > data/calendar.json
+        if [ $? -eq 0 ]; then
+            echo "Data transformed successfully."
+        else
+            echo "Error processing data."
+            exit 1
+        fi
+
+        hugo version
+        hugo -d public_html --config config.toml,home.toml --cleanDestinationDir --baseURL https://staging.x-hain.de
     when:
       event: [push, tag, deployment]
       branch: [staging]
@@ -73,9 +100,31 @@ steps:
 
   build-preview:
     image: eclipsefdn/hugo-node:h0.120.4-n18.18.2
-    commands:
-      - hugo version
-      - hugo -d public_html --config config.toml,home.toml --cleanDestinationDir --baseURL /
+    commands: |
+      mkdir -p data
+      first_date=$(date +%Y-%m-01)
+      first_date_ms=$(date -d "$first_date" +%s)
+      last_date=$(date -d "`date +%Y%m01` +1 month -1 day" +%Y-%m-%d)
+      last_date_ms=$(date -d "$last_date" +%s)
+
+      curl -s "https://files.x-hain.de/remote.php/dav/public-calendars/Yi63cicwgDnjaBHR/?export&accept=jcal&start=$first_date_ms&end=$last_date_ms&expand=1" -o temp.json
+      if [ $? -eq 0 ]; then
+          echo "Data fetched successfully."
+      else
+          echo "Error fetching data."
+          exit 1
+      fi
+
+      jq ".[2][][1] | map({key:.[0], value:.[3]}) | from_entries" temp.json | jq -s > data/calendar.json
+      if [ $? -eq 0 ]; then
+          echo "Data transformed successfully."
+      else
+          echo "Error processing data."
+          exit 1
+      fi
+
+      hugo version
+      hugo -d public_html --config config.toml,home.toml --cleanDestinationDir --baseURL https://staging.x-hain.de
     when:
       event: pull_request
   preview:
