@@ -9,7 +9,7 @@ let modalTemplate = null;
 document.addEventListener("DOMContentLoaded", function () {
     $overlay = document.getElementById("overlay");
     $modal = document.getElementById("event_modal_template");
-    modalTemplate = $modal.innerHTML;
+    modalTemplate = $modal?.innerHTML;
 
     highlightCurrentDay();
     highlightCurrentEvents();

@@ -1,0 +1,65 @@
+{{ define "main" }} 
+{{ $monthCount := 3 }} 
+{{ $now:= time.Now }} 
+{{/* The first of the month has to be a 00:00:00 hours otherwise the math goes wonky */}}
+{{ $start := print ($now.Format "2006-01") "-01" }}
+{{ $startDate := time.AsTime $start "CET" }} 
+<main>
+    <div id="main-wrapper" class="calendar-wrapper">
+        <div id="xhain_calendar" class="calendar">
+            <h1 id="article-title">{{ .Title }}</h1>
+            {{ range $i, $month := (seq $monthCount) }} 
+                {{ $startOfMonth := $startDate.AddDate 0 $i 0 }} 
+                {{ $endOfMonth := $startOfMonth.AddDate 0 1 0 }} 
+                {{ $monthLength := $endOfMonth.Sub $startOfMonth}} 
+                {{/*  add 1 to account for daylight savings  */}}
+                {{ $hoursInMonth:= add ($monthLength.Hours | int) 1 }} 
+                {{ $daysInMonth := math.Round (div $hoursInMonth 24) }}
+                {{/* TODO: make these dates dynamic for this month to two months
+                from now */}} {{/* This filtering reduces the list that later
+                has to be filtered on every day. Not sure if this is really a
+                performance boost (no idea how to measure) */}} 
+                {{ $events := $.Site.Data.calendar }}
+                <div class="month_wrapper">
+                    <div class="month_header">
+                        <div class="year">{{ $startOfMonth.Year }}</div>
+                        <div class="month">{{ T $startOfMonth.Month }}</div>
+                    </div>
+                    <div class="days_wrapper">
+                        {{ range $i, $sequence := (seq $daysInMonth) }} 
+                            {{ $thisDate := $startOfMonth.AddDate 0 0 ( $i | int) }} 
+                            {{ $todayEvents := where $.Site.Data.calendar ".dtstart" "like" ($thisDate | time.Format "2006-01-02")}} 
+                            {{ partial "calendar-day.html" (dict "date" $thisDate "events" $todayEvents) }} 
+                        {{ end }}
+                    </div>
+                </div>
+
+            {{ end }}
+        </div>
+    </div>
+
+    <div id="event_modal_template" class="event_modal_template" aria-hidden>
+        <div class="modal">
+            <button type="button" class="close" title="close">&times;</button>
+            <div id="info_date_time">
+                <div class="time">
+                    <span class="start">${formattedStartTime}</span>
+                    <span class="end"> – ${formattedEndTime}</span>
+                </div>
+            </div>
+            <div id="info_location">${location}</div>
+            <div id="info_title">${title}</div>
+            <div id="info_description">${description}</div>
+        </div>
+    </div>
+
+    <div
+        id="overlay"
+        class="overlay"
+        role="region"
+        aria-live="polite"
+        aria-hidden
+        aria-modal="true"
+    ></div>
+</main>
+{{ end }}
