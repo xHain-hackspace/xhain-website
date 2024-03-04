@@ -2,7 +2,7 @@ when:
   branch: [main, staging]
 steps:
   build:
-    image: eclipsefdn/hugo-node:h0.120.4-n18.18.2
+    image: ghcr.io/xhain-hackspace/website-build-container:latest
     commands: |
       mkdir -p data
       first_date=$(date +%Y-%m-01)
@@ -33,7 +33,7 @@ steps:
       branch: [main]
 
   build-staging:
-    image: eclipsefdn/hugo-node:h0.120.4-n18.18.2
+    image: ghcr.io/xhain-hackspace/website-build-container:latest
     commands:
       - |
         mkdir -p data
@@ -59,7 +59,7 @@ steps:
         fi
 
         hugo version
-        hugo -d public_html --config config.toml,home.toml --cleanDestinationDir --baseURL https://staging.x-hain.de
+        hugo -d public_html --config config.toml,home.toml --cleanDestinationDir
     when:
       event: [push, tag, deployment]
       branch: [staging]
@@ -99,7 +99,7 @@ steps:
       branch: [staging]
 
   build-preview:
-    image: eclipsefdn/hugo-node:h0.120.4-n18.18.2
+    image: ghcr.io/xhain-hackspace/website-build-container:latest
     commands: |
       mkdir -p data
       first_date=$(date +%Y-%m-01)
@@ -124,7 +124,7 @@ steps:
       fi
 
       hugo version
-      hugo -d public_html --config config.toml,home.toml --cleanDestinationDir --baseURL https://staging.x-hain.de
+      hugo -d public_html --config config.toml,home.toml --cleanDestinationDir --baseURL /
     when:
       event: pull_request
   preview:
