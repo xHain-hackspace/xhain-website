@@ -1,5 +1,5 @@
 {{ define "main" }} 
-{{ $monthCount := 6 }} 
+{{ $monthCount := 3 }} 
 {{ $now:= time.Now }} 
 {{/* The first of the month has to be a 00:00:00 hours otherwise the math goes wonky */}}
 {{ $start := print ($now.Format "2006-01") "-01" }}

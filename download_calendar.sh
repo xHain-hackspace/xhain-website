@@ -6,13 +6,13 @@ mkdir -p data || { echo "Error creating directory 'data'"; exit 1; }
 # Calculate the first and last dates of the current month
 first_date=$(date +%Y-%m-01)
 first_date_ms=$(date -d "$first_date" +%s)
-last_date=$(date -d "$(date +%Y%m01) +1 month -1 day" +%Y-%m-%d)
+last_date=$(date -d "$(date +%Y%m01) +3 month -1 day" +%Y-%m-%d)
 last_date_ms=$(date -d "$last_date" +%s)
 
 # Fetch data from the URL
 curl -s "https://files.x-hain.de/remote.php/dav/public-calendars/Yi63cicwgDnjaBHR/?export&accept=jcal&start=$first_date_ms&end=$last_date_ms&expand=1" -o temp.json
 if [ $? -eq 0 ]; then
-    echo "Data fetched successfully."
+    echo "Data from $first_date to $last_date fetched successfully."
 else
     echo "Error fetching data."
     exit 1
