@@ -2,9 +2,9 @@ when:
   branch: [main, staging]
 steps:
   build:
-    image: ghcr.io/xhain-hackspace/website-build-container:latest
+    image: ghcr.io/xhain-hackspace/website-build-container:v0.0.2
     commands:
-      - ./download_calendar.sh
+      - python3 download_calendar.py
       - hugo version
       - hugo -d public_html --config config.toml,home.toml --cleanDestinationDir
     when:
@@ -12,9 +12,9 @@ steps:
       branch: [main]
 
   build-staging:
-    image: ghcr.io/xhain-hackspace/website-build-container:latest
+    image: ghcr.io/xhain-hackspace/website-build-container:v0.0.2
     commands:
-      - ./download_calendar.sh
+      - python3 download_calendar.py
       - hugo version
       - hugo -d public_html --config config.toml,home.toml --cleanDestinationDir --baseURL https://staging.x-hain.de
     when:
@@ -56,9 +56,9 @@ steps:
       branch: [staging]
 
   build-preview:
-    image: ghcr.io/xhain-hackspace/website-build-container:latest
+    image: ghcr.io/xhain-hackspace/website-build-container:v0.0.2
     commands:
-      - ./download_calendar.sh
+      - python3 download_calendar.py
       - hugo version
       - hugo -d public_html --config config.toml,home.toml --cleanDestinationDir --baseURL /
     when:
