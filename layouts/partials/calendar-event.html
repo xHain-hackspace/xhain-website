@@ -1,6 +1,6 @@
-{{ $startTime := time.AsTime .dtstart }} 
-{{ $formattedStartTime := $startTime.Format "15:04" }} 
-{{ $endTime := time.AsTime .dtend }} 
+{{ $startTime := (time.AsTime .dtstart).Local }}
+{{ $formattedStartTime := $startTime.Format "15:04" }}
+{{ $endTime := (time.AsTime .dtend).Local }}
 {{ $formattedEndTime := $endTime.Format "15:04" }}
 <div
     class="event"
