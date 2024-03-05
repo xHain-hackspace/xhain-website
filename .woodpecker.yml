@@ -4,7 +4,8 @@ steps:
   build:
     image: ghcr.io/xhain-hackspace/website-build-container:v0.0.2
     commands:
-      - python3 download_calendar.py
+      - timedatectl set-timezone Europe/Berlin
+      - ./download_calendar.sh
       - hugo version
       - hugo -d public_html --config config.toml,home.toml --cleanDestinationDir
     when:
@@ -14,7 +15,8 @@ steps:
   build-staging:
     image: ghcr.io/xhain-hackspace/website-build-container:v0.0.2
     commands:
-      - python3 download_calendar.py
+      - timedatectl set-timezone Europe/Berlin
+      - ./download_calendar.sh
       - hugo version
       - hugo -d public_html --config config.toml,home.toml --cleanDestinationDir --baseURL https://staging.x-hain.de
     when:
@@ -58,11 +60,13 @@ steps:
   build-preview:
     image: ghcr.io/xhain-hackspace/website-build-container:v0.0.2
     commands:
-      - python3 download_calendar.py
+      - timedatectl set-timezone Europe/Berlin
+      - ./download_calendar.sh
       - hugo version
       - hugo -d public_html --config config.toml,home.toml --cleanDestinationDir --baseURL /
     when:
       event: pull_request
+
   preview:
     image: woodpeckerci/plugin-surge-preview:next
     settings:
