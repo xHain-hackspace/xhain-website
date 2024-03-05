@@ -5,10 +5,9 @@
 {{ $start := print ($now.Format "2006-01") "-01" }}
 {{ $startDate := time.AsTime $start "CET" }}
 {{ $events := slice }}
-{{ debug.Dump $events }}
+{{/*  parse all the start and end times into local  */}}
 {{ range $.Site.Data.calendar }}
 {{ $event := . }}
-
 {{ $event := merge $event (dict "dtstart" (time.AsTime $event.dtstart).Local) }}
 {{ $event := merge $event (dict "dtend" (time.AsTime $event.dtend).Local) }}
 {{ $events = $events | append $event }}
