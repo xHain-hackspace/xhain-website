@@ -80,8 +80,8 @@ function highlightCurrentEvents() {
 
     events?.forEach(function (event) {
         const { startTime, endTime } = event.dataset;
-        const startTimeDate = new Date(startTime);
-        const endTimeDate = new Date(endTime);
+        const startTimeDate = Date.parse(startTime);
+        const endTimeDate = Date.parse(endTime);
 
         if (now >= startTimeDate && now < endTimeDate) {
             const remainingEventTime = endTimeDate - now;
