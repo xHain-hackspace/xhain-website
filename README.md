@@ -28,7 +28,7 @@ Production: https://www.x-hain.de  [![status-badge](https://ci.x-hain.de/api/bad
 * Run hugo to generate HTML: ``hugo``
 * Run hugo for local development:
 
-   ``hugo server --config config.toml,home.toml`` 
+   ``hugo server --config config.toml,home.toml``
 
   or
 
@@ -50,4 +50,4 @@ Production: https://www.x-hain.de  [![status-badge](https://ci.x-hain.de/api/bad
 
 ## Calendar
 
-The calendar is managed by [Nextcloud](https://files.x-hain.de/apps/calendar/dayGridMonth/now). For your convenience (old) data is available in `data/calendar.json`. If you want to update the information you can run `python3 download_calendar.sh`.
+The calendar is managed by [Nextcloud](https://files.x-hain.de/apps/calendar/dayGridMonth/now). For your convenience (old) data is available in `data/calendar.json`. If you want to update the information you can run `python3 download_calendar.py`.

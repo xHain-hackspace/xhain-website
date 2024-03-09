@@ -1,35 +1,44 @@
-{{ define "main" }} 
-{{ $monthCount := 3 }} 
-{{ $now:= time.Now }} 
+{{ define "main" }}
+{{ $monthCount := 3 }}
+{{ $now:= time.Now }}
 {{/* The first of the month has to be a 00:00:00 hours otherwise the math goes wonky */}}
 {{ $start := print ($now.Format "2006-01") "-01" }}
-{{ $startDate := time.AsTime $start "CET" }} 
+{{ $startDate := time.AsTime $start "CET" }}
+{{ $events := slice }}
+{{/*  parse all the start and end times into local  */}}
+{{ range $.Site.Data.calendar }}
+{{ $event := . }}
+{{ $event := merge $event (dict "dtstart" (time.AsTime $event.dtstart).Local) }}
+{{ $event := merge $event (dict "dtend" (time.AsTime $event.dtend).Local) }}
+{{ $events = $events | append $event }}
+{{ end }}
 <main>
     <div id="main-wrapper" class="calendar-wrapper">
         <div id="xhain_calendar" class="calendar">
             <h1 id="article-title">{{ .Title }}</h1>
-            {{ range $i, $month := (seq $monthCount) }} 
-                {{ $startOfMonth := $startDate.AddDate 0 $i 0 }} 
-                {{ $endOfMonth := $startOfMonth.AddDate 0 1 0 }} 
-                {{ $monthLength := $endOfMonth.Sub $startOfMonth}} 
+            {{ range $i, $month := (seq $monthCount) }}
+                {{ $startOfMonth := $startDate.AddDate 0 $i 0 }}
+                {{ $endOfMonth := $startOfMonth.AddDate 0 1 0 }}
+                {{ $monthLength := $endOfMonth.Sub $startOfMonth}}
                 {{/*  add 1 to account for daylight savings  */}}
-                {{ $hoursInMonth:= add ($monthLength.Hours | int) 1 }} 
+                {{ $hoursInMonth:= add ($monthLength.Hours | int) 1 }}
                 {{ $daysInMonth := math.Round (div $hoursInMonth 24) }}
                 {{/* TODO: make these dates dynamic for this month to two months
                 from now */}} {{/* This filtering reduces the list that later
                 has to be filtered on every day. Not sure if this is really a
-                performance boost (no idea how to measure) */}} 
-                {{ $events := $.Site.Data.calendar }}
+                performance boost (no idea how to measure) */}}
                 <div class="month_wrapper">
                     <div class="month_header">
                         <div class="year">{{ $startOfMonth.Year }}</div>
                         <div class="month">{{ T $startOfMonth.Month }}</div>
                     </div>
                     <div class="days_wrapper">
-                        {{ range $i, $sequence := (seq $daysInMonth) }} 
-                            {{ $thisDate := $startOfMonth.AddDate 0 0 ( $i | int) }} 
-                            {{ $todayEvents := where $.Site.Data.calendar ".dtstart" "like" ($thisDate | time.Format "2006-01-02")}} 
-                            {{ partial "calendar-day.html" (dict "date" $thisDate "events" $todayEvents) }} 
+                        {{ range $i, $sequence := (seq $daysInMonth) }}
+                            {{ $thisDate := $startOfMonth.AddDate 0 0 ( $i | int) }}
+                            {{ $nextDate := $thisDate.AddDate 0 0 1 }}
+                            {{ $todayEvents := where $events  ".dtstart" "le" $nextDate }}
+                            {{ $todayEvents := where $todayEvents  ".dtstart" "ge" $thisDate }}
+                            {{ partial "calendar-day.html" (dict "date" $thisDate "events" $todayEvents) }}
                         {{ end }}
                     </div>
                 </div>

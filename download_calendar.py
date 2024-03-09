@@ -2,21 +2,7 @@ import json
 import os
 from datetime import datetime, timedelta
 
-import pytz
 import requests
-
-
-def convert_to_berlin_timezone(dt_str, event_format):
-    utc_zone = pytz.utc
-    berlin_zone = pytz.timezone("Europe/Berlin")
-
-    is_all_day = len(dt_str) == 10
-    if is_all_day:
-        return dt_str
-    else:
-        dt = datetime.strptime(dt_str, event_format)
-        dt = utc_zone.localize(dt).astimezone(berlin_zone)
-        return dt.strftime("%Y-%m-%dT%H:%M:%S%z")
 
 
 os.makedirs("data", exist_ok=True)
@@ -43,11 +29,7 @@ try:
         event_data = {}
         for item in event[1]:
             key, value = item[0], item[3]
-            if key in ["dtstart", "dtend"]:
-                event_format = "%Y-%m-%dT%H:%M:%SZ" if "T" in value else "%Y-%m-%d"
-                event_data[key] = convert_to_berlin_timezone(value, event_format)
-            else:
-                event_data[key] = value
+            event_data[key] = value
         transformed_data.append(event_data)
 
     with open("data/calendar.json", "w") as outfile:

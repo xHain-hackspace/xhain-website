@@ -4,6 +4,7 @@ steps:
   build:
     image: ghcr.io/xhain-hackspace/website-build-container:v0.0.2
     commands:
+      - ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
       - python3 download_calendar.py
       - hugo version
       - hugo -d public_html --config config.toml,home.toml --cleanDestinationDir
@@ -14,6 +15,7 @@ steps:
   build-staging:
     image: ghcr.io/xhain-hackspace/website-build-container:v0.0.2
     commands:
+      - ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
       - python3 download_calendar.py
       - hugo version
       - hugo -d public_html --config config.toml,home.toml --cleanDestinationDir --baseURL https://staging.x-hain.de
@@ -58,6 +60,7 @@ steps:
   build-preview:
     image: ghcr.io/xhain-hackspace/website-build-container:v0.0.2
     commands:
+      - ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
       - python3 download_calendar.py
       - hugo version
       - hugo -d public_html --config config.toml,home.toml --cleanDestinationDir --baseURL /
