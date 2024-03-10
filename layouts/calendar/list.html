@@ -5,7 +5,7 @@
 {{ $start := print ($now.Format "2006-01") "-01" }}
 {{ $startDate := time.AsTime $start "CET" }}
 {{ $endDate := $startDate.AddDate 0 $monthCount 0 }}
-{{ $url := printf "https://files.x-hain.de/remote.php/dav/public-calendars/Yi63cicwgDnjaBHR/?export&accept=jcal&start=%d&end=%d&expand=1" $startDate.Unix $endDate.Unix }}
+{{ $url := printf .Site.Params.calendar $startDate.Unix $endDate.Unix }}
 {{ $data := getJSON $url  }}
 {{ $events := slice }}
 {{/*  parse all the start and end times into local  */}}

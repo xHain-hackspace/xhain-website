@@ -17,6 +17,7 @@ paginate = 6
   author = "xHain hack+makespace"
   defaultKeywords = ["hackspace", "makerspace", "xhain"]
   email = "info@x-hain.de"
+  calendar= "https://files.x-hain.de/remote.php/dav/public-calendars/Yi63cicwgDnjaBHR/?export&accept=jcal&start=%d&end=%d&expand=1"
   latitude = "52.512815"
   longitude = "13.4493919"
   og_image = "/images/hero.jpg"
