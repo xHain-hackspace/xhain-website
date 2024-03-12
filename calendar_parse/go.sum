@@ -1,7 +1,0 @@
-github.com/emersion/go-ical v0.0.0-20220601085725-0864dccc089f h1:feGUUxxvOtWVOhTko8Cbmp33a+tU0IMZxMEmnkoAISQ=
-github.com/emersion/go-ical v0.0.0-20220601085725-0864dccc089f/go.mod h1:2MKFUgfNMULRxqZkadG1Vh44we3y5gJAtTBlVsx1BKQ=
-github.com/gueldenstone/calendar-bot v1.0.8 h1:y8IMqSg5sWMbavJjFXWCZ5u3CdnNTqhtIqF6a70mvjM=
-github.com/gueldenstone/calendar-bot v1.0.8/go.mod h1:WO/lkPSR2uBqa7l8wLt0bCQ9Oz0romF9ZtweNjcJums=
-github.com/teambition/rrule-go v1.7.2/go.mod h1:mBJ1Ht5uboJ6jexKdNUJg2NcwP8uUMNvStWXlJD3MvU=
-github.com/teambition/rrule-go v1.8.2 h1:lIjpjvWTj9fFUZCmuoVDrKVOtdiyzbzc93qTmRVe/J8=
-github.com/teambition/rrule-go v1.8.2/go.mod h1:Ieq5AbrKGciP1V//Wq8ktsTXwSwJHDD5mD/wLBGl3p4=

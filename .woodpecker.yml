@@ -1,17 +1,10 @@
 when:
   branch: [main, staging]
 steps:
-  parse:
-    image: golang
-    commands:
-      - cd calendar_parse
-      - go run .
-    when:
-      event: [push, tag, deployment, pull_request, cron, manual]
-      branch: [staging, main]
   build:
-    image: eclipsefdn/hugo-node:h0.120.4-n18.18.2
+    image: ghcr.io/xhain-hackspace/website-build-container:v0.0.2
     commands:
+      - ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
       - hugo version
       - hugo -d public_html --config config.toml,home.toml --cleanDestinationDir
     when:
@@ -19,8 +12,9 @@ steps:
       branch: [main]
 
   build-staging:
-    image: eclipsefdn/hugo-node:h0.120.4-n18.18.2
+    image: ghcr.io/xhain-hackspace/website-build-container:v0.0.2
     commands:
+      - ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
       - hugo version
       - hugo -d public_html --config config.toml,home.toml --cleanDestinationDir --baseURL https://staging.x-hain.de
     when:
@@ -62,8 +56,9 @@ steps:
       branch: [staging]
 
   build-preview:
-    image: eclipsefdn/hugo-node:h0.120.4-n18.18.2
+    image: ghcr.io/xhain-hackspace/website-build-container:v0.0.2
     commands:
+      - ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
       - hugo version
       - hugo -d public_html --config config.toml,home.toml --cleanDestinationDir --baseURL /
     when:
