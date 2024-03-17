@@ -23,6 +23,9 @@
 - id: "global.about"
   translation: "About"
 
+- id: "global.subscribe"
+  translation: "Subscribe"
+
 - id: "global.author_picture"
   translation: "Author's picture"
 
@@ -198,13 +201,13 @@
 - id: "Tuesday"
   translation: "Tuesday"
 
-- id: "Wednesday" 
+- id: "Wednesday"
   translation: "Wednesday"
 
-- id: "Thursday"  
+- id: "Thursday"
   translation: "Thursday"
 
-- id: "Friday"  
+- id: "Friday"
   translation: "Friday"
 
 - id: "Saturday"
@@ -219,7 +222,7 @@
 - id: "Tue"
   translation: "Tue"
 
-- id: "Wed"   
+- id: "Wed"
   translation: "Wed"
 
 - id: "Thu"
@@ -239,22 +242,21 @@
 - id: "continueReading"
   translation: "Continue Reading"
 
-
 # Menu Language
 
 - id: "language"
   translation: "Language"
 
-- id: "english" 
+- id: "english"
   translation: "English"
 
 - id: "german"
   translation: "German"
 
-# Twitter 
-# Twitter 
-- id:  "visit"
+# Twitter
+# Twitter
+- id: "visit"
   translation: "Visit"
 
-- id:  "on"
+- id: "on"
   translation: "on"
