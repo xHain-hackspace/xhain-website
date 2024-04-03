@@ -125,7 +125,11 @@ function setupModal() {
 }
 
 function openModal(eventElement) {
-    const eventData = { ...eventElement.dataset };
+    const eventData = {
+        ...eventElement.dataset,
+        // parse markdown in the description
+        description: marked.parse(eventElement.dataset.description),
+    };
     $overlay.innerHTML = renderModal(modalTemplate, eventData);
     showModal();
 }
