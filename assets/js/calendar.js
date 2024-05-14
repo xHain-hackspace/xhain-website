@@ -1,3 +1,5 @@
+import { marked } from "marked";
+
 // global DOM elements and variables
 const activeEventInterval = 1000 * 60 * 10; // 10 minutes
 let $calendar = null;

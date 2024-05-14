@@ -1,0 +1,23 @@
+{
+  "name": "xhain-website",
+  "version": "1.0.0",
+  "description": "Staging: https://staging.x-hain.de [![status-badge](https://ci.x-hain.de/api/badges/xHain-hackspace/xhain-website/status.svg?branch=staging)](https://ci.x-hain.de/xHain-hackspace/xhain-website)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "hugo server --config config.toml,home.toml",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xHain-hackspace/xhain-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xHain-hackspace/xhain-website/issues"
+  },
+  "homepage": "https://github.com/xHain-hackspace/xhain-website#readme",
+  "dependencies": {
+    "marked": "^12.0.2"
+  }
+}
