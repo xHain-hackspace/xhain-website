@@ -145,8 +145,8 @@
             padding: 0.8rem 1rem;
             border-radius: 0.3rem;
             font-size: 0.9rem;
+            line-height: 1.5em;
             margin-top: 0.5em;
-            word-break: break-word;
             hyphens: auto;
 
             .time {
@@ -166,6 +166,11 @@
                 .end:empty {
                     display: none;
                 }
+            }
+
+            .title {
+                display: block;
+                overflow: hidden;
             }
 
             .location {
@@ -199,6 +204,10 @@
 
             &:hover {
                 color: $link-color;
+
+                .title {
+                    text-decoration: underline;
+                }
             }
         }
     }
