@@ -83,25 +83,6 @@
             float: right;
             font-size: 2.5rem;
         }
-
-        .subscribe {
-            float: right;
-            margin-top: 0.3rem;
-            margin-right: 0.6rem;
-            padding: 0px 8px;
-            background-color: #000;
-            border-radius: 0.3rem;
-
-            color: grey;
-            font-size: 0.6rem;
-            font-weight: bold;
-            text-decoration: none;
-
-            &:hover {
-                color: #000;
-                background-color: $link-color;
-            }
-        }
     }
 
     .day {
@@ -231,6 +212,12 @@
     .day-7:first-child {
         grid-column: 7;
     }
+}
+
+.calendar_header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
 }
 
 .overlay {

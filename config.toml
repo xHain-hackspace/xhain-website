@@ -21,6 +21,7 @@ paginate = 6
   latitude = "52.512815"
   longitude = "13.4493919"
   og_image = "/images/hero.jpg"
+  matrix = "https://matrix.to/#/#xhain:x-hain.de"
 
 [Permalinks]
     articles = "/blog/:year/:month/:day/:title/"
