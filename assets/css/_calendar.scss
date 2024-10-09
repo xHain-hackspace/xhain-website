@@ -208,27 +208,27 @@
     }
 
     // start the days of the week in same day column every month
-    .day-2:first-child {
+    .day-2:first-child { //tuesday
         grid-column: 2;
     }
 
-    .day-3:first-child {
+    .day-3:first-child { //wednesday
         grid-column: 3;
     }
 
-    .day-4:first-child {
+    .day-4:first-child { //thursday
         grid-column: 4;
     }
 
-    .day-5:first-child {
+    .day-5:first-child { //friday
         grid-column: 5;
     }
 
-    .day-6:first-child {
+    .day-6:first-child { //saturday
         grid-column: 6;
     }
 
-    .day-7:first-child {
+    .day-0:first-child { //sunday
         grid-column: 7;
     }
 }
