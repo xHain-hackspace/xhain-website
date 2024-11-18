@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "Bash(gh pr view:*)",
+      "Bash(git fetch:*)",
+      "Bash(git show:*)"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "context7",
+    "serena"
+  ],
+  "disabledMcpjsonServers": [
+    "code-mode",
+    "github"
+  ]
+}
