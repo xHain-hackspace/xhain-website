@@ -80,7 +80,7 @@ body {
 
 a {
     color: $secondary-color;
-    text-decoration: none;
+    text-underline-offset: 0.15em;
 }
 
 a:hover {
@@ -173,6 +173,11 @@ li.calendar-link {
 
 nav {
     font-family: $font-family-brand;
+}
+
+header a,
+nav a {
+    text-decoration: none;
 }
 
 main {
