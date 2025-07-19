@@ -55,7 +55,7 @@
                 <a href="{{ $permalink }}">{{ .summary }}</a>
             </div>
             {{- with .description }}
-            <div id="info_description">{{ . }}</div>
+            <div id="info_description">{{ . | markdownify }}</div>
             {{- end }}
         </div>
     </dialog>
