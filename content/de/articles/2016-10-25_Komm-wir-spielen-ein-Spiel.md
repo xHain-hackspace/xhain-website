@@ -26,5 +26,5 @@ Das erste Spiel auf dem Programm ist <a href="https://boardgamegeek.com/boardgam
 
 Verwendet wird die alte Version mit den Metallfiguren.
 
-Die Spiele für die weiteren Level YY-MM-Abende werden per <a href="www.prefr.org">Prefr</a>
+Die Spiele für die weiteren Level YY-MM-Abende werden per <a href="https://www.prefr.org">Prefr</a>
 festgelegt.
