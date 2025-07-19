@@ -1,7 +1,11 @@
 {{ $formattedStartTime := .dtstart.Format "15:04" }}
 {{ $formattedEndTime := .dtend.Format "15:04" }}
-<div
+{{ $pathDate := .dtstart.Format "2006-01-02" }}
+{{ $slugTitle := anchorize .summary }}
+{{ $permalink := printf "calendar/events/%s-%s/" $pathDate $slugTitle | relLangURL }}
+<a
     class="event"
+    href="{{$permalink}}"
     z-index="-1"
     role="button"
     aria-haspopup="dialog"
@@ -12,6 +16,7 @@
     data-title="{{.summary}}"
     data-location="{{.Location}}"
     data-description="{{.description}}"
+    data-permalink="{{$permalink}}"
 >
     <div class="time">
         <time class="start" datetime="{{$formattedStartTime}}" aria-label="start">
@@ -22,4 +27,4 @@
         </time>
     </div>
     <span class="title">{{.summary}}</span>
-</div>
+</a>

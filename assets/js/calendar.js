@@ -104,8 +104,13 @@ function setupModal() {
                 ? event.target
                 : event.target.closest(modalTriggerSelector);
             // it's possible that the click event was not on an event, so we need to check that
-            if (clickedEvent) {
+            if (
+                clickedEvent &&
+                event.button === 0 &&
+                !(event.ctrlKey || event.shiftKey || event.metaKey)
+            ) {
                 openModal(clickedEvent);
+                event.preventDefault();
             }
         });
 

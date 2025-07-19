@@ -1,0 +1,68 @@
+{{/* Enable this content adapter for all languages */}}
+{{ .EnableAllLanguages }}
+
+{{/* Fetch calendar data similar to the list.html template */}}
+{{ $monthCount := 6 }}
+{{ $now := time.Now }}
+{{/* The first of the month has to be a 00:00:00 hours otherwise the math goes wonky */}}
+{{ $start := print ($now.Format "2006-01") "-01" }}
+{{ $startDate := time.AsTime $start "CET" }}
+{{ $endDate := $startDate.AddDate 0 $monthCount 0 }}
+{{ $url := printf .Site.Params.calendar $startDate.Unix $endDate.Unix }}
+
+{{/* Fetch and parse the calendar data */}}
+{{ $data := dict }}
+{{ with site.Store.Get "calendar" }}
+{{ $data = . }}
+{{ else }}
+{{ $data = resources.GetRemote $url | transform.Unmarshal }}
+{{ site.Store.Set "calendar" $data }}
+{{ end }}
+
+{{/* Process the calendar data and create pages for each event */}}
+{{ $datetypes := slice "date-time" "date" }}
+{{ range (index $data 2) }}
+  {{ $oldEvent := . }}
+  {{ $event := dict }}
+  {{ range (index $oldEvent 1) }}
+    {{ if (in $datetypes (index . 2)) }}
+      {{ $event = merge $event (dict (index . 0) (time.AsTime (index . 3)).Local) }}
+    {{ else }}
+      {{ $event = merge $event (dict (index . 0) (index . 3)) }}
+    {{ end }}
+  {{ end }}
+
+  {{/* Extract event details */}}
+  {{ $eventTitle := $event.summary | default "Unnamed Event" }}
+  {{ $eventStart := $event.dtstart }}
+  {{ $eventEnd := $event.dtend | default $eventStart }}
+  {{ $eventLocation := $event.Location | default "" }}
+  {{ $eventDescription := $event.description | default "" }}
+  {{ $eventUID := $event.UID | default (printf "%s-%s" ($eventStart.Format "20060102T150405") (urlize $eventTitle)) }}
+
+  {{/* Format date for URL path */}}
+  {{ $pathDate := $eventStart.Format "2006-01-02" }}
+  {{ $slugTitle := anchorize $eventTitle }}
+  {{ $eventPath := printf "events/%s-%s" $pathDate $slugTitle }}
+
+  {{/* Create a page for this event */}}
+  {{ $dates := dict "date" $now }}
+  {{ $params := dict
+    "dtstart" $eventStart
+    "dtend" $eventEnd
+    "location" $eventLocation
+    "uid" $eventUID
+    "calendar_event" true
+  }}
+
+  {{ $page := dict
+    "content" (dict "mediaType" "text/markdown" "value" $eventDescription)
+    "dates" $dates
+    "kind" "page"
+    "params" $params
+    "path" $eventPath
+    "title" $eventTitle
+  }}
+
+  {{ $.AddPage $page }}
+{{ end }}
