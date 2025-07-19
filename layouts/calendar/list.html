@@ -56,28 +56,5 @@
         </div>
     </div>
 
-    <div id="event_modal_template" class="event_modal_template" aria-hidden>
-        <div class="modal">
-            <button type="button" class="close" title="close">&times;</button>
-            <div id="info_date_time">
-                <div class="time">
-                    <span class="start">${formattedStartTime}</span>
-                    <span class="end"> – ${formattedEndTime}</span>
-                </div>
-            </div>
-            <div id="info_location">${location}</div>
-            <div id="info_title"><a href="${permalink}">${title}</a></div>
-            <div id="info_description">${description}</div>
-        </div>
-    </div>
-
-    <div
-        id="overlay"
-        class="overlay"
-        role="region"
-        aria-live="polite"
-        aria-hidden
-        aria-modal="true"
-    ></div>
 </main>
 {{ end }}
