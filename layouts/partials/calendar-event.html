@@ -3,28 +3,60 @@
 {{ $pathDate := .dtstart.Format "2006-01-02" }}
 {{ $slugTitle := anchorize .summary }}
 {{ $permalink := printf "calendar/events/%s-%s/" $pathDate $slugTitle | relLangURL }}
-<a
-    class="event"
-    href="{{$permalink}}"
-    z-index="-1"
-    role="button"
-    aria-haspopup="dialog"
-    data-start-time="{{.dtstart.Format "2006-01-02T15:04:05-0700" }}"
-    data-end-time="{{.dtend.Format "2006-01-02T15:04:05-0700" }}"
-    data-formatted-start-time="{{$formattedStartTime}}"
-    data-formatted-end-time="{{$formattedEndTime}}"
-    data-title="{{.summary}}"
-    data-location="{{.Location}}"
-    data-description="{{.description}}"
-    data-permalink="{{$permalink}}"
->
-    <div class="time">
-        <time class="start" datetime="{{$formattedStartTime}}" aria-label="start">
-            {{$formattedStartTime}}
-        </time>
-        <time class="end" datetime="{{$formattedEndTime}}" aria-label="end">
-            {{$formattedEndTime}}
-        </time>
-    </div>
-    <span class="title">{{.summary}}</span>
-</a>
+{{ $eventId := printf "event-%s-%s" $pathDate $slugTitle }}
+
+<div class="event-wrapper">
+    <a
+        class="event"
+        href="{{ $permalink }}"
+        role="button"
+        aria-haspopup="dialog"
+        aria-controls="{{ $eventId }}"
+        data-start-time="{{ $formattedStartTime }}"
+        data-end-time="{{ $formattedEndTime }}"
+    >
+        <div class="time">
+            <time
+                class="start"
+                aria-label="start"
+            >
+                {{ $formattedStartTime }}
+            </time>
+            {{- with $formattedEndTime }}
+            –
+            <time class="end" aria-label="end">
+                {{ $formattedEndTime }}
+            </time>
+            {{- end }}
+        </div>
+        <span class="title">{{ .summary }}</span>
+    </a>
+    
+    <dialog id="{{ $eventId }}" class="event_modal">
+        <div class="modal">
+            <form method="dialog">
+                <button type="submit" class="close" title="close">
+                    &times;
+                </button>
+            </form>
+            <div id="info_date_time">
+                <div class="time">
+                    <time class="start">{{ $formattedStartTime }}</time>
+                    {{- with $formattedEndTime }}
+                    –
+                    <time class="end">{{ . }}</time>
+                    {{- end }}
+                </div>
+            </div>
+            {{- with .Location }}
+            <div id="info_location">{{ . }}</div>
+            {{- end }}
+            <div id="info_title">
+                <a href="{{ $permalink }}">{{ .summary }}</a>
+            </div>
+            {{- with .description }}
+            <div id="info_description">{{ . }}</div>
+            {{- end }}
+        </div>
+    </dialog>
+</div>
