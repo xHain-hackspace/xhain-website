@@ -64,13 +64,6 @@ steps:
     when:
       event: pull_request
 
-  check-links:
-    image: ghcr.io/untitaker/hyperlink:0.1
-    commands:
-      - hyperlink public_html --sources .
-    when:
-      event: pull_request
-
   preview:
     image: woodpeckerci/plugin-surge-preview:next
     settings:
@@ -81,5 +74,12 @@ steps:
       forge_url: https://github.com
       forge_repo_token:
         from_secret: GITHUB_TOKEN
+    when:
+      event: pull_request
+
+  check-links:
+    image: ghcr.io/untitaker/hyperlink:0.1
+    commands:
+      - hyperlink public_html --sources .
     when:
       event: pull_request
