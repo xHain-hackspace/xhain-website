@@ -141,6 +141,7 @@
         }
 
         .event {
+            display: block;
             background-color: rgba(0, 0, 0, 0.5);
             padding: 0.8rem 1rem;
             border-radius: 0.3rem;
@@ -197,6 +198,7 @@
 
             cursor: pointer;
 
+            color: inherit;
             &:hover {
                 color: $link-color;
             }
@@ -283,6 +285,13 @@
             font-weight: bold;
             background: $link-color;
             padding-top: 0.2vw;
+
+            a {
+                color: inherit;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
         }
 
         #info_description {

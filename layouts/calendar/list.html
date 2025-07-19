@@ -4,9 +4,7 @@
 {{/* The first of the month has to be a 00:00:00 hours otherwise the math goes wonky */}}
 {{ $start := print ($now.Format "2006-01") "-01" }}
 {{ $startDate := time.AsTime $start "CET" }}
-{{ $endDate := $startDate.AddDate 0 $monthCount 0 }}
-{{ $url := printf .Site.Params.calendar $startDate.Unix $endDate.Unix }}
-{{ $data := (resources.GetRemote $url) | transform.Unmarshal }}
+{{ $data := site.Store.Get "calendar" }}
 {{ $datetypes := slice "date-time" "date" }}
 {{ $events := slice }}
 {{/*  parse all the start and end times into local  */}}
@@ -68,7 +66,7 @@
                 </div>
             </div>
             <div id="info_location">${location}</div>
-            <div id="info_title">${title}</div>
+            <div id="info_title"><a href="${permalink}">${title}</a></div>
             <div id="info_description">${description}</div>
         </div>
     </div>
