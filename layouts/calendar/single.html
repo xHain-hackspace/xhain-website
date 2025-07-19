@@ -1,0 +1,41 @@
+{{ define "main" }}
+<main>
+    <div id="main-wrapper" class="event-wrapper">
+        <div class="event-container">
+            <h1 class="event-title">{{ .Title }}</h1>
+
+            <div class="event-meta">
+                <div class="event-datetime">
+                    <div class="event-date">
+                        {{ if .Params.dtstart }}
+                        <time class="date" datetime="{{ .Params.dtstart.Format "2006-01-02" }}">
+                            {{- .Params.dtstart.Format "Monday, January 2, 2006" -}}
+                        </time>
+                        {{ end }}
+                    </div>
+                    <div class="event-time">
+                        {{- if .Params.dtstart }}
+                        <time class="start-time">{{ .Params.dtstart.Format "15:04" }}</time>
+                        {{- end }}
+                        {{- if .Params.dtend }}
+                        <span class="time-separator">–</span>
+                        <time class="end-time">{{ .Params.dtend.Format "15:04" }}</time>
+                        {{- end }}
+                    </div>
+                </div>
+
+                {{ if .Params.location }}
+                <div class="event-location">
+                    <i class="location-icon">📍</i>
+                    <span class="location-text">{{ .Params.location }}</span>
+                </div>
+                {{ end }}
+            </div>
+
+            <div class="event-content">
+                {{ .Content }}
+            </div>
+        </div>
+    </div>
+</main>
+{{ end }}
