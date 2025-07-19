@@ -24,7 +24,7 @@ Wir haben über die verschiedenen Zugänge zum Programmierer_innentum gesprochen
 - [WAP](https://de.wikipedia.org/wiki/Wireless_Application_Protocol)
 - [Stack Overflow](<https://de.wikipedia.org/wiki/Stack_Overflow_(Website)>)
 - [your turn: Ausbildungsprogramm der IHK für Studienabbrecher\*innen mit stark verkürzter Ausbildungszeit](https://www.ihk-berlin.de/ausbildung/Infos_fuer_Azubis/Fuer_Schueler_und_Studenten/Studienabbrecher/2263262)
-- [Jugend hackt](www.jugendhackt.org)
+- [Jugend hackt](https://jugendhackt.org)
 - [CoderDojo](https://coderdojo.com/de-DE)
 - [Rubber Ducking](https://de.wikipedia.org/wiki/Quietscheentchen-Debugging)
 - [Nerd Pride](https://tante.cc/2012/11/26/good-night-nerd-pride-kommentare/)

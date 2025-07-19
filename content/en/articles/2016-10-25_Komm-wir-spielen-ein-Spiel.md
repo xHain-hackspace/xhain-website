@@ -26,4 +26,4 @@ Your task is to move one of the stupid little robots out on the factory floor th
 
 We'll use the older version of the game, the one played with metal pieces.
 
-The games for future Level YY-MM-Evenings will be selected with <a href="www.prefr.org">Prefr</a>.
+The games for future Level YY-MM-Evenings will be selected with <a href="https://www.prefr.org">Prefr</a>.
