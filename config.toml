@@ -7,8 +7,9 @@ DefaultContentLanguageInSubdir = true
 MetaDataFormat = "yaml"
 timeZone="Europe/Berlin"
 
+[pagination]
 # Define the number of posts per page
-paginate = 6
+pagerSize = 6
 
 [permalinks]
   post = "/:year/:month/:slug/"
@@ -42,19 +43,21 @@ paginate = 6
 [languages.de]
 weight = 1
 languageName = "Deutsch"
-calendarName = "Kalender"
-calendarSubscribe = "Abbonieren"
 contentDir = "content/de"
 title = "xHain hack+makespace"
+[languages.de.params]
+calendarName = "Kalender"
+calendarSubscribe = "Abbonieren"
 defaultDescription = "Hack- & Makespace im Herzen von Friedrichshain, Bastelstube für Technikinteressierte + Raum für Netzpolitisches"
 
 [languages.en]
 weight = 2
 languageName = "English"
-calendarName = "Calendar"
-calendarSubscribe = "Subscribe"
 contentDir = "content/en"
 title = "xHain hack+makespace"
+[languages.en.params]
+calendarName = "Calendar"
+calendarSubscribe = "Subscribe"
 defaultDescription = "Hack and make space in the heart of Friedrichshain, tinkering room for people interested in technology + space for net politics."
 
 [languages.de.params.info]
