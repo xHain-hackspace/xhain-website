@@ -2,7 +2,7 @@ when:
   branch: [main, staging]
 steps:
   build:
-    image: &hugo eclipsefdn/hugo-node:h0.120.4-n18.18.2
+    image: &hugo eclipsefdn/hugo-node:h0.144.2-n22.14.0
     commands:
       - ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
       - hugo version
