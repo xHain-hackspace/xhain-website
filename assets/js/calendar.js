@@ -1,3 +1,5 @@
+import { marked } from "marked";
+
 // global DOM elements and variables
 const activeEventInterval = 1000 * 60 * 10; // 10 minutes
 let $calendar = null;
@@ -125,7 +127,11 @@ function setupModal() {
 }
 
 function openModal(eventElement) {
-    const eventData = { ...eventElement.dataset };
+    const eventData = {
+        ...eventElement.dataset,
+        // parse markdown in the description
+        description: marked.parse(eventElement.dataset.description),
+    };
     $overlay.innerHTML = renderModal(modalTemplate, eventData);
     showModal();
 }
