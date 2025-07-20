@@ -4,7 +4,11 @@
 {{ partial "script.html" "js/calendar.js" }}
 
 {{ define "partials/script.html" }}
-    {{ with resources.Get . | js.Build | minify | fingerprint }}
+    {{ $opts := dict
+        "minify" (not hugo.IsDevelopment)
+        "sourceMap" (cond hugo.IsDevelopment "external" "")
+    }}
+    {{ with resources.Get . | js.Build $opts | fingerprint }}
         <script src="{{ .RelPermalink }}" defer integrity="{{ .Data.Integrity }}" crossorigin="anonymous"></script>
     {{ end }}
 {{ end }}
