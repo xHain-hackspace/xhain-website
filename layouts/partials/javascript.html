@@ -1,5 +1,6 @@
 {{ if or (eq .Path "/contact") (eq .Path "/") }}
     <script src="/js/maplibre-gl.js"></script>
+    {{ partial "script.html" "js/map.js" }}
 {{ end }}
 
 {{ partial "script.html" "js/main.js" }}
