@@ -147,22 +147,9 @@
             hyphens: auto;
 
             .time {
+                line-height: 1.8;
                 font-family: $font-family-brand;
-
-                .start,
-                .end {
-                    font-size: 0.8rem;
-                    position: relative;
-                    top: -0.16rem;
-                }
-
-                .end:before {
-                    content: " – ";
-                }
-
-                .end:empty {
-                    display: none;
-                }
+                font-size: 0.8rem;
             }
 
             .location {
