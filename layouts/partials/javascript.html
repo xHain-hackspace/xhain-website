@@ -1,7 +1,10 @@
 <script src="/js/maplibre-gl.js"></script>
 
-{{ $jsmain := resources.Get "js/main.js" }}
-{{ $jscalendar := resources.Get "js/calendar.js" }}
-{{ $libs := slice $jsmain $jscalendar }}
-{{ $js := $libs | resources.Concat "js/app.js" | js.Build | minify | fingerprint }}
-<script type="text/javascript" src="{{ $js.RelPermalink }}" defer></script>
+{{ partial "script.html" "js/main.js" }}
+{{ partial "script.html" "js/calendar.js" }}
+
+{{ define "partials/script.html" }}
+    {{ with resources.Get . | js.Build | minify | fingerprint }}
+        <script src="{{ .RelPermalink }}" defer integrity="{{ .Data.Integrity }}" crossorigin="anonymous"></script>
+    {{ end }}
+{{ end }}
