@@ -1,7 +1,12 @@
-<script src="/js/maplibre-gl.js"></script>
+{{ if or (eq .Path "/contact") (eq .Path "/") }}
+    <script src="/js/maplibre-gl.js"></script>
+{{ end }}
 
 {{ partial "script.html" "js/main.js" }}
-{{ partial "script.html" "js/calendar.js" }}
+
+{{ if eq .Path "/calendar" }}
+    {{ partial "script.html" "js/calendar.js" }}
+{{ end }}
 
 {{ define "partials/script.html" }}
     {{ $opts := dict
