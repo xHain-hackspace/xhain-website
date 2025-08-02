@@ -38,6 +38,16 @@ steps:
       event: [push, tag, deployment, cron, manual]
       branch: [main]
 
+  cron_healthcheck:
+    image: alpine/curl
+    commands:
+      - "curl -X GET $${HEALTHCHECK_URL}"
+    environment:
+      HEALTHCHECK_URL:
+        from_secret: healthcheck_url
+    when:
+      event: [cron, pull_request]
+
   deploy_staging:
     image: drillster/drone-rsync
     settings:
