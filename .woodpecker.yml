@@ -46,7 +46,8 @@ steps:
       HEALTHCHECK_URL:
         from_secret: healthcheck_url
     when:
-      event: [cron, pull_request]
+      event: [cron]
+      branch: [main]
 
   deploy_staging:
     image: drillster/drone-rsync
