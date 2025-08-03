@@ -5,36 +5,36 @@ languageCode = "en-us"
 defaultContentLanguage = "de"
 DefaultContentLanguageInSubdir = true
 MetaDataFormat = "yaml"
-timeZone="Europe/Berlin"
+timeZone = "Europe/Berlin"
 
 [pagination]
 # Define the number of posts per page
 pagerSize = 6
 
 [permalinks]
-  post = "/:year/:month/:slug/"
+post = "/:year/:month/:slug/"
 
 [params]
-  author = "xHain hack+makespace"
-  defaultKeywords = ["hackspace", "makerspace", "xhain"]
-  email = "info@x-hain.de"
-  calendar = "https://files.x-hain.de/remote.php/dav/public-calendars/Yi63cicwgDnjaBHR/?export&accept=jcal&start=%d&end=%d&expand=1"
-  latitude = "52.512815"
-  longitude = "13.4493919"
-  og_image = "/images/hero.jpg"
+author = "xHain hack+makespace"
+defaultKeywords = ["hackspace", "makerspace", "xhain"]
+email = "info@x-hain.de"
+calendar = "https://files.x-hain.de/remote.php/dav/public-calendars/Yi63cicwgDnjaBHR/?export&accept=jcal&start=%d&end=%d&expand=1"
+latitude = "52.512815"
+longitude = "13.4493919"
+og_image = "/images/hero.jpg"
 
 [Permalinks]
-    articles = "/blog/:year/:month/:day/:title/"
+articles = "/blog/:year/:month/:day/:title/"
 
 [outputs]
-  home = ["HTML", "RSS"]
-  page = ["HTML"]
-  section = ["HTML"]
-  taxonomy = ["HTML"]
-  term = ["HTML"]
+home = ["HTML", "RSS"]
+page = ["HTML"]
+section = ["HTML"]
+taxonomy = ["HTML"]
+term = ["HTML"]
 
 [markup.goldmark.renderer]
-  unsafe= true
+unsafe = true
 
 
 ###### TRANSLATIONS ######
@@ -83,129 +83,129 @@ title = "Find us elsewhere"
 ###### MAIN MENU ######
 
 [[languages.de.menu.main]]
-  weight = 1
-  identifier = "about"
-  name = "Vorbeikommen"
-  url = ""
+weight = 1
+identifier = "about"
+name = "Vorbeikommen"
+url = ""
 
 [[languages.de.menu.main]]
-  weight = 2
-  identifier = "participate"
-  name = "Mitmachen"
-  url = "participate"
+weight = 2
+identifier = "participate"
+name = "Mitmachen"
+url = "participate"
 
 [[languages.de.menu.main]]
-  weight = 3
-  identifier = "support"
-  name = "Unterstützen"
-  url = "support"
+weight = 3
+identifier = "support"
+name = "Unterstützen"
+url = "support"
 
 
 [[languages.en.menu.main]]
-  weight = 1
-  identifier = "about"
-  name = "Drop by"
-  url = ""
+weight = 1
+identifier = "about"
+name = "Drop by"
+url = ""
 
 [[languages.en.menu.main]]
-  weight = 2
-  identifier = "participate"
-  name = "Participate"
-  url = "participate"
+weight = 2
+identifier = "participate"
+name = "Participate"
+url = "participate"
 
 [[languages.en.menu.main]]
-  weight = 3
-  identifier = "support"
-  name = "Support"
-  url = "support"
+weight = 3
+identifier = "support"
+name = "Support"
+url = "support"
 
 ###### TOOLS MENU ######
 
 [[languages.de.menu.tools]]
-  weight = 1
-  identifier = "blog"
-  name = "Blog"
-  url = "blog"
+weight = 1
+identifier = "blog"
+name = "Blog"
+url = "blog"
 
 [[languages.de.menu.tools]]
-  weight = 2
-  identifier = "matrix"
-  name = "Chat"
-  url = "https://matrix.to/#/#xhain:x-hain.de"
+weight = 2
+identifier = "matrix"
+name = "Chat"
+url = "https://matrix.to/#/#xhain:x-hain.de"
 
 [[languages.de.menu.tools]]
-  weight = 3
-  identifier = "wiki"
-  name = "Wiki"
-  url = "https://wiki.x-hain.de/"
+weight = 3
+identifier = "wiki"
+name = "Wiki"
+url = "https://wiki.x-hain.de/"
 
 [[languages.en.menu.tools]]
-  weight = 1
-  identifier = "blog"
-  name = "Blog"
-  url = "blog"
+weight = 1
+identifier = "blog"
+name = "Blog"
+url = "blog"
 
 [[languages.en.menu.tools]]
-  weight = 2
-  identifier = "matrix"
-  name = "Chat"
-  url = "https://matrix.to/#/#xhain:x-hain.de"
+weight = 2
+identifier = "matrix"
+name = "Chat"
+url = "https://matrix.to/#/#xhain:x-hain.de"
 
 [[languages.en.menu.tools]]
-  weight = 3
-  identifier = "wiki"
-  name = "Wiki"
-  url = "https://wiki.x-hain.de/"
+weight = 3
+identifier = "wiki"
+name = "Wiki"
+url = "https://wiki.x-hain.de/"
 
 ###### SOCIAL MENU ######
 
 [[languages.de.menu.social]]
-  weight = 1
-  identifier = "fediverse"
-  name = "Fediverse"
-  url = "https://chaos.social/@xHain_hackspace"
+weight = 1
+identifier = "fediverse"
+name = "Fediverse"
+url = "https://chaos.social/@xHain_hackspace"
 
 [[languages.de.menu.social]]
-  weight = 2
-  identifier = "github"
-  name = "Github"
-  url = "https://github.com/xHain-hackspace/"
+weight = 2
+identifier = "github"
+name = "Github"
+url = "https://github.com/xHain-hackspace/"
 
 [[languages.en.menu.social]]
-  weight = 1
-  identifier = "fediverse"
-  name = "Fediverse"
-  url = "https://chaos.social/@xHain_hackspace"
+weight = 1
+identifier = "fediverse"
+name = "Fediverse"
+url = "https://chaos.social/@xHain_hackspace"
 
 [[languages.en.menu.social]]
-  weight = 2
-  identifier = "github"
-  name = "Github"
-  url = "https://github.com/xHain-hackspace/"
+weight = 2
+identifier = "github"
+name = "Github"
+url = "https://github.com/xHain-hackspace/"
 
 
 ###### FOOTER MENU ######
 
 [[languages.de.menu.footer]]
-  weight = 1
-  identifier = "contact"
-  name = "Kontakt"
-  url = "contact"
+weight = 1
+identifier = "contact"
+name = "Kontakt"
+url = "contact"
 
 [[languages.de.menu.footer]]
-  weight = 2
-  identifier = "privacy"
-  name = "Datenschutz"
-  url = "privacy"
+weight = 2
+identifier = "privacy"
+name = "Datenschutz"
+url = "privacy"
 
 [[languages.en.menu.footer]]
-  weight = 1
-  identifier = "contact"
-  name = "Contact"
-  url = "contact"
+weight = 1
+identifier = "contact"
+name = "Contact"
+url = "contact"
 
 [[languages.en.menu.footer]]
-  weight = 2
-  identifier = "privacy"
-  name = "Privacy"
-  url = "privacy"
+weight = 2
+identifier = "privacy"
+name = "Privacy"
+url = "privacy"
