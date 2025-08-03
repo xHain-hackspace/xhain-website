@@ -6,3 +6,5 @@ resources/
 .hugo_build.lock
 content/de/calendar.md
 content/en/calendar.md
+
+.direnv/

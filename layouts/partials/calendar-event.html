@@ -1,25 +1,26 @@
-{{ $formattedStartTime := .dtstart.Format "15:04" }}
-{{ $formattedEndTime := .dtend.Format "15:04" }}
+{{ printf `
+{{ $formattedStartTime := .StartTime.Format "15:04" }}
+{{ $formattedEndTime := .EndTime.Format "15:04" }}
 <div
     class="event"
     z-index="-1"
     role="button"
     aria-haspopup="dialog"
-    data-start-time="{{.dtstart.Format "2006-01-02T15:04:05-0700" }}"
-    data-end-time="{{.dtend.Format "2006-01-02T15:04:05-0700" }}"
-    data-formatted-start-time="{{$formattedStartTime}}"
-    data-formatted-end-time="{{$formattedEndTime}}"
-    data-title="{{.summary}}"
-    data-location="{{.Location}}"
-    data-description="{{.description}}"
+    data-start-time="{{ .HTMLStartTime }}"
+    data-end-time="{{ .HTMLEndTime }}"
+    data-formatted-start-time="{{ $formattedStartTime }}"
+    data-formatted-end-time="{{ $formattedEndTime }}"
+    data-title="{{ .Summary }}"
+    data-location="{{ .Location }}"
+    data-description="{{ .Description }}"
 >
     <div class="time">
-        <time class="start" datetime="{{$formattedStartTime}}" aria-label="start">
-            {{$formattedStartTime}}
+        <time class="start" datetime="{{ $formattedStartTime }}" aria-label="start">
+            {{ $formattedStartTime }}
         </time>
-        <time class="end" datetime="{{$formattedEndTime}}" aria-label="end">
-            {{$formattedEndTime}}
+        <time class="end" datetime="{{ $formattedEndTime }}" aria-label="end">
+            {{ $formattedEndTime }}
         </time>
     </div>
-    <span class="title">{{.summary}}</span>
-</div>
+    <span class="title">{{ .Summary }}</span>
+</div>` | safeHTML }}
