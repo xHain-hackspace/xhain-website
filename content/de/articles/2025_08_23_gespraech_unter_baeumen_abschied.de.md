@@ -1,5 +1,5 @@
 ---
-title: Abschiedstournee für das Gespräch unter Bäumen
+title: Abschied vom Gespräch unter Bäumen: Trauerbegleitung, Feier und Zine
 image: /images/articles/gespraechunterbaeumen.jpg
 image_reference: ""
 date: 2025-08-23
@@ -11,7 +11,7 @@ tags:
 type: blog
 ---
 
-Das Gespräch unter Bäumen hört zum Ende des Jahres auf. So schade! Und so schön, dass es stattgefunden hat...
+Das Gespräch unter Bäumen hört zum Ende des Jahres auf. So schade! Und so schön, dass es stattgefunden hat.
 
 Vorher treffen wir uns noch wunderbare zwei Mal. Und: Maria braucht euch für ein Abschluss-Magazin.
 
