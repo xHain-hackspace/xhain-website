@@ -1,5 +1,5 @@
 ---
-title: Abschied vom Gespräch unter Bäumen: Trauerbegleitung, Feier und Zine
+title: "Abschied vom Gespräch unter Bäumen: Trauerbegleitung, Feier und Zine"
 image: /images/articles/gespraechunterbaeumen.jpg
 image_reference: ""
 date: 2025-08-23
