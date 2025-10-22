@@ -1,21 +1,14 @@
 // global DOM elements and variables
 const activeEventInterval = 1000 * 60 * 10; // 10 minutes
 let $calendar = null;
-let $modal = null;
-let $overlay = null;
-let modalTemplate = null;
 
 // Main entrypoint
 document.addEventListener("DOMContentLoaded", function () {
-    $overlay = document.getElementById("overlay");
-    $modal = document.getElementById("event_modal_template");
-    modalTemplate = $modal?.innerHTML;
-
     highlightCurrentDay();
     highlightCurrentEvents();
     // keep the current events highlighted
     setInterval(highlightCurrentEvents, activeEventInterval);
-    setupModal();
+    setupEventDialogs();
     setTimeout(scrollToCurrentDay, 1000);
 });
 
@@ -94,55 +87,28 @@ function highlightCurrentEvents() {
     });
 }
 
-function setupModal() {
+function setupEventDialogs() {
     const modalTriggerSelector = ".event";
     // Add a single event listener to the container element, leveraging bubbling
     document
         .querySelector("#xhain_calendar")
         .addEventListener("click", (event) => {
-            const clickedEvent = event.target.matches(modalTriggerSelector)
+            const target = event.target.matches(modalTriggerSelector)
                 ? event.target
                 : event.target.closest(modalTriggerSelector);
             // it's possible that the click event was not on an event, so we need to check that
-            if (clickedEvent) {
-                openModal(clickedEvent);
+            if (
+                target &&
+                event.button === 0 &&
+                !(event.ctrlKey || event.shiftKey || event.metaKey)
+            ) {
+                const dialog = target.parentElement.querySelector("dialog");
+
+                if (dialog) {
+                    dialog.showModal();
+                }
+
+                event.preventDefault();
             }
         });
-
-    // Close modal when clicking on the overlay or close button
-    $overlay.addEventListener("click", function (event) {
-        if (event.target === $overlay || event.target.matches(".close")) {
-            hideModal();
-        }
-    });
-
-    // Setup for closing the modal with the ESC key
-    document.addEventListener("keydown", function (event) {
-        if (event.key === "Escape") {
-            hideModal();
-        }
-    });
-}
-
-function openModal(eventElement) {
-    const eventData = { ...eventElement.dataset };
-    $overlay.innerHTML = renderModal(modalTemplate, eventData);
-    showModal();
-}
-
-// Given a string template formatted like a template literal,
-// and an object of values, return the modified string.
-function renderModal(template, args) {
-    return Object.entries(args).reduce(
-        (result, [arg, val]) => result.replace(`$\{${arg}}`, `${val}`),
-        template
-    );
-}
-
-function hideModal() {
-    $overlay.setAttribute("aria-hidden", true);
-}
-
-function showModal() {
-    $overlay.setAttribute("aria-hidden", false);
 }

@@ -1,7 +1,20 @@
-<script src="/js/maplibre-gl.js"></script>
+{{ if or (eq .Path "/contact") (eq .Path "/") }}
+    <script src="/js/maplibre-gl.js"></script>
+    {{ partial "script.html" "js/map.js" }}
+{{ end }}
 
-{{ $jsmain := resources.Get "js/main.js" }}
-{{ $jscalendar := resources.Get "js/calendar.js" }}
-{{ $libs := slice $jsmain $jscalendar }}
-{{ $js := $libs | resources.Concat "js/app.js" | js.Build | minify | fingerprint }}
-<script type="text/javascript" src="{{ $js.RelPermalink }}" defer></script>
+{{ partial "script.html" "js/main.js" }}
+
+{{ if eq .Path "/calendar" }}
+    {{ partial "script.html" "js/calendar.js" }}
+{{ end }}
+
+{{ define "partials/script.html" }}
+    {{ $opts := dict
+        "minify" (not hugo.IsDevelopment)
+        "sourceMap" (cond hugo.IsDevelopment "external" "")
+    }}
+    {{ with resources.Get . | js.Build $opts | fingerprint }}
+        <script src="{{ .RelPermalink }}" defer integrity="{{ .Data.Integrity }}" crossorigin="anonymous"></script>
+    {{ end }}
+{{ end }}

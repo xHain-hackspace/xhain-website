@@ -1,6 +1,6 @@
 ---
 title: Support
-date: 2023-03-32
+date: 2023-03-22
 draft: false
 ---
 
@@ -17,7 +17,7 @@ Amongst our diverse activities are "Gespräch unter Bäumen" - a series of women
 ## Donations
 You are welcome to support us with one-time donations to the following account, so we can continue to provide a safe place for many creative people to craft, hack, discuss, invent, and create great things:
 
-- **Account holder**: xHain hack+makespace gemeinnützige UG (haftungsbeschränkt)
+- **Account holder**: xHain hack+makespace gUG
 - **Bank**: GLS Bank
 - **IBAN**: DE72 4306 0967 1050 8465 00
 - **BIC**: GENODEM1GLS

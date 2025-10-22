@@ -14,7 +14,7 @@ Workshops für Erwachsene im Bereich Hacking und Making sind genauso Teil des An
 ## Spenden
 Gerne kann man uns auch mit Einmalspenden auf folgendes Konto unterstützen:
 
-- **Kontoinhaber**: xHain hack+makespace gemeinnützige UG (haftungsbeschränkt)
+- **Kontoinhaber**: xHain hack+makespace gUG
 - **Bank**: GLS Bank
 - **IBAN**: DE72 4306 0967 1050 8465 00
 - **BIC**: GENODEM1GLS

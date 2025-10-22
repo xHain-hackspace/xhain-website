@@ -1,4 +1,4 @@
-{{ if .Site.IsMultiLingual }}
+{{ if hugo.IsMultilingual }}
 	{{ range .Site.Languages }}
 		{{ if eq . $.Site.Language }}
 			{{/*  Für aktuelle Sprache   

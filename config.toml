@@ -7,8 +7,9 @@ DefaultContentLanguageInSubdir = true
 MetaDataFormat = "yaml"
 timeZone="Europe/Berlin"
 
+[pagination]
 # Define the number of posts per page
-paginate = 6
+pagerSize = 6
 
 [permalinks]
   post = "/:year/:month/:slug/"
@@ -42,19 +43,21 @@ paginate = 6
 [languages.de]
 weight = 1
 languageName = "Deutsch"
-calendarName = "Kalender"
-calendarSubscribe = "Abbonieren"
 contentDir = "content/de"
 title = "xHain hack+makespace"
+[languages.de.params]
+calendarName = "Kalender"
+calendarSubscribe = "Abbonieren"
 defaultDescription = "Hack- & Makespace im Herzen von Friedrichshain, Bastelstube für Technikinteressierte + Raum für Netzpolitisches"
 
 [languages.en]
 weight = 2
 languageName = "English"
-calendarName = "Calendar"
-calendarSubscribe = "Subscribe"
 contentDir = "content/en"
 title = "xHain hack+makespace"
+[languages.en.params]
+calendarName = "Calendar"
+calendarSubscribe = "Subscribe"
 defaultDescription = "Hack and make space in the heart of Friedrichshain, tinkering room for people interested in technology + space for net politics."
 
 [languages.de.params.info]
@@ -83,38 +86,38 @@ title = "Find us elsewhere"
   weight = 1
   identifier = "about"
   name = "Vorbeikommen"
-  url = "/"
+  url = ""
 
 [[languages.de.menu.main]]
   weight = 2
   identifier = "participate"
   name = "Mitmachen"
-  url = "/participate"
+  url = "participate"
 
 [[languages.de.menu.main]]
   weight = 3
   identifier = "support"
   name = "Unterstützen"
-  url = "/support"
+  url = "support"
 
 
 [[languages.en.menu.main]]
   weight = 1
   identifier = "about"
   name = "Drop by"
-  url = "/"
+  url = ""
 
 [[languages.en.menu.main]]
   weight = 2
   identifier = "participate"
   name = "Participate"
-  url = "/participate"
+  url = "participate"
 
 [[languages.en.menu.main]]
   weight = 3
   identifier = "support"
   name = "Support"
-  url = "/support"
+  url = "support"
 
 ###### TOOLS MENU ######
 
@@ -122,7 +125,7 @@ title = "Find us elsewhere"
   weight = 1
   identifier = "blog"
   name = "Blog"
-  url = "/blog"
+  url = "blog"
 
 [[languages.de.menu.tools]]
   weight = 2
@@ -140,7 +143,7 @@ title = "Find us elsewhere"
   weight = 1
   identifier = "blog"
   name = "Blog"
-  url = "/blog"
+  url = "blog"
 
 [[languages.en.menu.tools]]
   weight = 2
@@ -187,22 +190,22 @@ title = "Find us elsewhere"
   weight = 1
   identifier = "contact"
   name = "Kontakt"
-  url = "/contact"
+  url = "contact"
 
 [[languages.de.menu.footer]]
   weight = 2
   identifier = "privacy"
   name = "Datenschutz"
-  url = "/privacy"
+  url = "privacy"
 
 [[languages.en.menu.footer]]
   weight = 1
   identifier = "contact"
   name = "Contact"
-  url = "/contact"
+  url = "contact"
 
 [[languages.en.menu.footer]]
   weight = 2
   identifier = "privacy"
   name = "Privacy"
-  url = "/privacy"
+  url = "privacy"

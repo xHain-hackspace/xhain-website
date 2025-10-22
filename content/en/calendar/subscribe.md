@@ -6,5 +6,5 @@ draft: false
 
 Easily add the xHain event calendar to your preferred calendar app or programm on any device. Simply use CalDAV to integrate our events. To do so, add a new calendar in your application and copy and input this url:
 
-`https://files.x-hain.de/remote.php/dav/public-calendars/Yi63cicwgDnjaBHR`
+`https://files.x-hain.de/remote.php/dav/public-calendars/Yi63cicwgDnjaBHR/?export`
 
