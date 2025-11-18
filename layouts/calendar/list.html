@@ -3,20 +3,7 @@
     <div id="main-wrapper" class="calendar-wrapper">
         <div id="xhain_calendar" class="calendar">
             <h1 id="article-title">{{ .Title }}</h1>
-            {{ printf "{{ range .Months }}" }}
-                <div class="month_wrapper">
-                    <div class="month_header">
-                        <div class="year">{{ printf "{{ .Year }}" }}</div>
-                        <a class="subscribe" href="{{ urls.RelLangURL "" }}/calendar/subscribe">{{ i18n "global.subscribe" }}</a>
-                        <div class="month">{{ printf "{{ .MonthName }}" }}</div>
-                    </div>
-                    <div class="days_wrapper">
-                        {{ printf "{{ range .Days }}" }}
-                            {{ partial "calendar-day.html" . }}
-                        {{ printf "{{ end }}" | safeHTML }}
-                    </div>
-                </div>
-            {{ printf "{{ end }}" | safeHTML }}
+            <!-- added by backend -->
         </div>
     </div>
 

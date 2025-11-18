@@ -8,8 +8,10 @@ import (
 	"net/http"
 	"os"
 	"path/filepath"
+	"strings"
 	"time"
 
+	"github.com/PuerkitoBio/goquery"
 	"github.com/xHain-hackspace/xhain-website/backend/internal/calendar"
 	"github.com/xHain-hackspace/xhain-website/backend/internal/config"
 	"github.com/xHain-hackspace/xhain-website/backend/internal/i18n"
@@ -98,11 +100,28 @@ func calendarHandler(w http.ResponseWriter, r *http.Request) {
 		language = "en"
 	}
 
-	// get template
-	tmpl, err := template.ParseFiles(filepath.Join(cfg.Server.StaticContent, language, "calendar", "index.html"))
+	layout, err := os.Open(filepath.Join(cfg.Server.StaticContent, language, "calendar", "index.html"))
 	if err != nil {
-		log.Printf("Error parsing template: %v", err)
-		http.Error(w, "Failed to load template", http.StatusInternalServerError)
+		log.Printf("Error opening layout file: %v", err)
+		http.Error(w, "Failed to load layout", http.StatusInternalServerError)
+		return
+	}
+	defer layout.Close()
+
+	doc, err := goquery.NewDocumentFromReader(layout)
+	if err != nil {
+		log.Printf("Error creating goquery document: %v", err)
+		http.Error(w, "Failed to load layout", http.StatusInternalServerError)
+		return
+	}
+
+	el := doc.Find("#xhain_calendar")
+
+	// get template
+	tmpl, err := template.ParseGlob(filepath.Join("templates", "calendar", "*.html"))
+	if err != nil {
+		log.Printf("Error parsing templates: %v", err)
+		http.Error(w, "Failed to load templates", http.StatusInternalServerError)
 		return
 	}
 
@@ -115,14 +134,26 @@ func calendarHandler(w http.ResponseWriter, r *http.Request) {
 	}
 	transformedData := transformCalendarEvents(calendarEvents, language)
 
-	// Create template data with calendar content
-	w.Header().Set("Content-Type", "text/html; charset=utf-8")
-	err = tmpl.Execute(w, transformedData)
+	var sb strings.Builder
+	err = tmpl.ExecuteTemplate(&sb, "month.html", transformedData)
 	if err != nil {
 		log.Printf("Error executing template: %v", err)
 		http.Error(w, "Template execution error", http.StatusInternalServerError)
 		return
 	}
+
+	el.AppendHtml(sb.String())
+
+	// Create template data with calendar content
+	w.Header().Set("Content-Type", "text/html; charset=utf-8")
+
+	err = goquery.Render(w, doc.Children())
+	if err != nil {
+		log.Printf("Error rendering template: %v", err)
+		http.Error(w, "Template rendering error", http.StatusInternalServerError)
+		return
+	}
+
 }
 
 var (
