@@ -1,4 +1,3 @@
-{{ printf `
 {{ $fullDate := .Date.Format "2006-01-02" }}
 {{ $weekday := .Date.Format "Mon" }}
 <div class="day day-{{ .WeekdayNumber }} {{if not .Events}}day-empty{{end}}" id="{{$fullDate}}">
@@ -6,11 +5,7 @@
       <time class="monthday" datetime="{{$fullDate}}">{{ .Date.Day }}</time>
       <span class="weekday">{{ $weekday }}</span>
   </div>
-
   {{ range .Events }}
-` | safeHTML }}
-      {{ partial "calendar-event.html" . }}
-{{ printf `
+    {{ template "event.html" . }}
   {{ end }}
 </div>
-` | safeHTML }}
