@@ -1,0 +1,47 @@
+name: Build & Deploy
+
+on:
+  push:
+    branches:
+      - github_ci
+  pull_request:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.114.0"
+          extended: true
+
+      - name: Check Hugo
+        run: |
+          hugo env
+
+      - name: Build
+        run: |
+          ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
+          hugo version
+          hugo -d public_html --config config.toml,home.toml --cleanDestinationDir
+
+      - name: Check Build
+        run: |
+          ls -ahl ./public_html
+
+      # - name: Deploy
+      #   uses: burnett01/rsync-deployments@v8
+      #   with:
+      #     switches: -avzr --delete
+      #     path: public_html
+      #     remote_path: /public
+      #     remote_host: x-hain.de
+      #     remote_port: 22
+      #     remote_user: ${{ secrets.DEPLOY_USER }}
+      #     remote_key: ${{ secrets.DEPLOY_KEY }}
