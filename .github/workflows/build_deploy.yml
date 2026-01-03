@@ -27,7 +27,7 @@ jobs:
 
       - name: Build
         run: |
-          ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
+          sudo ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
           hugo version
           hugo -d public_html --config config.toml,home.toml --cleanDestinationDir
 
