@@ -46,3 +46,4 @@ jobs:
           name: build-${{ github.sha }}
           path: public_html/
           retention-days: 5
+          include-hidden-files: true
