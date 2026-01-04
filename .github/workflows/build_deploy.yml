@@ -35,6 +35,13 @@ jobs:
         run: |
           ls -ahl ./public_html
 
+      - name: Surge preview
+        uses: afc163/surge-preview@v1
+        with:
+          surge_token: ${{ secrets.SURGE_TOKEN }}
+          dist: public_html
+          build: yes
+
       # - name: Deploy
       #   uses: burnett01/rsync-deployments@v8
       #   with:
