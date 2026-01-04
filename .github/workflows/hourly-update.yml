@@ -3,6 +3,7 @@ name: Hourly Build and Deploy
 on:
   schedule:
     - cron: "*/5 * * * *" # Every 5 minutes for testing
+  workflow_dispatch: # Add this
 
 jobs:
   build:
