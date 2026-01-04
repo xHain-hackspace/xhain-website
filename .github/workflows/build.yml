@@ -1,0 +1,48 @@
+name: Build
+
+on:
+  workflow_call:
+    inputs:
+      ref:
+        description: "Git ref to checkout (optional, uses triggering ref if not specified)"
+        required: false
+        type: string
+    outputs:
+      artifact-name:
+        description: "Name of the build artifact"
+        value: ${{ jobs.build.outputs.artifact-name }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      artifact-name: ${{ steps.set-output.outputs.artifact-name }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
+          ref: ${{ inputs.ref || github.ref }}
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.154.2"
+          extended: true
+
+      - name: Build
+        run: |
+          sudo ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
+          hugo env
+          hugo -d public_html --config config.toml,home.toml --cleanDestinationDir
+
+      - name: Set artifact name
+        id: set-output
+        run: echo "artifact-name=build-${{ github.sha }}" >> $GITHUB_OUTPUT
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v6
+        with:
+          name: build-${{ github.sha }}
+          path: public_html/
+          retention-days: 5
