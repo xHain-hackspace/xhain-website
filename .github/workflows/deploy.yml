@@ -13,12 +13,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Download artifact
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131  # v7.0.0
         with:
           name: ${{ inputs.artifact-name }}
           path: public_html/
 
-      - uses: easingthemes/ssh-deploy@v5.1.0
+      - uses: easingthemes/ssh-deploy@ece05a22752e524363164bfb2f69a5ba4f8ded0d  # v5.1.0
         with:
           SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_KEY }}
           ARGS: "-rlzvc -i --delete"

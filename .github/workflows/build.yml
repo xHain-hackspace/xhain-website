@@ -18,14 +18,14 @@ jobs:
     outputs:
       artifact-name: ${{ steps.set-output.outputs.artifact-name }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8  # v6.0.1
         with:
           submodules: true
           fetch-depth: 0
           ref: ${{ inputs.ref || github.ref }}
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
+        uses: peaceiris/actions-hugo@6e295a6a0c9087bf374299e9d67f9d2edab9f18f  # v3.0.0
         with:
           hugo-version: "0.154.2"
           extended: true
@@ -41,7 +41,7 @@ jobs:
         run: echo "artifact-name=build-${{ github.sha }}" >> $GITHUB_OUTPUT
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f  # v6.0.0
         with:
           name: build-${{ github.sha }}
           path: public_html/
