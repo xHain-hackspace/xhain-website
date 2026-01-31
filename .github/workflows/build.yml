@@ -7,6 +7,10 @@ on:
         description: "Git ref to checkout (optional, uses triggering ref if not specified)"
         required: false
         type: string
+      base-url:
+        description: "Base URL for the website"
+        required: false
+        type: string
     outputs:
       artifact-name:
         description: "Name of the build artifact"
@@ -31,6 +35,8 @@ jobs:
           extended: true
 
       - name: Build
+        env:
+          HUGO_BASEURL: ${{ inputs.base-url }}
         run: |
           sudo ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
           hugo env

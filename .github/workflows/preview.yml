@@ -1,0 +1,30 @@
+name: preview
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, closed]
+
+jobs:
+  build:
+    uses: ./.github/workflows/build.yml
+    with:
+      base-url: /
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131 # v7.0.0
+        with:
+          name: ${{ inputs.artifact-name }}
+          path: public_html/
+      - name: Deploy to Surge
+        id: deploy
+        uses: afc163/surge-preview@2eeb59677bf6ace680164a2f3f69795ceff6d486
+        with:
+          teardown: "true"
+          dist: ./public_html/
+          build: "true"
+          surge_token: ${{ secrets.SURGE_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
