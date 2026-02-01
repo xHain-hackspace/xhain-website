@@ -4,6 +4,9 @@ on:
   pull_request:
     types: [opened, synchronize, reopened, closed]
 
+permissions:
+  pull-requests: write # allow surge-preview to create/update PR comments
+
 jobs:
   build:
     uses: ./.github/workflows/build.yml
