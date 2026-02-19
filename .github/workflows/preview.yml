@@ -28,7 +28,7 @@ jobs:
       - name: Check for dead links
         uses: untitaker/hyperlink@0.2.0
         with:
-          args: public_html/ --sources content/
+          args: public_html/ --sources .
 
   deploy:
     needs: build
