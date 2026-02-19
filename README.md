@@ -48,6 +48,25 @@ Production: https://www.x-hain.de  [![status-badge](https://ci.x-hain.de/api/bad
 
 * just edit new post in the "content"-folder
 
+## Link Checking
+
+Dead links are automatically checked on pull requests. To run locally:
+
+```bash
+# Build the site first
+hugo -d public_html --config config.toml,home.toml --cleanDestinationDir
+
+# Check for broken links (via Docker)
+docker run --rm -v "$PWD:/src" -w /src ghcr.io/untitaker/hyperlink:0.2.0 \
+  public_html --sources content/
+
+# Or install natively and run
+npm install -g @untitaker/hyperlink
+hyperlink public_html/ --sources content/
+```
+
+See [hyperlink documentation](https://github.com/untitaker/hyperlink) for more options.
+
 ## Calendar
 
 The calendar is managed by [Nextcloud](https://files.x-hain.de/apps/calendar/dayGridMonth/now).
