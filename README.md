@@ -8,15 +8,42 @@ Production: https://www.x-hain.de  [![status-badge](https://ci.x-hain.de/api/bad
 
 ### Install Hugo
 
-#### Mac OS
+The required Hugo version is pinned in the `.hvm` file. This ensures local development and CI use the same version.
 
-* Install brew (for installing the rest): ``/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"``
-* Install go: ``brew install go``
-* Install hugo: ``brew install hugo``
+#### Mac OS (recommended)
 
-#### For Windows/Linux
+Using [hvm (Hugo Version Manager)](https://github.com/jmooring/hvm):
+
+```bash
+# Install brew (if not already installed)
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# Install dependencies
+brew install go
+
+# Install hvm
+go install github.com/jmooring/hvm@latest
+
+# Add to your shell (zsh)
+hvm gen alias zsh >> ~/.zshrc
+source ~/.zshrc
+
+# hvm will automatically download and use the version from .hvm
+hugo version
+```
+
+#### Mac OS (alternative)
+
+```bash
+brew install hugo
+```
+
+Note: Homebrew may install a different version than specified in `.hvm`.
+
+#### Windows/Linux
 
 * Install hugo: [Hugo Website](https://gohugo.io)
+* Use the version specified in `.hvm` file
 
 ### Pull Submodules (eg. Theme)
 
