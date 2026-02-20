@@ -28,10 +28,16 @@ jobs:
           fetch-depth: 0
           ref: ${{ inputs.ref || github.ref }}
 
+      - name: Read Hugo version from .hvm
+        id: hugo-version
+        # .hvm file is used by hvm (Hugo Version Manager) locally via --useVersionInDotFile
+        # See: https://github.com/jmooring/hvm
+        run: echo "version=$(cat .hvm | tr -d 'v')" >> $GITHUB_OUTPUT
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@75d2e84710de30f6ff7268e08f310b60ef14033f  # v3.0.0
         with:
-          hugo-version: "0.154.2"
+          hugo-version: ${{ steps.hugo-version.outputs.version }}
           extended: true
 
       - name: Build
