@@ -1,17 +1,59 @@
-name: Hourly Build and Deploy
+name: Hourly Build and Deploy (if calendar changed)
 
 on:
   schedule:
     - cron: "20 * * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Force rebuild even if calendar hasn't changed"
+        required: false
+        default: false
+        type: boolean
 
 jobs:
+  check-calendar:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.compare.outputs.changed }}
+    steps:
+      - name: Checkout scripts
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          sparse-checkout: .github/scripts
+          sparse-checkout-cone-mode: false
+
+      - name: Restore cached CTag
+        uses: actions/cache/restore@5a3ec84eff668545956fd18022155c47e93e2684 # v4.2.3
+        with:
+          path: old.ctag
+          key: calendar-ctag
+
+      - name: Fetch current CTag
+        run: .github/scripts/fetch-calendar-ctag.sh new.ctag
+
+      - name: Compare CTag
+        id: compare
+        run: .github/scripts/compare-ctag.sh old.ctag new.ctag "${{ inputs.force }}"
+
+      - name: Save CTag to cache
+        if: steps.compare.outputs.changed == 'true'
+        uses: actions/cache/save@5a3ec84eff668545956fd18022155c47e93e2684 # v4.2.3
+        with:
+          path: new.ctag
+          key: calendar-ctag
+
   build:
+    needs: check-calendar
+    if: needs.check-calendar.outputs.changed == 'true'
     uses: ./.github/workflows/build.yml
     with:
       ref: main
+    secrets: inherit
 
   deploy:
-    needs: build
+    needs: [check-calendar, build]
+    if: needs.check-calendar.outputs.changed == 'true'
     uses: ./.github/workflows/deploy.yml
     with:
       artifact-name: ${{ needs.build.outputs.artifact-name }}
