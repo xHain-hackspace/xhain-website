@@ -7,8 +7,8 @@ draft: false
 ## Address
 
 xHain hack+makespace gUG (nonprofit, limited)\
-Responsible: Björn Reimer\
-Grünberger Str. 16\
+Responsible: Richard Lemke\
+Grünberger Str. 16 - 20\
 10243 Berlin\
 Germany
 

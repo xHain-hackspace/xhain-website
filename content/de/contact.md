@@ -7,8 +7,8 @@ draft: false
 ## Anschrift
 
 xHain hack+makespace gemeinnützige UG (haftungsbeschränkt)\
-Geschäftsführer: Björn Reimer\
-Grünberger Str. 16\
+Geschäftsführer: Richard Lemke\
+Grünberger Str. 16 - 20\
 10243 Berlin
 
 ## E-Mail
