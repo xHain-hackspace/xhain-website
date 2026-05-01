@@ -18,7 +18,7 @@ jobs:
           name: ${{ inputs.artifact-name }}
           path: public_html/
 
-      - uses: easingthemes/ssh-deploy@a1aa0b6cf96ce2406eef90faa35007a4a7bf0ac0  # v5.1.1
+      - uses: easingthemes/ssh-deploy@2cc5b27bf3029d0455dd5e09fe02633904031447  # v6.0.3
         with:
           SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_KEY }}
           ARGS: "-rlzvc -i --delete"
