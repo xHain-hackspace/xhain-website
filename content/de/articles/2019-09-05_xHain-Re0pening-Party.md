@@ -1,7 +1,5 @@
 ---
 title: xHain-Re0pening-Party
-image: /images/articles/Re0pening.jpg
-image_reference: ""
 date: 2019-09-05
 categories:
   - news
