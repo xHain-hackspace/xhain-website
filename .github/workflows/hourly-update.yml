@@ -14,6 +14,9 @@ on:
 jobs:
   check-calendar:
     runs-on: ubuntu-latest
+    concurrency:
+      group: calendar-ctag-cache-main
+      cancel-in-progress: false
     outputs:
       changed: ${{ steps.compare.outputs.changed }}
     steps:
@@ -27,7 +30,9 @@ jobs:
         uses: actions/cache/restore@5a3ec84eff668545956fd18022155c47e93e2684 # v4.2.3
         with:
           path: old.ctag
-          key: calendar-ctag
+          key: calendar-ctag-main-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            calendar-ctag-main-
 
       - name: Fetch current CTag
         run: .github/scripts/fetch-calendar-ctag.sh new.ctag
@@ -36,12 +41,16 @@ jobs:
         id: compare
         run: .github/scripts/compare-ctag.sh old.ctag new.ctag "${{ inputs.force }}"
 
+      - name: Stage CTag for cache
+        if: steps.compare.outputs.changed == 'true'
+        run: cp new.ctag old.ctag
+
       - name: Save CTag to cache
         if: steps.compare.outputs.changed == 'true'
         uses: actions/cache/save@5a3ec84eff668545956fd18022155c47e93e2684 # v4.2.3
         with:
-          path: new.ctag
-          key: calendar-ctag
+          path: old.ctag
+          key: calendar-ctag-main-${{ github.run_id }}-${{ github.run_attempt }}
 
   build:
     needs: check-calendar
