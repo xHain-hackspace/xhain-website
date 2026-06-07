@@ -89,10 +89,29 @@ hugo version
 
 More info? see https://tsalikis.blog/posts/switching_hugo_versions/
 
-### Pull Submodules (eg. Theme)
+### Theme
 
-* Initial pull submodule xhain-theme: ``git submodule update --init --recursive``
-* Submodule update: ``git submodule foreach git pull origin master``
+This site currently does not use an external Hugo theme. The templates and
+assets live in this repository under `layouts/`, `assets/`, and `static/`.
+
+If we add or update a theme in the future, prefer Hugo Modules over Git
+submodules:
+
+* Hugo Modules: https://gohugo.io/hugo-modules/use-modules/
+* Theme components and precedence: https://gohugo.io/hugo-modules/theme-components/
+* Updating module versions: https://gohugo.io/commands/hugo_mod_get/
+* Template lookup and overrides: https://gohugo.io/templates/lookup-order/
+
+Recommended workflow:
+
+1. Create a branch.
+2. Import the theme as a Hugo Module and commit the generated `go.mod` and
+   `go.sum`.
+3. Keep local overrides in this repository instead of editing vendored theme
+   files directly.
+4. Run `hugo mod get -u <module-path>` for updates, then `hugo mod tidy`.
+5. Build with the pinned Hugo version and check generated language links, RSS,
+   sitemap alternates, and CI warnings.
 
 ### Generate Site
 
