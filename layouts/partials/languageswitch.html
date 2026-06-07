@@ -1,15 +1,7 @@
 {{ if hugo.IsMultilingual }}
-	{{ range .Site.Languages }}
-		{{ if eq . $.Site.Language }}
-			{{/*  Für aktuelle Sprache   
-				<li><a href="#" class="active language" style="color:red">{{ .LanguageName }}</a></li>	
-			*/}}
-		{{ else }}
-			{{ range $.Translations }}
-			<li class="language-switch" >		
-				<a href="{{ .Permalink }}">{{ .Site.Language.LanguageName}}</a>
-			</li>
-			{{ end }}
-		{{ end }}
+	{{ range .Translations }}
+		<li class="language-switch" >
+			<a href="{{ .Permalink }}">{{ .Site.Language.Label }}</a>
+		</li>
 	{{ end }}
 {{ end }}
