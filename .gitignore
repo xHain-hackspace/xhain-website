@@ -6,3 +6,7 @@ resources/
 .hugo_build.lock
 content/de/calendar.md
 content/en/calendar.md
+
+# Local script testing artifacts
+*.ctag
+response.xml
