@@ -10,7 +10,17 @@ Production: https://www.x-hain.de  [![status-badge](https://ci.x-hain.de/api/bad
 
 The required Hugo version is pinned in the `.hvm` file. This ensures local development and CI use the same version.
 
-#### Mac OS (recommended)
+#### Linux
+
+* Check [Linux instructions](https://gohugo.io/installation/linux/)
+
+```bash
+sudo snap install hugo
+```
+
+Note: snap might install a different version than specified in `.hvm` file.
+
+#### macOS (recommended)
 
 Using [hvm (Hugo Version Manager)](https://github.com/jmooring/hvm):
 
@@ -32,18 +42,28 @@ source ~/.zshrc
 hugo version
 ```
 
-#### Mac OS (alternative)
+More info? see https://tsalikis.blog/posts/switching_hugo_versions/
+
+#### macOS (alternative)
 
 ```bash
 brew install hugo
 ```
 
-Note: Homebrew may install a different version than specified in `.hvm`.
+Note: Homebrew only installs the latest version, which can be a different version than specified in `.hvm` file.
 
-#### Windows/Linux
+#### Windows
 
-* Install hugo: [Hugo Website](https://gohugo.io)
-* Use the version specified in `.hvm` file
+* Check [Windows instructions](https://gohugo.io/installation/windows/)
+
+```bash
+# Using Chocolatey 
+choco install hugo-extended
+# Using Scoop 
+scoop install hugo-extended
+```
+
+Note: choco / scoop might install a different version than specified in `.hvm` file.
 
 ### Pull Submodules (eg. Theme)
 
