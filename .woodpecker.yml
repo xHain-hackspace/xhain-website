@@ -6,7 +6,7 @@ steps:
     commands:
       - ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
       - hugo version
-      - hugo -d public_html --config config.toml,home.toml --cleanDestinationDir
+      - hugo -d public_html --config config.toml --cleanDestinationDir
     when:
       event: [push, tag, deployment, cron, manual]
       branch: [main]
@@ -16,7 +16,7 @@ steps:
     commands:
       - ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
       - hugo version
-      - hugo -d public_html --config config.toml,home.toml --cleanDestinationDir --baseURL https://staging.x-hain.de
+      - hugo -d public_html --config config.toml --cleanDestinationDir --baseURL https://staging.x-hain.de
     when:
       event: [push, tag, deployment]
       branch: [staging]
@@ -71,7 +71,7 @@ steps:
     commands:
       - ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
       - hugo version
-      - hugo -d public_html --config config.toml,home.toml --cleanDestinationDir --baseURL /
+      - hugo -d public_html --config config.toml --cleanDestinationDir --baseURL /
     when:
       event: pull_request
 
