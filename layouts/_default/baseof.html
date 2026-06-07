@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
+<html lang="{{ .Site.Language.Locale }}">
   {{ block "head" . }}{{ partial "head" . }}{{ end }}
 
   <body{{ if .IsHome }} id="frontpage"{{ end }}>

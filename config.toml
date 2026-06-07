@@ -1,7 +1,6 @@
 baseURL = "https://x-hain.de"
 title = "xHain hack+makespace"
 canonifyurls = true
-languageCode = "en-us"
 defaultContentLanguage = "de"
 DefaultContentLanguageInSubdir = true
 MetaDataFormat = "yaml"
@@ -43,7 +42,8 @@ pagerSize = 6
 [languages]
 [languages.de]
 weight = 1
-languageName = "Deutsch"
+label = "Deutsch"
+locale = "de"
 contentDir = "content/de"
 title = "xHain hack+makespace"
 [languages.de.params]
@@ -53,7 +53,8 @@ defaultDescription = "Hack- & Makespace im Herzen von Friedrichshain, Bastelstub
 
 [languages.en]
 weight = 2
-languageName = "English"
+label = "English"
+locale = "en"
 contentDir = "content/en"
 title = "xHain hack+makespace"
 [languages.en.params]
