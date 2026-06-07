@@ -46,7 +46,7 @@ jobs:
         run: |
           sudo ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
           hugo env
-          hugo -d public_html --config config.toml,home.toml --cleanDestinationDir
+          hugo -d public_html --config config.toml --cleanDestinationDir
 
       - name: Set artifact name
         id: set-output

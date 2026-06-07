@@ -99,11 +99,11 @@ More info? see https://tsalikis.blog/posts/switching_hugo_versions/
 * Run hugo to generate HTML: ``hugo``
 * Run hugo for local development:
 
-   ``hugo server --config config.toml,home.toml``
+   ``hugo server --config config.toml``
 
   or
 
-  ``hugo server --config config.toml,home.toml -w --cleanDestinationDir``
+  ``hugo server --config config.toml -w --cleanDestinationDir``
 
 ## Content Editing
 
@@ -125,7 +125,7 @@ Dead links are automatically checked on pull requests. To run locally:
 
 ```bash
 # Build the site first
-hugo -d public_html --config config.toml,home.toml --cleanDestinationDir
+hugo -d public_html --config config.toml --cleanDestinationDir
 
 # Check for broken links (via Docker)
 docker run --rm -v "$PWD:/src" -w /src ghcr.io/untitaker/hyperlink:0.2.0 \
