@@ -20,7 +20,7 @@ sudo snap install hugo
 
 Note: snap might install a different version than specified in `.hvm` file.
 
-#### macOS (easy version)
+#### macOS
 
 ```bash
 # Install brew (if not already installed)
@@ -31,32 +31,6 @@ brew install hugo
 ```
 
 Note: Homebrew only installs the latest version, which can be a different version than specified in `.hvm` file.
-
-##### To install the exact same version as the one we use online
-
-This is useful to be sure that the build locally will behave the same later, in CI pipeline and online.
-
-* Using [hvm (Hugo Version Manager)](https://github.com/jmooring/hvm):
-
-```bash
-# Install brew (if not already installed)
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-# Install dependencies
-brew install go
-
-# Install hvm
-go install github.com/jmooring/hvm@latest
-
-# Add to your shell (zsh)
-hvm gen alias zsh >> ~/.zshrc
-source ~/.zshrc
-
-# hvm will automatically download and use the version from .hvm
-hugo version
-```
-
-More info? see https://tsalikis.blog/posts/switching_hugo_versions/
 
 #### Windows
 
@@ -70,6 +44,50 @@ scoop install hugo-extended
 ```
 
 Note: choco / scoop might install a different version than specified in `.hvm` file.
+
+#### To install the exact same version as the one we use online...
+
+This is useful to be sure that the build locally will behave the same later, in CI pipeline and online.
+
+We will be using [hvm (Hugo Version Manager)](https://github.com/jmooring/hvm), which works on Linux, macOS and Windows.
+
+* Install the executable
+
+Download a [prebuilt binary](https://github.com/jmooring/hvm/releases/latest) or install from source (requires Go 1.26.3 or later):
+
+```bash
+# Install brew (if not already installed)
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# Install dependencies
+brew install go
+
+# Install hvm
+go install github.com/jmooring/hvm@latest
+```
+
+* Linux / macOS (bash or fish can also be used):
+```
+# Add to your shell (zsh)
+hvm gen alias zsh >> ~/.zshrc
+source ~/.zshrc
+```
+
+Windows:
+```
+# Add to your shell (zsh)
+hvm gen alias powershell --help
+
+# Follow instructions from output
+```
+
+Finally, run hugo!
+```sh
+# hvm will automatically download and use the version from .hvm
+hugo version
+```
+
+More info? see https://tsalikis.blog/posts/switching_hugo_versions/
 
 ### Pull Submodules (eg. Theme)
 
