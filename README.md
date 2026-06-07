@@ -20,9 +20,23 @@ sudo snap install hugo
 
 Note: snap might install a different version than specified in `.hvm` file.
 
-#### macOS (recommended)
+#### macOS (easy version)
 
-Using [hvm (Hugo Version Manager)](https://github.com/jmooring/hvm):
+```bash
+# Install brew (if not already installed)
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# Install Hugo
+brew install hugo
+```
+
+Note: Homebrew only installs the latest version, which can be a different version than specified in `.hvm` file.
+
+##### To install the exact same version as the one we use online
+
+This is useful to be sure that the build locally will behave the same later, in CI pipeline and online.
+
+* Using [hvm (Hugo Version Manager)](https://github.com/jmooring/hvm):
 
 ```bash
 # Install brew (if not already installed)
@@ -43,14 +57,6 @@ hugo version
 ```
 
 More info? see https://tsalikis.blog/posts/switching_hugo_versions/
-
-#### macOS (alternative)
-
-```bash
-brew install hugo
-```
-
-Note: Homebrew only installs the latest version, which can be a different version than specified in `.hvm` file.
 
 #### Windows
 
