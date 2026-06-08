@@ -4,7 +4,7 @@
     name="viewport"
     content="user-scalable=yes, width=device-width, initial-scale=1"
   />
-  <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ printf "%s | %s" (truncate 38 (.Title | plainify)) .Site.Title }}{{ end }}</title>
   {{ if .Description }}
   <meta name="description" content="{{ .Description }}" />
   {{ else if .Site.Params.DefaultDescription }}
