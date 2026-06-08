@@ -1,6 +1,7 @@
 baseURL = "https://x-hain.de"
 title = "xHain hack+makespace"
 canonifyurls = true
+disableHugoGeneratorInject = true
 defaultContentLanguage = "de"
 DefaultContentLanguageInSubdir = true
 MetaDataFormat = "yaml"
