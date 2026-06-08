@@ -1,11 +1,10 @@
 <head>
   <meta charset="utf-8" />
-  <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
-  <meta name="robots" content="all,follow" />
   <meta
     name="viewport"
     content="user-scalable=yes, width=device-width, initial-scale=1"
   />
+  <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
   {{ if .Description }}
   <meta name="description" content="{{ .Description }}" />
   {{ else if .Site.Params.DefaultDescription }}
@@ -14,20 +13,18 @@
   {{ if .Keywords }}
   <meta name="keywords" content="{{ delimit .Keywords ", " }}">
   {{ else if .Site.Params.DefaultKeywords }}
-  <meta name="keywords" content="{{ delimit .Site.Params.DefaultKeywords ", " }}"> 
+  <meta name="keywords" content="{{ delimit .Site.Params.DefaultKeywords ", " }}">
   {{ end }}
   <meta name="author" content="{{ .Site.Params.Author }}" />
+  <meta name="robots" content="all,follow" />
   <link rel="canonical" href="{{ .Permalink }}" />
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-  {{ $style := resources.Get "css/main.scss" | toCSS | minify | fingerprint }}
-  <link rel="stylesheet" href="{{ $style.Permalink }}" />
-  <link rel="stylesheet" href="/css/maplibre-gl.css" />
-  
+
   <!-- RSS Feed -->
   <link rel="alternate" type="application/rss+xml" href="{{ "index.xml" | absLangURL }}" title="{{ .Site.Title }}">
-  
-  <!-- Facebook OpenGraph tags -->
+
+  <!-- OpenGraph tags -->
   <meta property="og:title" content="{{ .Title }}" />
   {{ if .Description }}
   <meta property="og:description" content="{{ .Description }}" />
@@ -37,7 +34,12 @@
   <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
   <meta property="og:url" content="{{ .Permalink }}" />
   <meta property="og:image" content="{{ .Site.Params.og_image | absURL }}" />
-  
+
+  <!-- Styles -->
+  {{ $style := resources.Get "css/main.scss" | toCSS | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}" />
+  <link rel="stylesheet" href="/css/maplibre-gl.css" />
+
   <noscript>
     <style>
       #main-navigation .mobile {
