@@ -26,7 +26,7 @@ jobs:
           path: public_html/
 
       - name: Check for dead links
-        uses: untitaker/hyperlink@0.2.0
+        uses: untitaker/hyperlink@0.3.2
         with:
           args: public_html/ --sources .
 
