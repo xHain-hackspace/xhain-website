@@ -6,11 +6,11 @@
         {{- $currentPage := . -}}
         {{ range .Site.Menus.main -}}
             <li>
-                <a href="{{ .URL | absLangURL }}#content">{{ .Name }}</a>
+                <a href="{{ .URL | absLangURL }}#content"{{ if .Params.newTab }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .Name }}</a>
             </li>
         {{- end }}
         <li class="calendar-link">
-            <a href="{{ "calendar" | absLangURL }}#content">{{ .Site.Params.calendarName }}</a>
+            <a href="{{ "calendar" | absLangURL }}#content" target="_blank">{{ .Site.Params.calendarName }}</a>
         </li>
         {{ partial "languageswitch.html" . }}
     </ul>
