@@ -99,10 +99,17 @@ title = "Find us elsewhere"
 
 [[languages.de.menu.main]]
   weight = 3
+  identifier = "faq"
+  name = "FAQ"
+  url = "https://wiki.x-hain.de/en/about-xhain/FAQ"
+  params = { newTab = true }
+
+
+[[languages.de.menu.main]]
+  weight = 4
   identifier = "support"
   name = "Unterstützen"
   url = "support"
-
 
 [[languages.en.menu.main]]
   weight = 1
@@ -116,8 +123,17 @@ title = "Find us elsewhere"
   name = "Participate"
   url = "participate"
 
+
 [[languages.en.menu.main]]
   weight = 3
+  identifier = "faq"
+  name = "FAQ"
+  url = "https://wiki.x-hain.de/en/about-xhain/FAQ"
+  params = { newTab = true }
+
+
+[[languages.en.menu.main]]
+  weight = 4
   identifier = "support"
   name = "Support"
   url = "support"
