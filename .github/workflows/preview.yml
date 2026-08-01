@@ -41,7 +41,7 @@ jobs:
           path: public_html/
       - name: Deploy to Surge
         id: deploy
-        uses: afc163/surge-preview@f2a1c33a88cc9c3162e257d8b6ad3b6c23ca5318
+        uses: afc163/surge-preview@121c0d4aa75baa5d70a6580c9e82aef561110bb1
         with:
           teardown: "true"
           dist: ./public_html/
