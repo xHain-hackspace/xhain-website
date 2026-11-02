@@ -9,7 +9,7 @@ Der xHain versteht sich als Do-ocracy und lebt vom Engagement und den Ideen der 
 
 ## Member werden
 
-Member sind das Herz unseres Spaces. Üblicherweise spenden Member 13,37 € oder mehr im Monat und sind am aktivsten in der Benutzung der Geräte und Werkzeuge, sowie der Gestaltung des xHains. Im Wiki erfahrt ihr <a href="https://wiki.x-hain.de/de/HowTo_xhain/members">mehr Details über die Mitgliedschaft</a>.
+Member sind das Herz unseres Spaces. Üblicherweise spenden Member 23 € oder mehr im Monat und sind am aktivsten in der Benutzung der Geräte und Werkzeuge, sowie der Gestaltung des xHains. Im Wiki erfahrt ihr <a href="https://wiki.x-hain.de/de/HowTo_xhain/members">mehr Details über die Mitgliedschaft</a>.
 
 Ihr könnt euch <a href="https://login.x-hain.de/if/flow/xhain-member-enrollment/">hier anmelden</a>, um Member zu werden. Ihr bekommt dann eine Mail mit allen weitern Details.
 
