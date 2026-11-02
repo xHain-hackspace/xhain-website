@@ -15,11 +15,12 @@ xHain has an open culture encouraging cooperation and providing inspiration. We 
 Amongst our diverse activities are "Gespräch unter Bäumen" - a series of women-led talks and discussions. Some of the many past highlights include our participation in large events, such as hosting stages for the Remote Chaos Experience during the pandemic, displaying our beautiful LED installations at live Chaos Computer Club events before the pandemic, and many contributions by individual xHain members at events large and small throughout Germany and the world. xHain is an important part of the Comenius neighborhood as an inclusive space for anyone who wants to discover and exchange ideas.
 
 ## Donations
+
 You are welcome to support us with one-time donations to the following account, so we can continue to provide a safe place for many creative people to craft, hack, discuss, invent, and create great things:
 
-- **Account holder**: xHain hack+makespace gUG
+- **Account holder**: xHain e.V.
 - **Bank**: GLS Bank
-- **IBAN**: DE72 4306 0967 1050 8465 00
+- **IBAN**: DE93 4306 0967 1390 3727 00
 - **BIC**: GENODEM1GLS
 
 If you write contact information in the payment reference, we will also issue a donation receipt.
