@@ -5,15 +5,13 @@ draft: false
 ---
 
 Eigentlich darf man gerne immer vorbeischauen, allerdings haben wir bis auf Montagabend keine regulären Öffnungszeiten. Viele aktive Member haben selbst einen Schlüssel. Sofern offen ist, oder Veranstaltungen angekündigt sind, ist jederzeit jede Person willkommen. Fragt auch gerne im <a href="https://chat.x-hain.de">Chat</a>, wann jemand im xHain ist.
-Der xHain versteht sich als Do-ocracy und lebt vom Engagement und den Ideen der Member. Das heißt, dass Member selbständig ihre Projekte aussuchen und ausführen. 
+Der xHain versteht sich als Do-ocracy und lebt vom Engagement und den Ideen der Member. Das heißt, dass Member selbständig ihre Projekte aussuchen und ausführen.
 
 ## Member werden
 
 Member sind das Herz unseres Spaces. Üblicherweise spenden Member 13,37 € oder mehr im Monat und sind am aktivsten in der Benutzung der Geräte und Werkzeuge, sowie der Gestaltung des xHains. Im Wiki erfahrt ihr <a href="https://wiki.x-hain.de/de/HowTo_xhain/members">mehr Details über die Mitgliedschaft</a>.
 
-Ihr könnt euch <a href="https://login.x-hain.de/if/flow/xhain-member-enrollment/">hier anmelden</a>, um Member zu werden. Ihr bekommt dann eine Mail mit allen weitern Details.
-
-{{< memberbutton "de" >}}
+Ihr könnt am offnen Montag vorbei kommen, um Member zu werden.
 
 ## Maschinen- und Gerätenutzung
 
