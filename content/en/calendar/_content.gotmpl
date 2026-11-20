@@ -6,7 +6,7 @@
 {{ $now := time.Now }}
 {{/* The first of the month has to be a 00:00:00 hours otherwise the math goes wonky */}}
 {{ $start := print ($now.Format "2006-01") "-01" }}
-{{ $startDate := time.AsTime $start "CET" }}
+{{ $startDate := time.AsTime $start "Europe/Berlin" }}
 {{ $endDate := $startDate.AddDate 0 $monthCount 0 }}
 {{ $url := printf .Site.Params.calendar $startDate.Unix $endDate.Unix }}
 
